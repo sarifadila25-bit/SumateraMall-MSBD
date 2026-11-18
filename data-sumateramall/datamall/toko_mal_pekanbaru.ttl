@@ -1,0 +1,37 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MalPekanbaru_Azko rdf:type ex:Toko ;
+    ex:namaToko "Azko" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Retail, Furniture & Perabotan" .
+
+ex:Toko_MalPekanbaru_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Retail, Toko Variasi & Gaya Hidup" .
+
+ex:Toko_MalPekanbaru_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Retail, Toko Buku & Alat Tulis" .
+
+ex:Toko_MalPekanbaru_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Makanan & Minuman, Bubble Tea" .
+
+ex:Toko_MalPekanbaru_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" .
+
+ex:Toko_MalPekanbaru_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran Keluarga" .
+
+ex:Toko_MalPekanbaru_Cinepolis rdf:type ex:Toko ;
+    ex:namaToko "Cinépolis" ;
+    ex:beradaDiMall ex:Mall39 ;
+    ex:kategoriToko "Hiburan, Bioskop" .

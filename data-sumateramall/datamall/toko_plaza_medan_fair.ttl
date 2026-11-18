@@ -1,0 +1,1892 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PlazaMedanFair_3_SECOND rdf:type ex:Toko ;
+    ex:namaToko "3 SECOND" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/3%20SECOND_1761533490.webp> .
+
+ex:Toko_PlazaMedanFair_3G_SELULAR rdf:type ex:Toko ;
+    ex:namaToko "3G SELULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/3G%20SELULAR_1769659176.webp> .
+
+ex:Toko_PlazaMedanFair_4_FINGERS_CRISPY_CHICKEN rdf:type ex:Toko ;
+    ex:namaToko "4 FINGERS CRISPY CHICKEN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/4%20FINGERS%20CRISPY%20CHICKEN_1750236702.webp> .
+
+ex:Toko_PlazaMedanFair_7_FLOWERS rdf:type ex:Toko ;
+    ex:namaToko "7 FLOWERS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Toko Aksesoris" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/7%20FLOWERS_1769659417.webp> .
+
+ex:Toko_PlazaMedanFair_88_BAG_COLLECTION rdf:type ex:Toko ;
+    ex:namaToko "88 BAG COLLECTION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories, Tas" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/88%20BAG%20COLLECTION_1769659731.webp> .
+
+ex:Toko_PlazaMedanFair_AGRES_ID rdf:type ex:Toko ;
+    ex:namaToko "AGRES.ID" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Laptop, Tablet" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/AGRES.ID_1770086633.webp> .
+
+ex:Toko_PlazaMedanFair_ARS_SHOE rdf:type ex:Toko ;
+    ex:namaToko "ARS SHOE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ARS%20SHOE_1770188720.webp> .
+
+ex:Toko_PlazaMedanFair_ASINAN_KHO rdf:type ex:Toko ;
+    ex:namaToko "ASINAN KHO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Asinan" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ASINAN%20KHO_1758006719.webp> .
+
+ex:Toko_PlazaMedanFair_ASUS rdf:type ex:Toko ;
+    ex:namaToko "ASUS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Smartphones & Wearables, Komputer, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/asus%20logo_1750137803.webp> .
+
+ex:Toko_PlazaMedanFair_AUFAR_KIDS rdf:type ex:Toko ;
+    ex:namaToko "AUFAR KIDS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Children's Clothing, Children Apparel" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/AUFAR%20KIDS_1770189431.webp> .
+
+ex:Toko_PlazaMedanFair_AZKO rdf:type ex:Toko ;
+    ex:namaToko "AZKO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Home & Living, Home & Furnishing, Home Essentials & Furniture Store" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/AZKO%20LOGO_1750238654.webp> .
+
+ex:Toko_PlazaMedanFair_BAM_BIM_BUM rdf:type ex:Toko ;
+    ex:namaToko "BAM BIM BUM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BAM%20BIM%20BUM_1770190049.webp> .
+
+ex:Toko_PlazaMedanFair_BANK_BCA rdf:type ex:Toko ;
+    ex:namaToko "BANK BCA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Banking, Banking Services, ATM" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BANK%20BCA_1757388977.webp> .
+
+ex:Toko_PlazaMedanFair_BANK_BNI rdf:type ex:Toko ;
+    ex:namaToko "BANK BNI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Banking, Banking Services, Layanan Perbankan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BANK%20BNI_1769502820.webp> .
+
+ex:Toko_PlazaMedanFair_BANK_BRI rdf:type ex:Toko ;
+    ex:namaToko "BANK BRI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Banking, Banking Services, Layanan Perbankan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BANK%20BRI_1770191228.webp> .
+
+ex:Toko_PlazaMedanFair_BATA rdf:type ex:Toko ;
+    ex:namaToko "BATA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BATA_1761119527.webp> .
+
+ex:Toko_PlazaMedanFair_BEARD_PAPA_S rdf:type ex:Toko ;
+    ex:namaToko "BEARD PAPA'S" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Cream Puff" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BEARD%20PAPA'S_1756281914.webp> .
+
+ex:Toko_PlazaMedanFair_BIMA_ACCESSORIES rdf:type ex:Toko ;
+    ex:namaToko "BIMA ACCESSORIES" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Accessories, Smartphones & Wearables, Gadget Accessories, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BIMA%20ACCESSORIES_1770191979.webp> .
+
+ex:Toko_PlazaMedanFair_BIMA_CELLULAR rdf:type ex:Toko ;
+    ex:namaToko "BIMA CELLULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BIMA%20CELLULAR_1770192235.webp> .
+
+ex:Toko_PlazaMedanFair_BLIBLI rdf:type ex:Toko ;
+    ex:namaToko "BLIBLI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Mac Book, Smartphone, Tablet, Wearable" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BLIBLI_1758010211.webp> .
+
+ex:Toko_PlazaMedanFair_BLINK rdf:type ex:Toko ;
+    ex:namaToko "BLINK" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BLINK_1770194208.webp> .
+
+ex:Toko_PlazaMedanFair_BLOOMING_PONSEL rdf:type ex:Toko ;
+    ex:namaToko "BLOOMING PONSEL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BLOOMING%20PONSEL_1770260945.webp> .
+
+ex:Toko_PlazaMedanFair_BOOST_JUICE_BARS rdf:type ex:Toko ;
+    ex:namaToko "BOOST JUICE BARS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Jus, Jus Buah" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BOOST%20JUICE%20BARS_1756284061.webp> .
+
+ex:Toko_PlazaMedanFair_BREADLIFE rdf:type ex:Toko ;
+    ex:namaToko "BREADLIFE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Makanan, Bakery, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BREADLIFE_1757400595.webp> .
+
+ex:Toko_PlazaMedanFair_BUANA_PHOTO rdf:type ex:Toko ;
+    ex:namaToko "BUANA PHOTO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Camera & Photography Equipment, Aksesoris Fotografi, Kamera Digital" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BUANA%20PHOTO_1758078519.webp> .
+
+ex:Toko_PlazaMedanFair_BUCCHERI rdf:type ex:Toko ;
+    ex:namaToko "BUCCHERI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories, Footwear, Sneakers, Sepatu, Tas" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BUCCHERI_1761723741.webp> .
+
+ex:Toko_PlazaMedanFair_BURGER_KING rdf:type ex:Toko ;
+    ex:namaToko "BURGER KING" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Burger, Fast Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BURGER%20KING_1756285236.webp> .
+
+ex:Toko_PlazaMedanFair_BY_AURA rdf:type ex:Toko ;
+    ex:namaToko "BY AURA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, NaturalBeauty, Fragrance, Minyak Wangi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BY%20AURA_1756288555.webp> .
+
+ex:Toko_PlazaMedanFair_CARDINAL rdf:type ex:Toko ;
+    ex:namaToko "CARDINAL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear, Baju, Celana, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CARDINAL_1757661336.webp> .
+
+ex:Toko_PlazaMedanFair_CHAMPION_CELLULAR rdf:type ex:Toko ;
+    ex:namaToko "CHAMPION CELLULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CHAMPION%20CELLULAR_1770262493.webp> .
+
+ex:Toko_PlazaMedanFair_CHARLIE_S_MACARONI rdf:type ex:Toko ;
+    ex:namaToko "CHARLIE'S MACARONI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Mac & Cheese, Macaroni, Sosis" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CHARLIE'S%20MACARONI_1770263599.webp> .
+
+ex:Toko_PlazaMedanFair_CHATIME rdf:type ex:Toko ;
+    ex:namaToko "CHATIME" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Milk Tea, Tea" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Zh3lq0ph2RPG6O54RBf7iJm6PY0TuBQwh2Ozwzky_1756366427.webp> .
+
+ex:Toko_PlazaMedanFair_CHEON rdf:type ex:Toko ;
+    ex:namaToko "CHEON" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Korean Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CHEON_1758080247.webp> .
+
+ex:Toko_PlazaMedanFair_CHICKEN_HOLIC rdf:type ex:Toko ;
+    ex:namaToko "CHICKEN HOLIC" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Snack, Ayam" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CHICKEN%20HOLIC_1758080401.webp> .
+
+ex:Toko_PlazaMedanFair_CHIKURO rdf:type ex:Toko ;
+    ex:namaToko "CHIKURO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CHIKURO_1768276064.webp> .
+
+ex:Toko_PlazaMedanFair_CHRISTOPHER_SALON rdf:type ex:Toko ;
+    ex:namaToko "CHRISTOPHER SALON" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/Christopher%20salon_1752138609.webp> .
+
+ex:Toko_PlazaMedanFair_CINEPOLIS rdf:type ex:Toko ;
+    ex:namaToko "CINEPOLIS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CINEPOLIS_1758081699.webp> .
+
+ex:Toko_PlazaMedanFair_CITY_ICE_CREAM rdf:type ex:Toko ;
+    ex:namaToko "CITY ICE CREAM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ice Cream, Dessert" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CITY%20ICE%20CREAM_1781840910.webp> .
+
+ex:Toko_PlazaMedanFair_CITY_KENT rdf:type ex:Toko ;
+    ex:namaToko "CITY KENT" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Watch, Jam Tangan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CITY%20KENT_1770264259.webp> .
+
+ex:Toko_PlazaMedanFair_CLINIC_SERVICE rdf:type ex:Toko ;
+    ex:namaToko "CLINIC SERVICE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Gadget Repair, Service Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CLINIC%20SERVICE_1770264352.webp> .
+
+ex:Toko_PlazaMedanFair_COBEK_AYAM_PENYET rdf:type ex:Toko ;
+    ex:namaToko "COBEK AYAM PENYET" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam, Nasi" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/COBEK%20AYAM%20PENYET_1758081761.webp> .
+
+ex:Toko_PlazaMedanFair_COCOLAND rdf:type ex:Toko ;
+    ex:namaToko "COCOLAND" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/COCOLAND_1761123267.webp> .
+
+ex:Toko_PlazaMedanFair_COTY rdf:type ex:Toko ;
+    ex:namaToko "COTY" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Minyak Wangi, Perfume" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/COTY_1758093678.webp> .
+
+ex:Toko_PlazaMedanFair_CRISPY_CHIX rdf:type ex:Toko ;
+    ex:namaToko "CRISPY CHIX" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CRISPY%20CHIX_1770609564.webp> .
+
+ex:Toko_PlazaMedanFair_CROCODILE rdf:type ex:Toko ;
+    ex:namaToko "CROCODILE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear, Baju, Pakaian Pria, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CROCODILE_1770609682.webp> .
+
+ex:Toko_PlazaMedanFair_CROCS rdf:type ex:Toko ;
+    ex:namaToko "CROCS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CROCS_1756370429.webp> .
+
+ex:Toko_PlazaMedanFair_D_COST rdf:type ex:Toko ;
+    ex:namaToko "D'COST" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Seafood, Western and Asian Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/dcost_1754894583.webp> .
+
+ex:Toko_PlazaMedanFair_D_CREPES rdf:type ex:Toko ;
+    ex:namaToko "D'CREPES" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Snack, Crepes" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/D'CREPES_1756370557.webp> .
+
+ex:Toko_PlazaMedanFair_D_FASHION_BEAUTY rdf:type ex:Toko ;
+    ex:namaToko "D'FASHION BEAUTY" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Nail Spa Treatment" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/D'FASHION%20BEAUTY_1770610255.webp> .
+
+ex:Toko_PlazaMedanFair_D_F rdf:type ex:Toko ;
+    ex:namaToko "D&F" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/D&F_1770609832.webp> .
+
+ex:Toko_PlazaMedanFair_DC_COM rdf:type ex:Toko ;
+    ex:namaToko "DC COM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DC%20COM_1770610763.webp> .
+
+ex:Toko_PlazaMedanFair_DELICIOUS rdf:type ex:Toko ;
+    ex:namaToko "DELICIOUS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Kue, Bakery, Cafe, Coffee, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DELICIOUS_1770610890.webp> .
+
+ex:Toko_PlazaMedanFair_DFASHION rdf:type ex:Toko ;
+    ex:namaToko "DFASHION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DFASHION_1770610961.webp> .
+
+ex:Toko_PlazaMedanFair_DOO_DUCK rdf:type ex:Toko ;
+    ex:namaToko "DOO DUCK" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Coffee, Matcha, Tea" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DOO%20DUCK_1758094654.webp> .
+
+ex:Toko_PlazaMedanFair_DOOI_ROLL rdf:type ex:Toko ;
+    ex:namaToko "DOOI ROLL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Roti" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DOOI%20ROLL_1770621102.webp> .
+
+ex:Toko_PlazaMedanFair_DUM_DUM_X_MONTATO rdf:type ex:Toko ;
+    ex:namaToko "DUM DUM X MONTATO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/DUM%20DUM%20&%20MONTATO_1752225494.webp> .
+
+ex:Toko_PlazaMedanFair_DUNIA_SEPATU rdf:type ex:Toko ;
+    ex:namaToko "DUNIA SEPATU" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Flat Shoes, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DUNIA%20SEPATU_1770622177.webp> .
+
+ex:Toko_PlazaMedanFair_DUST rdf:type ex:Toko ;
+    ex:namaToko "DUST" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DUST_1769228891.webp> .
+
+ex:Toko_PlazaMedanFair_DW_CELL rdf:type ex:Toko ;
+    ex:namaToko "DW CELL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DW%20CELL_1770622510.webp> .
+
+ex:Toko_PlazaMedanFair_E_KART rdf:type ex:Toko ;
+    ex:namaToko "E-KART" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Go-Karting, Wahana Gokart" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/E-KART_1780037720.webp> .
+
+ex:Toko_PlazaMedanFair_EDU_CREATIVE rdf:type ex:Toko ;
+    ex:namaToko "EDU CREATIVE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Edukasi, Kids Edutainment, Creative Experience" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Edu%20Creative_1780037951.webp> .
+
+ex:Toko_PlazaMedanFair_EIGER rdf:type ex:Toko ;
+    ex:namaToko "EIGER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Hiking Apparel, Apparel Outdoor, Baju, Sepatu Hiking, Tas, Topi" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/EIGER_1761538403.webp> .
+
+ex:Toko_PlazaMedanFair_ELECTRONIC_CITY rdf:type ex:Toko ;
+    ex:namaToko "ELECTRONIC CITY" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Elektronik Rumah Tangga, Household Appliances, Peralatan Rumah Tangga Modern" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ELECTRONIC%20CITY_1756377226.webp> .
+
+ex:Toko_PlazaMedanFair_ELITE_OPTIK rdf:type ex:Toko ;
+    ex:namaToko "ELITE OPTIK" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ELITE%20OPTIK_1770622629.webp> .
+
+ex:Toko_PlazaMedanFair_ELITE_PONSEL rdf:type ex:Toko ;
+    ex:namaToko "ELITE PONSEL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ELITE%20PONSEL_1770622761.webp> .
+
+ex:Toko_PlazaMedanFair_ELZATTA_HIJAB rdf:type ex:Toko ;
+    ex:namaToko "ELZATTA HIJAB" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Hijab & Scarves, Baju, Fashion Muslim, Hijab, Kerudung" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ELZATTA_1770622847.webp> .
+
+ex:Toko_PlazaMedanFair_EPRISE rdf:type ex:Toko ;
+    ex:namaToko "EPRISE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WhatsApp%20Image%202025-08-28%20at%2017.41.45_1756377759.webp> .
+
+ex:Toko_PlazaMedanFair_ERAFONE rdf:type ex:Toko ;
+    ex:namaToko "ERAFONE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Laptop, Smartphones & Wearables, Mac Book, PC, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ERAFONE_1756377866.png> .
+
+ex:Toko_PlazaMedanFair_ES_TELER_77 rdf:type ex:Toko ;
+    ex:namaToko "ES TELER 77" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Bakso, Indonesian Food, Mie, Nasi" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ES%20TELER%2077_1758095612.webp> .
+
+ex:Toko_PlazaMedanFair_ETC_SELULAR rdf:type ex:Toko ;
+    ex:namaToko "ETC SELULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ETC%20SELULAR_1770623147.webp> .
+
+ex:Toko_PlazaMedanFair_EYEMAZING_BEAUTY_SALON rdf:type ex:Toko ;
+    ex:namaToko "EYEMAZING BEAUTY SALON" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair & Beauty Treatment, Nail Spa Treatment" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/EYEMAZING_1770623487.webp> .
+
+ex:Toko_PlazaMedanFair_FAMILY_SELULAR rdf:type ex:Toko ;
+    ex:namaToko "FAMILY SELULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FAMILY%20SELULAR_1770624257.webp> .
+
+ex:Toko_PlazaMedanFair_FANTECH rdf:type ex:Toko ;
+    ex:namaToko "FANTECH" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Gaming & Consoles, Gaming Equipment, Aksesoris Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FANTECH_1770624383.webp> .
+
+ex:Toko_PlazaMedanFair_FELIANA_COLLECTION rdf:type ex:Toko ;
+    ex:namaToko "FELIANA COLLECTION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FELIANA%20COLLECTION_1770624572.webp> .
+
+ex:Toko_PlazaMedanFair_FIPPER rdf:type ex:Toko ;
+    ex:namaToko "FIPPER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FIPPER_1757662696.webp> .
+
+ex:Toko_PlazaMedanFair_FISIK_SPORT rdf:type ex:Toko ;
+    ex:namaToko "FISIK SPORT" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Baju, Sepatu, Tas" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FISIK%20SPORT_1757662813.webp> .
+
+ex:Toko_PlazaMedanFair_FLAVORA rdf:type ex:Toko ;
+    ex:namaToko "FLAVORA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FLAVORA_1782183192.webp> .
+
+ex:Toko_PlazaMedanFair_FORE rdf:type ex:Toko ;
+    ex:namaToko "FORE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Kue, Cemilan, Kopi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/fore_1754895439.webp> .
+
+ex:Toko_PlazaMedanFair_FOREVER_NEW rdf:type ex:Toko ;
+    ex:namaToko "FOREVER NEW" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Pakaian Wanita" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FOREVER%20NEW_1756439755.webp> .
+
+ex:Toko_PlazaMedanFair_FOUNTAIN rdf:type ex:Toko ;
+    ex:namaToko "FOUNTAIN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ice Cream, Family Restaurant" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FOUNTAIN_1758097997.webp> .
+
+ex:Toko_PlazaMedanFair_FRITTO_CHICKEN rdf:type ex:Toko ;
+    ex:namaToko "FRITTO CHICKEN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FRITTO%20CHICKEN_1770624773.webp> .
+
+ex:Toko_PlazaMedanFair_G_STAR_ZQ_BRANDED rdf:type ex:Toko ;
+    ex:namaToko "G-STAR ZQ BRANDED" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Watch, Jam Tangan" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/G-STAR%20ZQ%20BRANDED_1759136605.webp> .
+
+ex:Toko_PlazaMedanFair_GABINO rdf:type ex:Toko ;
+    ex:namaToko "GABINO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GABINO_1768985991.webp> .
+
+ex:Toko_PlazaMedanFair_GADGET_SHOP rdf:type ex:Toko ;
+    ex:namaToko "GADGET SHOP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GADGET%20SHOP_1770625317.webp> .
+
+ex:Toko_PlazaMedanFair_GBI rdf:type ex:Toko ;
+    ex:namaToko "GBI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Others, Worship Place, Gereja" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GBI_1761188724.webp> .
+
+ex:Toko_PlazaMedanFair_GEMOY_COIN rdf:type ex:Toko ;
+    ex:namaToko "GEMOY COIN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Coin Bread" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Gemoy%20Coin_1777965707.webp> .
+
+ex:Toko_PlazaMedanFair_GLOW_GO rdf:type ex:Toko ;
+    ex:namaToko "GLOW & GO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Beauty Clinic" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GLOW%20&%20GO_1756451444.webp> .
+
+ex:Toko_PlazaMedanFair_GO_MATCHA rdf:type ex:Toko ;
+    ex:namaToko "GO MATCHA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Matcha" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GO%20MATCHA_1793330627.webp> .
+
+ex:Toko_PlazaMedanFair_GOKANA_RAMEN_TEPPAN rdf:type ex:Toko ;
+    ex:namaToko "GOKANA RAMEN TEPPAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Ramen" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GOKANA%20RAMEN%20TEPPAN_1756696612.webp> .
+
+ex:Toko_PlazaMedanFair_GOLDEN_LAMIAN rdf:type ex:Toko ;
+    ex:namaToko "GOLDEN LAMIAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Chinese Food, Mie" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Golden%20Lamian_1756696683.webp> .
+
+ex:Toko_PlazaMedanFair_GOMI rdf:type ex:Toko ;
+    ex:namaToko "GOMI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GOMI_1758099307.webp> .
+
+ex:Toko_PlazaMedanFair_GRAPARI_TELKOMSEL rdf:type ex:Toko ;
+    ex:namaToko "GRAPARI TELKOMSEL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Telecommunication Services, Layanan Pelanggan" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GRAPARI%20TELKOMSEL_1770629788.webp> .
+
+ex:Toko_PlazaMedanFair_GUARDIAN rdf:type ex:Toko ;
+    ex:namaToko "GUARDIAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Beauty & Wellness, Cosmetics, Health, Skincare, Vitamins" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GUARDIAN_1756697649.webp> .
+
+ex:Toko_PlazaMedanFair_HARDWARE_CLOTHING rdf:type ex:Toko ;
+    ex:namaToko "HARDWARE CLOTHING" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HARDWARE%20CLOTHING_1757664274.webp> .
+
+ex:Toko_PlazaMedanFair_HARUJUKU_BAG rdf:type ex:Toko ;
+    ex:namaToko "HARUJUKU BAG" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories, Tas" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HARUJUKU%20BAG_1770630673.webp> .
+
+ex:Toko_PlazaMedanFair_HI5 rdf:type ex:Toko ;
+    ex:namaToko "HI5" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Aksesoris Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HI5_1757665764.webp> .
+
+ex:Toko_PlazaMedanFair_HIJRAH_COLLECTION rdf:type ex:Toko ;
+    ex:namaToko "HIJRAH COLLECTION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Hijab & Scarves, Baju, Fashion Muslim, Hijab, Kerudung" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HIJRAH%20COLLECTION_1770632813.webp> .
+
+ex:Toko_PlazaMedanFair_HOKBEN rdf:type ex:Toko ;
+    ex:namaToko "HOKBEN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Japanese Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HOKBEN_1756700030.webp> .
+
+ex:Toko_PlazaMedanFair_HOKKAIDO_CAFE_BAKE rdf:type ex:Toko ;
+    ex:namaToko "HOKKAIDO CAFE & BAKE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Kue, Cafe, Dessert" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HOKKAIDO%20CAFE%20&%20BAKE_1770632919.webp> .
+
+ex:Toko_PlazaMedanFair_HP_CENTRE rdf:type ex:Toko ;
+    ex:namaToko "HP CENTRE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Accessories, Smartphones & Wearables, Gadget Accessories, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HP%20CENTRE_1770695510.webp> .
+
+ex:Toko_PlazaMedanFair_HRTA_GOLD rdf:type ex:Toko ;
+    ex:namaToko "HRTA GOLD" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Gold, Perhiasan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HRTA%20GOLD_1782097877.webp> .
+
+ex:Toko_PlazaMedanFair_HUAWEI rdf:type ex:Toko ;
+    ex:namaToko "HUAWEI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Laptop, Smartphone, Tablet, Wearable" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/HUAWEI_1756701596.webp> .
+
+ex:Toko_PlazaMedanFair_I_HOPE rdf:type ex:Toko ;
+    ex:namaToko "I HOPE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Gadget Repair, Service Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/I%20HOPE_1770695727.webp> .
+
+ex:Toko_PlazaMedanFair_I_SELULAR rdf:type ex:Toko ;
+    ex:namaToko "I SELULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/I%20SELULAR_1770695838.webp> .
+
+ex:Toko_PlazaMedanFair_I_STORE rdf:type ex:Toko ;
+    ex:namaToko "I-STORE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/I-STORE_1770695970.webp> .
+
+ex:Toko_PlazaMedanFair_IBOX rdf:type ex:Toko ;
+    ex:namaToko "IBOX" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Laptop, Phones, Mac Book, PC, Smartphone, Tablet, Wearable" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/IBOX_1756701974.webp> .
+
+ex:Toko_PlazaMedanFair_IDOLA_COM rdf:type ex:Toko ;
+    ex:namaToko "IDOLA COM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/IDOLA%20COM_1770696070.webp> .
+
+ex:Toko_PlazaMedanFair_INCOM rdf:type ex:Toko ;
+    ex:namaToko "INCOM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/INCOM_1770696279.webp> .
+
+ex:Toko_PlazaMedanFair_INTERINDO rdf:type ex:Toko ;
+    ex:namaToko "INTERINDO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/INTERINDO_1770696368.webp> .
+
+ex:Toko_PlazaMedanFair_INTIKOM rdf:type ex:Toko ;
+    ex:namaToko "INTIKOM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Aksesoris Komputer, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/INTIKOM_1758166770.webp> .
+
+ex:Toko_PlazaMedanFair_IT_GARAGE rdf:type ex:Toko ;
+    ex:namaToko "IT GARAGE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/IT%20GARAGE_1770867191.webp> .
+
+ex:Toko_PlazaMedanFair_IT_SQUARE rdf:type ex:Toko ;
+    ex:namaToko "IT SQUARE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Aksesoris Komputer, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/IT%20SQUARE_1770867490.webp> .
+
+ex:Toko_PlazaMedanFair_J_CO_DONUTS_COFFEE rdf:type ex:Toko ;
+    ex:namaToko "J.CO DONUTS & COFFEE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Food, Coffee, Donat, Frozen Yogurt" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/J.CO%20DONUTS%20&%20COFFEE_1761204525.webp> .
+
+ex:Toko_PlazaMedanFair_JACO_TV_SHOPPING rdf:type ex:Toko ;
+    ex:namaToko "JACO TV SHOPPING" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Health Equipment, Home Electronics & Appliances, Alat Kesehatan, Alat Pijat, Fitness Equipment, Peralatan Rumah Tangga Modern" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JACO%20TV%20SHOPPING_1758166961.webp> .
+
+ex:Toko_PlazaMedanFair_JALA_JALA_NELAYAN rdf:type ex:Toko ;
+    ex:namaToko "JALA JALA NELAYAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Restaurant, Asian Food, Chinese Food, Dimsum" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NELAYAN_1758275671.webp> .
+
+ex:Toko_PlazaMedanFair_JAWARA_ROTI_KUE rdf:type ex:Toko ;
+    ex:namaToko "JAWARA ROTI & KUE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Kue, Bakery, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JAWARA%20ROTI%20&%20KUE_1758167268.webp> .
+
+ex:Toko_PlazaMedanFair_JEJU_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "JEJU STUDIO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Nail Spa Treatment" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JEJU%20STUDIO_1770868689.webp> .
+
+ex:Toko_PlazaMedanFair_JETE rdf:type ex:Toko ;
+    ex:namaToko "JETE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Accessories, Gadget Accessories, Wearable" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JETE_1756971208.webp> .
+
+ex:Toko_PlazaMedanFair_JIGO_RAMEN rdf:type ex:Toko ;
+    ex:namaToko "JIGO RAMEN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Ramen" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JIGO%20RAMEN_1770869165.webp> .
+
+ex:Toko_PlazaMedanFair_JN_COSMETIC rdf:type ex:Toko ;
+    ex:namaToko "JN COSMETIC" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Cosmetics, Peralatan Kecantikan" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JN%20COSMETIC_1770869475.webp> .
+
+ex:Toko_PlazaMedanFair_JOOKUTSU rdf:type ex:Toko ;
+    ex:namaToko "JOOKUTSU" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JOOKUTSU_1770869589.webp> .
+
+ex:Toko_PlazaMedanFair_JRP rdf:type ex:Toko ;
+    ex:namaToko "JRP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JRP_1770869693.webp> .
+
+ex:Toko_PlazaMedanFair_K3MART rdf:type ex:Toko ;
+    ex:namaToko "K3MART" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Supermarket, Makanan, Minuman, K-food, Korean Snacks" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Logo_k3mart_1755762748.webp> .
+
+ex:Toko_PlazaMedanFair_KAIROS rdf:type ex:Toko ;
+    ex:namaToko "KAIROS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Bookstore & Stationery, Toko Buku" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KAIROS_1770870283.webp> .
+
+ex:Toko_PlazaMedanFair_KELLY_ACCESORIES rdf:type ex:Toko ;
+    ex:namaToko "KELLY ACCESORIES" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Toko Aksesoris" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KELLY%20ACCESORIES_1770870505.webp> .
+
+ex:Toko_PlazaMedanFair_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KFC_1761205651.webp> .
+
+ex:Toko_PlazaMedanFair_KIDDIE_CRABS rdf:type ex:Toko ;
+    ex:namaToko "KIDDIE CRABS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KIDDIE%20CRABS_1761793564.webp> .
+
+ex:Toko_PlazaMedanFair_KIOSK_A9 rdf:type ex:Toko ;
+    ex:namaToko "KIOSK A9" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KIOSK%20A9_1770885716.webp> .
+
+ex:Toko_PlazaMedanFair_KLIK_OKE rdf:type ex:Toko ;
+    ex:namaToko "KLIK OKE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Aksesoris Komputer, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KLIK%20OKE_1770886262.webp> .
+
+ex:Toko_PlazaMedanFair_KOETARADJA rdf:type ex:Toko ;
+    ex:namaToko "KOETARADJA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Gadget Repair, Service Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KOETARADJA_1770886376.webp> .
+
+ex:Toko_PlazaMedanFair_KOK_TONG_KOPI rdf:type ex:Toko ;
+    ex:namaToko "KOK TONG KOPI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KOK%20TONG%20KOPI_1758255590.webp> .
+
+ex:Toko_PlazaMedanFair_KOPI_KENANGAN rdf:type ex:Toko ;
+    ex:namaToko "KOPI KENANGAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Coffee, Kopi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KOPI-KENANGAN_LOGO-2020_1754894421.webp> .
+
+ex:Toko_PlazaMedanFair_KOPI_KOJU rdf:type ex:Toko ;
+    ex:namaToko "KOPI KOJU" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Snack, Coffee" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KOPI%20KOJU_1770886893.webp> .
+
+ex:Toko_PlazaMedanFair_KPIX_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "KPIX STUDIO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Photo Studio, Photobooth" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KPIX%20STUDIO_1758264455.webp> .
+
+ex:Toko_PlazaMedanFair_LACODE rdf:type ex:Toko ;
+    ex:namaToko "LACODE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Flat Shoes, Heels, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LACODE_1770887318.webp> .
+
+ex:Toko_PlazaMedanFair_LARUSSO rdf:type ex:Toko ;
+    ex:namaToko "LARUSSO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LARUSSO_1756722878.webp> .
+
+ex:Toko_PlazaMedanFair_LENOVO rdf:type ex:Toko ;
+    ex:namaToko "LENOVO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LENOVO_1770887783.png> .
+
+ex:Toko_PlazaMedanFair_LEVI_S rdf:type ex:Toko ;
+    ex:namaToko "LEVI'S" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LEVI'S_1757666879.webp> .
+
+ex:Toko_PlazaMedanFair_LGS rdf:type ex:Toko ;
+    ex:namaToko "LGS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana, Pakaian Pria" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LGS_1761209441.webp> .
+
+ex:Toko_PlazaMedanFair_LITTLE_INDONESIA rdf:type ex:Toko ;
+    ex:namaToko "LITTLE INDONESIA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LITTLE%20INDONESIA_1770889067.webp> .
+
+ex:Toko_PlazaMedanFair_LOLY_POLY rdf:type ex:Toko ;
+    ex:namaToko "LOLY POLY" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Aksesoris Gadget, Aksesoris Hp" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LOLY%20POLY_1756737801.webp> .
+
+ex:Toko_PlazaMedanFair_MAGIC_PHOTO rdf:type ex:Toko ;
+    ex:namaToko "MAGIC PHOTO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Photo Studio, Photobooth" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MAGIC%20PHOTO_1761795018.webp> .
+
+ex:Toko_PlazaMedanFair_MAKMUR rdf:type ex:Toko ;
+    ex:namaToko "MAKMUR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MAKMUR_1770951869.webp> .
+
+ex:Toko_PlazaMedanFair_MAKO_BREAD rdf:type ex:Toko ;
+    ex:namaToko "MAKO BREAD" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Kue, Bakery, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MAKO%20BREAD_1761211270.webp> .
+
+ex:Toko_PlazaMedanFair_MANZONE rdf:type ex:Toko ;
+    ex:namaToko "MANZONE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MANZONE_1757907137.webp> .
+
+ex:Toko_PlazaMedanFair_MARUGAME_UDON rdf:type ex:Toko ;
+    ex:namaToko "MARUGAME UDON" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Udon" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MARUGAME%20UDON_1756739952.webp> .
+
+ex:Toko_PlazaMedanFair_MATAHARI_DEPT_STORE rdf:type ex:Toko ;
+    ex:namaToko "MATAHARI DEPT STORE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion, Fashion Anak, Fashion Pria, Fashion Wanita" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/MATAHARI%20LOGO_1750138953.webp> .
+
+ex:Toko_PlazaMedanFair_MC_DONALDS rdf:type ex:Toko ;
+    ex:namaToko "MC DONALDS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Food, Ice Cream, Snack, Ayam, Burger, Fast Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MC_DONALDS-removebg-preview_1757907596.webp> .
+
+ex:Toko_PlazaMedanFair_MENTARI_OPTIK rdf:type ex:Toko ;
+    ex:namaToko "MENTARI OPTIK" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MENTARI%20OPTIK_1770953366.webp> .
+
+ex:Toko_PlazaMedanFair_MIE_AYAM_JOSS rdf:type ex:Toko ;
+    ex:namaToko "MIE AYAM JOSS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Mie Ayam" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MIE%20AYAM%20JOSS_1770953875.webp> .
+
+ex:Toko_PlazaMedanFair_MINISO rdf:type ex:Toko ;
+    ex:namaToko "MINISO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Lifestyle Variety Store, Variety Store" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MINISO_1756740807.webp> .
+
+ex:Toko_PlazaMedanFair_MIXUE rdf:type ex:Toko ;
+    ex:namaToko "MIXUE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Ice Cream, Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MIXUE_1761204889.webp> .
+
+ex:Toko_PlazaMedanFair_MK_CELLULAR rdf:type ex:Toko ;
+    ex:namaToko "MK CELLULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MK%20CELLULAR_1770954127.webp> .
+
+ex:Toko_PlazaMedanFair_MOBILE_SHOP rdf:type ex:Toko ;
+    ex:namaToko "MOBILE SHOP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MOBILE%20SHOP_1770954204.webp> .
+
+ex:Toko_PlazaMedanFair_MOBILE_SQUARE rdf:type ex:Toko ;
+    ex:namaToko "MOBILE SQUARE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MOBILE%20SQUARE_1770954272.webp> .
+
+ex:Toko_PlazaMedanFair_MOC rdf:type ex:Toko ;
+    ex:namaToko "MOC" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/351416683_994751278541979_2792722078844682530_n_1757907888.webp> .
+
+ex:Toko_PlazaMedanFair_MOMOIRO rdf:type ex:Toko ;
+    ex:namaToko "MOMOIRO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Kue, Makanan, Bakery, Dessert" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MOMOIRO_1756741378.webp> .
+
+ex:Toko_PlazaMedanFair_MONEY_CHANGER rdf:type ex:Toko ;
+    ex:namaToko "MONEY CHANGER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Money Changer, Penukaran Uang Asing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BSS%20Money%20Changer_1788944627.webp> .
+
+ex:Toko_PlazaMedanFair_MR_D_I_Y_ rdf:type ex:Toko ;
+    ex:namaToko "MR. D.I.Y." ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Home & Living, Home Essentials, Lifestyle & Retail" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/MR.%20D.I.Y.%20LOGO_1750138786.webp> .
+
+ex:Toko_PlazaMedanFair_N_DREW rdf:type ex:Toko ;
+    ex:namaToko "N'DREW" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/N_DREW_1770955074.webp> .
+
+ex:Toko_PlazaMedanFair_NATASHA_SKIN_CLINIC_CENTER rdf:type ex:Toko ;
+    ex:namaToko "NATASHA SKIN CLINIC CENTER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Beauty Clinic" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NATASHA%20SKIN%20CLINIC%20CENTER_1761797389.webp> .
+
+ex:Toko_PlazaMedanFair_NEW_BALANCE rdf:type ex:Toko ;
+    ex:namaToko "NEW BALANCE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sepatu" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NEW%20BALANCE_1756355845.webp> .
+
+ex:Toko_PlazaMedanFair_NEW_BLOOMING rdf:type ex:Toko ;
+    ex:namaToko "NEW BLOOMING" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NEW%20BLOOMING_1770955488.webp> .
+
+ex:Toko_PlazaMedanFair_NEW_DRAGON_COMPUTER rdf:type ex:Toko ;
+    ex:namaToko "NEW DRAGON COMPUTER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Aksesoris Komputer, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NEW%20DRAGON%20COMPUTER_1770955721.webp> .
+
+ex:Toko_PlazaMedanFair_NIAGA_CELLULAR rdf:type ex:Toko ;
+    ex:namaToko "NIAGA CELLULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NIAGA%20CELLULAR_1770955889.webp> .
+
+ex:Toko_PlazaMedanFair_OB_FIT rdf:type ex:Toko ;
+    ex:namaToko "OB FIT" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Sports, Fitness Center, Pusat Kebugaran" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OB%20FIT_1761882023.webp> .
+
+ex:Toko_PlazaMedanFair_OFFLE rdf:type ex:Toko ;
+    ex:namaToko "OFFLE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Waffle" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OFFLE_1758515245.webp> .
+
+ex:Toko_PlazaMedanFair_OK_TOYS rdf:type ex:Toko ;
+    ex:namaToko "OK TOYS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys, Mainan Anak" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OK%20TOYS_1770956376.webp> .
+
+ex:Toko_PlazaMedanFair_OPPO rdf:type ex:Toko ;
+    ex:namaToko "OPPO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Phones, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPPO_1756376277.webp> .
+
+ex:Toko_PlazaMedanFair_OPTIC_ASEAN rdf:type ex:Toko ;
+    ex:namaToko "OPTIC ASEAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPTIC%20ASEAN_1770966954.webp> .
+
+ex:Toko_PlazaMedanFair_OPTIK_INOVA rdf:type ex:Toko ;
+    ex:namaToko "OPTIK INOVA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPTIK%20INOVA_1771229004.webp> .
+
+ex:Toko_PlazaMedanFair_OPTIK_MELAWAI rdf:type ex:Toko ;
+    ex:namaToko "OPTIK MELAWAI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPTIK%20MELAWAI_1756376476.webp> .
+
+ex:Toko_PlazaMedanFair_OPTIK_THAMRIN_SUCOU rdf:type ex:Toko ;
+    ex:namaToko "OPTIK THAMRIN SUCOU" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPTIK%20THAMRIN%20SUCOU_1771229132.webp> .
+
+ex:Toko_PlazaMedanFair_OPTIK_TUNGGAL rdf:type ex:Toko ;
+    ex:namaToko "OPTIK TUNGGAL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPTIK%20TUNGGAL_1757908980.webp> .
+
+ex:Toko_PlazaMedanFair_ORANGE rdf:type ex:Toko ;
+    ex:namaToko "ORANGE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Toko Aksesoris" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ORANGE_1771229282.webp> .
+
+ex:Toko_PlazaMedanFair_OSELLA rdf:type ex:Toko ;
+    ex:namaToko "OSELLA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OSELLA_1771229675.webp> .
+
+ex:Toko_PlazaMedanFair_P5_JUNIOR rdf:type ex:Toko ;
+    ex:namaToko "P5 JUNIOR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Children's Clothing, Children Apparel" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/P5%20JUNIOR_1771229762.webp> .
+
+ex:Toko_PlazaMedanFair_PANDAWA_LIMA rdf:type ex:Toko ;
+    ex:namaToko "PANDAWA LIMA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Watch, Jam Tangan" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PANDAWA%20LIMA_1771229868.webp> .
+
+ex:Toko_PlazaMedanFair_PANLAND_WOO rdf:type ex:Toko ;
+    ex:namaToko "PANLAND WOO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Cincin, Gelang, Kalung" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PANLAND%20WOO_1756453281.webp> .
+
+ex:Toko_PlazaMedanFair_PAPPACO_KOPITOWN rdf:type ex:Toko ;
+    ex:namaToko "PAPPACO KOPITOWN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Food, Snack, Cafe, Indonesian Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PAPPACO%20KOPITOWN_1771230023.webp> .
+
+ex:Toko_PlazaMedanFair_PAYLESS rdf:type ex:Toko ;
+    ex:namaToko "PAYLESS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Flat Shoes, Heels, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PAYLESS_1756455124.webp> .
+
+ex:Toko_PlazaMedanFair_PEGADAIAN rdf:type ex:Toko ;
+    ex:namaToko "PEGADAIAN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Financial & Insurance Services, Layanan Gadai" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PEGADAIAN_1761896801.webp> .
+
+ex:Toko_PlazaMedanFair_PHOTOMATICS rdf:type ex:Toko ;
+    ex:namaToko "PHOTOMATICS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Photo Studio, Photobooth" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PHOTOMATIC_1761897370.webp> .
+
+ex:Toko_PlazaMedanFair_PLANET_SPORTS rdf:type ex:Toko ;
+    ex:namaToko "PLANET SPORTS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear, Sneakers, Sportwear, Baju, Sepatu, Tas, Topi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLANET%20SPORTS_1758516143.webp> .
+
+ex:Toko_PlazaMedanFair_PLANET_SURF rdf:type ex:Toko ;
+    ex:namaToko "PLANET SURF" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear, Sneakers, Baju, Topi" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLANET%20SURF_1769229396.webp> .
+
+ex:Toko_PlazaMedanFair_PLAYTOPIA rdf:type ex:Toko ;
+    ex:namaToko "PLAYTOPIA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLAYTOPIA_1756713322.webp> .
+
+ex:Toko_PlazaMedanFair_PLAYTOPIA_ARCADE rdf:type ex:Toko ;
+    ex:namaToko "PLAYTOPIA ARCADE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLAYTOPIA%20ARCADE_1757576739.webp> .
+
+ex:Toko_PlazaMedanFair_PLAYWORKS rdf:type ex:Toko ;
+    ex:namaToko "PLAYWORKS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Accessories, Gadget Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLAYWORKS_1756713521.webp> .
+
+ex:Toko_PlazaMedanFair_PLAZA_IT rdf:type ex:Toko ;
+    ex:namaToko "PLAZA IT" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLAZA%20IT_1771232094.webp> .
+
+ex:Toko_PlazaMedanFair_POKEMON_MEZASTAR rdf:type ex:Toko ;
+    ex:namaToko "POKEMON MEZASTAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys, Mainan Anak" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/POKEMON%20MEZASTAR_1757577108.webp> .
+
+ex:Toko_PlazaMedanFair_POLA rdf:type ex:Toko ;
+    ex:namaToko "POLA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/POLA_1771233061.webp> .
+
+ex:Toko_PlazaMedanFair_PULANG_KE_RUMAH rdf:type ex:Toko ;
+    ex:namaToko "PULANG KE RUMAH" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PULANG%20KE%20RUMAH_1771233843.webp> .
+
+ex:Toko_PlazaMedanFair_PUMA rdf:type ex:Toko ;
+    ex:namaToko "PUMA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sepatu" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PUMA_1756714447.webp> .
+
+ex:Toko_PlazaMedanFair_PUTRI rdf:type ex:Toko ;
+    ex:namaToko "PUTRI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PUTRI_1771233958.webp> .
+
+ex:Toko_PlazaMedanFair_QQI_SHOP rdf:type ex:Toko ;
+    ex:namaToko "QQI SHOP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/QQI%20SHOP_1771234060.webp> .
+
+ex:Toko_PlazaMedanFair_RAA_CHA_SUKI_BBQ rdf:type ex:Toko ;
+    ex:namaToko "RAA CHA SUKI & BBQ" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Shabu Shabu, Thai Food" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RAA%20CHA%20SUKI_1756716745.webp> .
+
+ex:Toko_PlazaMedanFair_RAJA_EMAS_ID rdf:type ex:Toko ;
+    ex:namaToko "Raja Emas ID" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Gold, Perhiasan" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RajaEmas.ID_1777966054.webp> .
+
+ex:Toko_PlazaMedanFair_RAMEN_YA rdf:type ex:Toko ;
+    ex:namaToko "RAMEN YA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Ramen" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RAMEN%20YA_1756716836.webp> .
+
+ex:Toko_PlazaMedanFair_RAMONESSA_FASHION rdf:type ex:Toko ;
+    ex:namaToko "RAMONESSA FASHION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RAMONESSA%20FASHION_1771234171.webp> .
+
+ex:Toko_PlazaMedanFair_REALME_STORE rdf:type ex:Toko ;
+    ex:namaToko "REALME STORE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/REALME%20STORE_1771234420.webp> .
+
+ex:Toko_PlazaMedanFair_REINO_KOMPUTER rdf:type ex:Toko ;
+    ex:namaToko "REINO KOMPUTER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/REINO%20KOMPUTER_1771234638.webp> .
+
+ex:Toko_PlazaMedanFair_ROMP rdf:type ex:Toko ;
+    ex:namaToko "ROMP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ROMP_1771235111.webp> .
+
+ex:Toko_PlazaMedanFair_ROTI_O rdf:type ex:Toko ;
+    ex:namaToko "ROTI O" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Food, Coffee, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ROTI%20O_1757304874.webp> .
+
+ex:Toko_PlazaMedanFair_RUBY_THE_IMMERSIVE rdf:type ex:Toko ;
+    ex:namaToko "RUBY THE IMMERSIVE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Immersive Experience Center, Pameran Digital" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RUBY%20THE%20IMMERSIVE_1771235250.webp> .
+
+ex:Toko_PlazaMedanFair_RUMAH_RASO rdf:type ex:Toko ;
+    ex:namaToko "RUMAH RASO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RUMAH%20RASO_1790910234.webp> .
+
+ex:Toko_PlazaMedanFair_SAMSAT_CORNER rdf:type ex:Toko ;
+    ex:namaToko "SAMSAT CORNER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Government Services, Layanan Publik, Samsat" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SAMSAT%20CORNER_1758536776.webp> .
+
+ex:Toko_PlazaMedanFair_SAMSUNG rdf:type ex:Toko ;
+    ex:namaToko "SAMSUNG" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Gadget Accessories, Headphones & Earbuds, Smartphone, Tablet" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/samsung-logo-preview_1750238760.webp> .
+
+ex:Toko_PlazaMedanFair_SANCHA rdf:type ex:Toko ;
+    ex:namaToko "SANCHA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Minuman, Tea" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/sancha_1754888440.webp> .
+
+ex:Toko_PlazaMedanFair_SELFIE_TIME rdf:type ex:Toko ;
+    ex:namaToko "SELFIE TIME" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Services, Photo Studio, Photo Printing, Photobooth" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SELFIE%20TIME_1758537920.webp> .
+
+ex:Toko_PlazaMedanFair_SELMA rdf:type ex:Toko ;
+    ex:namaToko "SELMA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Home & Living, Home & Furnishing, Home Essentials & Furniture Store" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SELMA_1769586222.webp> .
+
+ex:Toko_PlazaMedanFair_SHIGERU rdf:type ex:Toko ;
+    ex:namaToko "SHIGERU" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Cemilan" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SHIGERU_1757578952.webp> .
+
+ex:Toko_PlazaMedanFair_SHIHLIN rdf:type ex:Toko ;
+    ex:namaToko "SHIHLIN" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Snack, Ayam, Crispy Chicken" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SHIHLIN_1756960533.webp> .
+
+ex:Toko_PlazaMedanFair_SINGAPORE_SHOES rdf:type ex:Toko ;
+    ex:namaToko "SINGAPORE SHOES" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Flat Shoes, Sandal, Sepatu" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SINGAPORE%20SHOES_1771235773.webp> .
+
+ex:Toko_PlazaMedanFair_SKECHERS rdf:type ex:Toko ;
+    ex:namaToko "SKECHERS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sepatu" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SKECHERS_1756961071.webp> .
+
+ex:Toko_PlazaMedanFair_SMART_PHONE rdf:type ex:Toko ;
+    ex:namaToko "SMART PHONE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SMART%20PHONE_1771235915.webp> .
+
+ex:Toko_PlazaMedanFair_SMART_SERVICE rdf:type ex:Toko ;
+    ex:namaToko "SMART SERVICE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Gadget Repair, Service Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SMART%20SERVICE_1771236015.webp> .
+
+ex:Toko_PlazaMedanFair_SOFTCOM rdf:type ex:Toko ;
+    ex:namaToko "SOFTCOM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Smartphone" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SOFTCOM_1771236502.webp> .
+
+ex:Toko_PlazaMedanFair_SOLARIA rdf:type ex:Toko ;
+    ex:namaToko "SOLARIA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Western and Asian Food" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Solaria_1754642675.webp> .
+
+ex:Toko_PlazaMedanFair_SPECS rdf:type ex:Toko ;
+    ex:namaToko "SPECS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Clothing, Footwear, Baju, Sepatu" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SPECS_1771237406.png> .
+
+ex:Toko_PlazaMedanFair_SPEED_STAR rdf:type ex:Toko ;
+    ex:namaToko "SPEED STAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Go-Karting, Wahana Gokart" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SPEED%20STAR_1771237554.webp> .
+
+ex:Toko_PlazaMedanFair_SPILLA_JEWELLERY rdf:type ex:Toko ;
+    ex:namaToko "SPILLA JEWELLERY" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Perhiasan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SPILLA%20JEWELLERY_1761900744.webp> .
+
+ex:Toko_PlazaMedanFair_SPORTS_STATION rdf:type ex:Toko ;
+    ex:namaToko "SPORTS STATION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SPORTS%20STATION_1756968574.webp> .
+
+ex:Toko_PlazaMedanFair_SS_SELULAR rdf:type ex:Toko ;
+    ex:namaToko "SS SELULAR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SS%20SELULAR_1771237754.webp> .
+
+ex:Toko_PlazaMedanFair_ST_MOBILE rdf:type ex:Toko ;
+    ex:namaToko "ST MOBILE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ST%20MOBILE_1771238233.webp> .
+
+ex:Toko_PlazaMedanFair_STAR_COMMUNICATION rdf:type ex:Toko ;
+    ex:namaToko "STAR COMMUNICATION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/STAR%20COMMUNICATION_1771238361.webp> .
+
+ex:Toko_PlazaMedanFair_STEAK_21 rdf:type ex:Toko ;
+    ex:namaToko "STEAK 21" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Daging Sapi, Steak" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/STEAK%2021_1756968905.webp> .
+
+ex:Toko_PlazaMedanFair_STROBERI rdf:type ex:Toko ;
+    ex:namaToko "STROBERI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Toko Aksesoris, Trendy Goods" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/stroberi_1759132513.webp> .
+
+ex:Toko_PlazaMedanFair_SUEARIH_SALON rdf:type ex:Toko ;
+    ex:namaToko "SUEARIH SALON" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair & Beauty Treatment" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SUEARIH%20SALON_1771238821.webp> .
+
+ex:Toko_PlazaMedanFair_SURPRISE rdf:type ex:Toko ;
+    ex:namaToko "SURPRISE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Aksesoris Hp" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SURPRISE_1771238927.webp> .
+
+ex:Toko_PlazaMedanFair_T_MAN_CELL rdf:type ex:Toko ;
+    ex:namaToko "T. MAN CELL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/T.%20MAN%20CELL_1771239286.webp> .
+
+ex:Toko_PlazaMedanFair_TEH_POCI rdf:type ex:Toko ;
+    ex:namaToko "TEH POCI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Tea" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TEH%20POCI_1768378883.webp> .
+
+ex:Toko_PlazaMedanFair_TELESINDO_SHOP rdf:type ex:Toko ;
+    ex:namaToko "TELESINDO SHOP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TELESINDO%20SHOP_1771239470.webp> .
+
+ex:Toko_PlazaMedanFair_TEN_TOES rdf:type ex:Toko ;
+    ex:namaToko "TEN TOES" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories, Footwear, Heels, Sandal, Sepatu, Tas" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TEN%20TOES_1758600385.webp> .
+
+ex:Toko_PlazaMedanFair_TERRA rdf:type ex:Toko ;
+    ex:namaToko "TERRA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana, Pakaian Pria, Pakaian Wanita" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TERRA%20BUTIK_1762921981.webp> .
+
+ex:Toko_PlazaMedanFair_THE_BRAHOUSE rdf:type ex:Toko ;
+    ex:namaToko "THE BRAHOUSE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Womens Underwear" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/BRA%20HOUSE_1758078243.webp> .
+
+ex:Toko_PlazaMedanFair_THE_COFFEE_CROWD rdf:type ex:Toko ;
+    ex:namaToko "THE COFFEE CROWD" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Casual Dining, Food, Coffee, Indonesian Food, Western and Asian Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20COFFEE%20CROWD_1758600684.webp> .
+
+ex:Toko_PlazaMedanFair_THE_EXECUTIVE rdf:type ex:Toko ;
+    ex:namaToko "THE EXECUTIVE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20EXECUTIVE_1757319731.webp> .
+
+ex:Toko_PlazaMedanFair_THE_PALACE rdf:type ex:Toko ;
+    ex:namaToko "THE PALACE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20PALACE_1757319976.webp> .
+
+ex:Toko_PlazaMedanFair_THIS_IS_APRIL rdf:type ex:Toko ;
+    ex:namaToko "THIS IS APRIL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana, Pakaian Wanita" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THIS%20IS%20APRIL_1757490404.webp> .
+
+ex:Toko_PlazaMedanFair_TIANLALA rdf:type ex:Toko ;
+    ex:namaToko "TIANLALA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Ice Cream, Milk Tea, Tea" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TIANLALA_1783411724.webp> .
+
+ex:Toko_PlazaMedanFair_TIGAN_PONSEL rdf:type ex:Toko ;
+    ex:namaToko "TIGAN PONSEL" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TIGAN%20PONSEL_1771239888.webp> .
+
+ex:Toko_PlazaMedanFair_TIME_CO_ rdf:type ex:Toko ;
+    ex:namaToko "TIME & CO." ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Watch, Jam Tangan" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TIME%20&%20CO._1771239954.webp> .
+
+ex:Toko_PlazaMedanFair_TIMEZONE rdf:type ex:Toko ;
+    ex:namaToko "TIMEZONE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TIMEZONE_1757320184.webp> .
+
+ex:Toko_PlazaMedanFair_TOM_SUSHI rdf:type ex:Toko ;
+    ex:namaToko "TOM SUSHI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Sushi" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TOM%20SUSHI_1757919308.webp> .
+
+ex:Toko_PlazaMedanFair_TOMORO_COFFEE rdf:type ex:Toko ;
+    ex:namaToko "TOMORO COFFEE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TOMORO%20COFFEE_1757491045.webp> .
+
+ex:Toko_PlazaMedanFair_TONG_TJI rdf:type ex:Toko ;
+    ex:namaToko "TONG TJI" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Tea" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TONG%20TJI_1757584567.webp> .
+
+ex:Toko_PlazaMedanFair_TRANSMART_CARREFOUR rdf:type ex:Toko ;
+    ex:namaToko "TRANSMART CARREFOUR" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TRANSMART%20CARREFOUR_1762923387.webp> .
+
+ex:Toko_PlazaMedanFair_TRENDY_OPTIK rdf:type ex:Toko ;
+    ex:namaToko "TRENDY OPTIK" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TRENDY%20OPTIK_1771240538.webp> .
+
+ex:Toko_PlazaMedanFair_TRIJAYA rdf:type ex:Toko ;
+    ex:namaToko "TRIJAYA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TRIJAYA_1771240621.webp> .
+
+ex:Toko_PlazaMedanFair_UBS_GOLD rdf:type ex:Toko ;
+    ex:namaToko "UBS GOLD" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/UBS%20GOLD_1764142480.webp> .
+
+ex:Toko_PlazaMedanFair_UGREEN_STORE rdf:type ex:Toko ;
+    ex:namaToko "UGREEN STORE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Accessories, Gadget Accessories" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/UGREEN%20STORE_1771240685.webp> .
+
+ex:Toko_PlazaMedanFair_ULTIMA_REVLON rdf:type ex:Toko ;
+    ex:namaToko "ULTIMA & REVLON" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Cosmetics" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ULTIMA%20REVLON%20LOGO_1791795770.webp> .
+
+ex:Toko_PlazaMedanFair_URBAN_REPUBLIC rdf:type ex:Toko ;
+    ex:namaToko "URBAN REPUBLIC" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Toko Gadget" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/URBAN%20REPUBLIC_1757495335.webp> .
+
+ex:Toko_PlazaMedanFair_URBAN_CO rdf:type ex:Toko ;
+    ex:namaToko "URBAN&CO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear, Baju, Celana, Sandal, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/URBAN&CO_1757495538.webp> .
+
+ex:Toko_PlazaMedanFair_VICTORIA_BUSANA rdf:type ex:Toko ;
+    ex:namaToko "VICTORIA BUSANA" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/VICTORIA%20BUSANA_1771240960.webp> .
+
+ex:Toko_PlazaMedanFair_VIDITI_COLLECTION rdf:type ex:Toko ;
+    ex:namaToko "VIDITI COLLECTION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Heels, Sepatu" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/VIDITI%20COLLECTIONVIDITI%20COLLECTION_1771241056.webp> .
+
+ex:Toko_PlazaMedanFair_VILIO_ACC rdf:type ex:Toko ;
+    ex:namaToko "VILIO ACC" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Accessories, Gadget Accessories" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/VILIO%20ACC_1771243586.webp> .
+
+ex:Toko_PlazaMedanFair_VINICOM rdf:type ex:Toko ;
+    ex:namaToko "VINICOM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/VINICOM_1771243683.webp> .
+
+ex:Toko_PlazaMedanFair_VIVO rdf:type ex:Toko ;
+    ex:namaToko "VIVO" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Toko Gadget, Wearable" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/VIVO_1762931894.webp> .
+
+ex:Toko_PlazaMedanFair_VIZTA_GYM rdf:type ex:Toko ;
+    ex:namaToko "VIZTA GYM" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Sports, Fitness Center, Pusat Kebugaran" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/VIZTA%20GYM_1771243963.webp> .
+
+ex:Toko_PlazaMedanFair_WARNA_FASHION rdf:type ex:Toko ;
+    ex:namaToko "WARNA FASHION" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "Skycross" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WARNA%20FASHION_1771244082.webp> .
+
+ex:Toko_PlazaMedanFair_WAROENG_IT rdf:type ex:Toko ;
+    ex:namaToko "WAROENG IT" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, Aksesoris Komputer, Komputer" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WAROENG%20ITWAROENG%20IT_1771244160.webp> .
+
+ex:Toko_PlazaMedanFair_WATSONS rdf:type ex:Toko ;
+    ex:namaToko "WATSONS" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Healthcare, Cosmetics, Fragrance, Skincare, Vitamins" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WATSONS_1757320572.webp> .
+
+ex:Toko_PlazaMedanFair_WINGSTOP rdf:type ex:Toko ;
+    ex:namaToko "WINGSTOP" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WINGSTOP_1757498083.webp> .
+
+ex:Toko_PlazaMedanFair_WRANGLER rdf:type ex:Toko ;
+    ex:namaToko "WRANGLER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana, Topi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WRANGLER_1757920982.webp> .
+
+ex:Toko_PlazaMedanFair_XIAOMI_SERVICE_CENTER rdf:type ex:Toko ;
+    ex:namaToko "XIAOMI SERVICE CENTER" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Gadget Repair, Service Gadget" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/XIAOMI%20SERVICE%20CENTER_1771383756.webp> .
+
+ex:Toko_PlazaMedanFair_XING_FU_TANG rdf:type ex:Toko ;
+    ex:namaToko "XING FU TANG" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "F&B, Beverage, Minuman, Bubble Tea" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/XING%20FU%20TANG_1757320825.webp> .
+
+ex:Toko_PlazaMedanFair_XLN_STORE rdf:type ex:Toko ;
+    ex:namaToko "XLN STORE" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/XLN%20STORE_1771383817.webp> .
+
+ex:Toko_PlazaMedanFair_YAYANG rdf:type ex:Toko ;
+    ex:namaToko "YAYANG" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Toko Aksesoris" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/YAYANG_1771383981.webp> .
+
+ex:Toko_PlazaMedanFair_ZYREX rdf:type ex:Toko ;
+    ex:namaToko "ZYREX" ;
+    ex:beradaDiMall ex:Mall13 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ZYREX_1771384409.webp> .

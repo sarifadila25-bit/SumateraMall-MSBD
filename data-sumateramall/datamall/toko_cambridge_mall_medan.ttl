@@ -1,0 +1,217 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# ==================== LOWER GROUND (LG) ====================
+ex:Toko_CambridgeMallMedan_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Fast Food" ;
+    ex:lokasiToko "Lower Ground # B - 07" .
+
+ex:Toko_CambridgeMallMedan_Brastagi_Extension rdf:type ex:Toko ;
+    ex:namaToko "Brastagi Extension" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Retail, Department Store" ;
+    ex:lokasiToko "Lower Ground # B-04" .
+
+ex:Toko_CambridgeMallMedan_Brastagi_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Brastagi Supermarket" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Supermarket, Grocery" ;
+    ex:lokasiToko "Lower Ground # P-1- B01" .
+
+ex:Toko_CambridgeMallMedan_Cocoland rdf:type ex:Toko ;
+    ex:namaToko "Cocoland" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Restaurant" ;
+    ex:lokasiToko "Lower Ground" .
+
+ex:Toko_CambridgeMallMedan_Daily_Fresh rdf:type ex:Toko ;
+    ex:namaToko "Daily Fresh" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Supermarket, Grocery" ;
+    ex:lokasiToko "Lower Ground # LG-04 A" .
+
+ex:Toko_CambridgeMallMedan_Fountain rdf:type ex:Toko ;
+    ex:namaToko "Fountain" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Restaurant" ;
+    ex:lokasiToko "Lower Ground # B-08" .
+
+ex:Toko_CambridgeMallMedan_Giant_Village rdf:type ex:Toko ;
+    ex:namaToko "Giant Village" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Supermarket, Grocery" ;
+    ex:lokasiToko "Lower Ground" .
+
+ex:Toko_CambridgeMallMedan_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics & Personal Care" ;
+    ex:lokasiToko "Lower Ground # B-11" .
+
+ex:Toko_CambridgeMallMedan_Kopi_Sidikalang rdf:type ex:Toko ;
+    ex:namaToko "Kopi Sidikalang" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Coffee" ;
+    ex:lokasiToko "Lower Ground # LG-04 B" .
+
+ex:Toko_CambridgeMallMedan_Usupso rdf:type ex:Toko ;
+    ex:namaToko "Usupso" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "Lower Ground" .
+
+# ==================== GROUND FLOOR (GF) ====================
+ex:Toko_CambridgeMallMedan_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "Body Shop" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics & Personal Care" ;
+    ex:lokasiToko "Ground Floor # G - 20 & 21" .
+
+ex:Toko_CambridgeMallMedan_J_CO_Donuts_and_Coffee rdf:type ex:Toko ;
+    ex:namaToko "J.CO Donuts & Coffee" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Cafe, Donut" ;
+    ex:lokasiToko "Ground Floor # G-04" .
+
+ex:Toko_CambridgeMallMedan_KAKA_Gems rdf:type ex:Toko ;
+    ex:namaToko "KAKA Gems" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:lokasiToko "Ground Floor # G-07" .
+
+ex:Toko_CambridgeMallMedan_Starbucks_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Starbucks Coffee" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Coffee" ;
+    ex:lokasiToko "Ground Floor # G-01" .
+
+ex:Toko_CambridgeMallMedan_Vfs_Tasheel_International rdf:type ex:Toko ;
+    ex:namaToko "Vfs Tasheel International" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Services, Visa Services" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_CambridgeMallMedan_Ya_Kun_Kaya_Toast rdf:type ex:Toko ;
+    ex:namaToko "Ya Kun Kaya Toast" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Cafe, Toast" ;
+    ex:lokasiToko "Ground Floor # G-06 & G-04" .
+
+ex:Toko_CambridgeMallMedan_Zac_Pizza rdf:type ex:Toko ;
+    ex:namaToko "Zac Pizza" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Pizza" ;
+    ex:lokasiToko "Ground Floor" .
+
+# ==================== 1ST FLOOR ====================
+ex:Toko_CambridgeMallMedan_Artech_Electronic rdf:type ex:Toko ;
+    ex:namaToko "Artech Electronic" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Electronics, Gadgets" ;
+    ex:lokasiToko "1st Floor # I-05" .
+
+ex:Toko_CambridgeMallMedan_Baskin_Robbins rdf:type ex:Toko ;
+    ex:namaToko "Baskin Robbins" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Ice Cream" ;
+    ex:lokasiToko "1st Floor # IC-02" .
+
+ex:Toko_CambridgeMallMedan_Bradja_Salon rdf:type ex:Toko ;
+    ex:namaToko "Bradja Salon" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" ;
+    ex:lokasiToko "1st Floor # I-01" .
+
+ex:Toko_CambridgeMallMedan_Coffee_Garden rdf:type ex:Toko ;
+    ex:namaToko "Coffee Garden" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Coffee" ;
+    ex:lokasiToko "1st Floor # IC-01" .
+
+ex:Toko_CambridgeMallMedan_Dr_Willie rdf:type ex:Toko ;
+    ex:namaToko "Dr. Willie" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Beauty, Medical Clinic" ;
+    ex:lokasiToko "1st Floor # I-07" .
+
+ex:Toko_CambridgeMallMedan_Eprise rdf:type ex:Toko ;
+    ex:namaToko "Eprise" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "1st Floor # I-08 & I-09" .
+
+ex:Toko_CambridgeMallMedan_Fashion_Lounge rdf:type ex:Toko ;
+    ex:namaToko "Fashion Lounge" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "1st Floor # I-18" .
+
+ex:Toko_CambridgeMallMedan_KIE_KIE_Salon rdf:type ex:Toko ;
+    ex:namaToko "KIE - KIE Salon" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" ;
+    ex:lokasiToko "1st Floor # I-16" .
+
+ex:Toko_CambridgeMallMedan_Ladenta rdf:type ex:Toko ;
+    ex:namaToko "Ladenta" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "1st Floor # I-22 & 23" .
+
+ex:Toko_CambridgeMallMedan_Nelayan_Suki_and_Bento rdf:type ex:Toko ;
+    ex:namaToko "Nelayan Suki & Bento" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "1st Floor # I-03" .
+
+ex:Toko_CambridgeMallMedan_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Fashion & Apparel, Sportswear" ;
+    ex:lokasiToko "1st Floor # I-02" .
+
+ex:Toko_CambridgeMallMedan_The_Coffee_Crowd rdf:type ex:Toko ;
+    ex:namaToko "The Coffee Crowd" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Coffee" ;
+    ex:lokasiToko "1st Floor # I-" .
+
+# ==================== 2ND FLOOR ====================
+ex:Toko_CambridgeMallMedan_Ace_Hardware rdf:type ex:Toko ;
+    ex:namaToko "Ace Hardware" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Home & Lifestyle, Hardware" ;
+    ex:lokasiToko "2nd Floor # II-05 A" .
+
+ex:Toko_CambridgeMallMedan_Family_Fitness rdf:type ex:Toko ;
+    ex:namaToko "Family Fitness" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Wellness, Gym" ;
+    ex:lokasiToko "2nd Floor # II-7 & 8" .
+
+ex:Toko_CambridgeMallMedan_The_Grand_Duck_King rdf:type ex:Toko ;
+    ex:namaToko "The Grand Duck King" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "F&B, Chinese Food" ;
+    ex:lokasiToko "2nd Floor # II - 04 & 05" .
+
+# ==================== OFFICE ====================
+ex:Toko_CambridgeMallMedan_Herbal_Life rdf:type ex:Toko ;
+    ex:namaToko "Herbal Life" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Health & Beauty, Wellness" ;
+    ex:lokasiToko "2nd Floor # P-04A" .
+
+ex:Toko_CambridgeMallMedan_Infomedia rdf:type ex:Toko ;
+    ex:namaToko "Infomedia" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Services, IT Services" ;
+    ex:lokasiToko "3rd Floor # P-06" .
+
+ex:Toko_CambridgeMallMedan_Telkomsel rdf:type ex:Toko ;
+    ex:namaToko "Telkomsel" ;
+    ex:beradaDiMall ex:Mall88 ;
+    ex:kategoriToko "Services, Telecommunications" ;
+    ex:lokasiToko "3rd Floor # P-05" .

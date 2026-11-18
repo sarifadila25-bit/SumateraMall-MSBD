@@ -1,0 +1,275 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_BaskoGrandMall_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/miniso_250419_165238_AOJy.jpg> .
+
+ex:Toko_BaskoGrandMall_Mako rdf:type ex:Toko ;
+    ex:namaToko "Mako" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/mako_250419_165331_unKE.jpg> .
+
+ex:Toko_BaskoGrandMall_JCO rdf:type ex:Toko ;
+    ex:namaToko "JCO" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/jco_250419_165413_jFSs.jpg> .
+
+ex:Toko_BaskoGrandMall_Polo_Ralph_House rdf:type ex:Toko ;
+    ex:namaToko "Polo Ralph House" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/polo_ralph_250419_165446_zKQS.jpg> .
+
+ex:Toko_BaskoGrandMall_Foodmart rdf:type ex:Toko ;
+    ex:namaToko "Foodmart" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/foodmart_250422_121436_ruvK.jpg> .
+
+ex:Toko_BaskoGrandMall_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Teknologi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/erafone_250422_121813_jJNE.jpg> .
+
+ex:Toko_BaskoGrandMall_Mixue rdf:type ex:Toko ;
+    ex:namaToko "Mixue" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/mixue_250422_122053_rdxL.jpg> .
+
+ex:Toko_BaskoGrandMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Ritel" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/guardian_250422_122403_DbNl.jpg> .
+
+ex:Toko_BaskoGrandMall_The_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Body Shop" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Kosmetik" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/the_body_s_250422_123044_Yzyi.jpg> .
+
+ex:Toko_BaskoGrandMall_Excecutive rdf:type ex:Toko ;
+    ex:namaToko "Excecutive" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/excecutive_250422_123449_xtjo.jpg> .
+
+ex:Toko_BaskoGrandMall_Wrangler rdf:type ex:Toko ;
+    ex:namaToko "Wrangler" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/wrangler_250422_124131_xsWd.jpg> .
+
+ex:Toko_BaskoGrandMall_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti'O" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/rotio_250424_160434_zgWH.jpg> .
+
+ex:Toko_BaskoGrandMall_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/solaria_250425_042650_qG1i.jpg> .
+
+ex:Toko_BaskoGrandMall_Eat_Sosis rdf:type ex:Toko ;
+    ex:namaToko "Eat Sosis" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/eat_sosis_250425_110719_w5zh.jpg> .
+
+ex:Toko_BaskoGrandMall_Tutupu rdf:type ex:Toko ;
+    ex:namaToko "Tutupu" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/tutupu_250425_112833_rdGT.jpg> .
+
+ex:Toko_BaskoGrandMall_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/giordano_250422_124755_wy9r.jpg> .
+
+ex:Toko_BaskoGrandMall_Poin_Break rdf:type ex:Toko ;
+    ex:namaToko "Poin Break" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/poin_break_250424_160704_GV1s.jpg> .
+
+ex:Toko_BaskoGrandMall_Manzone rdf:type ex:Toko ;
+    ex:namaToko "Manzone" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/manzone_250424_161020_TTcF.jpg> .
+
+ex:Toko_BaskoGrandMall_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/kfc_250424_161723_StZ1.jpg> .
+
+ex:Toko_BaskoGrandMall_CFC rdf:type ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/cfc_250424_161748_f3Hz.jpg> .
+
+ex:Toko_BaskoGrandMall_Boombogie rdf:type ex:Toko ;
+    ex:namaToko "Boombogie" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/boombogie_250424_162013_Cd8i.jpg> .
+
+ex:Toko_BaskoGrandMall_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR.DIY" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Ritel" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/mrdiy_250424_162226_YI9i.jpg> .
+
+ex:Toko_BaskoGrandMall_Kids_Station rdf:type ex:Toko ;
+    ex:namaToko "Kids Station" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Ritel" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/kids_stati_250424_163220_dgd4.jpg> .
+
+ex:Toko_BaskoGrandMall_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Sport" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/sport_stat_250425_111259_ufsf.jpg> .
+
+ex:Toko_BaskoGrandMall_Mississippi rdf:type ex:Toko ;
+    ex:namaToko "Mississippi" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/mississipp_250424_170920_IpAs.jpg> .
+
+ex:Toko_BaskoGrandMall_Queensland rdf:type ex:Toko ;
+    ex:namaToko "Queensland" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/queensland_250424_171043_RHpS.jpg> .
+
+ex:Toko_BaskoGrandMall_Matahari_Department_Store_L1 rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/matahari_d_250425_133304_DcKq.jpg> .
+
+ex:Toko_BaskoGrandMall_The_Parfume_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Parfume Shop" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Kosmetik" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/the_parfum_250425_105649_XBj9.jpg> .
+
+ex:Toko_BaskoGrandMall_Digimap rdf:type ex:Toko ;
+    ex:namaToko "Digimap" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Teknologi" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/digimap_250425_105731_cSI9.jpg> .
+
+ex:Toko_BaskoGrandMall_Zaskia_Mecca rdf:type ex:Toko ;
+    ex:namaToko "Zaskia Mecca" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/zaskia_mec_250425_105759_1AU2.jpg> .
+
+ex:Toko_BaskoGrandMall_Zoom_Watch rdf:type ex:Toko ;
+    ex:namaToko "Zoom Watch" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Teknologi" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/zoom_watch_250425_110025_EoE5.jpg> .
+
+ex:Toko_BaskoGrandMall_Sienna rdf:type ex:Toko ;
+    ex:namaToko "Sienna" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/sienna_250425_113026_kFhF.jpg> .
+
+ex:Toko_BaskoGrandMall_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/wacoal_250424_164647_mX4K.jpg> .
+
+ex:Toko_BaskoGrandMall_Sharks rdf:type ex:Toko ;
+    ex:namaToko "Sharks" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/sharks_250424_165049_m78f.jpg> .
+
+ex:Toko_BaskoGrandMall_Mc_Donalds rdf:type ex:Toko ;
+    ex:namaToko "Mc Donalds" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Food and Beverages" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/mc_donalds_250424_165515_JQFE.jpg> .
+
+ex:Toko_BaskoGrandMall_Fun_Station rdf:type ex:Toko ;
+    ex:namaToko "Fun Station" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Teknologi" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/fun_statio_250424_165943_I82d.jpg> .
+
+ex:Toko_BaskoGrandMall_Stroberi rdf:type ex:Toko ;
+    ex:namaToko "Stroberi" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/stroberi_250424_170118_TWAe.jpg> .
+
+ex:Toko_BaskoGrandMall_Matahari_Department_Store_L2 rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/matahari_d_250425_133538_zO0X.jpg> .
+
+ex:Toko_BaskoGrandMall_Wennedys_Photo rdf:type ex:Toko ;
+    ex:namaToko "Wennedys Photo" ;
+    ex:beradaDiMall ex:Mall29 ;
+    ex:kategoriToko "Fashion" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.baskograndmall.com/dist/assets/img/Stores/wennedys_250425_110425_bzBm.jpg> .

@@ -1,0 +1,1521 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_DeliparkMall_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L5" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902354e478f_Cinema-XXI.jpg> .
+
+ex:Toko_DeliparkMall_The_Premiere rdf:type ex:Toko ;
+    ex:namaToko "The Premiere" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L5" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990231f6d1d2_The-Premiere.jpg> .
+
+ex:Toko_DeliparkMall_IMAX rdf:type ex:Toko ;
+    ex:namaToko "IMAX" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L5" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902338da026_IMAX.jpg> .
+
+ex:Toko_DeliparkMall_Misnow rdf:type ex:Toko ;
+    ex:namaToko "Misnow" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Dessert, Ice Cream" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992ce8a977da_misnow.jpg> .
+
+ex:Toko_DeliparkMall_Golden_Lamian rdf:type ex:Toko ;
+    ex:namaToko "Golden Lamian" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food, Noodle" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992ce7a911cc_Golden-Lamian.jpg> .
+
+ex:Toko_DeliparkMall_Bebek_Ubud rdf:type ex:Toko ;
+    ex:namaToko "Bebek Ubud" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food, Duck" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992ce6a4823e_Bebek-Ubud.jpg> .
+
+ex:Toko_DeliparkMall_Tong_Tji rdf:type ex:Toko ;
+    ex:namaToko "Tong Tji" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Tea" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992ce59e3e09_Tong-Tji.jpg> .
+
+ex:Toko_DeliparkMall_Nelayan_Jala_Jala rdf:type ex:Toko ;
+    ex:namaToko "Nelayan Jala - Jala" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Seafood, Indonesian Food" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992ce4463622_Nelayan.jpg> .
+
+ex:Toko_DeliparkMall_Nusantara_Legend rdf:type ex:Toko ;
+    ex:namaToko "Nusantara Legend" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cd9a5dced_NUSANTARA-LEGEND.jpg> .
+
+ex:Toko_DeliparkMall_Great_Bear_Bowl rdf:type ex:Toko ;
+    ex:namaToko "Great Bear Bowl" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Donburi" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cd79a3d94_Great-Bear-Bowl.jpg> .
+
+ex:Toko_DeliparkMall_Yoshinoya rdf:type ex:Toko ;
+    ex:namaToko "Yoshinoya" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Beef Bowl" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cd65d591d_YOSHINOYA.jpg> .
+
+ex:Toko_DeliparkMall_Garuda rdf:type ex:Toko ;
+    ex:namaToko "Garuda" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food, Express" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cd56d7070_Garuda-Express.jpg> .
+
+ex:Toko_DeliparkMall_D_Crepes rdf:type ex:Toko ;
+    ex:namaToko "D'Crepes" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Crepe" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cd4701cd0_Dcrepes.jpg> .
+
+ex:Toko_DeliparkMall_Gokana rdf:type ex:Toko ;
+    ex:namaToko "Gokana" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Ramen" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cd1dd851e_GOKANA.jpg> .
+
+ex:Toko_DeliparkMall_Shihlin rdf:type ex:Toko ;
+    ex:namaToko "Shihlin" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Snack, Taiwanese Street Food" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cccab55f3_Shihlin.jpg> .
+
+ex:Toko_DeliparkMall_Mie_Kari_129 rdf:type ex:Toko ;
+    ex:namaToko "Mie Kari 129" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food, Noodle" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cc7de19a3_Mie-Kari.jpg> .
+
+ex:Toko_DeliparkMall_Oh_Donuts rdf:type ex:Toko ;
+    ex:namaToko "Oh! Donuts" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Donut" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cc0e929f6_OH-DONAT-BY-BAKINGWITK.jpg> .
+
+ex:Toko_DeliparkMall_CFC rdf:type ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Fast Food, Ayam" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cbd2a9279_CFC.jpg> .
+
+ex:Toko_DeliparkMall_Kimbab_Nara rdf:type ex:Toko ;
+    ex:namaToko "Kimbab Nara" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Korean Food" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cb9829c3a_Kimbab-Nara.jpg> .
+
+ex:Toko_DeliparkMall_Reddog rdf:type ex:Toko ;
+    ex:namaToko "Reddog" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Snack, Corndog" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cb4cf168a_Reddog.jpg> .
+
+ex:Toko_DeliparkMall_Pezzo rdf:type ex:Toko ;
+    ex:namaToko "Pezzo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Italian Food, Pizza" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992cb018b75f_PEZZO.jpg> .
+
+ex:Toko_DeliparkMall_Kuma rdf:type ex:Toko ;
+    ex:namaToko "Kuma" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Snack, Cheese Toast" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c9f1e62df_KUMA-CHEESE-TOAST.jpg> .
+
+ex:Toko_DeliparkMall_Euge rdf:type ex:Toko ;
+    ex:namaToko "Euge" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Dessert, Snack" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a2f7365db6b0_Euge.jpg> .
+
+ex:Toko_DeliparkMall_Offle rdf:type ex:Toko ;
+    ex:namaToko "Offle" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Waffle" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a2f73ab4a1c3_Offle.jpg> .
+
+ex:Toko_DeliparkMall_Shake_Shake_In_A_Tub rdf:type ex:Toko ;
+    ex:namaToko "Shake Shake In A Tub" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Dessert, Ice Cream" ;
+    ex:lokasiToko "Delica Foodcourt, L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a69d40f38978_Shake-Shake-In-A-Tub.jpg> .
+
+ex:Toko_DeliparkMall_Azko rdf:type ex:Toko ;
+    ex:namaToko "Azko" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Home & Living, Furniture Store" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c62d8678f_AZKO.jpg> .
+
+ex:Toko_DeliparkMall_Raa_Cha rdf:type ex:Toko ;
+    ex:namaToko "Raa Cha" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Thai Food, Suki" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c61e0ae47_Raa-Cha.jpg> .
+
+ex:Toko_DeliparkMall_Ta_Wan rdf:type ex:Toko ;
+    ex:namaToko "Ta Wan" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c61452d4c_Ta-Wan.jpg> .
+
+ex:Toko_DeliparkMall_Cobek_Ayam_Penyet rdf:type ex:Toko ;
+    ex:namaToko "Cobek Ayam Penyet" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c60a34ce1_Cobek.jpg> .
+
+ex:Toko_DeliparkMall_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food, Western and Asian Food" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5ffbfce1_Solaria.jpg> .
+
+ex:Toko_DeliparkMall_Fountain rdf:type ex:Toko ;
+    ex:namaToko "Fountain" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Restaurant" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5f119ff9_FOUNTAIN.jpg> .
+
+ex:Toko_DeliparkMall_V_Continental rdf:type ex:Toko ;
+    ex:namaToko "V Continental" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Restaurant" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5e5bcf21_V-Continental.jpg> .
+
+ex:Toko_DeliparkMall_Toys_Kingdom rdf:type ex:Toko ;
+    ex:namaToko "Toys Kingdom" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5dacc495_TOYS-KINGDOM.jpg> .
+
+ex:Toko_DeliparkMall_Gococo rdf:type ex:Toko ;
+    ex:namaToko "Gococo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coconut" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5ca3ec53_GOCOCO.jpg> .
+
+ex:Toko_DeliparkMall_Stroberi rdf:type ex:Toko ;
+    ex:namaToko "Stroberi" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Trendy Goods" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5b9c6057_Stroberi.jpg> .
+
+ex:Toko_DeliparkMall_Gaudi rdf:type ex:Toko ;
+    ex:namaToko "Gaudi" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5ab14c4e_Gaudi.jpg> .
+
+ex:Toko_DeliparkMall_This_Is_April rdf:type ex:Toko ;
+    ex:namaToko "This Is April" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c58fb5a1d_THIS-IS-APRIL.jpg> .
+
+ex:Toko_DeliparkMall_Chocochip rdf:type ex:Toko ;
+    ex:namaToko "Chocochip" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5806ebdf_Chocochips.jpg> .
+
+ex:Toko_DeliparkMall_Cindy rdf:type ex:Toko ;
+    ex:namaToko "Cindy" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c57499956_CINDY.jpg> .
+
+ex:Toko_DeliparkMall_Glam_On rdf:type ex:Toko ;
+    ex:namaToko "Glam On" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5665f768_Glam-On.jpg> .
+
+ex:Toko_DeliparkMall_Boost rdf:type ex:Toko ;
+    ex:namaToko "Boost" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Juice" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c558e5a94_BOOST.jpg> .
+
+ex:Toko_DeliparkMall_4Fingers rdf:type ex:Toko ;
+    ex:namaToko "4Fingers" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Fast Food, Chicken" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5480b3a8_4fingers.jpg> .
+
+ex:Toko_DeliparkMall_Es_Teler_77 rdf:type ex:Toko ;
+    ex:namaToko "Es Teler 77" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food, Dessert" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c53d98a03_Esteler-77.jpg> .
+
+ex:Toko_DeliparkMall_Pan_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Pan & Co." ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Restaurant" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c52a4b7d4_Pan-&-Co..jpg> .
+
+ex:Toko_DeliparkMall_Let_s_Go_Gelato rdf:type ex:Toko ;
+    ex:namaToko "Let's Go Gelato" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Dessert, Gelato" ;
+    ex:lokasiToko "L3A" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c5142548d_Let's-Go-Gelato.jpg> .
+
+ex:Toko_DeliparkMall_Informa rdf:type ex:Toko ;
+    ex:namaToko "Informa" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Home & Living, Furniture Store" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c19dcd0ea_Informa.jpg> .
+
+ex:Toko_DeliparkMall_Vans rdf:type ex:Toko ;
+    ex:namaToko "Vans" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c18fcca08_VANS.jpg> .
+
+ex:Toko_DeliparkMall_Funworld_Frenzy rdf:type ex:Toko ;
+    ex:namaToko "Funworld Frenzy" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Arcade, Family Entertainment Center" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c184e5f43_FUNWORLD-FRENZY.jpg> .
+
+ex:Toko_DeliparkMall_Kidz_Station rdf:type ex:Toko ;
+    ex:namaToko "Kidz Station" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c17379cd0_Kidz-Station.jpg> .
+
+ex:Toko_DeliparkMall_Adidas_Sport rdf:type ex:Toko ;
+    ex:namaToko "Adidas Sport" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c1546c9e5_ADIDAS-SPORT.jpg> .
+
+ex:Toko_DeliparkMall_Payless rdf:type ex:Toko ;
+    ex:namaToko "Payless" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c1491ddc0_Payless.jpg> .
+
+ex:Toko_DeliparkMall_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear & Equipment" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c13e2643b_Sports-Station.jpg> .
+
+ex:Toko_DeliparkMall_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c12c14ad2_Skechers.jpg> .
+
+ex:Toko_DeliparkMall_Puma rdf:type ex:Toko ;
+    ex:namaToko "Puma" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c118b2682_PUMA.jpg> .
+
+ex:Toko_DeliparkMall_New_Era rdf:type ex:Toko ;
+    ex:namaToko "New Era" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Headwear" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c10b5f62a_New-Era.jpg> .
+
+ex:Toko_DeliparkMall_New_Balance rdf:type ex:Toko ;
+    ex:namaToko "New Balance" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c0cb2f3bb_New-Balance.jpg> .
+
+ex:Toko_DeliparkMall_Asics rdf:type ex:Toko ;
+    ex:namaToko "Asics" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c0bf2644d_ASICS.jpg> .
+
+ex:Toko_DeliparkMall_Converse rdf:type ex:Toko ;
+    ex:namaToko "Converse" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c0b3b74c3_Converse.jpg> .
+
+ex:Toko_DeliparkMall_Garmin rdf:type ex:Toko ;
+    ex:namaToko "Garmin" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Wearable, GPS" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c0a572b78_GARMIN.jpg> .
+
+ex:Toko_DeliparkMall_Mothercare rdf:type ex:Toko ;
+    ex:namaToko "Mothercare" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Kids Toys, Children's Clothing" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c09882c0f_Mothercare.jpg> .
+
+ex:Toko_DeliparkMall_Crocs rdf:type ex:Toko ;
+    ex:namaToko "Crocs" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992c0823ab1d_CROCS.jpg> .
+
+ex:Toko_DeliparkMall_Anta rdf:type ex:Toko ;
+    ex:namaToko "Anta" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69f95b5866259_ANTA.jpg> .
+
+ex:Toko_DeliparkMall_Wilio rdf:type ex:Toko ;
+    ex:namaToko "Wilio" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a8405a18cc8c_WILIO.jpg> .
+
+ex:Toko_DeliparkMall_Sogo rdf:type ex:Toko ;
+    ex:namaToko "Sogo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "GF, L1, L2, UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69b38216b4d25_SOGO.jpg> .
+
+ex:Toko_DeliparkMall_Planet_Sports rdf:type ex:Toko ;
+    ex:namaToko "Planet Sports" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d4935d9a0_PLANET-SPORT-ASIA.jpg> .
+
+ex:Toko_DeliparkMall_Buttonscarves rdf:type ex:Toko ;
+    ex:namaToko "Buttonscarves" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Hijab & Scarves" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d47dad6e7_Buttonscraves-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Kidzlandia rdf:type ex:Toko ;
+    ex:namaToko "Kidzlandia" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d46d6af45_KIDZLANDIA.jpg> .
+
+ex:Toko_DeliparkMall_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d44101458_OPTIK-MELAWAI-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d41f1853d_Optik-Seis-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Saturdays rdf:type ex:Toko ;
+    ex:namaToko "Saturdays" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d40e4e690_SATURDAY-V.1.jpg> .
+
+ex:Toko_DeliparkMall_MOC rdf:type ex:Toko ;
+    ex:namaToko "MOC" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d3ef0c603_MOC-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Zeiss_Optik_Tunggal rdf:type ex:Toko ;
+    ex:namaToko "Zeiss Optik Tunggal" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d55050bde_ZEISS-V.2.jpg> .
+
+ex:Toko_DeliparkMall_Havaianas rdf:type ex:Toko ;
+    ex:namaToko "Havaianas" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d5a915bcb_havainas.jpg> .
+
+ex:Toko_DeliparkMall_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d5f09ef5f_Minimal.jpg> .
+
+ex:Toko_DeliparkMall_Nada_Puspita rdf:type ex:Toko ;
+    ex:namaToko "Nada Puspita" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d63f402e2_NADA-PUSPITA.jpg> .
+
+ex:Toko_DeliparkMall_Et_Cetera rdf:type ex:Toko ;
+    ex:namaToko "Et Cetera" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d87865a9c_Et-cetera-v.1.jpg> .
+
+ex:Toko_DeliparkMall_Andrew rdf:type ex:Toko ;
+    ex:namaToko "Andrew" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d8b8203b1_ANDREW.jpg> .
+
+ex:Toko_DeliparkMall_OXA rdf:type ex:Toko ;
+    ex:namaToko "OXA" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d92f87c1a_OXA.jpg> .
+
+ex:Toko_DeliparkMall_Colorbox rdf:type ex:Toko ;
+    ex:namaToko "Colorbox" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d982902c3_COLORBOX-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Executive rdf:type ex:Toko ;
+    ex:namaToko "Executive" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992d9c734c29_EXECUTIVE-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Manzone rdf:type ex:Toko ;
+    ex:namaToko "Manzone" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992da04a4fb4_Manzone-V.1.jpg> .
+
+ex:Toko_DeliparkMall_Celcius rdf:type ex:Toko ;
+    ex:namaToko "Celcius" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992da5ece664_CELCIUS.jpg> .
+
+ex:Toko_DeliparkMall_Valino rdf:type ex:Toko ;
+    ex:namaToko "Valino" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992daa9c0cc3_VALINO.jpg> .
+
+ex:Toko_DeliparkMall_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992daf1b8506_Giordano.jpg> .
+
+ex:Toko_DeliparkMall_Batik_Keris rdf:type ex:Toko ;
+    ex:namaToko "Batik Keris" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Batik" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992db3d7d89f_Batik-Keris.jpg> .
+
+ex:Toko_DeliparkMall_I_Love_Emas rdf:type ex:Toko ;
+    ex:namaToko "I Love Emas" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Gold" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a94fb13b41ad_I-Love-Emas.jpg> .
+
+ex:Toko_DeliparkMall_Foot_Locker rdf:type ex:Toko ;
+    ex:namaToko "Foot Locker" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929a329a5d5_Foot-Locker.jpg> .
+
+ex:Toko_DeliparkMall_Uniqlo rdf:type ex:Toko ;
+    ex:namaToko "Uniqlo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L1, UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295c63e6fb_UNIQLO.jpg> .
+
+ex:Toko_DeliparkMall_Urban_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Urban & Co" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929a229b8ed_URBAN&CO.jpg> .
+
+ex:Toko_DeliparkMall_Melissa rdf:type ex:Toko ;
+    ex:namaToko "Melissa" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929a1289536_Melissa.jpg> .
+
+ex:Toko_DeliparkMall_FitFlop rdf:type ex:Toko ;
+    ex:namaToko "FitFlop" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929a0551146_FitFlop.jpg> .
+
+ex:Toko_DeliparkMall_Steve_Madden rdf:type ex:Toko ;
+    ex:namaToko "Steve Madden" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299f97f9bd_Steve-Madden.jpg> .
+
+ex:Toko_DeliparkMall_Everbest rdf:type ex:Toko ;
+    ex:namaToko "Everbest" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299ed01e29_EVERBEST.jpg> .
+
+ex:Toko_DeliparkMall_Dr_Martens rdf:type ex:Toko ;
+    ex:namaToko "Dr. Martens" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299da2a573_DR.MARTENS.jpg> .
+
+ex:Toko_DeliparkMall_Pedro rdf:type ex:Toko ;
+    ex:namaToko "Pedro" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299cc557e1_PEDRO.jpg> .
+
+ex:Toko_DeliparkMall_Birkenstock rdf:type ex:Toko ;
+    ex:namaToko "Birkenstock" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299bf5dbee_BIRKENSTOCK.jpg> .
+
+ex:Toko_DeliparkMall_Staccato rdf:type ex:Toko ;
+    ex:namaToko "Staccato" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299ac55adb_Staccato.jpg> .
+
+ex:Toko_DeliparkMall_Charles_and_Keith rdf:type ex:Toko ;
+    ex:namaToko "Charles & Keith" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299a2b693f_Charles-&-Keith.jpg> .
+
+ex:Toko_DeliparkMall_Clarks rdf:type ex:Toko ;
+    ex:namaToko "Clarks" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699299807fc14_Clarks.jpg> .
+
+ex:Toko_DeliparkMall_My_Feet rdf:type ex:Toko ;
+    ex:namaToko "My Feet" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929972be780_myfeet.jpg> .
+
+ex:Toko_DeliparkMall_Lego rdf:type ex:Toko ;
+    ex:namaToko "Lego" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992996541004_LEGO.jpg> .
+
+ex:Toko_DeliparkMall_Golf_House rdf:type ex:Toko ;
+    ex:namaToko "Golf House" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear, Golf" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992995acd36b_Golf-House.jpg> .
+
+ex:Toko_DeliparkMall_Aldo_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Aldo Accessories" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69b3d0e2261ed_ALDO-Accessories.jpg> .
+
+ex:Toko_DeliparkMall_Max_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Max Fashion" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295d161e5f_Max-Fashion.jpg> .
+
+ex:Toko_DeliparkMall_Kok_Tong rdf:type ex:Toko ;
+    ex:namaToko "Kok Tong" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food, Dimsum" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295db63526_Kok-Tong.jpg> .
+
+ex:Toko_DeliparkMall_The_Coffee_Crowd rdf:type ex:Toko ;
+    ex:namaToko "The Coffee Crowd" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295e96ef2a_THE-COFFEE-CROWD.jpg> .
+
+ex:Toko_DeliparkMall_Doffee_Dough_and_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Doffee Dough & Coffee" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Coffee" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295f4ddbb5_DOFFEE.jpg> .
+
+ex:Toko_DeliparkMall_The_Chicken_Holic rdf:type ex:Toko ;
+    ex:namaToko "The Chicken Holic" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Fast Food, Chicken" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699296016598e_THE-CHICKEN-HOLIC.jpg> .
+
+ex:Toko_DeliparkMall_Marks_and_Spencer rdf:type ex:Toko ;
+    ex:namaToko "Marks & Spencer" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295b873790_Marks-&-Spencer.jpg> .
+
+ex:Toko_DeliparkMall_Levi_s rdf:type ex:Toko ;
+    ex:namaToko "Levi's" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Jeans" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992960c4b94b_Levi's.jpg> .
+
+ex:Toko_DeliparkMall_Swatch rdf:type ex:Toko ;
+    ex:namaToko "Swatch" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Watch" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295aa5b0ea_Swatch.jpg> .
+
+ex:Toko_DeliparkMall_Samsonite rdf:type ex:Toko ;
+    ex:namaToko "Samsonite" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Travel, Bags" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992959f454aa_Samsonite.jpg> .
+
+ex:Toko_DeliparkMall_Guess_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Guess Accessories" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929593821d4_GUESS-ACCESSORIES.jpg> .
+
+ex:Toko_DeliparkMall_MLB rdf:type ex:Toko ;
+    ex:namaToko "MLB" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Headwear" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929587330eb_MLB.jpg> .
+
+ex:Toko_DeliparkMall_Giordano_Ladies rdf:type ex:Toko ;
+    ex:namaToko "Giordano Ladies" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295645fb56_Giordano-Ladies.jpg> .
+
+ex:Toko_DeliparkMall_Pomelo rdf:type ex:Toko ;
+    ex:namaToko "Pomelo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992955a8a172_Pomelo.jpg> .
+
+ex:Toko_DeliparkMall_Flying_Tiger rdf:type ex:Toko ;
+    ex:namaToko "Flying Tiger" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Retail, Variety Store, Decorations" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992954e70aa8_Flying-Tiger.jpg> .
+
+ex:Toko_DeliparkMall_American_Tourister rdf:type ex:Toko ;
+    ex:namaToko "American Tourister" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Travel, Bags" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6992954140611_American-Tourister.jpg> .
+
+ex:Toko_DeliparkMall_Cotton_On rdf:type ex:Toko ;
+    ex:namaToko "Cotton On" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699295359b840_Cotton-On.jpg> .
+
+ex:Toko_DeliparkMall_Diamond_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Diamond & Co." ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69929528b6fc1_DIAMOND-&-Co.jpg> .
+
+ex:Toko_DeliparkMall_Haidilao_Huoguo rdf:type ex:Toko ;
+    ex:namaToko "Haidilao Huoguo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food, Hot Pot" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69901c3bc6690_SQUARE-WEB-LOGO.jpg> .
+
+ex:Toko_DeliparkMall_Adidas_Original rdf:type ex:Toko ;
+    ex:namaToko "Adidas Original" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990211a06ea6_ADIDAS-ORIGINAL.jpg> .
+
+ex:Toko_DeliparkMall_Endorphins rdf:type ex:Toko ;
+    ex:namaToko "Endorphins" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Cake" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990210ea3641_ENDORPHINS.jpg> .
+
+ex:Toko_DeliparkMall_Excelso rdf:type ex:Toko ;
+    ex:namaToko "Excelso" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699021e893202_Excelso.jpg> .
+
+ex:Toko_DeliparkMall_ChaTraMue rdf:type ex:Toko ;
+    ex:namaToko "ChaTraMue" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Thai Tea" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6ab6368711a23_CHATRAMUE.jpg> .
+
+ex:Toko_DeliparkMall_Steak_Hotel_By_Holycow rdf:type ex:Toko ;
+    ex:namaToko "Steak Hotel By Holycow!" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Restaurant, Steak" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6ab9daea1e82b_HOLYCOW!.jpg> .
+
+ex:Toko_DeliparkMall_Xiang_Xiang_Hunan_Cuisine rdf:type ex:Toko ;
+    ex:namaToko "Xiang Xiang Hunan Cuisine" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6ac8c0fe08c1d_XIANG-XIANG.jpg> .
+
+ex:Toko_DeliparkMall_Sephora rdf:type ex:Toko ;
+    ex:namaToko "Sephora" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990224135d9d_Sephora.jpg> .
+
+ex:Toko_DeliparkMall_Lacoste rdf:type ex:Toko ;
+    ex:namaToko "Lacoste" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990222c0fbd7_LACOSTE.jpg> .
+
+ex:Toko_DeliparkMall_Omega rdf:type ex:Toko ;
+    ex:namaToko "Omega" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Watch" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902221dd98b_OMEGA.jpg> .
+
+ex:Toko_DeliparkMall_Adele rdf:type ex:Toko ;
+    ex:namaToko "Adele" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69dcc22a3e921_ADELLE.jpg> .
+
+ex:Toko_DeliparkMall_The_Palace rdf:type ex:Toko ;
+    ex:namaToko "The Palace" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990220fa6a06_The-Palace.jpg> .
+
+ex:Toko_DeliparkMall_Frank_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Frank & Co." ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990220633607_Frank-&-Co.jpg> .
+
+ex:Toko_DeliparkMall_Onitsuka_Tiger rdf:type ex:Toko ;
+    ex:namaToko "Onitsuka Tiger" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699021ce63a19_Onitsuka-Tiger.jpg> .
+
+ex:Toko_DeliparkMall_Victoria_Secret rdf:type ex:Toko ;
+    ex:namaToko "Victoria Secret" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Underwear" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699021a84faff_Victoria-Secret.jpg> .
+
+ex:Toko_DeliparkMall_Guess rdf:type ex:Toko ;
+    ex:namaToko "Guess" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990218156f29_GUESS-JEANS.jpg> .
+
+ex:Toko_DeliparkMall_Pull_and_Bear rdf:type ex:Toko ;
+    ex:namaToko "Pull & Bear" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902175bdf4d_PULL&BEAR.jpg> .
+
+ex:Toko_DeliparkMall_Tumi rdf:type ex:Toko ;
+    ex:namaToko "Tumi" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Travel, Bags" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902169925a0_Tumi.jpg> .
+
+ex:Toko_DeliparkMall_Mango rdf:type ex:Toko ;
+    ex:namaToko "Mango" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902160432b9_MANGO.jpg> .
+
+ex:Toko_DeliparkMall_Starbucks_Reserve rdf:type ex:Toko ;
+    ex:namaToko "Starbucks Reserve" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902157d16ce_Starbucks-Reserve.jpg> .
+
+ex:Toko_DeliparkMall_Pandora rdf:type ex:Toko ;
+    ex:namaToko "Pandora" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990214bbefa3_Pandora.jpg> .
+
+ex:Toko_DeliparkMall_Kate_Spade rdf:type ex:Toko ;
+    ex:namaToko "Kate Spade" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902140950e7_Kate-Spade.jpg> .
+
+ex:Toko_DeliparkMall_Coach rdf:type ex:Toko ;
+    ex:namaToko "Coach" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Bags & Accessories" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902136b34c1_COACH.jpg> .
+
+ex:Toko_DeliparkMall_Nespresso rdf:type ex:Toko ;
+    ex:namaToko "Nespresso" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990212e9cb37_NESPRESSO.jpg> .
+
+ex:Toko_DeliparkMall_Sociolla rdf:type ex:Toko ;
+    ex:namaToko "Sociolla" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990381b547a4_Sociolla.jpg> .
+
+ex:Toko_DeliparkMall_Sushi_Tei rdf:type ex:Toko ;
+    ex:namaToko "Sushi Tei" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Sushi" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990387dc0b15_SushiTei.jpg> .
+
+ex:Toko_DeliparkMall_Zap rdf:type ex:Toko ;
+    ex:namaToko "Zap" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Skincare Clinic" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038758948b_ZAP.jpg> .
+
+ex:Toko_DeliparkMall_Xiao_Mi rdf:type ex:Toko ;
+    ex:namaToko "Xiao Mi" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990386de8f56_Xiaomi.jpg> .
+
+ex:Toko_DeliparkMall_Blibli rdf:type ex:Toko ;
+    ex:namaToko "Blibli" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, E-commerce Store" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903863b215a_Blibli.jpg> .
+
+ex:Toko_DeliparkMall_Optik_Asean rdf:type ex:Toko ;
+    ex:namaToko "Optik Asean" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990385b7c1fd_OPTIK-ASEAN.jpg> .
+
+ex:Toko_DeliparkMall_Kie_Kie_Salon rdf:type ex:Toko ;
+    ex:namaToko "Kie Kie Salon" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038524b25b_Kie-Kie-Salon.jpg> .
+
+ex:Toko_DeliparkMall_Huawei rdf:type ex:Toko ;
+    ex:namaToko "Huawei" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903849b00e9_HUAWEI.jpg> .
+
+ex:Toko_DeliparkMall_Dji rdf:type ex:Toko ;
+    ex:namaToko "Dji" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Drone, Camera" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990383f61195_dji.jpg> .
+
+ex:Toko_DeliparkMall_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903835bf3fc_Samsung.jpg> .
+
+ex:Toko_DeliparkMall_Ibox rdf:type ex:Toko ;
+    ex:namaToko "Ibox" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Apple Products" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990382d52b40_iBox.jpg> .
+
+ex:Toko_DeliparkMall_Urban_Republic rdf:type ex:Toko ;
+    ex:namaToko "Urban Republic" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Gadget Store" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038dbd2681_URBAN-REPUBLIC.jpg> .
+
+ex:Toko_DeliparkMall_Osim rdf:type ex:Toko ;
+    ex:namaToko "Osim" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Massage Chairs" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038d2d8029_OSIM.jpg> .
+
+ex:Toko_DeliparkMall_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038cb3c4a2_ERAFONE.jpg> .
+
+ex:Toko_DeliparkMall_Funworld_Adventure rdf:type ex:Toko ;
+    ex:namaToko "Funworld Adventure" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Arcade, Family Entertainment Center" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038be84fa1_FUNWORLD-ADVENTURE.jpg> .
+
+ex:Toko_DeliparkMall_Oh_Some rdf:type ex:Toko ;
+    ex:namaToko "Oh! Some" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Retail, Variety Store, Arts & Crafts" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038b5b3822_OH!SOME.jpg> .
+
+ex:Toko_DeliparkMall_Asus rdf:type ex:Toko ;
+    ex:namaToko "Asus" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Computer & IT Store" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038adb4149_ASUS.jpg> .
+
+ex:Toko_DeliparkMall_Pink_Pick rdf:type ex:Toko ;
+    ex:namaToko "Pink Pick" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038a55999c_PINKPICK.jpg> .
+
+ex:Toko_DeliparkMall_Watson rdf:type ex:Toko ;
+    ex:namaToko "Watson" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990389acb775_Watsons.jpg> .
+
+ex:Toko_DeliparkMall_Oppo rdf:type ex:Toko ;
+    ex:namaToko "Oppo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903892ad5d4_OPPO.jpg> .
+
+ex:Toko_DeliparkMall_Erha_Ultimate rdf:type ex:Toko ;
+    ex:namaToko "Erha Ultimate" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Skincare Clinic" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990388ae1f81_ERHA-Ultimate.jpg> .
+
+ex:Toko_DeliparkMall_Digiplus rdf:type ex:Toko ;
+    ex:namaToko "Digiplus" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Gadget" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990392aa8ecd_Digiplus.jpg> .
+
+ex:Toko_DeliparkMall_Gyukaku rdf:type ex:Toko ;
+    ex:namaToko "Gyukaku" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Yakiniku" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903922ae02e_GYU-KAKU.jpg> .
+
+ex:Toko_DeliparkMall_Vfs_Global rdf:type ex:Toko ;
+    ex:namaToko "Vfs Global" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Services, Visa Application Center" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903a6deeb35_VFS-GLOBAL.jpg> .
+
+ex:Toko_DeliparkMall_Nelayan rdf:type ex:Toko ;
+    ex:namaToko "Nelayan" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Seafood, Indonesian Food" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69903911b07cb_Nelayan.jpg> .
+
+ex:Toko_DeliparkMall_Jete rdf:type ex:Toko ;
+    ex:namaToko "Jete" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Gadget Accessories" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699039099dbb1_JETE.jpg> .
+
+ex:Toko_DeliparkMall_Playworks rdf:type ex:Toko ;
+    ex:namaToko "Playworks" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Gadget Accessories" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6990390006d2f_PlayWorks.jpg> .
+
+ex:Toko_DeliparkMall_Ga_Ga rdf:type ex:Toko ;
+    ex:namaToko "Ga-Ga" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Restaurant" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038f827300_GAGA.jpg> .
+
+ex:Toko_DeliparkMall_Dairy_Queen rdf:type ex:Toko ;
+    ex:namaToko "Dairy Queen" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Dessert, Ice Cream" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038f068e52_Dairy-Queen.jpg> .
+
+ex:Toko_DeliparkMall_Kopi_Kenangan rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kenangan" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699038e73aaef_Kopi-Kenangan.jpg> .
+
+ex:Toko_DeliparkMall_Immigration_Lounge rdf:type ex:Toko ;
+    ex:namaToko "Immigration Lounge" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Services, Government Services" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69ca3b2f268f7_IMIGRASI.jpg> .
+
+ex:Toko_DeliparkMall_Sancha_Black rdf:type ex:Toko ;
+    ex:namaToko "Sancha Black" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Tea" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a7f1bca700e6_Sancha-Black.jpg> .
+
+ex:Toko_DeliparkMall_Mala_Jia_Hot_Wok rdf:type ex:Toko ;
+    ex:namaToko "Mala Jia Hot Wok" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food, Spicy" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6a41ec49c788e_Mala-Jia.jpg> .
+
+ex:Toko_DeliparkMall_Sanfu rdf:type ex:Toko ;
+    ex:namaToko "Sanfu" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Retail, Variety Store" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6ac31f701c3ae_SANFU.jpg> .
+
+ex:Toko_DeliparkMall_Warung_Leko rdf:type ex:Toko ;
+    ex:namaToko "Warung Leko" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "LM" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/6ad09319489cb_WARUNG-LEKO.jpg> .
+
+ex:Toko_DeliparkMall_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/699039e0536d2_Chatime.jpg> .
+
+ex:Toko_DeliparkMall_Sour_Sally rdf:type ex:Toko ;
+    ex:namaToko "Sour Sally" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Dessert, Frozen Yogurt" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902bd44c422_Sour-Sally.jpg> .
+
+ex:Toko_DeliparkMall_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Retail, Lifestyle Variety Store" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902bc99cfdd_MINISO.jpg> .
+
+ex:Toko_DeliparkMall_Burger_King rdf:type ex:Toko ;
+    ex:namaToko "Burger King" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Fast Food, Burger" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902bbfb781c_BURGER-KING.jpg> .
+
+ex:Toko_DeliparkMall_Marugame_Udon rdf:type ex:Toko ;
+    ex:namaToko "Marugame Udon" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Udon" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902bb7b969b_Marugame-Udon.jpg> .
+
+ex:Toko_DeliparkMall_Beard_Papa_s rdf:type ex:Toko ;
+    ex:namaToko "Beard Papa's" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Cream Puff" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902bab31699_beard-papa's.jpg> .
+
+ex:Toko_DeliparkMall_Fore rdf:type ex:Toko ;
+    ex:namaToko "Fore" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902ba1706ae_FORE.jpg> .
+
+ex:Toko_DeliparkMall_Go_Go_Curry rdf:type ex:Toko ;
+    ex:namaToko "Go!Go!Curry" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Curry" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b9639ddc_Go!Go!CURRY!.jpg> .
+
+ex:Toko_DeliparkMall_The_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Body Shop" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b8e00c3b_THE-BODY-SHOP.jpg> .
+
+ex:Toko_DeliparkMall_Texas_Chicken rdf:type ex:Toko ;
+    ex:namaToko "Texas Chicken" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Fast Food, Chicken" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b850c5fe_TEXAS-CHICKEN.jpg> .
+
+ex:Toko_DeliparkMall_Secret_Garden rdf:type ex:Toko ;
+    ex:namaToko "Secret Garden" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Perfume" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b7bad892_SECRET-GARDEN.jpg> .
+
+ex:Toko_DeliparkMall_Bath_and_Body_Works rdf:type ex:Toko ;
+    ex:namaToko "Bath & Body Works" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b739172e_BATH&BODY-WORKS.jpg> .
+
+ex:Toko_DeliparkMall_L_Occitane rdf:type ex:Toko ;
+    ex:namaToko "L'Occitane" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b6ab7d8b_L'Occitane.jpg> .
+
+ex:Toko_DeliparkMall_C_and_F rdf:type ex:Toko ;
+    ex:namaToko "C&F" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Perfume" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b623ede2_C&F.jpg> .
+
+ex:Toko_DeliparkMall_Ilucent_Aesthetic rdf:type ex:Toko ;
+    ex:namaToko "Ilucent Aesthetic" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Skincare Clinic" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b5aa7c6b_ILUCENT.jpg> .
+
+ex:Toko_DeliparkMall_Ataru rdf:type ex:Toko ;
+    ex:namaToko "Ataru" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b4d844d9_ATARU.jpg> .
+
+ex:Toko_DeliparkMall_Informa_Electronic rdf:type ex:Toko ;
+    ex:namaToko "Informa Electronic" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Electronics, Home Appliances" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b42d5914_informa-ELECTRONICS.jpg> .
+
+ex:Toko_DeliparkMall_Photoism rdf:type ex:Toko ;
+    ex:namaToko "Photoism" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Services, Photo Studio, Photobooth" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b329ef52_Photoism.jpg> .
+
+ex:Toko_DeliparkMall_FuniFun rdf:type ex:Toko ;
+    ex:namaToko "FuniFun!" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b26e89e2_FuniFun!.jpg> .
+
+ex:Toko_DeliparkMall_Paperclip rdf:type ex:Toko ;
+    ex:namaToko "Paperclip" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b1e27e0a_PAPERCLIP.jpg> .
+
+ex:Toko_DeliparkMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b14b6215_Guardian.jpg> .
+
+ex:Toko_DeliparkMall_Sensatia rdf:type ex:Toko ;
+    ex:namaToko "Sensatia" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b0a79708_Sensatia.jpg> .
+
+ex:Toko_DeliparkMall_Tous_les_Jours rdf:type ex:Toko ;
+    ex:namaToko "Tous les Jours" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Bakery, Cake" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902b0162e24_Tous-Les-Hours.jpg> .
+
+ex:Toko_DeliparkMall_Dz_Moon rdf:type ex:Toko ;
+    ex:namaToko "Dz Moon" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902af87bdf1_dzmoon.jpg> .
+
+ex:Toko_DeliparkMall_Steak_21_Buffet rdf:type ex:Toko ;
+    ex:namaToko "Steak 21 Buffet" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Restaurant, Steak" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69a53731586e8_Steak-21.jpg> .
+
+ex:Toko_DeliparkMall_Kimukatsu_Express rdf:type ex:Toko ;
+    ex:namaToko "Kimukatsu Express" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Katsu" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69ba1d38537d5_Kimukatsu.jpg> .
+
+ex:Toko_DeliparkMall_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Fast Food, Burger" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902ad64ebe8_A&W.jpg> .
+
+ex:Toko_DeliparkMall_Jigo_Ramen rdf:type ex:Toko ;
+    ex:namaToko "Jigo Ramen" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Ramen" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902accc9005_JIGO-RAMEN.jpg> .
+
+ex:Toko_DeliparkMall_Ichiban_Sushi rdf:type ex:Toko ;
+    ex:namaToko "Ichiban Sushi" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Sushi" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902ac3f286a_ICHIBAN-SUSHI.jpg> .
+
+ex:Toko_DeliparkMall_Dapur_Solo rdf:type ex:Toko ;
+    ex:namaToko "Dapur Solo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902abacd7c6_dapur-solo.jpg> .
+
+ex:Toko_DeliparkMall_Pepper_Lunch rdf:type ex:Toko ;
+    ex:namaToko "Pepper Lunch" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food, Teppanyaki" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902aa025e61_Pepper-Lunch.jpg> .
+
+ex:Toko_DeliparkMall_Xing_Fu_Tang rdf:type ex:Toko ;
+    ex:namaToko "Xing Fu Tang" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902a9510b3a_XING-FU-TANG.jpg> .
+
+ex:Toko_DeliparkMall_Jawara rdf:type ex:Toko ;
+    ex:namaToko "Jawara" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902a592f135_Jawara.jpg> .
+
+ex:Toko_DeliparkMall_Momoiro rdf:type ex:Toko ;
+    ex:namaToko "Momoiro" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902a47efeea_MOMOIRO.jpg> .
+
+ex:Toko_DeliparkMall_By_Aura rdf:type ex:Toko ;
+    ex:namaToko "By Aura" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Health & Beauty, Perfume" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902a3e86b88_by-AURA.jpg> .
+
+ex:Toko_DeliparkMall_Molly_Tea rdf:type ex:Toko ;
+    ex:namaToko "Molly Tea" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Beverage, Tea" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69902da29169a_MOLLY-TEA.jpg> .
+
+ex:Toko_DeliparkMall_Ai_Mei_Li rdf:type ex:Toko ;
+    ex:namaToko "Ai Mei Li" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "F&B, Chinese Food" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69f95c0a4e069_AI-MEI-LI.jpg> .
+
+ex:Toko_DeliparkMall_Cielo rdf:type ex:Toko ;
+    ex:namaToko "Cielo" ;
+    ex:beradaDiMall ex:Mall6 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://delipark.com/cms/upload/tenant/69d328c62183f_CIELO.jpg> .

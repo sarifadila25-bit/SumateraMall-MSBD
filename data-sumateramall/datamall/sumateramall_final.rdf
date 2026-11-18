@@ -1,0 +1,1704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://www.example.org/mall#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_bukittinggi">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Bukittinggi</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall68">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Lippo Plaza Lubuklinggau</ex:namaMall>
+    <ex:luas>25.942</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.lippomalls.com/mall/lippo-plaza-lubuklinggau"/>
+    <ex:berlokasiDi>Jalan Yos Sudarso No.31, Taba Jemekeh, Lubuk Linggau Timur I, Lubuk Linggau 31628</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_sumatera_selatan">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Sumatera Selatan</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_prabumulih"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_lahat"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_baturaja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall34">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Panam Square</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Living_World_Pekanbaru"/>
+    <ex:berlokasiDi>Jl. HR. Soebrantas No.61 A, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau 28294 </ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall5">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Yuki Simpang Raya</ex:namaMall>
+    <ex:luas>10.621</ex:luas>
+    <ex:jamBuka>10:00 - 22:00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/yukimedan?utm_source=ig_web_button_share_sheet&amp;obrf=ZDNlZDc0MzIxNw=="/>
+    <ex:berlokasiDi>Jl. Sisingamangaraja No.77, Kotamatsum III, Kec. Medan Kota, Kota Medan, Sumatera Utara 20212, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall103">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mega Mall Batam Centre</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.megamallbatam.com/"/>
+    <ex:berlokasiDi>Jl. Engku Putri No.1, Teluk Tering, Batam Kota, Batam</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall15">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Sun Plaza</ex:namaMall>
+    <ex:luas>107.373</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://lokasi.lippomalls.com/sun-plaza-shopping-mall-kec-medan-polonia-medan-557256/Home"/>
+    <ex:berlokasiDi>Jl. KH. Zainul Arifin No.7, Madras Hulu, Medan Polonia, Medan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+    <ex:memilikiToko rdf:resource="http://www.example.org/mall#Toko_starbucks"/>
+    <ex:memilikiToko rdf:resource="http://www.example.org/mall#Toko_uniqlo"/>
+    <ex:beradaDiKotaYangSama rdf:resource="http://www.example.org/mall#Mall84"/>
+    <ex:kategoriSerupa rdf:resource="http://www.example.org/mall#Mall84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall87">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Lucky Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10,00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Batam"/>
+    <ex:berlokasiDi>Jl. Imam Bonjol, Lubuk Baja Kota, Kepulauan Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall29">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Basko Grand Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>9</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.baskograndmall.com/"/>
+    <ex:berlokasiDi>Jl. Prof. Dr. Hamka No.2A, Air Tawar Timur, Padang Utara, Padang</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall30">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Rocky Plaza Payakumbuh</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/rockypayakumbuhplaza/"/>
+    <ex:berlokasiDi>Jl. Jend. Sudirman No.17, Labuh Baru, Payakumbuh Utara, Kota Payakumbuh, Sumatera Barat 26218, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_payakumbuh"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall42">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Citimall Dumai</ex:namaMall>
+    <ex:luas>23.215</ex:luas>
+    <ex:jamBuka></ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/citimall.dumai/"/>
+    <ex:berlokasiDi>Jl. Bukit Datuk, Bukit Datuk, Dumai Selatan, Dumai 28825</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_dumai"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_bandar_lampung">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Bandar Lampung</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall70"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall71"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall72"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall73"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall74"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall75"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall76"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall77"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall71">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Karang Indah Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/karangindahmall/"/>
+    <ex:berlokasiDi>Lampung</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#memilikiKategori">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Kategori"/>
+    <rdfs:label xml:lang="id">memilikiKategori</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall44">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mall Ciputra Seraya</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.malciputraseraya.com/"/>
+    <ex:berlokasiDi>Jl. Riau No.58, Kp. Baru, Kec. Senapelan, Kota Pekanbaru, Riau 28154</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall52">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Bencoolen Mall</ex:namaMall>
+    <ex:luas>52.000</ex:luas>
+    <ex:jamBuka>10:00 - 22:00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://bencoolenmall.com/"/>
+    <ex:berlokasiDi>Jl. Pariwisata No.1, Penurunan, Kec. Ratu Samban, Kota Bengkulu, Bengkulu</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bengkulu"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bengkulu"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#website">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:label xml:lang="id">website</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall75">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Lampung City Mall</ex:namaMall>
+    <ex:luas>26.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://lampungcitymall.co.id/"/>
+    <ex:berlokasiDi>Jl. Yos Sudarso No.80, Kelurahan Bumi Waras, Kecamatan Bumi Waras, Kota Bandar Lampung, Provinsi Lampung 35225</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_riau">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Riau</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_dumai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall95">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>One Batam Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/onebatammall"/>
+    <ex:berlokasiDi>Jl. Engku Putri Jl. Gurindam, Tlk. Tering, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall78">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Simpur Center</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Simpur_Center_Bandar_Lampung"/>
+    <ex:berlokasiDi>Lampung	Jl. Raden Intan No.32, Tanjung Karang, Enggal, Bandar Lampung 35111</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_batam">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Batam</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall83"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall85"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall86"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall87"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall89"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall90"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall91"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall92"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall93"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall94"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall95"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall96"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall97"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall98"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall99"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall103"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall104"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall106"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_banda_aceh">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Banda Aceh</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_aceh"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall1"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall2"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall79">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Pangkalpinang</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Bangka_Trade_Center"/>
+    <ex:berlokasiDi>Jl. Jendral Sudirman No.8, Taman Bunga, Gerunggang, Pangkalpinang 33123</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pangkal_pinang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bangka_belitung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall4">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>The Plaza Millenium</ex:namaMall>
+    <ex:luas>9.280,85</ex:luas>
+    <ex:jamBuka>10:00 - 22:00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://theplazamillennium.com/"/>
+    <ex:berlokasiDi>Jl. Kapten Muslim No.111, Dwi Kora, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20118</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall97">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Pollux Mall Batam Center</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://polluxmalls.com/shopping-malls/polluxmallbatam/"/>
+    <ex:berlokasiDi>Jalan Laksamana Bintan, Batam Centre, Batam, Kepulauan Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall66">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Citimall Prabumulih</ex:namaMall>
+    <ex:luas>16.597</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>2</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/citimall.prabumulih/"/>
+    <ex:berlokasiDi>Jl. Lingkar Timur, Gunung Ibul, Prabumulih Timur, Prabumulih 31113</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_prabumulih"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall13">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Medan Fair</ex:namaMall>
+    <ex:luas>113.988</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.lippomalls.com/mall/plaza-medan-fair"/>
+    <ex:berlokasiDi>Jl. Gatot Subroto No.30, Sekip, Medan Petisah, Medan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall22">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Damar Plaza</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>06.30 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/damarplaza/"/>
+    <ex:berlokasiDi>Jl. Damar, Olo, Kec. Padang Barat, kotapadang, sumatra barat, Indonesia.</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall102">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Citimall Baturaja</ex:namaMall>
+    <ex:luas>39.869</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>2</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/citimall.baturaja/"/>
+    <ex:berlokasiDi>Jl. Jenderal Ahmad Yani, Tanjung Baru, Baturaja Timur, Ogan Komering Ulu 32113</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_baturaja"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_pangkal_pinang">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Pangkal Pinang</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bangka_belitung"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall79"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall80"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall81"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall38">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mal SKA</ex:namaMall>
+    <ex:luas>26.026 </ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>8</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/malskapekanbaru/"/>
+    <ex:berlokasiDi>Jl. Soekarno-Hatta No.114, Delima, Binawidya, Pekanbaru</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall65">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>OPI Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://opimall.com/"/>
+    <ex:berlokasiDi>Jl. Gubernur H. A Bastari, Sungai Kedukan, Rambutan, Banyuasin 30967</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall37">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Bangkinang</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka></ex:jamBuka>
+    <ex:jumlahLantai></ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Living_World_Pekanbaru"/>
+    <ex:berlokasiDi>Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall21">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Sidimpuan City Walk</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>09.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/sidimpuancitywalk/?utm_source=ig_web_button_share_sheet"/>
+    <ex:berlokasiDi>Jalan Jenderal Sudirman Kayuombun North Sumatra</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang_sidempuan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_sumatera_barat">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Sumatera Barat</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_bukittinggi"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_payakumbuh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall96">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Park Avenue Mall</ex:namaMall>
+    <ex:luas>24.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/parkavenuemallbatam/"/>
+    <ex:berlokasiDi>Jl. Raja Alikelana, Belian, Batam Kota, Batam 29464</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_medan">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Medan</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall4"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall5"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall6"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall7"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall8"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall9"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall10"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall11"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall12"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall13"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall14"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall15"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall16"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall17"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall84"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall88"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_binjai">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Binjai</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall39">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mal Pekanbaru</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/malpekanbaru/"/>
+    <ex:berlokasiDi>Jl. Jenderal Sudirman No.123, Kota Tinggi, Pekanbaru Kota, Pekanbaru</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall60">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Palembang Indah Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 -22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://palembangindahmall.co.id/"/>
+    <ex:berlokasiDi>Jl. Letkol Iskandar No.18, 24 Ilir, Bukit Kecil, Palembang, Sumatera Selatan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall46">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mall Kapuk</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.00 -21.00</ex:jamBuka>
+    <ex:jumlahLantai>1</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/bazaarceriamallkapuk/"/>
+    <ex:berlokasiDi> Jl. M. Husni Thamrin No.18, Kota Jambi, Jambi, Indonesia, Pusat Kota Jambi, Jambi</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall92">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Living Plaza Batam</ex:namaMall>
+    <ex:luas>9.100</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Living_Plaza"/>
+    <ex:berlokasiDi>Jl. Jenderal Sudirman, Baloi Permai, Batam Kota, Batam 29431</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall81">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Puncak Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/puncakmall/"/>
+    <ex:berlokasiDi>Jl. Jendral Sudirman No.10F, Taman Sari , Gedung Nasional, Pangkal Pinang.</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pangkal_pinang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bangka_belitung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall6">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>DeliPark Mall</ex:namaMall>
+    <ex:luas>52,000 </ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>9</ex:jumlahLantai>
+    <ex:website rdf:resource="https://delipark.com/"/>
+    <ex:berlokasiDi>Jl. Putri Hijau Dalam No.1 Blok OPQ, Kesawan, Kec. Medan Bar., Kota Medan, Sumatera Utara 20111</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_lahat">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Lahat</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall63">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>PTC Mall Palembang</ex:namaMall>
+    <ex:luas>55.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="http://ptcmallpalembang.com/"/>
+    <ex:berlokasiDi>Jl. R. Sukamto No.8A, 8 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall47">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Permata Bungo Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.30 - 21.30</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Jambi"/>
+    <ex:berlokasiDi>Jl. Prof. Moh. Yamin No.18, Bungo Barat, Muaro Bungo, Jambi</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall77">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mal Kartini</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/malkartini_lampung/"/>
+    <ex:berlokasiDi>Jl. Kartini No. 49, Palapa Kec. Tj. Karang Pusat, Bandar Lampung 35116</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall10">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Medan Focal Point Mall</ex:namaMall>
+    <ex:luas>10562</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/medanfp/"/>
+    <ex:berlokasiDi>Jl. Arteri Ring Road, Asam Kumbang, Medan Selayang, Medan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall32">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Living World Pekanbaru</ex:namaMall>
+    <ex:luas>90.000</ex:luas>
+    <ex:jamBuka>10.00 -  22.00</ex:jamBuka>
+    <ex:jumlahLantai>7</ex:jumlahLantai>
+    <ex:website rdf:resource="https://pekanbaru.livingworld.co.id/"/>
+    <ex:berlokasiDi>Jl. Soekarno-Hatta, Tangkerang Barat, Marpoyan Damai, Pekanbaru</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall61">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Palembang Square</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>2</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Palembang_Square"/>
+    <ex:berlokasiDi>Jl. Angkatan 45, Lorok Pakjo, Ilir Barat I, Palembang</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_palembang">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Palembang</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall54"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall55"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall56"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall57"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall58"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall59"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall60"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall61"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall62"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall63"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall64"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall65"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall68"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_tanjung_pinang">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Tanjung Pinang</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall100"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall84">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Centre Point Medan</ex:namaMall>
+    <ex:luas>50.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>7</ex:jumlahLantai>
+    <ex:website rdf:resource="https://centrepoint.co.id/"/>
+    <ex:berlokasiDi>Jl. Jawa No.8, Gang Buntu, Medan Timur, Medan 20231</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall55">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Pasaraya JM Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10:00 - 21:00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://pasaraya-jm-plaza.com-spot.com/id/"/>
+    <ex:berlokasiDi>Jl. Letkol Iskandar No.578, 17 Ilir, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30114</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_jambi">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Jambi</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall26">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Living Plaza Padang</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Padang"/>
+    <ex:berlokasiDi>Jl. Damar No.57, Olo, Padang Barat, Padang 25117</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall24">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>SPR Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.30 - 22.00 </ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/sprplazapadang_/"/>
+    <ex:berlokasiDi>Jl. Moh. Yamin No.146, Kampung Jao, Padang Barat, Padang 25112</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall67">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Citimall Lahat</ex:namaMall>
+    <ex:luas>33.491</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/citimall.lahat/"/>
+    <ex:berlokasiDi>Jl. Lintas Utama Sumatera, Manggul, Lahat, Lahat 31419</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_lahat"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_sumatera_utara">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Sumatera Utara</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_binjai"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_pematang_siantar"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_padang_sidempuan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall14">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Ring Road City Walks</ex:namaMall>
+    <ex:luas>13.913</ex:luas>
+    <ex:jamBuka>11:00-22:00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.ringroadcitywalks.com/home/home.php"/>
+    <ex:berlokasiDi>Jl. Ring Road No.28, Sunggal, Medan Sunggal, Medan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall53">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mega Mall Bengkulu</ex:namaMall>
+    <ex:luas>18.384</ex:luas>
+    <ex:jamBuka>10.00-22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://megamallbengkulu.com/"/>
+    <ex:berlokasiDi>Jl. KZ Abidin II, Belakang Pondok, Ratu Samban, Bengkulu 38221</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bengkulu"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bengkulu"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall31">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Metro Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>08.30 - 21.30</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/metroplazapekanbaru/"/>
+    <ex:berlokasiDi>Jl. Harapan Raya No.201, Tengkerang Sel., Kec. Bukit Raya, Kota Pekanbaru, Riau, Pekanbaru 28126</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_aceh">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Aceh</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_banda_aceh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall20">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Anugerah Sidempuan</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>10.00 - 18.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/plazaanugrahsidimpuan?utm_source=ig_web_button_share_sheet&amp;obrf=ZDNlZDc0MzIxNw=="/>
+    <ex:berlokasiDi>Lantai 1, no.6, Plaza ATC, Wek II, Kec. Padangsidimpuan Utara, Kota Padang Sidempuan, Sumatera Utara 22711, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang_sidempuan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#kotaTerletakDiProvinsi">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Kota"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <rdfs:label xml:lang="id">kotaTerletakDiProvinsi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall7">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Hermes Place Polonia</ex:namaMall>
+    <ex:luas>33.552</ex:luas>
+    <ex:jamBuka>10.00 -22.00 </ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://alamat.co.id/mall/hermes-place-polonia-12211.html"/>
+    <ex:berlokasiDi>Jl. Mongonsidi No.45, Polonia, Medan Polonia, Medan 20157</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_jambi">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Jambi</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall45"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall46"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall47"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall48"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall49"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall50"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#namaProvinsi">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">namaProvinsi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall57">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Pagar Alam Square</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>08.00 - 17.00</ex:jamBuka>
+    <ex:jumlahLantai></ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Palembang"/>
+    <ex:berlokasiDi>Jalan Sersan Ali Aras Kampung Melati Sumatera Selatan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#provinsiMemilikiKota">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Kota"/>
+    <rdfs:label xml:lang="id">provinsiMemilikiKota</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall33">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>MTC Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>11.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/mtc_mall/"/>
+    <ex:berlokasiDi>Jl. Hr. Soebrantas KM 12, Pekanbaru 28295</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall100">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mal Tanjung Pinang</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>2</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Mall_Ramayana_Tanjung_Pinang"/>
+    <ex:berlokasiDi>Jl. Wiratno, Kampung Baru, Tanjung Pinang Barat, Tanjungpinang</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_tanjung_pinang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall94">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Nagoya Hill Shopping Mall</ex:namaMall>
+    <ex:luas>60.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://nagoyahill.co.id/"/>
+    <ex:berlokasiDi>Jl. Teuku Umar, Lubuk Baja Kota, Lubuk Baja, Batam</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#beradaDiProvinsi">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <rdfs:label xml:lang="id">beradaDiProvinsi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall98">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Bestari Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Bestari_Mall"/>
+    <ex:berlokasiDi>Jl. Teuku Umar, Tanjung Pinang Kota, Tanjungpinang Kota, Tanjungpinang 29111</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall43">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mandau City Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://mandaucitymall.id/"/>
+    <ex:berlokasiDi>Jl. Jenderal Sudirman No.Kav.102, Babussalam, Mandau, Bengkalis 28783</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall41">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Senapelan</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/plazasenapelan/"/>
+    <ex:berlokasiDi>Jl. Teuku Umar, Rintis, Kec. Lima Puluh, Kota Pekanbaru, Riau 28112, Pekanbaru 28112</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall89">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Batam City Square</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 -22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Batam_City_Square"/>
+    <ex:berlokasiDi> Jl. Bunga Raya, Batu Selicin, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall74">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Ciplaz Lampung</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Ciplaz_Mall_Lampung"/>
+    <ex:berlokasiDi>Lampung	Jl. ZA Pagar Alam, Rajabasa, Rajabasa, Bandar Lampung 35144</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_padang">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Padang</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall22"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall23"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall24"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall25"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall26"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall27"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall2">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Suzuya Mall Banda Aceh</ex:namaMall>
+    <ex:luas>10.621</ex:luas>
+    <ex:jamBuka>09.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.suzuyagroup.com/suzuya-mall-banda-aceh/"/>
+    <ex:berlokasiDi>Jl. Teuku Umar, Seutui, Banda Aceh, Aceh 23243, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_banda_aceh"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_aceh"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall62">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>PSX Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 -22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Palembang"/>
+    <ex:berlokasiDi>Jl. Angkatan 45 Jl. POM IX, Lorok Pakjo, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan 30137</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall35">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Citra Pekanbaru</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/plazacitrapku.official/"/>
+    <ex:berlokasiDi>Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#beradaDiLantai">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Toko"/>
+    <rdfs:label xml:lang="id">beradaDiLantai</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall91">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Grand Batam Mall</ex:namaMall>
+    <ex:luas>80.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.grandbatam.com/"/>
+    <ex:berlokasiDi>Jl. Pembangunan, Batu Selicin, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall73">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Central Plaza Lampung</ex:namaMall>
+    <ex:luas>18.916</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Central_Plaza_Lampung"/>
+    <ex:berlokasiDi>Jl. Kartini No.21, Durian Payung, Tanjung Karang Pusat, Bandar Lampung 35116</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall59">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Palembang Icon</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/palembangicon/"/>
+    <ex:berlokasiDi>Jl. POM IX, Lorok Pakjo, Ilir Barat I, Palembang</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall106">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Taman Raya Square</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Batam"/>
+    <ex:berlokasiDi>Jl. Taman Raya, Belian, Batam Kota, Riau Islands</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall69">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Internasional Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Internasional_Plaza?action=edit&amp;redlink=1"/>
+    <ex:berlokasiDi>Jalan Jendral Sudirman (Jalan Letnan Kolonel Iskandar), Palembang, Sumatera Selatan 30121, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall8">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Lippo Plaza Medan</ex:namaMall>
+    <ex:luas>52.601</ex:luas>
+    <ex:jamBuka>10.00 -21.30</ex:jamBuka>
+    <ex:jumlahLantai>15</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.lippomalls.com/mall/lippo-plaza-medan"/>
+    <ex:berlokasiDi>Jl. Imam Bonjol No.6, Suka Damai, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20112</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall11">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Medan Mall</ex:namaMall>
+    <ex:luas> 77.881</ex:luas>
+    <ex:jamBuka>10.00 - 20.30</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/medanmall?utm_source=ig_web_button_share_sheet&amp;exln=ZDNlZDc0MzIxNw=="/>
+    <ex:berlokasiDi>Jalan M. T. Haryono No.8, Pusat Pasar, Medan Kota, Medan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall76">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mal Boemi Kedaton</ex:namaMall>
+    <ex:luas>55,000</ex:luas>
+    <ex:jamBuka>10.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>5</ex:jumlahLantai>
+    <ex:website rdf:resource="http://mallboemikedaton.co.id/"/>
+    <ex:berlokasiDi>Jl. Teuku Umar-Sultan Agung No. 1, Kedaton, Kedaton, Bandar Lampung 35141</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#beradaDiKotaYangSama">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:label xml:lang="id">beradaDiKotaYangSama</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall105">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Sukaramai Trade Center</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.00 - 18.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/stc.pku/"/>
+    <ex:berlokasiDi>Lokasi: Jl. Jend. Sudirman No.1, Sukaramai, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau 28156</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall90">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Diamond City Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 21.30</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/DC_Mall"/>
+    <ex:berlokasiDi>Jl. Duyung, Batu Selicin, Lubuk Baja, Batam</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall28">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Bukittinggi</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>09.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/plaza.bkt/"/>
+    <ex:berlokasiDi>Jalan Ahmad Yani No. 1, Bukittinggi, Sumatera Barat 26113, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bukittinggi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall99">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Bintan Indah Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>07.00 - 17.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.bintan-resorts.com/place/bintan-indah-mall/"/>
+    <ex:berlokasiDi>Jl. Pos, Tanjungpinang, Kepulauan Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_prabumulih">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Prabumulih</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Toko">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="id">Toko</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall101">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Tanjungpinang City Center</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://posamalls.com/tcc/"/>
+    <ex:berlokasiDi>Jalan Aisyah Sulaiman, Sei Jang, Bukit Bestari, Tanjungpinang 29124</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_tanjung_pinang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_pekanbaru">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Pekanbaru</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall31"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall32"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall33"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall34"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall35"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall36"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall37"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall38"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall39"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall40"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall41"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall43"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall44"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall105"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall17">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Living Plaza Cemara Asri</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>10:00–22:00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Medan"/>
+    <ex:berlokasiDi>Jl. Cemara Asri Boulevard Raya, Medan Estate, Percut Sei Tuan, Deli Serdang 20371</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall51">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>WTC Batanghari</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai></ex:jumlahLantai>
+    <ex:website rdf:resource="https://mallwtcjambi.com/"/>
+    <ex:berlokasiDi>Jl. Sultan Thaha No. 17 Jambi 36123</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall56">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Pulau Mas Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Palembang"/>
+    <ex:berlokasiDi>Jl. Kolonel Atmo No.623, 17 Ilir, Kec. Ilir Tim. I, Kota Palembang, South Sumatra, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall19">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Siantar City Square</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/siantarcitysquare_official?utm_source=ig_web_button_share_sheet&amp;mdxt=ZDNlZDc0MzIxNw=="/>
+    <ex:berlokasiDi>Jl Rakutta Sembiring 88 21143 Nagapitu Sumatera Utara </ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pematang_siantar"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#jumlahLantai">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:label xml:lang="id">jumlahLantai</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_baturaja">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Baturaja</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall36">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>The Central Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/plazathecentral/"/>
+    <ex:berlokasiDi>Jl. Jend. Ahmad Yani No.42 A, Padang Bulan, Senapelan, Kota Pekanbaru, Riau 28156, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall104">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Nagoya Citywalk</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.facebook.com/NagoyaITCentre"/>
+    <ex:berlokasiDi>Komp. Bumi Indah 29434 Lubuk Baja Kota Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_pematang_siantar">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Pematang Siantar</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall50">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Lippo Plaza Jambi</ex:namaMall>
+    <ex:luas>18.900</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>2</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.lippomalls.com/mall/lippo-plaza-jambi"/>
+    <ex:berlokasiDi>Jl. Mayor Abdul Karta Wirana No.15, Budiman, Jambi Timur, Jambi 36145</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall83">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Avava Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://avavagroup.webflow.io/"/>
+    <ex:berlokasiDi>Jalan Duyung Lubuk Baja Kota Riau</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall9">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Manhattan Times Square</ex:namaMall>
+    <ex:luas>40,000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Manhattan_Times_Square"/>
+    <ex:berlokasiDi>Jl. Gatot Subroto No.217, Sei Sikambing B, Medan Sunggal, Medan 20122</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall64">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Social Market Citywalk</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/soma.citywalk/reels/"/>
+    <ex:berlokasiDi>Jl. Veteran No.999, 9 Ilir, Ilir Timur III, Palembang 30113</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall25">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Basko City Mall</ex:namaMall>
+    <ex:luas>25.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://baskocitymall.com/"/>
+    <ex:berlokasiDi>Jl. Padang Bypass, Kalumbuk, Kuranji, Padang 25155</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall80">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>BTC Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 00.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Bangka_Trade_Center"/>
+    <ex:berlokasiDi>Jl. Rusli Romli, Pasar Padi, Girimaya, Pangkalpinang 33142</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pangkal_pinang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bangka_belitung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall23">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>SJS Plaza Padang</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>12.00 - 20.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/sjsplaza"/>
+    <ex:berlokasiDi>Jl. Jhoni Anwar No.1, Ulak Karang Utara, Kec. Padang Utara, Sumatera Barat</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="id">Kota</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall1">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Aceh</ex:namaMall>
+    <ex:luas>10.621</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.lippomalls.com/mall/plaza-aceh"/>
+    <ex:berlokasiDi>Jl. T. Hasan Dek, Beurawe, Kuta Alam, Banda Aceh 23124</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_banda_aceh"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_aceh"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_bengkulu">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Bengkulu</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_bengkulu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="id">Provinsi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall82">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Puncak Plaza</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Bangka_Trade_Center"/>
+    <ex:berlokasiDi>Jl. Depati Hamzah No.150, Bacang, Kec. Bukitintan, Kepulauan Bangka Belitung</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pangkal_pinang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bangka_belitung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_bangka_belitung">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Bangka Belitung</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_pangkal_pinang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#ratingToko">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:label xml:lang="id">ratingToko</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall12">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Palladium Mall</ex:namaMall>
+    <ex:luas>29.272</ex:luas>
+    <ex:jamBuka>10.00-20.00</ex:jamBuka>
+    <ex:jumlahLantai>7</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/officialpalladiummall?utm_source=ig_web_button_share_sheet&amp;obrf=ZDNlZDc0MzIxNw=="/>
+    <ex:berlokasiDi>Jalan Kapten Maulana Lubis No 8 Medan, 20122 Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall48">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Jambi Town Square</ex:namaMall>
+    <ex:luas>42.880 </ex:luas>
+    <ex:jamBuka>09.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://jamtos.com/"/>
+    <ex:berlokasiDi>Jl. Kapt. A. Bakaruddin No.88, Simpang Tiga Sipin, Kota Baru, Jambi</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_padang_sidempuan">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Padang Sidempuan</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall20"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall93">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Mall Botania 2</ex:namaMall>
+    <ex:luas>30.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Mall_Botania_2"/>
+    <ex:berlokasiDi>Jl. Raja Alikelana, Belian, Batam Kota, Batam 29464</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall58">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Living Plaza Palembang</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/popular/living-plaza-palembang/"/>
+    <ex:berlokasiDi>Jl. Letkol Iskandar No.448, 24 Ilir, Bukit Kecil, Palembang 30134</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#namaKota">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Kota"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">namaKota</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall45">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Bagindo Plaza *UC</ex:namaMall>
+    <ex:luas>6,190</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>1</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Jambi"/>
+    <ex:berlokasiDi>Jalan Profesor M. Yamin SH Payo Lebar Jambi</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall27">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Andalas</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 21.00 </ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/plazaandalaspadang/"/>
+    <ex:berlokasiDi>Jl. Belakang Lintas No.2F, Olo, Padang Barat, Padang 25117</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_padang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#jamBuka">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">jamBuka</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_kepulauan_riau">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Kepulauan Riau</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_tanjung_pinang"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#berlokasiDi">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">berlokasiDi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall72">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Plaza Lotus</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>08.00 - 21.00</ex:jamBuka>
+    <ex:jumlahLantai>4</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Bandar_Lampung"/>
+    <ex:berlokasiDi>Jl. Raden Intan No.73, Enggal, Enggal, Bandar Lampung 35118</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_payakumbuh">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Payakumbuh</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_barat"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#kotaMemilikiMall">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Kota"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:label xml:lang="id">kotaMemilikiMall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_bengkulu">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Bengkulu</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_bengkulu"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall52"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall49">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Jambi Prima Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>08.30 - 21.45</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Jambi_Prima_Mall"/>
+    <ex:berlokasiDi>Jl. Jenderal Sudirman No.90, Talang Jauh, Jelutung, Jambi</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_jambi"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_jambi"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#memilikiToko">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Toko"/>
+    <rdfs:label xml:lang="id">memilikiToko</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall18">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Binjai Supermall</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/binjai.mall?utm_source=ig_web_button_share_sheet&amp;psln=ZDNlZDc0MzIxNw=="/>
+    <ex:berlokasiDi>Jl. Soekarno Hatta No.14, Timbang Langkat, Binjai Timur, Binjai 20732</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_binjai"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kategori_pusat_perbelanjaan">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kategori"/>
+    <ex:namaKategori>Pusat Perbelanjaan</ex:namaKategori>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall70">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Lippo Mall Lampung</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Bandar_Lampung"/>
+    <ex:berlokasiDi>Jl. Raden Intan No.88, Kel. Pelita, Kec Enggal, Kota Bandar Lampung - 35117</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_lampung"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall16">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Thamrin Plaza</ex:namaMall>
+    <ex:luas>0</ex:luas>
+    <ex:jamBuka>10.00 – 22.00</ex:jamBuka>
+    <ex:jumlahLantai>7</ex:jumlahLantai>
+    <ex:website rdf:resource="https://thamrinplaza.com/"/>
+    <ex:berlokasiDi>Jl. M.H Thamrin R No.75, Pandau Hulu I, Medan Kota, Sumatera Utara.</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall3">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Harun Mart</ex:namaMall>
+    <ex:luas>10.621</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>1</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.bing.com/search?q=harun+mart+aceh&amp;cvid=32b8ba40c865402b8138c73cb4259585&amp;gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQRRg5MgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBBFGD3SAQgyMTQ0ajBqOagCCLACAQ&amp;FORM=ANAB01&amp;PC=ASTS#&amp;shtp=GetUrl&amp;shid=44e50731-ae12-44e5-b7c9-7c4800d7dfa6"/>
+    <ex:berlokasiDi> Jalan Merdeka Timur Nomor 1, Keude Cunda, Kecamatan Muara Dua, Kota Lhokseumawe, Aceh</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_banda_aceh"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_aceh"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#namaMall">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">namaMall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kota_dumai">
+    <rdf:type rdf:resource="http://www.example.org/mall#Kota"/>
+    <ex:namaKota>Dumai</ex:namaKota>
+    <ex:kotaTerletakDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:kotaMemilikiMall rdf:resource="http://www.example.org/mall#Mall42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#luas">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">luas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall54">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Central Pavilion</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>06.30 - 22.30</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.instagram.com/centralpavilionpalembang/"/>
+    <ex:berlokasiDi>Jalan Rupit 1124 Kepandean Baru Sumatera Selatan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_palembang"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_selatan"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall86">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>K Square</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>3</ex:jumlahLantai>
+    <ex:website rdf:resource="https://ksquarebatam.com/"/>
+    <ex:berlokasiDi>Jl. Jenderal Sudirman No.25-35, Sukajadi, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall40">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Pekanbaru Xchange</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://pekanbaruxchange.com/"/>
+    <ex:berlokasiDi>Jl. Riau No.147, Padang Terubuk, Senapelan, Pekanbaru 28155</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_pekanbaru"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Toko_starbucks">
+    <rdf:type rdf:resource="http://www.example.org/mall#Toko"/>
+    <ex:namaToko>Starbucks Coffee</ex:namaToko>
+    <ex:ratingToko rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</ex:ratingToko>
+    <ex:beradaDiLantai rdf:resource="http://www.example.org/mall#Toko_uniqlo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#namaKategori">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Kategori"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="id">namaKategori</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#kategoriSerupa">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:label xml:lang="id">kategoriSerupa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall85">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Bayfront Mall</ex:namaMall>
+    <ex:luas></ex:luas>
+    <ex:jamBuka>08.30 - 18.00</ex:jamBuka>
+    <ex:jumlahLantai>2</ex:jumlahLantai>
+    <ex:website rdf:resource="https://id.wikipedia.org/wiki/Kota_Batam"/>
+    <ex:berlokasiDi>Jl. Harbour Bay, Sungai Jodoh, Kec. Batu Ampar, Kota Batam, Kepulauan Riau 29453, Indonesia</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_batam"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_kepulauan_riau"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall88">
+    <rdf:type rdf:resource="http://www.example.org/mall#Mall"/>
+    <ex:namaMall>Cambridge City Square</ex:namaMall>
+    <ex:luas>48.000</ex:luas>
+    <ex:jamBuka>10.00 - 22.00</ex:jamBuka>
+    <ex:jumlahLantai>6</ex:jumlahLantai>
+    <ex:website rdf:resource="https://www.cambridge.co.id/web/mall/index.php"/>
+    <ex:berlokasiDi>Jl. S. Parman No.217, Petisah Tengah, Medan Petisah, Medan</ex:berlokasiDi>
+    <ex:beradaDiKota rdf:resource="http://www.example.org/mall#Kota_medan"/>
+    <ex:beradaDiProvinsi rdf:resource="http://www.example.org/mall#Provinsi_sumatera_utara"/>
+    <ex:memilikiKategori rdf:resource="http://www.example.org/mall#Kategori_pusat_perbelanjaan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Toko_uniqlo">
+    <rdf:type rdf:resource="http://www.example.org/mall#Toko"/>
+    <ex:namaToko>Uniqlo</ex:namaToko>
+    <ex:ratingToko rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</ex:ratingToko>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Mall">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="id">Mall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#beradaDiKota">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+    <rdfs:range rdf:resource="http://www.example.org/mall#Kota"/>
+    <rdfs:label xml:lang="id">beradaDiKota</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Provinsi_lampung">
+    <rdf:type rdf:resource="http://www.example.org/mall#Provinsi"/>
+    <ex:namaProvinsi>Lampung</ex:namaProvinsi>
+    <ex:provinsiMemilikiKota rdf:resource="http://www.example.org/mall#Kota_bandar_lampung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/mall#Kategori">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label xml:lang="id">Kategori</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

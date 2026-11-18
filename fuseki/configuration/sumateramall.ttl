@@ -1,0 +1,17 @@
+@prefix :        <#> .
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tdb:     <http://jena.hpl.hp.com/2008/tdb#> .
+
+[] rdf:type fuseki:Server ;
+   fuseki:services (<#sumateramall>) .
+
+<#sumateramall> rdf:type fuseki:Service ;
+    fuseki:name "sumateramall" ;
+    fuseki:serviceQuery "query" ;
+    fuseki:serviceUpdate "update" ;
+    fuseki:dataset [
+        rdf:type tdb:DatasetTDB ;
+        tdb:location "databases/sumateramall" ;
+        tdb:unionDefaultGraph true ;
+    ] .

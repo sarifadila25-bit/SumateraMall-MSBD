@@ -1,0 +1,1345 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_GrandBatam_TOKO_MAS_PARIS rdf:type ex:Toko ;
+    ex:namaToko "TOKO MAS PARIS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "LG 03A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2003A%20-%20TOKO%20MAS%20PARIS.png> .
+
+ex:Toko_GrandBatam_DIORA rdf:type ex:Toko ;
+    ex:namaToko "DIORA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Gift Shop" ;
+    ex:lokasiToko "LG 05A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2005A%20-%20DIORA.png> .
+
+ex:Toko_GrandBatam_DUCK_KITCHEN rdf:type ex:Toko ;
+    ex:namaToko "DUCK KITCHEN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 05B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2005B%20-%20DUCK%20KITCHEN.png> .
+
+ex:Toko_GrandBatam_GUARDIAN rdf:type ex:Toko ;
+    ex:namaToko "GUARDIAN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "LG 06 & 06 B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2006,%2006B%20-%20GUARDIAN.png> .
+
+ex:Toko_GrandBatam_DUTY_FREE rdf:type ex:Toko ;
+    ex:namaToko "DUTY FREE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 09A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%209A%20-%20DUTY%20FREE.png> .
+
+ex:Toko_GrandBatam_ORTHOLIFE rdf:type ex:Toko ;
+    ex:namaToko "ORTHOLIFE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "LG 09B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/WhatsApp_Image_2025-08-01_at_14_19_58_512f23ee.jpg> .
+
+ex:Toko_GrandBatam_AC_TIME rdf:type ex:Toko ;
+    ex:namaToko "AC TIME" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "LG 1" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2001%20-%20AC%20TIME.png> .
+
+ex:Toko_GrandBatam_CHALEAF rdf:type ex:Toko ;
+    ex:namaToko "CHALEAF" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 1" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2001%20-%20%20CHALEAF.png> .
+
+ex:Toko_GrandBatam_IXOBOX rdf:type ex:Toko ;
+    ex:namaToko "IXOBOX" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "LG 10" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2010%20-%20IXOBOX.png> .
+
+ex:Toko_GrandBatam_LOLY_POLY rdf:type ex:Toko ;
+    ex:namaToko "LOLY POLY" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "LG 11" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2011%20-%20LOLY%20POLY.png> .
+
+ex:Toko_GrandBatam_THE_BRA_HOUSE rdf:type ex:Toko ;
+    ex:namaToko "THE BRA HOUSE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "LG 11A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2011A%20-%20THE%20BRA%20HOUSE.png> .
+
+ex:Toko_GrandBatam_HAPPY_DENTAL_CLINIC rdf:type ex:Toko ;
+    ex:namaToko "HAPPY DENTAL CLINIC" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "LG 12" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2012%20-%20HAPPY%20DENTAL.png> .
+
+ex:Toko_GrandBatam_MARAMA rdf:type ex:Toko ;
+    ex:namaToko "MARAMA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "LG 12A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2012A%20-%20MARAMA.png> .
+
+ex:Toko_GrandBatam_OGURA rdf:type ex:Toko ;
+    ex:namaToko "OGURA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 13" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/review-batam-ogura-durian-di-pinang-paleo.jpg> .
+
+ex:Toko_GrandBatam_DAE_JANG_GEUM rdf:type ex:Toko ;
+    ex:namaToko "DAE JANG GEUM" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 13 & 13 B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2013,%2013B%20-%20DAE%20JANG%20GEUM.png> .
+
+ex:Toko_GrandBatam_BEAUTY_HAUL rdf:type ex:Toko ;
+    ex:namaToko "BEAUTY HAUL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "LG 13A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/BEAUTY_HAUL.png> .
+
+ex:Toko_GrandBatam_COFFEE_TOWN rdf:type ex:Toko ;
+    ex:namaToko "COFFEE TOWN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 14" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2014%20-%20COFFEE%20TOWN.png> .
+
+ex:Toko_GrandBatam_DING_TEA rdf:type ex:Toko ;
+    ex:namaToko "DING TEA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 14" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2014%20-%20DING%20TEA.png> .
+
+ex:Toko_GrandBatam_FUR_ELISE rdf:type ex:Toko ;
+    ex:namaToko "FUR ELISE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 15" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2012%20-%20FUR%20ELISE.png> .
+
+ex:Toko_GrandBatam_LIANG_SANDWICH rdf:type ex:Toko ;
+    ex:namaToko "LIANG SANDWICH" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 16" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2016%20-%20LIANG%20SANDWICH.png> .
+
+ex:Toko_GrandBatam_LIANG_TEH rdf:type ex:Toko ;
+    ex:namaToko "LIANG TEH" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 17" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2017%20-%20LIANG%20TEH.png> .
+
+ex:Toko_GrandBatam_LAMOIST rdf:type ex:Toko ;
+    ex:namaToko "LAMOIST" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 18" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2018%20-%20LAMOIST.png> .
+
+ex:Toko_GrandBatam_AMANDA_BROWNIES rdf:type ex:Toko ;
+    ex:namaToko "AMANDA BROWNIES" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 19" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2019%20-%20AMANDA%20BROWNIES.png> .
+
+ex:Toko_GrandBatam_2BAKERS rdf:type ex:Toko ;
+    ex:namaToko "2BAKERS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 2" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG_02_-_2_BAKER.png> .
+
+ex:Toko_GrandBatam_BOOST_JUICE rdf:type ex:Toko ;
+    ex:namaToko "BOOST JUICE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 2&3" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%202&3%20-%20BOOST.png> .
+
+ex:Toko_GrandBatam_ROTI_O rdf:type ex:Toko ;
+    ex:namaToko "ROTI O" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 20" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2020%20-%20ROTI%20O.png> .
+
+ex:Toko_GrandBatam_MALAYA_CAFE rdf:type ex:Toko ;
+    ex:namaToko "MALAYA CAFÉ" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 3" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Malaya-09.png> .
+
+ex:Toko_GrandBatam_GUAVA rdf:type ex:Toko ;
+    ex:namaToko "GUAVA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 3A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2003A%20-%20GUAVA.png> .
+
+ex:Toko_GrandBatam_CATARINA rdf:type ex:Toko ;
+    ex:namaToko "CATARINA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 5" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2005%20-%20CATARINA.png> .
+
+ex:Toko_GrandBatam_CUNGYEN_DESSERT rdf:type ex:Toko ;
+    ex:namaToko "CUNGYEN DESSERT" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 6&7" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2006,%2007%20-%20CUNGYEN%20DESSERT.png> .
+
+ex:Toko_GrandBatam_MARINE_FORCE rdf:type ex:Toko ;
+    ex:namaToko "MARINE FORCE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "LG 7" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2007%20-%20MARINE%20FORCE.png> .
+
+ex:Toko_GrandBatam_PANLANDWOO rdf:type ex:Toko ;
+    ex:namaToko "PANLANDWOO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "LG 8" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/4cf7e456d74ebe8775ec87796d78a96f.jpeg> .
+
+ex:Toko_GrandBatam_YANYAN_CAKE rdf:type ex:Toko ;
+    ex:namaToko "YANYAN CAKE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 8" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2008%20-%20YANYAN%20CAKE.png> .
+
+ex:Toko_GrandBatam_MONEY_CHANGER rdf:type ex:Toko ;
+    ex:namaToko "MONEY CHANGER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Services" ;
+    ex:lokasiToko "LG 9" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%2009%20-%20MONEY%20CHANGER.png> .
+
+ex:Toko_GrandBatam_NANS_KITCHEN rdf:type ex:Toko ;
+    ex:namaToko "NANS KITCHEN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG 9" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20ST%2009%20-%20NAN’S%20KITCHEN.png> .
+
+ex:Toko_GrandBatam_SUSHI_GO rdf:type ex:Toko ;
+    ex:namaToko "SUSHI GO!" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG L3-36" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/logo_sushigo!-02_(1).png> .
+
+ex:Toko_GrandBatam_TOP_100 rdf:type ex:Toko ;
+    ex:namaToko "TOP 100" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "LG LG" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/LG%20-%20TOP%20100.png> .
+
+ex:Toko_GrandBatam_TEAZZI rdf:type ex:Toko ;
+    ex:namaToko "TEAZZI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG LG ST-21" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Teazzi_Logo-01_(1).png> .
+
+ex:Toko_GrandBatam_BOS_ALPUKAT rdf:type ex:Toko ;
+    ex:namaToko "BOS ALPUKAT" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "LG ST - 11" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/bos_alpukat_new_logo-01.png> .
+
+ex:Toko_GrandBatam_HOOPS rdf:type ex:Toko ;
+    ex:namaToko "HOOPS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 05" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/hoops_logo.png> .
+
+ex:Toko_GrandBatam_UNIQLO rdf:type ex:Toko ;
+    ex:namaToko "UNIQLO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "GF 1" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/WhatsApp_Image_2026-10-30_at_11_22_521.jpeg> .
+
+ex:Toko_GrandBatam_MY_FEET rdf:type ex:Toko ;
+    ex:namaToko "MY FEET" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 10" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2010%20-%20MY%20FEET.png> .
+
+ex:Toko_GrandBatam_BIRKENSTOCK rdf:type ex:Toko ;
+    ex:namaToko "BIRKENSTOCK" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 11" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2011%20-%20BIRKEN%20STOCK.png> .
+
+ex:Toko_GrandBatam_OPTIK_SEIS rdf:type ex:Toko ;
+    ex:namaToko "OPTIK SEIS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "GF 12" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2012%20-%20OPTIK%20SEIS.png> .
+
+ex:Toko_GrandBatam_MARHEN_J rdf:type ex:Toko ;
+    ex:namaToko "MARHEN J" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 13" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2013%20-%20MARHEN%20J.png> .
+
+ex:Toko_GrandBatam_OPTIK_MELAWAI rdf:type ex:Toko ;
+    ex:namaToko "OPTIK MELAWAI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "GF 14" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2014%20-%20OPTIK%20MELAWAI.png> .
+
+ex:Toko_GrandBatam_LACOSTE rdf:type ex:Toko ;
+    ex:namaToko "LACOSTE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 15,16" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Lacoste_logo_svg.png> .
+
+ex:Toko_GrandBatam_SAMSONITE rdf:type ex:Toko ;
+    ex:namaToko "SAMSONITE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Home Living" ;
+    ex:lokasiToko "GF 17" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2017%20-%20SAMSONITE.png> .
+
+ex:Toko_GrandBatam_CROCS rdf:type ex:Toko ;
+    ex:namaToko "CROCS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 18" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2018,19%20-%20CROCS.png> .
+
+ex:Toko_GrandBatam_IBOX rdf:type ex:Toko ;
+    ex:namaToko "IBOX" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "GF 21" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2021%20-%20%20IBOX.png> .
+
+ex:Toko_GrandBatam_SAMSUNG rdf:type ex:Toko ;
+    ex:namaToko "SAMSUNG" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "GF 22" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2022%20-%20SAMSUNG.png> .
+
+ex:Toko_GrandBatam_ADIDAS rdf:type ex:Toko ;
+    ex:namaToko "ADIDAS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 23" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2023%20-%20ADIDAS.png> .
+
+ex:Toko_GrandBatam_SKECHERS rdf:type ex:Toko ;
+    ex:namaToko "SKECHERS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 24&25" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2024,%2025%20-%20SKECHERS.png> .
+
+ex:Toko_GrandBatam_FRANK_CO rdf:type ex:Toko ;
+    ex:namaToko "FRANK&CO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "GF 26" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2026%20-%20FRANK%20_%20CO.png> .
+
+ex:Toko_GrandBatam_SUSHI_TEI rdf:type ex:Toko ;
+    ex:namaToko "SUSHI TEI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 27" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2027B%20-%20SUSHI%20TEI.png> .
+
+ex:Toko_GrandBatam_KINTAN_SHABURI rdf:type ex:Toko ;
+    ex:namaToko "KINTAN SHABURI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 27A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2027A%20-%20KINTAN%20SHABURI.png> .
+
+ex:Toko_GrandBatam_WOOD_ETCETERA rdf:type ex:Toko ;
+    ex:namaToko "WOOD & ETCETERA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 28&29" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/woods_logo.png> .
+
+ex:Toko_GrandBatam_C_F rdf:type ex:Toko ;
+    ex:namaToko "C&F" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "GF 28A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2028A%20-%20C_F.png> .
+
+ex:Toko_GrandBatam_PIZZA_HUT rdf:type ex:Toko ;
+    ex:namaToko "PIZZA HUT" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 31" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2031%20-%20PIZZA%20HUT.png> .
+
+ex:Toko_GrandBatam_SATE_SENAYAN rdf:type ex:Toko ;
+    ex:namaToko "SATE SENAYAN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 32A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2032A%20-%20SATE%20KHAS%20SENAYAN.png> .
+
+ex:Toko_GrandBatam_SUSHI_HIRO rdf:type ex:Toko ;
+    ex:namaToko "SUSHI HIRO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 33" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Sushi_Hiro.jpg> .
+
+ex:Toko_GrandBatam_STARBUCKS rdf:type ex:Toko ;
+    ex:namaToko "STARBUCKS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 34&34A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2034%20-%20STARBUCKS.png> .
+
+ex:Toko_GrandBatam_KOI rdf:type ex:Toko ;
+    ex:namaToko "KOI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 35" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2035%20-%20KOI.png> .
+
+ex:Toko_GrandBatam_TOBY_S_ESTATE rdf:type ex:Toko ;
+    ex:namaToko "TOBY'S ESTATE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 35A&B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2035A,%2035B%20-%20TOBY’S%20ESTATE.png> .
+
+ex:Toko_GrandBatam_MARUGAME_UDON rdf:type ex:Toko ;
+    ex:namaToko "MARUGAME UDON" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF 36" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2036%20-%20MARUGAME%20UDON.png> .
+
+ex:Toko_GrandBatam_PUMA rdf:type ex:Toko ;
+    ex:namaToko "PUMA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 6" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2006%20-%20PUMA.png> .
+
+ex:Toko_GrandBatam_STEVE_MADDEN rdf:type ex:Toko ;
+    ex:namaToko "STEVE MADDEN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 6A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2006A%20-%20STEVE%20MADDEN.png> .
+
+ex:Toko_GrandBatam_EVB_TRACCE_ID rdf:type ex:Toko ;
+    ex:namaToko "EVB & TRACCE.ID" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 7" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2007%20-%20EVB%20_%20TRACCE.ID.png> .
+
+ex:Toko_GrandBatam_MELISSA_CLUBE rdf:type ex:Toko ;
+    ex:namaToko "MELISSA CLUBE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF 8" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2008%20-%20MELISSA.png> .
+
+ex:Toko_GrandBatam_THE_PALACE rdf:type ex:Toko ;
+    ex:namaToko "THE PALACE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "GF 9" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%2009%20-%20THE%20PALACE.png> .
+
+ex:Toko_GrandBatam_H_M rdf:type ex:Toko ;
+    ex:namaToko "H&M" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "GF A1" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/GF%20A1%20-%20H_M.png> .
+
+ex:Toko_GrandBatam_ASICS rdf:type ex:Toko ;
+    ex:namaToko "ASICS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF G - 20B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Asset_1.png> .
+
+ex:Toko_GrandBatam_TOUS_LES_JOURS rdf:type ex:Toko ;
+    ex:namaToko "TOUS LES JOURS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "GF G - ISL 01" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/WhatsApp_Image_2026-05-28_at_16_46_13.jpeg> .
+
+ex:Toko_GrandBatam_NEW_ERA rdf:type ex:Toko ;
+    ex:namaToko "NEW ERA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "GF G-20A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/WhatsApp_Image_2025-09-04_at_11_29_48_7e0e1b90.jpg> .
+
+ex:Toko_GrandBatam_GINO_MARIANI rdf:type ex:Toko ;
+    ex:namaToko "GINO MARIANI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 03A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Gino_Mariani_Logo_CMYK-_Full_Colour.png> .
+
+ex:Toko_GrandBatam_ZAXY_IPANEMA rdf:type ex:Toko ;
+    ex:namaToko "ZAXY IPANEMA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 10" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2010%20-%20ZAXY.png> .
+
+ex:Toko_GrandBatam_PAYLESS rdf:type ex:Toko ;
+    ex:namaToko "PAYLESS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 11" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2011%20-%20PAYLESS.png> .
+
+ex:Toko_GrandBatam_SPORT_STATION rdf:type ex:Toko ;
+    ex:namaToko "SPORT STATION" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 12" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2012%20-%20SPORT%20STATION.png> .
+
+ex:Toko_GrandBatam_THE_BODY_SHOP rdf:type ex:Toko ;
+    ex:namaToko "THE BODY SHOP" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L1 15" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2015%20-%20THE%20BODY%20SHOP.png> .
+
+ex:Toko_GrandBatam_PLANET_GOLD rdf:type ex:Toko ;
+    ex:namaToko "PLANET GOLD" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L1 16" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2016%20-%20PLANET%20GOLD.png> .
+
+ex:Toko_GrandBatam_DC_BY_NC rdf:type ex:Toko ;
+    ex:namaToko "DC BY NC" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 17" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2017%20-%20D_C.png> .
+
+ex:Toko_GrandBatam_HAVAIANAS rdf:type ex:Toko ;
+    ex:namaToko "HAVAIANAS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 18A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2018A%20-%20HAVAIANAS.png> .
+
+ex:Toko_GrandBatam_PROJECT_SOUL rdf:type ex:Toko ;
+    ex:namaToko "PROJECT SOUL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 19" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/project_soul.jpg> .
+
+ex:Toko_GrandBatam_WACOAL rdf:type ex:Toko ;
+    ex:namaToko "WACOAL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 19A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2019A%20-%20WACOAL.png> .
+
+ex:Toko_GrandBatam_FIPPER rdf:type ex:Toko ;
+    ex:namaToko "FIPPER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 2" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2002%20-%20FIPPER.png> .
+
+ex:Toko_GrandBatam_SOCIOLLA rdf:type ex:Toko ;
+    ex:namaToko "SOCIOLLA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L1 20" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2020%20-%20SOCIOLLA.png> .
+
+ex:Toko_GrandBatam_MINISO rdf:type ex:Toko ;
+    ex:namaToko "MINISO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Gift Shop" ;
+    ex:lokasiToko "L1 21&22" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2021,22%20%20-%20MINISO.png> .
+
+ex:Toko_GrandBatam_ELC rdf:type ex:Toko ;
+    ex:namaToko "ELC" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "L1 23" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2023%20-%20ELC.png> .
+
+ex:Toko_GrandBatam_MOTHERCARE rdf:type ex:Toko ;
+    ex:namaToko "MOTHERCARE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "L1 24&25" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2024,%2025%20-%20MOTHER%20CARE.png> .
+
+ex:Toko_GrandBatam_KIDS_STATION rdf:type ex:Toko ;
+    ex:namaToko "KIDS STATION" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "L1 26&27" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2026,%2027%20-%20KIDS%20STATION.png> .
+
+ex:Toko_GrandBatam_THIS_IS_APRIL rdf:type ex:Toko ;
+    ex:namaToko "THIS IS APRIL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 28" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2028%20-%20THIS%20IS%20APRIL.png> .
+
+ex:Toko_GrandBatam_FLYING_TIGER rdf:type ex:Toko ;
+    ex:namaToko "FLYING TIGER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L1 29" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/Small_flying_tiger_copenhagen_Tall_Black_RGB.png> .
+
+ex:Toko_GrandBatam_NEW_BALANCE rdf:type ex:Toko ;
+    ex:namaToko "NEW BALANCE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 29A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2029A%20-%20NEW%20BALANCE.png> .
+
+ex:Toko_GrandBatam_LEVI_S rdf:type ex:Toko ;
+    ex:namaToko "LEVI'S" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 3" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2003%20-%20LEVIS.png> .
+
+ex:Toko_GrandBatam_NALURI rdf:type ex:Toko ;
+    ex:namaToko "NALURI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L1 30&31" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2030,31%20-%20NALURI.png> .
+
+ex:Toko_GrandBatam_DR_SPEC rdf:type ex:Toko ;
+    ex:namaToko "DR SPEC" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L1 32&33" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2032,33%20-%20DR%20SPEC.png> .
+
+ex:Toko_GrandBatam_WRANGLER rdf:type ex:Toko ;
+    ex:namaToko "WRANGLER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 34" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2034%20-%20WRANGLER.png> .
+
+ex:Toko_GrandBatam_MINIMAL rdf:type ex:Toko ;
+    ex:namaToko "MINIMAL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 34A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2034A%20-%20MINIMAL.png> .
+
+ex:Toko_GrandBatam_COLORBOX rdf:type ex:Toko ;
+    ex:namaToko "COLORBOX" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 35" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2035,36,37%20-%20COLORBOX.png> .
+
+ex:Toko_GrandBatam_TRAVEL_XPERIENCE rdf:type ex:Toko ;
+    ex:namaToko "TRAVEL XPERIENCE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Home Living" ;
+    ex:lokasiToko "L1 4" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2004%20-%20TRAVEL%20XPERIENCE.png> .
+
+ex:Toko_GrandBatam_BATIK_KERIS rdf:type ex:Toko ;
+    ex:namaToko "BATIK KERIS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 5" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2020%20-%20BATIK%20KERIS.png> .
+
+ex:Toko_GrandBatam_MANZONE rdf:type ex:Toko ;
+    ex:namaToko "MANZONE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 6&7" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2006,%2007%20-%20MANZONE.png> .
+
+ex:Toko_GrandBatam_EXECUTIVE rdf:type ex:Toko ;
+    ex:namaToko "EXECUTIVE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 8&9" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2008,%2009%20-%20EXECUTIVE.png> .
+
+ex:Toko_GrandBatam_ROYAL_TIME rdf:type ex:Toko ;
+    ex:namaToko "ROYAL TIME" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L1 ST01" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%20ST%2001%20-%20ROYAL%20TIME.png> .
+
+ex:Toko_GrandBatam_SMIGGLE rdf:type ex:Toko ;
+    ex:namaToko "SMIGGLE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L1 ST02" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/smiggle.png> .
+
+ex:Toko_GrandBatam_MAKE_OVER rdf:type ex:Toko ;
+    ex:namaToko "MAKE OVER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L1 ST03" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%20ST03%20-%20MAKE%20OVER.png> .
+
+ex:Toko_GrandBatam_HAI_DI_LAO rdf:type ex:Toko ;
+    ex:namaToko "HAI DI LAO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L2 01-02-03" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/hai_di_lao.png> .
+
+ex:Toko_GrandBatam_BLIBLI rdf:type ex:Toko ;
+    ex:namaToko "BLIBLI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "L2 10" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2010%20-%20BLIBLI.png> .
+
+ex:Toko_GrandBatam_SIR_BARBERSHOP rdf:type ex:Toko ;
+    ex:namaToko "SIR BARBERSHOP" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 11A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2011A%20-%20SIR%20SALON.png> .
+
+ex:Toko_GrandBatam_SAMMAO rdf:type ex:Toko ;
+    ex:namaToko "SAMMAO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 11B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2011B%20-%20SAMMAO.png> .
+
+ex:Toko_GrandBatam_FERENSSA rdf:type ex:Toko ;
+    ex:namaToko "FERENSSA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 12" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2012%20-%20FARENSSA.png> .
+
+ex:Toko_GrandBatam_MINOSHE rdf:type ex:Toko ;
+    ex:namaToko "MINOSHE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 12A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2012A%20-%20MINOSHE.png> .
+
+ex:Toko_GrandBatam_VITA_COLLECTION rdf:type ex:Toko ;
+    ex:namaToko "VITA COLLECTION" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "L2 13" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2013%20-%20VITA%20COLLECTION.png> .
+
+ex:Toko_GrandBatam_HONG_TANG rdf:type ex:Toko ;
+    ex:namaToko "HONG TANG" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L2 14A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2014A%20-%20HONG%20TANG.png> .
+
+ex:Toko_GrandBatam_BD_NAIL rdf:type ex:Toko ;
+    ex:namaToko "BD NAIL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 14B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2014B%20-%20BD%20NAILS.png> .
+
+ex:Toko_GrandBatam_ZAP rdf:type ex:Toko ;
+    ex:namaToko "ZAP" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 16" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/zap.png> .
+
+ex:Toko_GrandBatam_MOREIS_BOUTIQUE rdf:type ex:Toko ;
+    ex:namaToko "MOREIS BOUTIQUE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 17A&17" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2017%20-%20MOREIS%20BOUTIQUE.png> .
+
+ex:Toko_GrandBatam_JOSE_DAROCA rdf:type ex:Toko ;
+    ex:namaToko "JOSE DAROCA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 18" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2018,%2019%20-%20JOSE%20DAROCA.png> .
+
+ex:Toko_GrandBatam_DCARNEG rdf:type ex:Toko ;
+    ex:namaToko "DCARNEG" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 24" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2024%20-%20D’CARNEG.png> .
+
+ex:Toko_GrandBatam_COCO_FASHION rdf:type ex:Toko ;
+    ex:namaToko "COCO FASHION" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 24B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2_24B_-_COCO_Boutique.png> .
+
+ex:Toko_GrandBatam_SHANATOVA rdf:type ex:Toko ;
+    ex:namaToko "SHANATOVA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 25" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2025%20-%20SHANATOVA.png> .
+
+ex:Toko_GrandBatam_APINK rdf:type ex:Toko ;
+    ex:namaToko "APINK" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L2 26" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2026%20-%20APINK.png> .
+
+ex:Toko_GrandBatam_FAMOUS rdf:type ex:Toko ;
+    ex:namaToko "FAMOUS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "L2 27" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2027%20-%20FAMOUS.png> .
+
+ex:Toko_GrandBatam_CHRISTOPHER_SALON rdf:type ex:Toko ;
+    ex:namaToko "CHRISTOPHER SALON" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 28" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2028%20-%20CHRISTOPER.png> .
+
+ex:Toko_GrandBatam_OH_SOME rdf:type ex:Toko ;
+    ex:namaToko "OH SOME" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Gift Shop" ;
+    ex:lokasiToko "L2 29-32" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/unnamed.jpg> .
+
+ex:Toko_GrandBatam_EUDORA_EXT rdf:type ex:Toko ;
+    ex:namaToko "EUDORA EXT." ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 33A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2033A,%2033B%20-%20EUDORA.png> .
+
+ex:Toko_GrandBatam_KING_RABBIT rdf:type ex:Toko ;
+    ex:namaToko "KING RABBIT" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Home Living" ;
+    ex:lokasiToko "L2 34" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2034%20-%20KING%20RABBIT.png> .
+
+ex:Toko_GrandBatam_IQOS rdf:type ex:Toko ;
+    ex:namaToko "IQOS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 35" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2035%20-%20IQOS.png> .
+
+ex:Toko_GrandBatam_ALANNA_CO rdf:type ex:Toko ;
+    ex:namaToko "ALANNA&CO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 36" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2036%20-%20ALANNA%20_%20CO.png> .
+
+ex:Toko_GrandBatam_KONAD_NAILS rdf:type ex:Toko ;
+    ex:namaToko "KONAD NAILS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 37" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2037%20-%20KONAD%20NAILS.png> .
+
+ex:Toko_GrandBatam_OOPPA rdf:type ex:Toko ;
+    ex:namaToko "OOPPA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L2 38" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2038%20-%20OPPA.png> .
+
+ex:Toko_GrandBatam_G_TIME rdf:type ex:Toko ;
+    ex:namaToko "G-TIME" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L2 38A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2_38A_-_G-TIME.jpg> .
+
+ex:Toko_GrandBatam_HUAWEI rdf:type ex:Toko ;
+    ex:namaToko "HUAWEI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "L2 38B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/huawei-logo-huawei-icon-free-free-vector.jpg> .
+
+ex:Toko_GrandBatam_ERAFONE rdf:type ex:Toko ;
+    ex:namaToko "ERAFONE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "L2 39" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2039%20-%20ERAFONE.png> .
+
+ex:Toko_GrandBatam_SUMMER rdf:type ex:Toko ;
+    ex:namaToko "SUMMER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 3A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L1%2003A%20-%20SUMMER.png> .
+
+ex:Toko_GrandBatam_PHOTOISM rdf:type ex:Toko ;
+    ex:namaToko "PHOTOISM" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Gift Shop" ;
+    ex:lokasiToko "L2 4" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2004%20-%20PHOTOISM.jpg> .
+
+ex:Toko_GrandBatam_FONEL rdf:type ex:Toko ;
+    ex:namaToko "FONEL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Electronic" ;
+    ex:lokasiToko "L2 40" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2040-%20FONEL.jpg> .
+
+ex:Toko_GrandBatam_REBORN_MASSAGE rdf:type ex:Toko ;
+    ex:namaToko "REBORN MASSAGE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 41" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2040%20-%20REBORN%20MASSAGE.png> .
+
+ex:Toko_GrandBatam_WATSONS rdf:type ex:Toko ;
+    ex:namaToko "WATSONS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Beauty Health" ;
+    ex:lokasiToko "L2 42, 43" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2042&43%20-%20WATSONS.jpeg> .
+
+ex:Toko_GrandBatam_7CUBA rdf:type ex:Toko ;
+    ex:namaToko "7CUBA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 5" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%205%20-%207%20CUBA.png> .
+
+ex:Toko_GrandBatam_BOHOPANNA rdf:type ex:Toko ;
+    ex:namaToko "BOHOPANNA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "L2 6" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2006%20-%20BOHOPANNA.png> .
+
+ex:Toko_GrandBatam_FUTUREMEN rdf:type ex:Toko ;
+    ex:namaToko "FUTUREMEN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 7" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%207%20-%20FUTURE%20MAN.png> .
+
+ex:Toko_GrandBatam_GRAPARI_TELKOMSEL rdf:type ex:Toko ;
+    ex:namaToko "GRAPARI TELKOMSEL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Services" ;
+    ex:lokasiToko "L2 8" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2008%20-%20TELKOMSEL%20GRAPARI.png> .
+
+ex:Toko_GrandBatam_MANDIRI_DIGI_BOX rdf:type ex:Toko ;
+    ex:namaToko "MANDIRI DIGI BOX" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Services" ;
+    ex:lokasiToko "L2 9" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2009%20-%20MANDIRI%20DIGITAL%20BOX.png> .
+
+ex:Toko_GrandBatam_GRAMEDIA rdf:type ex:Toko ;
+    ex:namaToko "GRAMEDIA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "L2 A1,44" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%20A1%20-%20GRAMEDIA.png> .
+
+ex:Toko_GrandBatam_INFORMA rdf:type ex:Toko ;
+    ex:namaToko "INFORMA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "L2 A2" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%20A2%20-%20INFORMA.png> .
+
+ex:Toko_GrandBatam_RELX rdf:type ex:Toko ;
+    ex:namaToko "RELX" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Lifestyle Fashion" ;
+    ex:lokasiToko "L2 ST01" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%20ST%2001%20-%20RELX.png> .
+
+ex:Toko_GrandBatam_MAJESTIC_FERRY rdf:type ex:Toko ;
+    ex:namaToko "MAJESTIC FERRY" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Services" ;
+    ex:lokasiToko "L2 ST02" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%20ST%2002%20-%20MAJESTIC%20FERRY.png> .
+
+ex:Toko_GrandBatam_GYU_KAKU rdf:type ex:Toko ;
+    ex:namaToko "GYU-KAKU" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 02,03A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/images.png> .
+
+ex:Toko_GrandBatam_YOSHINOYA rdf:type ex:Toko ;
+    ex:namaToko "YOSHINOYA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 1" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2001%20-%20YOSHINOYA.png> .
+
+ex:Toko_GrandBatam_YAKINIKU_LIKE rdf:type ex:Toko ;
+    ex:namaToko "YAKINIKU LIKE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 10&11" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2010&11%20-%20YAKINIKU%20LIKE.png> .
+
+ex:Toko_GrandBatam_OHAYOU rdf:type ex:Toko ;
+    ex:namaToko "OHAYOU" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 12" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2012%20-%20OHAYOU.png> .
+
+ex:Toko_GrandBatam_PEPPER_LUNCH rdf:type ex:Toko ;
+    ex:namaToko "PEPPER LUNCH" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 13&14" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2013,%2014%20-%20PEPPER%20LUNCH.png> .
+
+ex:Toko_GrandBatam_AYAM_PENYET_RIA rdf:type ex:Toko ;
+    ex:namaToko "AYAM PENYET RIA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 15&16" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2015,%2016%20-%20AYAM%20PENYET%20RIA.png> .
+
+ex:Toko_GrandBatam_THE_SMITH rdf:type ex:Toko ;
+    ex:namaToko "THE SMITH" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 17" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2017%20-%20THE%20SMITH.png> .
+
+ex:Toko_GrandBatam_BARESTO_CAFE rdf:type ex:Toko ;
+    ex:namaToko "BARESTO CAFÉ" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 18&19" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2018,%2019%20-%20BARESTO.png> .
+
+ex:Toko_GrandBatam_A_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 20&21" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2020,%2021%20-%20A_W.png> .
+
+ex:Toko_GrandBatam_RAMEN_TEN_10 rdf:type ex:Toko ;
+    ex:namaToko "RAMEN TEN 10" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 22" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2022%20-%20RAMEN%20TEN%2010.png> .
+
+ex:Toko_GrandBatam_PEMPEK_CITRA rdf:type ex:Toko ;
+    ex:namaToko "PEMPEK CITRA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 23&24" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2023,%2024%20-%20PEMPEK%20CITRA.png> .
+
+ex:Toko_GrandBatam_HOKBEN rdf:type ex:Toko ;
+    ex:namaToko "HOKBEN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 25" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2025%20-%20HOKBEN.png> .
+
+ex:Toko_GrandBatam_EBIGA rdf:type ex:Toko ;
+    ex:namaToko "EBIGA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 27" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2027%20-%20EBIGA%20JJAMPPONG.jpg> .
+
+ex:Toko_GrandBatam_THIRTY_BUMBU rdf:type ex:Toko ;
+    ex:namaToko "THIRTY BUMBU" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 28" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/THIRTY_BUMBU.png> .
+
+ex:Toko_GrandBatam_MAN_MAN_TANG rdf:type ex:Toko ;
+    ex:namaToko "MAN MAN TANG" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 29" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2029%20-%20MAN%20MAN%20TANG.png> .
+
+ex:Toko_GrandBatam_KIMUKATSU rdf:type ex:Toko ;
+    ex:namaToko "KIMUKATSU" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 3&4" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2003,%2004%20-%20KIMUKATSU.png> .
+
+ex:Toko_GrandBatam_IIAO_IIAO rdf:type ex:Toko ;
+    ex:namaToko "IIAO IIAO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 30" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2030%20-%20LLAO%20LLAO.png> .
+
+ex:Toko_GrandBatam_XING_FU_TANG rdf:type ex:Toko ;
+    ex:namaToko "XING FU TANG" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 31" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L2%2015%20-%20XING%20FU%20TANG.png> .
+
+ex:Toko_GrandBatam_MATCHA_SARO rdf:type ex:Toko ;
+    ex:namaToko "MATCHA SARO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 31A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3_31A_-_MATCHA_SARO.png> .
+
+ex:Toko_GrandBatam_MONTATO rdf:type ex:Toko ;
+    ex:namaToko "MONTATO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 32" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2032%20-%20MONTATO.png> .
+
+ex:Toko_GrandBatam_DAUN_PISANG_RESTO rdf:type ex:Toko ;
+    ex:namaToko "DAUN PISANG RESTO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 33&34" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2033,34%20-%20DAUN%20PISANG%20RESTO.png> .
+
+ex:Toko_GrandBatam_SOUR_SALLY rdf:type ex:Toko ;
+    ex:namaToko "SOUR SALLY" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 33A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2033A%20-%20SOUR%20SALLY.png> .
+
+ex:Toko_GrandBatam_CHIKURO rdf:type ex:Toko ;
+    ex:namaToko "CHIKURO" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 33B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2033B%20-%20CHIKURO.png> .
+
+ex:Toko_GrandBatam_PICK_CUP rdf:type ex:Toko ;
+    ex:namaToko "PICK CUP" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 34" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2034%20-%20PICK%20CUP.png> .
+
+ex:Toko_GrandBatam_4_FINGERS rdf:type ex:Toko ;
+    ex:namaToko "4 FINGERS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 37" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/ck3yb-logo.jpg> .
+
+ex:Toko_GrandBatam_PANTIES_PIZZA rdf:type ex:Toko ;
+    ex:namaToko "PANTIES PIZZA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 39" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2039%20-%20PANTIES%20PIZZA.png> .
+
+ex:Toko_GrandBatam_PENANG_CHENDUL rdf:type ex:Toko ;
+    ex:namaToko "PENANG CHENDUL" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 40" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2040%20-%20PENANG%20CHENDoL.png> .
+
+ex:Toko_GrandBatam_KIMI rdf:type ex:Toko ;
+    ex:namaToko "KIMI" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 40A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/IMG_6837.PNG> .
+
+ex:Toko_GrandBatam_KOPI_KENANGAN rdf:type ex:Toko ;
+    ex:namaToko "KOPI KENANGAN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 41" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2041%20-%20KOPI%20KENANGAN.png> .
+
+ex:Toko_GrandBatam_SANY_NOODLE_BAR rdf:type ex:Toko ;
+    ex:namaToko "SANY NOODLE BAR" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 42" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2042%20-%20SANY%20NOODLE.png> .
+
+ex:Toko_GrandBatam_HOLY_COW rdf:type ex:Toko ;
+    ex:namaToko "HOLY COW" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 5" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2005%20-%20HOLYCOW.png> .
+
+ex:Toko_GrandBatam_BAKSO_LAPANGAN_TEMBAK rdf:type ex:Toko ;
+    ex:namaToko "BAKSO LAPANGAN TEMBAK" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 5B" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2005B%20-%20BAKSO%20LAPANGAN%20TEMBAK.png> .
+
+ex:Toko_GrandBatam_4_RASA rdf:type ex:Toko ;
+    ex:namaToko "4 RASA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 6" .
+
+ex:Toko_GrandBatam_CAT_THE_FIDDLE rdf:type ex:Toko ;
+    ex:namaToko "CAT & THE FIDDLE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 8" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2008%20-%20CAT%20_%20THE%20FIDDLE.png> .
+
+ex:Toko_GrandBatam_SHARE_TEA rdf:type ex:Toko ;
+    ex:namaToko "SHARE TEA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 9" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2009%20-%20SHARETEA.png> .
+
+ex:Toko_GrandBatam_SHIHLIN rdf:type ex:Toko ;
+    ex:namaToko "SHIHLIN" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 9A" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%2009A%20-%20SHIHLIN.png> .
+
+ex:Toko_GrandBatam_FUNWORLD_FUNWORLDBOWLING rdf:type ex:Toko ;
+    ex:namaToko "FUNWORLD & FUNWORLDBOWLING" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "L3 A1 & A2" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20A4%20-%20FUNWORLD.png> .
+
+ex:Toko_GrandBatam_CGV_CINEMAS rdf:type ex:Toko ;
+    ex:namaToko "CGV CINEMAS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Anchor Big Tenant" ;
+    ex:lokasiToko "L3 A3" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20A3%20-%20CGV.png> .
+
+ex:Toko_GrandBatam_KIDZLANDIA rdf:type ex:Toko ;
+    ex:namaToko "KIDZLANDIA" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "L3 A4" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20A4%20-%20KIDZLANDIA.png> .
+
+ex:Toko_GrandBatam_PLAYWORKS rdf:type ex:Toko ;
+    ex:namaToko "PLAYWORKS" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Accessories" ;
+    ex:lokasiToko "L3 ISLAND 01" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20ST%2001%20-%20PLAYWORKS.png> .
+
+ex:Toko_GrandBatam_CREPE_SIGNATURE rdf:type ex:Toko ;
+    ex:namaToko "CREPE SIGNATURE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 ST01" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20ST%2001%20-%20CREPE%20SIGNATURE.png> .
+
+ex:Toko_GrandBatam_MIXUE rdf:type ex:Toko ;
+    ex:namaToko "MIXUE" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 ST02" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20ST%2002%20-%20%20MIXUE.png> .
+
+ex:Toko_GrandBatam_COTTON_CANDY rdf:type ex:Toko ;
+    ex:namaToko "COTTON CANDY" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 ST04" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20ST%2004%20-%20COTTON%20CANDY.png> .
+
+ex:Toko_GrandBatam_DEAR_BUTTER rdf:type ex:Toko ;
+    ex:namaToko "DEAR BUTTER" ;
+    ex:beradaDiMall ex:Mall76 ;
+    ex:kategoriToko "Food Beverages" ;
+    ex:lokasiToko "L3 ST05" ;
+    ex:logoURL <https://cms.grandbatam.com/images/tenant/L3%20ST%2005%20-%20DEAR%20BUTTER.png> .

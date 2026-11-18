@@ -1,0 +1,53 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PlazaMillenium_McDonalds rdf:type ex:Toko ;
+    ex:namaToko "McDonald's" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Burger" .
+
+ex:Toko_PlazaMillenium_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Ayam" .
+
+ex:Toko_PlazaMillenium_Hangry rdf:type ex:Toko ;
+    ex:namaToko "Hangry" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food, Restaurant" .
+
+ex:Toko_PlazaMillenium_Chicken_Holic rdf:type ex:Toko ;
+    ex:namaToko "Chicken Holic" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" .
+
+ex:Toko_PlazaMillenium_DPenyetz rdf:type ex:Toko ;
+    ex:namaToko "D'Penyetz" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Ayam" .
+
+ex:Toko_PlazaMillenium_Nasi_Campur_Ahan rdf:type ex:Toko ;
+    ex:namaToko "Nasi Campur Ahan" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Nasi Campur" .
+
+ex:Toko_PlazaMillenium_Beverage_King rdf:type ex:Toko ;
+    ex:namaToko "Beverage King" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Beverage, Minuman" .
+
+ex:Toko_PlazaMillenium_Xiexie_Boba rdf:type ex:Toko ;
+    ex:namaToko "Xiexie Boba" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Tea" .
+
+ex:Toko_PlazaMillenium_Merica_Food_Center rdf:type ex:Toko ;
+    ex:namaToko "Merica Food Center" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "F&B, Food Court, Various Foods, Live Music" ;
+    ex:deskripsiToko "Food court dengan berbagai gerai makanan dan hiburan live music di saat-saat tertentu" .
+
+ex:Toko_PlazaMillenium_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall4 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" .

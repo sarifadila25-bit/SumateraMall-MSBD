@@ -1,0 +1,27 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_CentralPlazaLampung_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall70 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "UG dan 1" .
+
+ex:Toko_CentralPlazaLampung_Funcity rdf:type ex:Toko ;
+    ex:namaToko "Funcity" ;
+    ex:beradaDiMall ex:Mall70 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_CentralPlazaLampung_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall70 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L3" ;
+    ex:deskripsiToko "Menyediakan 4 teater dengan kapasitas 680 kursi" .
+
+ex:Toko_CentralPlazaLampung_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall70 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:deskripsiToko "Sempat beroperasi di mal ini hingga tahun 2021" .

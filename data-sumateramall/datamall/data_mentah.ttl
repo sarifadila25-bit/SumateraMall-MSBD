@@ -1,0 +1,1062 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Mall1 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Aceh" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Banda Aceh" ;
+    ex:luas "10.621" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.lippomalls.com/mall/plaza-aceh> ;
+    ex:berlokasiDi "Jl. T. Hasan Dek, Beurawe, Kuta Alam, Banda Aceh 23124" .
+
+ex:Mall2 rdf:type ex:Mall ;
+    ex:namaMall "Suzuya Mall Banda Aceh" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Banda Aceh" ;
+    ex:luas "10.621" ;
+    ex:jamBuka "09.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.suzuyagroup.com/suzuya-mall-banda-aceh/> ;
+    ex:berlokasiDi "Jl. Teuku Umar, Seutui, Banda Aceh, Aceh 23243, Indonesia" .
+
+ex:Mall3 rdf:type ex:Mall ;
+    ex:namaMall "Harun Mart" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Banda Aceh" ;
+    ex:luas "10.621" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "1" ;
+    ex:website <https://www.bing.com/search?q=harun+mart+aceh&cvid=32b8ba40c865402b8138c73cb4259585&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQRRg5MgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBBFGD3SAQgyMTQ0ajBqOagCCLACAQ&FORM=ANAB01&PC=ASTS#&shtp=GetUrl&shid=44e50731-ae12-44e5-b7c9-7c4800d7dfa6> ;
+    ex:berlokasiDi " Jalan Merdeka Timur Nomor 1, Keude Cunda, Kecamatan Muara Dua, Kota Lhokseumawe, Aceh" .
+
+ex:Mall4 rdf:type ex:Mall ;
+    ex:namaMall "The Plaza Millenium" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "9.280,85" ;
+    ex:jamBuka "10:00 - 22:00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://theplazamillennium.com/> ;
+    ex:berlokasiDi "Jl. Kapten Muslim No.111, Dwi Kora, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20118" .
+
+ex:Mall5 rdf:type ex:Mall ;
+    ex:namaMall "Yuki Simpang Raya" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "10.621" ;
+    ex:jamBuka "10:00 - 22:00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/yukimedan?utm_source=ig_web_button_share_sheet&obrf=ZDNlZDc0MzIxNw==> ;
+    ex:berlokasiDi "Jl. Sisingamangaraja No.77, Kotamatsum III, Kec. Medan Kota, Kota Medan, Sumatera Utara 20212, Indonesia" .
+
+ex:Mall6 rdf:type ex:Mall ;
+    ex:namaMall "DeliPark Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "52,000 " ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "9" ;
+    ex:website <https://delipark.com/> ;
+    ex:berlokasiDi "Jl. Putri Hijau Dalam No.1 Blok OPQ, Kesawan, Kec. Medan Bar., Kota Medan, Sumatera Utara 20111" .
+
+ex:Mall7 rdf:type ex:Mall ;
+    ex:namaMall "Hermes Place Polonia" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "33.552" ;
+    ex:jamBuka "10.00 -22.00 " ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://alamat.co.id/mall/hermes-place-polonia-12211.html> ;
+    ex:berlokasiDi "Jl. Mongonsidi No.45, Polonia, Medan Polonia, Medan 20157" .
+
+ex:Mall8 rdf:type ex:Mall ;
+    ex:namaMall "Lippo Plaza Medan" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "52.601" ;
+    ex:jamBuka "10.00 -21.30" ;
+    ex:jumlahLantai "15" ;
+    ex:website <https://www.lippomalls.com/mall/lippo-plaza-medan> ;
+    ex:berlokasiDi "Jl. Imam Bonjol No.6, Suka Damai, Kec. Medan Polonia, Kota Medan, Sumatera Utara 20112" .
+
+ex:Mall9 rdf:type ex:Mall ;
+    ex:namaMall "Manhattan Times Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "40,000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://id.wikipedia.org/wiki/Manhattan_Times_Square> ;
+    ex:berlokasiDi "Jl. Gatot Subroto No.217, Sei Sikambing B, Medan Sunggal, Medan 20122" .
+
+ex:Mall10 rdf:type ex:Mall ;
+    ex:namaMall "Medan Focal Point Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "10562" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://www.instagram.com/medanfp/> ;
+    ex:berlokasiDi "Jl. Arteri Ring Road, Asam Kumbang, Medan Selayang, Medan" .
+
+ex:Mall11 rdf:type ex:Mall ;
+    ex:namaMall "Medan Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas " 77.881" ;
+    ex:jamBuka "10.00 - 20.30" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/medanmall?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==> ;
+    ex:berlokasiDi "Jalan M. T. Haryono No.8, Pusat Pasar, Medan Kota, Medan" .
+
+ex:Mall12 rdf:type ex:Mall ;
+    ex:namaMall "Palladium Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "29.272" ;
+    ex:jamBuka "10.00-20.00" ;
+    ex:jumlahLantai "7" ;
+    ex:website <https://www.instagram.com/officialpalladiummall?utm_source=ig_web_button_share_sheet&obrf=ZDNlZDc0MzIxNw==> ;
+    ex:berlokasiDi "Jalan Kapten Maulana Lubis No 8 Medan, 20122 Indonesia" .
+
+ex:Mall13 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Medan Fair" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "113.988" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.lippomalls.com/mall/plaza-medan-fair> ;
+    ex:berlokasiDi "Jl. Gatot Subroto No.30, Sekip, Medan Petisah, Medan" .
+
+ex:Mall14 rdf:type ex:Mall ;
+    ex:namaMall "Ring Road City Walks" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "13.913" ;
+    ex:jamBuka "11:00-22:00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.ringroadcitywalks.com/home/home.php> ;
+    ex:berlokasiDi "Jl. Ring Road No.28, Sunggal, Medan Sunggal, Medan" .
+
+ex:Mall15 rdf:type ex:Mall ;
+    ex:namaMall "Sun Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "107.373" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://lokasi.lippomalls.com/sun-plaza-shopping-mall-kec-medan-polonia-medan-557256/Home> ;
+    ex:berlokasiDi "Jl. KH. Zainul Arifin No.7, Madras Hulu, Medan Polonia, Medan" .
+
+ex:Mall16 rdf:type ex:Mall ;
+    ex:namaMall "Thamrin Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "0" ;
+    ex:jamBuka "10.00 – 22.00" ;
+    ex:jumlahLantai "7" ;
+    ex:website <https://thamrinplaza.com/> ;
+    ex:berlokasiDi "Jl. M.H Thamrin R No.75, Pandau Hulu I, Medan Kota, Sumatera Utara." .
+
+ex:Mall17 rdf:type ex:Mall ;
+    ex:namaMall "Living Plaza Cemara Asri" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "0" ;
+    ex:jamBuka "10:00–22:00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Medan> ;
+    ex:berlokasiDi "Jl. Cemara Asri Boulevard Raya, Medan Estate, Percut Sei Tuan, Deli Serdang 20371" .
+
+ex:Mall18 rdf:type ex:Mall ;
+    ex:namaMall "Binjai Supermall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Binjai" ;
+    ex:luas "0" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/binjai.mall?utm_source=ig_web_button_share_sheet&psln=ZDNlZDc0MzIxNw==> ;
+    ex:berlokasiDi "Jl. Soekarno Hatta No.14, Timbang Langkat, Binjai Timur, Binjai 20732" .
+
+ex:Mall19 rdf:type ex:Mall ;
+    ex:namaMall "Siantar City Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pematang Siantar" ;
+    ex:luas "0" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/siantarcitysquare_official?utm_source=ig_web_button_share_sheet&mdxt=ZDNlZDc0MzIxNw==> ;
+    ex:berlokasiDi "Jl Rakutta Sembiring 88 21143 Nagapitu Sumatera Utara " .
+
+ex:Mall20 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Anugerah Sidempuan" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang Sidempuan" ;
+    ex:luas "0" ;
+    ex:jamBuka "10.00 - 18.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/plazaanugrahsidimpuan?utm_source=ig_web_button_share_sheet&obrf=ZDNlZDc0MzIxNw==> ;
+    ex:berlokasiDi "Lantai 1, no.6, Plaza ATC, Wek II, Kec. Padangsidimpuan Utara, Kota Padang Sidempuan, Sumatera Utara 22711, Indonesia" .
+
+ex:Mall21 rdf:type ex:Mall ;
+    ex:namaMall "Sidimpuan City Walk" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang Sidempuan" ;
+    ex:luas "0" ;
+    ex:jamBuka "09.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/sidimpuancitywalk/?utm_source=ig_web_button_share_sheet> ;
+    ex:berlokasiDi "Jalan Jenderal Sudirman Kayuombun North Sumatra" .
+
+ex:Mall22 rdf:type ex:Mall ;
+    ex:namaMall "Damar Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "0" ;
+    ex:jamBuka "06.30 - 21.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.instagram.com/damarplaza/> ;
+    ex:berlokasiDi "Jl. Damar, Olo, Kec. Padang Barat, kotapadang, sumatra barat, Indonesia." .
+
+ex:Mall23 rdf:type ex:Mall ;
+    ex:namaMall "SJS Plaza Padang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "0" ;
+    ex:jamBuka "12.00 - 20.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/sjsplaza> ;
+    ex:berlokasiDi "Jl. Jhoni Anwar No.1, Ulak Karang Utara, Kec. Padang Utara, Sumatera Barat" .
+
+ex:Mall24 rdf:type ex:Mall ;
+    ex:namaMall "SPR Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "" ;
+    ex:jamBuka "09.30 - 22.00 " ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.instagram.com/sprplazapadang_/> ;
+    ex:berlokasiDi "Jl. Moh. Yamin No.146, Kampung Jao, Padang Barat, Padang 25112" .
+
+ex:Mall25 rdf:type ex:Mall ;
+    ex:namaMall "Basko City Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "25.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://baskocitymall.com/> ;
+    ex:berlokasiDi "Jl. Padang Bypass, Kalumbuk, Kuranji, Padang 25155" .
+
+ex:Mall26 rdf:type ex:Mall ;
+    ex:namaMall "Living Plaza Padang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Padang> ;
+    ex:berlokasiDi "Jl. Damar No.57, Olo, Padang Barat, Padang 25117" .
+
+ex:Mall27 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Andalas" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 21.00 " ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/plazaandalaspadang/> ;
+    ex:berlokasiDi "Jl. Belakang Lintas No.2F, Olo, Padang Barat, Padang 25117" .
+
+ex:Mall28 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Bukittinggi" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bukittinggi" ;
+    ex:luas "" ;
+    ex:jamBuka "09.00 - 21.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/plaza.bkt/> ;
+    ex:berlokasiDi "Jalan Ahmad Yani No. 1, Bukittinggi, Sumatera Barat 26113, Indonesia" .
+
+ex:Mall29 rdf:type ex:Mall ;
+    ex:namaMall "Basko Grand Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Padang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "9" ;
+    ex:website <https://www.baskograndmall.com/> ;
+    ex:berlokasiDi "Jl. Prof. Dr. Hamka No.2A, Air Tawar Timur, Padang Utara, Padang" .
+
+ex:Mall30 rdf:type ex:Mall ;
+    ex:namaMall "Rocky Plaza Payakumbuh" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Payakumbuh" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/rockypayakumbuhplaza/> ;
+    ex:berlokasiDi "Jl. Jend. Sudirman No.17, Labuh Baru, Payakumbuh Utara, Kota Payakumbuh, Sumatera Barat 26218, Indonesia" .
+
+ex:Mall31 rdf:type ex:Mall ;
+    ex:namaMall "Metro Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "08.30 - 21.30" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/metroplazapekanbaru/> ;
+    ex:berlokasiDi "Jl. Harapan Raya No.201, Tengkerang Sel., Kec. Bukit Raya, Kota Pekanbaru, Riau, Pekanbaru 28126" .
+
+ex:Mall32 rdf:type ex:Mall ;
+    ex:namaMall "Living World Pekanbaru" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "90.000" ;
+    ex:jamBuka "10.00 -  22.00" ;
+    ex:jumlahLantai "7" ;
+    ex:website <https://pekanbaru.livingworld.co.id/> ;
+    ex:berlokasiDi "Jl. Soekarno-Hatta, Tangkerang Barat, Marpoyan Damai, Pekanbaru" .
+
+ex:Mall33 rdf:type ex:Mall ;
+    ex:namaMall "MTC Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "11.00 - 21.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/mtc_mall/> ;
+    ex:berlokasiDi "Jl. Hr. Soebrantas KM 12, Pekanbaru 28295" .
+
+ex:Mall34 rdf:type ex:Mall ;
+    ex:namaMall "Panam Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "09.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/Living_World_Pekanbaru> ;
+    ex:berlokasiDi "Jl. HR. Soebrantas No.61 A, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau 28294 " .
+
+ex:Mall35 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Citra Pekanbaru" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/plazacitrapku.official/> ;
+    ex:berlokasiDi "Riau" .
+
+ex:Mall36 rdf:type ex:Mall ;
+    ex:namaMall "The Central Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 21.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/plazathecentral/> ;
+    ex:berlokasiDi "Jl. Jend. Ahmad Yani No.42 A, Padang Bulan, Senapelan, Kota Pekanbaru, Riau 28156, Indonesia" .
+
+ex:Mall37 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Bangkinang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "" ;
+    ex:jumlahLantai "" ;
+    ex:website <https://id.wikipedia.org/wiki/Living_World_Pekanbaru> ;
+    ex:berlokasiDi "Riau" .
+
+ex:Mall38 rdf:type ex:Mall ;
+    ex:namaMall "Mal SKA" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "26.026 " ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "8" ;
+    ex:website <https://www.instagram.com/malskapekanbaru/> ;
+    ex:berlokasiDi "Jl. Soekarno-Hatta No.114, Delima, Binawidya, Pekanbaru" .
+
+ex:Mall39 rdf:type ex:Mall ;
+    ex:namaMall "Mal Pekanbaru" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.instagram.com/malpekanbaru/> ;
+    ex:berlokasiDi "Jl. Jenderal Sudirman No.123, Kota Tinggi, Pekanbaru Kota, Pekanbaru" .
+
+ex:Mall40 rdf:type ex:Mall ;
+    ex:namaMall "Pekanbaru Xchange" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://pekanbaruxchange.com/> ;
+    ex:berlokasiDi "Jl. Riau No.147, Padang Terubuk, Senapelan, Pekanbaru 28155" .
+
+ex:Mall41 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Senapelan" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 21.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.instagram.com/plazasenapelan/> ;
+    ex:berlokasiDi "Jl. Teuku Umar, Rintis, Kec. Lima Puluh, Kota Pekanbaru, Riau 28112, Pekanbaru 28112" .
+
+ex:Mall42 rdf:type ex:Mall ;
+    ex:namaMall "Citimall Dumai" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Dumai" ;
+    ex:luas "23.215" ;
+    ex:jamBuka "" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/citimall.dumai/> ;
+    ex:berlokasiDi "Jl. Bukit Datuk, Bukit Datuk, Dumai Selatan, Dumai 28825" .
+
+ex:Mall43 rdf:type ex:Mall ;
+    ex:namaMall "Mandau City Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://mandaucitymall.id/> ;
+    ex:berlokasiDi "Jl. Jenderal Sudirman No.Kav.102, Babussalam, Mandau, Bengkalis 28783" .
+
+ex:Mall44 rdf:type ex:Mall ;
+    ex:namaMall "Mall Ciputra Seraya" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://www.malciputraseraya.com/> ;
+    ex:berlokasiDi "Jl. Riau No.58, Kp. Baru, Kec. Senapelan, Kota Pekanbaru, Riau 28154" .
+
+ex:Mall45 rdf:type ex:Mall ;
+    ex:namaMall "Bagindo Plaza *UC" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "6,190" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "1" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Jambi> ;
+    ex:berlokasiDi "Jalan Profesor M. Yamin SH Payo Lebar Jambi" .
+
+ex:Mall46 rdf:type ex:Mall ;
+    ex:namaMall "Mall Kapuk" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "" ;
+    ex:jamBuka "09.00 -21.00" ;
+    ex:jumlahLantai "1" ;
+    ex:website <https://www.instagram.com/bazaarceriamallkapuk/> ;
+    ex:berlokasiDi " Jl. M. Husni Thamrin No.18, Kota Jambi, Jambi, Indonesia, Pusat Kota Jambi, Jambi" .
+
+ex:Mall47 rdf:type ex:Mall ;
+    ex:namaMall "Permata Bungo Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "" ;
+    ex:jamBuka "09.30 - 21.30" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Jambi> ;
+    ex:berlokasiDi "Jl. Prof. Moh. Yamin No.18, Bungo Barat, Muaro Bungo, Jambi" .
+
+ex:Mall48 rdf:type ex:Mall ;
+    ex:namaMall "Jambi Town Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "42.880 " ;
+    ex:jamBuka "09.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://jamtos.com/> ;
+    ex:berlokasiDi "Jl. Kapt. A. Bakaruddin No.88, Simpang Tiga Sipin, Kota Baru, Jambi" .
+
+ex:Mall49 rdf:type ex:Mall ;
+    ex:namaMall "Jambi Prima Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "" ;
+    ex:jamBuka "08.30 - 21.45" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/Jambi_Prima_Mall> ;
+    ex:berlokasiDi "Jl. Jenderal Sudirman No.90, Talang Jauh, Jelutung, Jambi" .
+
+ex:Mall50 rdf:type ex:Mall ;
+    ex:namaMall "Lippo Plaza Jambi" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "18.900" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "2" ;
+    ex:website <https://www.lippomalls.com/mall/lippo-plaza-jambi> ;
+    ex:berlokasiDi "Jl. Mayor Abdul Karta Wirana No.15, Budiman, Jambi Timur, Jambi 36145" .
+
+ex:Mall51 rdf:type ex:Mall ;
+    ex:namaMall "WTC Batanghari" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Jambi" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "" ;
+    ex:website <https://mallwtcjambi.com/> ;
+    ex:berlokasiDi "Jl. Sultan Thaha No. 17 Jambi 36123" .
+
+ex:Mall52 rdf:type ex:Mall ;
+    ex:namaMall "Bencoolen Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bengkulu" ;
+    ex:luas "52.000" ;
+    ex:jamBuka "10:00 - 22:00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://bencoolenmall.com/> ;
+    ex:berlokasiDi "Jl. Pariwisata No.1, Penurunan, Kec. Ratu Samban, Kota Bengkulu, Bengkulu" .
+
+ex:Mall53 rdf:type ex:Mall ;
+    ex:namaMall "Mega Mall Bengkulu" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bengkulu" ;
+    ex:luas "18.384" ;
+    ex:jamBuka "10.00-22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://megamallbengkulu.com/> ;
+    ex:berlokasiDi "Jl. KZ Abidin II, Belakang Pondok, Ratu Samban, Bengkulu 38221" .
+
+ex:Mall54 rdf:type ex:Mall ;
+    ex:namaMall "Central Pavilion" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "06.30 - 22.30" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/centralpavilionpalembang/> ;
+    ex:berlokasiDi "Jalan Rupit 1124 Kepandean Baru Sumatera Selatan" .
+
+ex:Mall55 rdf:type ex:Mall ;
+    ex:namaMall "Pasaraya JM Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10:00 - 21:00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://pasaraya-jm-plaza.com-spot.com/id/> ;
+    ex:berlokasiDi "Jl. Letkol Iskandar No.578, 17 Ilir, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30114" .
+
+ex:Mall56 rdf:type ex:Mall ;
+    ex:namaMall "Pulau Mas Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Palembang> ;
+    ex:berlokasiDi "Jl. Kolonel Atmo No.623, 17 Ilir, Kec. Ilir Tim. I, Kota Palembang, South Sumatra, Indonesia" .
+
+ex:Mall57 rdf:type ex:Mall ;
+    ex:namaMall "Pagar Alam Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "08.00 - 17.00" ;
+    ex:jumlahLantai "" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Palembang> ;
+    ex:berlokasiDi "Jalan Sersan Ali Aras Kampung Melati Sumatera Selatan" .
+
+ex:Mall58 rdf:type ex:Mall ;
+    ex:namaMall "Living Plaza Palembang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/popular/living-plaza-palembang/> ;
+    ex:berlokasiDi "Jl. Letkol Iskandar No.448, 24 Ilir, Bukit Kecil, Palembang 30134" .
+
+ex:Mall59 rdf:type ex:Mall ;
+    ex:namaMall "Palembang Icon" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.instagram.com/palembangicon/> ;
+    ex:berlokasiDi "Jl. POM IX, Lorok Pakjo, Ilir Barat I, Palembang" .
+
+ex:Mall60 rdf:type ex:Mall ;
+    ex:namaMall "Palembang Indah Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 -22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://palembangindahmall.co.id/> ;
+    ex:berlokasiDi "Jl. Letkol Iskandar No.18, 24 Ilir, Bukit Kecil, Palembang, Sumatera Selatan" .
+
+ex:Mall61 rdf:type ex:Mall ;
+    ex:namaMall "Palembang Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "2" ;
+    ex:website <https://id.wikipedia.org/wiki/Palembang_Square> ;
+    ex:berlokasiDi "Jl. Angkatan 45, Lorok Pakjo, Ilir Barat I, Palembang" .
+
+ex:Mall62 rdf:type ex:Mall ;
+    ex:namaMall "PSX Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 -22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Palembang> ;
+    ex:berlokasiDi "Jl. Angkatan 45 Jl. POM IX, Lorok Pakjo, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan 30137" .
+
+ex:Mall63 rdf:type ex:Mall ;
+    ex:namaMall "PTC Mall Palembang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "55.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <http://ptcmallpalembang.com/> ;
+    ex:berlokasiDi "Jl. R. Sukamto No.8A, 8 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30114" .
+
+ex:Mall64 rdf:type ex:Mall ;
+    ex:namaMall "Social Market Citywalk" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/soma.citywalk/reels/> ;
+    ex:berlokasiDi "Jl. Veteran No.999, 9 Ilir, Ilir Timur III, Palembang 30113" .
+
+ex:Mall65 rdf:type ex:Mall ;
+    ex:namaMall "OPI Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://opimall.com/> ;
+    ex:berlokasiDi "Jl. Gubernur H. A Bastari, Sungai Kedukan, Rambutan, Banyuasin 30967" .
+
+ex:Mall66 rdf:type ex:Mall ;
+    ex:namaMall "Citimall Prabumulih" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Prabumulih" ;
+    ex:luas "16.597" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "2" ;
+    ex:website <https://www.instagram.com/citimall.prabumulih/> ;
+    ex:berlokasiDi "Jl. Lingkar Timur, Gunung Ibul, Prabumulih Timur, Prabumulih 31113" .
+
+ex:Mall67 rdf:type ex:Mall ;
+    ex:namaMall "Citimall Lahat" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Lahat" ;
+    ex:luas "33.491" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/citimall.lahat/> ;
+    ex:berlokasiDi "Jl. Lintas Utama Sumatera, Manggul, Lahat, Lahat 31419" .
+
+ex:Mall68 rdf:type ex:Mall ;
+    ex:namaMall "Lippo Plaza Lubuklinggau" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "25.942" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.lippomalls.com/mall/lippo-plaza-lubuklinggau> ;
+    ex:berlokasiDi "Jalan Yos Sudarso No.31, Taba Jemekeh, Lubuk Linggau Timur I, Lubuk Linggau 31628" .
+
+ex:Mall69 rdf:type ex:Mall ;
+    ex:namaMall "Internasional Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Palembang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://id.wikipedia.org/wiki/Internasional_Plaza?action=edit&redlink=1> ;
+    ex:berlokasiDi "Jalan Jendral Sudirman (Jalan Letnan Kolonel Iskandar), Palembang, Sumatera Selatan 30121, Indonesia" .
+
+ex:Mall70 rdf:type ex:Mall ;
+    ex:namaMall "Lippo Mall Lampung" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Bandar_Lampung> ;
+    ex:berlokasiDi "Jl. Raden Intan No.88, Kel. Pelita, Kec Enggal, Kota Bandar Lampung - 35117" .
+
+ex:Mall71 rdf:type ex:Mall ;
+    ex:namaMall "Karang Indah Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "" ;
+    ex:jamBuka "09.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/karangindahmall/> ;
+    ex:berlokasiDi "Lampung" .
+
+ex:Mall72 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Lotus" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "" ;
+    ex:jamBuka "08.00 - 21.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Bandar_Lampung> ;
+    ex:berlokasiDi "Jl. Raden Intan No.73, Enggal, Enggal, Bandar Lampung 35118" .
+
+ex:Mall73 rdf:type ex:Mall ;
+    ex:namaMall "Central Plaza Lampung" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "18.916" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://id.wikipedia.org/wiki/Central_Plaza_Lampung> ;
+    ex:berlokasiDi "Jl. Kartini No.21, Durian Payung, Tanjung Karang Pusat, Bandar Lampung 35116" .
+
+ex:Mall74 rdf:type ex:Mall ;
+    ex:namaMall "Ciplaz Lampung" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/Ciplaz_Mall_Lampung> ;
+    ex:berlokasiDi "Lampung	Jl. ZA Pagar Alam, Rajabasa, Rajabasa, Bandar Lampung 35144" .
+
+ex:Mall75 rdf:type ex:Mall ;
+    ex:namaMall "Lampung City Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "26.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://lampungcitymall.co.id/> ;
+    ex:berlokasiDi "Jl. Yos Sudarso No.80, Kelurahan Bumi Waras, Kecamatan Bumi Waras, Kota Bandar Lampung, Provinsi Lampung 35225" .
+
+ex:Mall76 rdf:type ex:Mall ;
+    ex:namaMall "Mal Boemi Kedaton" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "55,000" ;
+    ex:jamBuka "10.00 - 21.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <http://mallboemikedaton.co.id/> ;
+    ex:berlokasiDi "Jl. Teuku Umar-Sultan Agung No. 1, Kedaton, Kedaton, Bandar Lampung 35141" .
+
+ex:Mall77 rdf:type ex:Mall ;
+    ex:namaMall "Mal Kartini" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/malkartini_lampung/> ;
+    ex:berlokasiDi "Jl. Kartini No. 49, Palapa Kec. Tj. Karang Pusat, Bandar Lampung 35116" .
+
+ex:Mall78 rdf:type ex:Mall ;
+    ex:namaMall "Simpur Center" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Bandar Lampung" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Simpur_Center_Bandar_Lampung> ;
+    ex:berlokasiDi "Lampung	Jl. Raden Intan No.32, Tanjung Karang, Enggal, Bandar Lampung 35111" .
+
+ex:Mall79 rdf:type ex:Mall ;
+    ex:namaMall "Plaza Pangkalpinang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pangkal Pinang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 21.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://id.wikipedia.org/wiki/Bangka_Trade_Center> ;
+    ex:berlokasiDi "Jl. Jendral Sudirman No.8, Taman Bunga, Gerunggang, Pangkalpinang 33123" .
+
+ex:Mall80 rdf:type ex:Mall ;
+    ex:namaMall "BTC Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pangkal Pinang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 00.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Bangka_Trade_Center> ;
+    ex:berlokasiDi "Jl. Rusli Romli, Pasar Padi, Girimaya, Pangkalpinang 33142" .
+
+ex:Mall81 rdf:type ex:Mall ;
+    ex:namaMall "Puncak Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pangkal Pinang" ;
+    ex:luas "" ;
+    ex:jamBuka "09.00 - 21.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.instagram.com/puncakmall/> ;
+    ex:berlokasiDi "Jl. Jendral Sudirman No.10F, Taman Sari , Gedung Nasional, Pangkal Pinang." .
+
+ex:Mall82 rdf:type ex:Mall ;
+    ex:namaMall "Puncak Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pangkal Pinang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Bangka_Trade_Center> ;
+    ex:berlokasiDi "Jl. Depati Hamzah No.150, Bacang, Kec. Bukitintan, Kepulauan Bangka Belitung" .
+
+ex:Mall83 rdf:type ex:Mall ;
+    ex:namaMall "Avava Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 21.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://avavagroup.webflow.io/> ;
+    ex:berlokasiDi "Jalan Duyung Lubuk Baja Kota Riau" .
+
+ex:Mall84 rdf:type ex:Mall ;
+    ex:namaMall "Centre Point Medan" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "50.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "7" ;
+    ex:website <https://centrepoint.co.id/> ;
+    ex:berlokasiDi "Jl. Jawa No.8, Gang Buntu, Medan Timur, Medan 20231" .
+
+ex:Mall85 rdf:type ex:Mall ;
+    ex:namaMall "Bayfront Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "08.30 - 18.00" ;
+    ex:jumlahLantai "2" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Batam> ;
+    ex:berlokasiDi "Jl. Harbour Bay, Sungai Jodoh, Kec. Batu Ampar, Kota Batam, Kepulauan Riau 29453, Indonesia" .
+
+ex:Mall86 rdf:type ex:Mall ;
+    ex:namaMall "K Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://ksquarebatam.com/> ;
+    ex:berlokasiDi "Jl. Jenderal Sudirman No.25-35, Sukajadi, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444, Indonesia" .
+
+ex:Mall87 rdf:type ex:Mall ;
+    ex:namaMall "Lucky Plaza" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10,00 - 21.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Batam> ;
+    ex:berlokasiDi "Jl. Imam Bonjol, Lubuk Baja Kota, Kepulauan Riau" .
+
+ex:Mall88 rdf:type ex:Mall ;
+    ex:namaMall "Cambridge City Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Medan" ;
+    ex:luas "48.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://www.cambridge.co.id/web/mall/index.php> ;
+    ex:berlokasiDi "Jl. S. Parman No.217, Petisah Tengah, Medan Petisah, Medan" .
+
+ex:Mall89 rdf:type ex:Mall ;
+    ex:namaMall "Batam City Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 -22.00" ;
+    ex:jumlahLantai "6" ;
+    ex:website <https://id.wikipedia.org/wiki/Batam_City_Square> ;
+    ex:berlokasiDi " Jl. Bunga Raya, Batu Selicin, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia" .
+
+ex:Mall90 rdf:type ex:Mall ;
+    ex:namaMall "Diamond City Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 21.30" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://id.wikipedia.org/wiki/DC_Mall> ;
+    ex:berlokasiDi "Jl. Duyung, Batu Selicin, Lubuk Baja, Batam" .
+
+ex:Mall91 rdf:type ex:Mall ;
+    ex:namaMall "Grand Batam Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "80.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.grandbatam.com/> ;
+    ex:berlokasiDi "Jl. Pembangunan, Batu Selicin, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444, Indonesia" .
+
+ex:Mall92 rdf:type ex:Mall ;
+    ex:namaMall "Living Plaza Batam" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "9.100" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Living_Plaza> ;
+    ex:berlokasiDi "Jl. Jenderal Sudirman, Baloi Permai, Batam Kota, Batam 29431" .
+
+ex:Mall93 rdf:type ex:Mall ;
+    ex:namaMall "Mall Botania 2" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "30.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Mall_Botania_2> ;
+    ex:berlokasiDi "Jl. Raja Alikelana, Belian, Batam Kota, Batam 29464" .
+
+ex:Mall94 rdf:type ex:Mall ;
+    ex:namaMall "Nagoya Hill Shopping Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "60.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://nagoyahill.co.id/> ;
+    ex:berlokasiDi "Jl. Teuku Umar, Lubuk Baja Kota, Lubuk Baja, Batam" .
+
+ex:Mall95 rdf:type ex:Mall ;
+    ex:namaMall "One Batam Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.instagram.com/onebatammall> ;
+    ex:berlokasiDi "Jl. Engku Putri Jl. Gurindam, Tlk. Tering, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29444, Indonesia" .
+
+ex:Mall96 rdf:type ex:Mall ;
+    ex:namaMall "Park Avenue Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "24.000" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/parkavenuemallbatam/> ;
+    ex:berlokasiDi "Jl. Raja Alikelana, Belian, Batam Kota, Batam 29464" .
+
+ex:Mall97 rdf:type ex:Mall ;
+    ex:namaMall "Pollux Mall Batam Center" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://polluxmalls.com/shopping-malls/polluxmallbatam/> ;
+    ex:berlokasiDi "Jalan Laksamana Bintan, Batam Centre, Batam, Kepulauan Riau" .
+
+ex:Mall98 rdf:type ex:Mall ;
+    ex:namaMall "Bestari Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Bestari_Mall> ;
+    ex:berlokasiDi "Jl. Teuku Umar, Tanjung Pinang Kota, Tanjungpinang Kota, Tanjungpinang 29111" .
+
+ex:Mall99 rdf:type ex:Mall ;
+    ex:namaMall "Bintan Indah Mall" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "07.00 - 17.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.bintan-resorts.com/place/bintan-indah-mall/> ;
+    ex:berlokasiDi "Jl. Pos, Tanjungpinang, Kepulauan Riau" .
+
+ex:Mall100 rdf:type ex:Mall ;
+    ex:namaMall "Mal Tanjung Pinang" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Tanjung Pinang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "2" ;
+    ex:website <https://id.wikipedia.org/wiki/Mall_Ramayana_Tanjung_Pinang> ;
+    ex:berlokasiDi "Jl. Wiratno, Kampung Baru, Tanjung Pinang Barat, Tanjungpinang" .
+
+ex:Mall101 rdf:type ex:Mall ;
+    ex:namaMall "Tanjungpinang City Center" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Tanjung Pinang" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://posamalls.com/tcc/> ;
+    ex:berlokasiDi "Jalan Aisyah Sulaiman, Sei Jang, Bukit Bestari, Tanjungpinang 29124" .
+
+ex:Mall102 rdf:type ex:Mall ;
+    ex:namaMall "Citimall Baturaja" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Baturaja" ;
+    ex:luas "39.869" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "2" ;
+    ex:website <https://www.instagram.com/citimall.baturaja/> ;
+    ex:berlokasiDi "Jl. Jenderal Ahmad Yani, Tanjung Baru, Baturaja Timur, Ogan Komering Ulu 32113" .
+
+ex:Mall103 rdf:type ex:Mall ;
+    ex:namaMall "Mega Mall Batam Centre" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "5" ;
+    ex:website <https://www.megamallbatam.com/> ;
+    ex:berlokasiDi "Jl. Engku Putri No.1, Teluk Tering, Batam Kota, Batam" .
+
+ex:Mall104 rdf:type ex:Mall ;
+    ex:namaMall "Nagoya Citywalk" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://www.facebook.com/NagoyaITCentre> ;
+    ex:berlokasiDi "Komp. Bumi Indah 29434 Lubuk Baja Kota Riau" .
+
+ex:Mall105 rdf:type ex:Mall ;
+    ex:namaMall "Sukaramai Trade Center" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Pekanbaru" ;
+    ex:luas "" ;
+    ex:jamBuka "09.00 - 18.00" ;
+    ex:jumlahLantai "3" ;
+    ex:website <https://www.instagram.com/stc.pku/> ;
+    ex:berlokasiDi "Lokasi: Jl. Jend. Sudirman No.1, Sukaramai, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau 28156" .
+
+ex:Mall106 rdf:type ex:Mall ;
+    ex:namaMall "Taman Raya Square" ;
+    ex:kategori "Pusat Perbelanjaan" ;
+    ex:kota "Batam" ;
+    ex:luas "" ;
+    ex:jamBuka "10.00 - 22.00" ;
+    ex:jumlahLantai "4" ;
+    ex:website <https://id.wikipedia.org/wiki/Kota_Batam> ;
+    ex:berlokasiDi "Jl. Taman Raya, Belian, Batam Kota, Riau Islands" .

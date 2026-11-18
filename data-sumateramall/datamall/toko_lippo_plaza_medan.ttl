@@ -1,0 +1,184 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_LippoPlazaMedan_96_NAIL_ART_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "96 NAIL ART STUDIO" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Nail Spa Treatment" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/96%20NAIL%20ART%20STUDIO_1772088801.webp> .
+
+ex:Toko_LippoPlazaMedan_ANKER rdf:type ex:Toko ;
+    ex:namaToko "ANKER" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Electronics, Accessories, Gadget Accessories, Headphones & Earbuds, Powerbank" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/anker_1750669378.webp> .
+
+ex:Toko_LippoPlazaMedan_BANK_NOBU rdf:type ex:Toko ;
+    ex:namaToko "BANK NOBU" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Banking, Banking Services, Layanan Perbankan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NOBU_1756281121.webp> .
+
+ex:Toko_LippoPlazaMedan_CINEPOLIS rdf:type ex:Toko ;
+    ex:namaToko "CINEPOLIS" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/CINEPOLIS_1758081699.webp> .
+
+ex:Toko_LippoPlazaMedan_FOUNTAIN rdf:type ex:Toko ;
+    ex:namaToko "FOUNTAIN" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Ice Cream, Family Restaurant" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/FOUNTAIN_1758097997.webp> .
+
+ex:Toko_LippoPlazaMedan_GRAVY_JAW rdf:type ex:Toko ;
+    ex:namaToko "GRAVY JAW" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Ayam, Nasi, Rice Bowl" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GRAVY%20JAW_1772089392.webp> .
+
+ex:Toko_LippoPlazaMedan_IBOX rdf:type ex:Toko ;
+    ex:namaToko "IBOX" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Electronics, Laptop, Phones, Mac Book, PC, Smartphone, Tablet, Wearable" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/IBOX_1756701974.webp> .
+
+ex:Toko_LippoPlazaMedan_JOOKUTSU rdf:type ex:Toko ;
+    ex:namaToko "JOOKUTSU" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sandal, Sepatu" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JOOKUTSU_1770869589.webp> .
+
+ex:Toko_LippoPlazaMedan_K3MART rdf:type ex:Toko ;
+    ex:namaToko "K3MART" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Supermarket, Makanan, Minuman, K-food, Korean Snacks" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Logo_k3mart_1755762748.webp> .
+
+ex:Toko_LippoPlazaMedan_KIE_KIE_SALON rdf:type ex:Toko ;
+    ex:namaToko "KIE KIE SALON" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair & Beauty Treatment" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KIE%20KIE%20SALON_1772089583.webp> .
+
+ex:Toko_LippoPlazaMedan_KONG_KALI_KONG rdf:type ex:Toko ;
+    ex:namaToko "KONG KALI KONG" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Supermarket, Makanan, Minuman, Snack, K-food, Korean Snacks" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/KONG%20KALI%20KONG_1772090188.webp> .
+
+ex:Toko_LippoPlazaMedan_MAXX_COFFEE rdf:type ex:Toko ;
+    ex:namaToko "MAXX COFFEE" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Beverage, Minuman, Cafe, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MAXX%20COFFEE_1756972833.webp> .
+
+ex:Toko_LippoPlazaMedan_MENTARI rdf:type ex:Toko ;
+    ex:namaToko "MENTARI" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Mentari%20(1)_1786003689.webp> .
+
+ex:Toko_LippoPlazaMedan_NEW_LIFE_GYM rdf:type ex:Toko ;
+    ex:namaToko "NEW LIFE GYM" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Sports, Fitness Center, Pusat Kebugaran" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NEW%20LIFE%20GYM_1772090389.webp> .
+
+ex:Toko_LippoPlazaMedan_NEW_RAKKI_CAFE rdf:type ex:Toko ;
+    ex:namaToko "NEW RAKKI CAFE" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Coffee, Indonesian Food, Roti" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/NEW%20RAKKI%20CAFE_1786003818.webp> .
+
+ex:Toko_LippoPlazaMedan_PARADISE_DYNASTY rdf:type ex:Toko ;
+    ex:namaToko "PARADISE DYNASTY" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Chinese Food, Xiao Long Bao" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PARADISE%20DYNASTY_1772090534.webp> .
+
+ex:Toko_LippoPlazaMedan_PEPPER_LUNCH rdf:type ex:Toko ;
+    ex:namaToko "PEPPER LUNCH" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Daging Sapi, Hot Plate, Nasi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PEPPER%20LUNCH_1756455219.webp> .
+
+ex:Toko_LippoPlazaMedan_PLAY_AND_WIN rdf:type ex:Toko ;
+    ex:namaToko "PLAY & WIN" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Entertainment" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLAY%20&%20WIN_1772090962.webp> .
+
+ex:Toko_LippoPlazaMedan_PLAYFIT_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "PLAYFIT STUDIO" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "Entertainment, Playground, Kids Gym & Activity Center" ;
+    ex:lokasiToko "L3" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WhatsApp%20Image%202026-08-10%20at%2009.42.02_1786330096.webp> .
+
+ex:Toko_LippoPlazaMedan_SHIHLIN rdf:type ex:Toko ;
+    ex:namaToko "SHIHLIN" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Snack, Ayam, Crispy Chicken" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SHIHLIN_1756960533.webp> .
+
+ex:Toko_LippoPlazaMedan_SONG_FA_BAK_KUT_TEH rdf:type ex:Toko ;
+    ex:namaToko "SONG FA BAK KUT TEH" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Malaysian Food" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SONG%20FA%20BAK%20KUT%20TEH_1772091057.webp> .
+
+ex:Toko_LippoPlazaMedan_STRAITS_9 rdf:type ex:Toko ;
+    ex:namaToko "STRAITS 9" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/STRAITS%209_1772091351.webp> .
+
+ex:Toko_LippoPlazaMedan_SUSHI_TEI rdf:type ex:Toko ;
+    ex:namaToko "SUSHI TEI" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Sushi" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SUSHI%20TEI_1758516811.webp> .
+
+ex:Toko_LippoPlazaMedan_TAKOBAR rdf:type ex:Toko ;
+    ex:namaToko "TAKOBAR" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Takoyaki" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TAKOBAR_1772092059.webp> .
+
+ex:Toko_LippoPlazaMedan_THE_BIG_EYED rdf:type ex:Toko ;
+    ex:namaToko "THE BIG EYED" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Food, Western and Asian Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20BIG%20EYED_1772092215.webp> .
+
+ex:Toko_LippoPlazaMedan_XING_FU_TANG rdf:type ex:Toko ;
+    ex:namaToko "XING FU TANG" ;
+    ex:beradaDiMall ex:Mall8 ;
+    ex:kategoriToko "F&B, Beverage, Minuman, Bubble Tea" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/XING%20FU%20TANG_1757320825.webp> .

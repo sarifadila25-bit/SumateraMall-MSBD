@@ -1,0 +1,404 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- Beauty & Health ---
+ex:Toko_BencoolenMall_SECRET_GARDEN rdf:type ex:Toko ;
+    ex:namaToko "SECRET GARDEN" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-10-at-14.05.57-3-1.jpeg> .
+
+ex:Toko_BencoolenMall_CRUSITA rdf:type ex:Toko ;
+    ex:namaToko "CRUSITA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/09/4-3.jpg> .
+
+ex:Toko_BencoolenMall_AOERA_PARFUM rdf:type ex:Toko ;
+    ex:namaToko "AOERA PARFUM" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/09/1-7.jpg> .
+
+ex:Toko_BencoolenMall_C_and_F_PARFUM_SHOP rdf:type ex:Toko ;
+    ex:namaToko "C&F PARFUM SHOP" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/09/WhatsApp-Image-2026-05-12-at-13.55.51-1.jpeg> .
+
+ex:Toko_BencoolenMall_OPTIK_MELAWAI rdf:type ex:Toko ;
+    ex:namaToko "OPTIK MELAWAI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/04/WhatsApp-Image-2026-05-21-at-12.00.43-1.jpeg> .
+
+ex:Toko_BencoolenMall_WATSONS rdf:type ex:Toko ;
+    ex:namaToko "WATSONS" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/01/WhatsApp-Image-2026-05-08-at-14.25.08-1.jpeg> .
+
+ex:Toko_BencoolenMall_Sociolla rdf:type ex:Toko ;
+    ex:namaToko "Sociolla" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2023/02/WhatsApp-Image-2026-05-07-at-18.33.30-1.jpeg> .
+
+ex:Toko_BencoolenMall_CHRISTOPHER_SALON rdf:type ex:Toko ;
+    ex:namaToko "CHRISTOPHER SALON" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/07/WhatsApp-Image-2026-05-07-at-18.33.31.jpeg> .
+
+ex:Toko_BencoolenMall_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2024/09/optik-seis-bencoolen-mall-bengkulu.jpeg> .
+
+ex:Toko_BencoolenMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Beauty & Health" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/07/WhatsApp-Image-2026-05-07-at-18.52.13.jpeg> .
+
+# --- Fashion & Accessories ---
+ex:Toko_BencoolenMall_PAYLESS rdf:type ex:Toko ;
+    ex:namaToko "PAYLESS" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-15.02.55-1.jpeg> .
+
+ex:Toko_BencoolenMall_NOBBY rdf:type ex:Toko ;
+    ex:namaToko "NOBBY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-15.02.42-1-1.jpeg> .
+
+ex:Toko_BencoolenMall_ZM_ZAZKIA_MECCA rdf:type ex:Toko ;
+    ex:namaToko "ZM ZAZKIA MECCA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-17-at-13.41.12.jpeg> .
+
+ex:Toko_BencoolenMall_THIS_IS_APRIL rdf:type ex:Toko ;
+    ex:namaToko "THIS IS APRIL" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.46.46-1.jpeg> .
+
+ex:Toko_BencoolenMall_TWOEICH_CHARM rdf:type ex:Toko ;
+    ex:namaToko "TWOEICH CHARM" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-21-at-12.01.05.jpeg> .
+
+ex:Toko_BencoolenMall_MY_FEET rdf:type ex:Toko ;
+    ex:namaToko "MY FEET" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-21-at-14.50.16-1.jpeg> .
+
+ex:Toko_BencoolenMall_LARUSSO rdf:type ex:Toko ;
+    ex:namaToko "LARUSSO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-11-at-11.44.34-1.jpeg> .
+
+ex:Toko_BencoolenMall_ASICS rdf:type ex:Toko ;
+    ex:namaToko "ASICS" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-03-06-at-13.59.03.jpeg> .
+
+ex:Toko_BencoolenMall_SATURDAYS rdf:type ex:Toko ;
+    ex:namaToko "SATURDAYS" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-07-at-18.52.32-2-1.jpeg> .
+
+ex:Toko_BencoolenMall_URBAN_and_CO rdf:type ex:Toko ;
+    ex:namaToko "URBAN & CO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-05-at-12.22.18-2.jpeg> .
+
+ex:Toko_BencoolenMall_HARTADINATA_ABADI rdf:type ex:Toko ;
+    ex:namaToko "HARTADINATA ABADI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-03-01-at-15.58.09-1024x576-1.webp> .
+
+ex:Toko_BencoolenMall_AT_MUFLIH rdf:type ex:Toko ;
+    ex:namaToko "AT_MUFLIH" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/12/WhatsApp-Image-2026-05-07-at-18.33.22-1-1.jpeg> .
+
+ex:Toko_BencoolenMall_FIPPER rdf:type ex:Toko ;
+    ex:namaToko "FIPPER" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/12/6-2.jpg> .
+
+ex:Toko_BencoolenMall_ZOOM_WATCH rdf:type ex:Toko ;
+    ex:namaToko "ZOOM WATCH" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/11/WhatsApp-Image-2026-10-20-at-15.02.39-1.jpeg> .
+
+ex:Toko_BencoolenMall_AB_COLLECTION rdf:type ex:Toko ;
+    ex:namaToko "AB COLLECTION" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/09/WhatsApp-Image-2026-05-12-at-13.56.05.jpeg> .
+
+# --- Food & Beverage ---
+ex:Toko_BencoolenMall_CHIKURO rdf:type ex:Toko ;
+    ex:namaToko "CHIKURO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-10-at-12.23.25-1-1.webp> .
+
+ex:Toko_BencoolenMall_SANCHA rdf:type ex:Toko ;
+    ex:namaToko "SANCHA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-15.02.26.jpeg> .
+
+ex:Toko_BencoolenMall_SHIHLIN rdf:type ex:Toko ;
+    ex:namaToko "SHIHLIN" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-15.02.55.jpeg> .
+
+ex:Toko_BencoolenMall_LUUCA rdf:type ex:Toko ;
+    ex:namaToko "LUUCA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-25-at-14.27.33-1.jpeg> .
+
+ex:Toko_BencoolenMall_TIANLALA rdf:type ex:Toko ;
+    ex:namaToko "TIANLALA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-25-at-14.28.11-1.jpeg> .
+
+ex:Toko_BencoolenMall_CABE_MERAH rdf:type ex:Toko ;
+    ex:namaToko "CABE MERAH" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-18-at-09.58.35-1.jpeg> .
+
+ex:Toko_BencoolenMall_PIZZA_KUY rdf:type ex:Toko ;
+    ex:namaToko "PIZZA KUY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-22-at-10.50.14-1.jpeg> .
+
+ex:Toko_BencoolenMall_DONAT_NUSANTARA rdf:type ex:Toko ;
+    ex:namaToko "DONAT NUSANTARA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-22-at-10.50.22.jpeg> .
+
+ex:Toko_BencoolenMall_TOM_SUSHI rdf:type ex:Toko ;
+    ex:namaToko "TOM SUSHI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-11-at-11.43.36.jpeg> .
+
+ex:Toko_BencoolenMall_BOOST_JUICE rdf:type ex:Toko ;
+    ex:namaToko "BOOST JUICE" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-11-at-11.44.30-1.jpeg> .
+
+ex:Toko_BencoolenMall_REDDOG rdf:type ex:Toko ;
+    ex:namaToko "REDDOG" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-07-at-18.51.10-1.jpeg> .
+
+ex:Toko_BencoolenMall_KEBAB_TURKI_BABA_RAFI rdf:type ex:Toko ;
+    ex:namaToko "KEBAB TURKI BABA RAFI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/12/WhatsApp-Image-2026-05-07-at-18.51.04-1.jpeg> .
+
+ex:Toko_BencoolenMall_BAKSO_LAPANGAN_TEMBAK_SENAYAN rdf:type ex:Toko ;
+    ex:namaToko "BAKSO LAPANGAN TEMBAK SENAYAN" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/12/WhatsApp-Image-2026-05-11-at-11.44.20-1.jpeg> .
+
+ex:Toko_BencoolenMall_WONG_POTATO rdf:type ex:Toko ;
+    ex:namaToko "WONG POTATO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/11/WhatsApp-Image-2026-05-08-at-14.25.07-2.jpeg> .
+
+ex:Toko_BencoolenMall_ZEZE_ONE rdf:type ex:Toko ;
+    ex:namaToko "ZEZE ONE" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Food & Beverage" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/09/WhatsApp-Image-2026-05-21-at-14.49.51-2-1.jpeg> .
+
+# --- Gadget & Electronic ---
+ex:Toko_BencoolenMall_INFINIX rdf:type ex:Toko ;
+    ex:namaToko "INFINIX" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-15-at-20.12.52.jpeg> .
+
+ex:Toko_BencoolenMall_PLAYWORKS rdf:type ex:Toko ;
+    ex:namaToko "PLAYWORKS" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-11-at-11.44.36-1.jpeg> .
+
+ex:Toko_BencoolenMall_JETE rdf:type ex:Toko ;
+    ex:namaToko "JETE" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-11-at-11.44.39-2.jpeg> .
+
+ex:Toko_BencoolenMall_VIVO rdf:type ex:Toko ;
+    ex:namaToko "VIVO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/12/WhatsApp-Image-2026-07-29-at-18.39.53.jpeg> .
+
+ex:Toko_BencoolenMall_BLIBLI rdf:type ex:Toko ;
+    ex:namaToko "BLIBLI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2025/08/WhatsApp-Image-2026-06-17-at-11.23.42.jpeg> .
+
+ex:Toko_BencoolenMall_DIGIPLUS rdf:type ex:Toko ;
+    ex:namaToko "DIGIPLUS" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2024/04/WhatsApp-Image-2026-05-25-at-11.07.45-3.jpeg> .
+
+ex:Toko_BencoolenMall_LOLY_POLY rdf:type ex:Toko ;
+    ex:namaToko "LOLY POLY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2023/04/WhatsApp-Image-2026-06-17-at-11.23.55.jpeg> .
+
+ex:Toko_BencoolenMall_IBOX rdf:type ex:Toko ;
+    ex:namaToko "IBOX" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/09/WhatsApp-Image-2026-05-25-at-11.07.43-1.jpeg> .
+
+ex:Toko_BencoolenMall_XIAOMI rdf:type ex:Toko ;
+    ex:namaToko "XIAOMI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/07/WhatsApp-Image-2026-05-19-at-19.58.25-1.jpeg> .
+
+ex:Toko_BencoolenMall_ERAFONE rdf:type ex:Toko ;
+    ex:namaToko "ERAFONE" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/07/WhatsApp-Image-2026-07-29-at-18.39.56.jpeg> .
+
+ex:Toko_BencoolenMall_OPPO rdf:type ex:Toko ;
+    ex:namaToko "OPPO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/07/WhatsApp-Image-2026-05-19-at-19.58.48-1.jpeg> .
+
+ex:Toko_BencoolenMall_SAMSUNG rdf:type ex:Toko ;
+    ex:namaToko "SAMSUNG" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Gadget & Electronic" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2022/07/WhatsApp-Image-2026-06-17-at-11.23.35-1.jpeg> .
+
+# --- Home Appliance ---
+ex:Toko_BencoolenMall_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR DIY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Home Appliance" .
+
+ex:Toko_BencoolenMall_AZKO rdf:type ex:Toko ;
+    ex:namaToko "AZ.KO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Home Appliance" .
+
+ex:Toko_BencoolenMall_INFORMA rdf:type ex:Toko ;
+    ex:namaToko "INFORMA" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Home Appliance" .
+
+# --- Supermarket & Department Store ---
+ex:Toko_BencoolenMall_HYPERMART rdf:type ex:Toko ;
+    ex:namaToko "HYPERMART" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Supermarket & Department Store" .
+
+ex:Toko_BencoolenMall_Matahari rdf:type ex:Toko ;
+    ex:namaToko "Matahari" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Supermarket & Department Store" .
+
+# --- Travel & Lifestyle ---
+ex:Toko_BencoolenMall_OMEGA_TOUR_and_TRAVEL rdf:type ex:Toko ;
+    ex:namaToko "OMEGA TOUR & TRAVEL" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Travel & Lifestyle" .
+
+# --- Kids & Entertainment ---
+ex:Toko_BencoolenMall_OUR_SELF_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "OUR SELF STUDIO" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" ;
+    ex:logoURL <https://bencoolenmall.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-27-at-xx.xx.xx.jpeg> .
+    # Note: URL adjusted as original text lacked full URL for this specific entry, but kept structure valid.
+
+ex:Toko_BencoolenMall_VIRTUPLAY rdf:type ex:Toko ;
+    ex:namaToko "VIRTUPLAY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_FUNIFUN rdf:type ex:Toko ;
+    ex:namaToko "FUNIFUN!" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_TIMEZONE rdf:type ex:Toko ;
+    ex:namaToko "TIMEZONE" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_SELFIE_TIME rdf:type ex:Toko ;
+    ex:namaToko "SELFIE TIME" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_FUNWORLD rdf:type ex:Toko ;
+    ex:namaToko "FUNWORLD" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_HAPPY_KIDDY rdf:type ex:Toko ;
+    ex:namaToko "HAPPY KIDDY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_FUN_CITY rdf:type ex:Toko ;
+    ex:namaToko "FUN CITY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_CINEMA_XXI rdf:type ex:Toko ;
+    ex:namaToko "CINEMA XXI" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .
+
+ex:Toko_BencoolenMall_RX_RELAXOLOGY rdf:type ex:Toko ;
+    ex:namaToko "RX RELAXOLOGY" ;
+    ex:beradaDiMall ex:Mall52 ;
+    ex:kategoriToko "Kids & Entertainment" .

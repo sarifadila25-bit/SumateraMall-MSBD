@@ -1,0 +1,128 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PolluxMallBatam_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Clothing" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/pollux-mall-minimal.jpg> .
+
+ex:Toko_PolluxMallBatam_MAKO_Cake_and_Bakery rdf:type ex:Toko ;
+    ex:namaToko "MAKO Cake and Bakery" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "F&B, Bakery, Cake" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/mako.png> .
+
+ex:Toko_PolluxMallBatam_JCO_Donuts_and_Coffee rdf:type ex:Toko ;
+    ex:namaToko "JCO Donuts & Coffee" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "F&B, Donut, Coffee" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/JCO-2.png> .
+
+ex:Toko_PolluxMallBatam_Diamond_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Diamond & Co" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/Diamond-_-Co.png> .
+
+ex:Toko_PolluxMallBatam_Optik_Tunggal rdf:type ex:Toko ;
+    ex:namaToko "Optik Tunggal" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/optik-tunggal.jpg> .
+
+ex:Toko_PolluxMallBatam_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/optik-melawai.png> .
+
+ex:Toko_PolluxMallBatam_Everbest rdf:type ex:Toko ;
+    ex:namaToko "Everbest" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear, Sepatu" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/Pollux-mall-everbest.jpg> .
+
+ex:Toko_PolluxMallBatam_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Electronics, Smartphone, Gadget" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/pollux-mall-erafone.jpg> .
+
+ex:Toko_PolluxMallBatam_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/optik-seis.jpg> .
+
+ex:Toko_PolluxMallBatam_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Electronics, Smartphone, Tablet" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/Pollux-mall-samsung.jpg> .
+
+ex:Toko_PolluxMallBatam_Executive rdf:type ex:Toko ;
+    ex:namaToko "Executive" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/EXECUTIVE.jpg> .
+
+ex:Toko_PolluxMallBatam_Colorbox rdf:type ex:Toko ;
+    ex:namaToko "Colorbox" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/pollux-mall-colorbox.jpg> .
+
+ex:Toko_PolluxMallBatam_Fore_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Fore Coffee" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/pollux-mall-fore-coffee.jpg> .
+
+ex:Toko_PolluxMallBatam_Happy_Time rdf:type ex:Toko ;
+    ex:namaToko "Happy Time" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "F&B, Restaurant & Cafe" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/happy-time.jpg> .
+
+ex:Toko_PolluxMallBatam_Travel_Xperience rdf:type ex:Toko ;
+    ex:namaToko "Travel Xperience" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Services, Travel Agency" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/travel-xperience.jpg> .
+
+ex:Toko_PolluxMallBatam_Zyta_Delia rdf:type ex:Toko ;
+    ex:namaToko "Zyta Delia" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/ZytaDelia.png> .
+
+ex:Toko_PolluxMallBatam_Benang_Jarum rdf:type ex:Toko ;
+    ex:namaToko "Benang Jarum" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/Benang-Jarum.png> .
+
+ex:Toko_PolluxMallBatam_Nada_Puspita rdf:type ex:Toko ;
+    ex:namaToko "Nada Puspita" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/Nada-Puspita.png> .
+
+ex:Toko_PolluxMallBatam_MyFeet rdf:type ex:Toko ;
+    ex:namaToko "MyFeet" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/My-Feet.png> .
+
+ex:Toko_PolluxMallBatam_Buttonscarves rdf:type ex:Toko ;
+    ex:namaToko "Buttonscarves" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Fashion & Accessories, Hijab & Scarves" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/11/Buttonscarves.png> .
+
+ex:Toko_PolluxMallBatam_Diamond_and_Co_Jewelry rdf:type ex:Toko ;
+    ex:namaToko "Diamond & Co Jewelry" ;
+    ex:beradaDiMall ex:Mall97 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry" ;
+    ex:logoURL <https://polluxmalls.com/wp-content/uploads/2022/09/pollux-mall-diamond-co-jewelry.jpg> .

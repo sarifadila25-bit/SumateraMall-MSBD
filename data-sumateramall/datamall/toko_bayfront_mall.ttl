@@ -1,0 +1,232 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- COFFEE & BEVERAGES ---
+ex:Toko_BayfrontMall_Starbucks_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Starbucks Coffee" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Coffee" .
+
+ex:Toko_BayfrontMall_Indomaret_Point rdf:type ex:Toko ;
+    ex:namaToko "Indomaret Point" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Convenience Store & Coffee" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_Kopi_Kenangan rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kenangan" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Coffee" .
+
+ex:Toko_BayfrontMall_Excelso rdf:type ex:Toko ;
+    ex:namaToko "Excelso" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Coffee" .
+
+ex:Toko_BayfrontMall_Shelter_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Shelter Coffee" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Coffee, Laid-back Spot" .
+
+# --- TRADITIONAL & LOCAL FOOD ---
+ex:Toko_BayfrontMall_Sindo_Kopitiam rdf:type ex:Toko ;
+    ex:namaToko "Sindo Kopitiam" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Kopitiam, Breakfast" ;
+    ex:deskripsiToko "Tempat makan gaya kopitiam yang cocok untuk sarapan" .
+
+ex:Toko_BayfrontMall_Langlam rdf:type ex:Toko ;
+    ex:namaToko "Langlam" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Bakery, Peranakan-style Toast" .
+
+ex:Toko_BayfrontMall_Kampoeng_Mama rdf:type ex:Toko ;
+    ex:namaToko "Kampoeng Mama" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Local Food" ;
+    ex:lokasiToko "L1" .
+
+# --- FAST FOOD & CAFE ---
+ex:Toko_BayfrontMall_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Fast Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_BayfrontMall_Subway rdf:type ex:Toko ;
+    ex:namaToko "Subway" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Fast Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_BayfrontMall_Malaya_Cafe rdf:type ex:Toko ;
+    ex:namaToko "Malaya Café" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Cafe" ;
+    ex:lokasiToko "L2" .
+
+# --- BAKERY, CAKES & LAPIS LEGIT ---
+ex:Toko_BayfrontMall_Morning_Bakery rdf:type ex:Toko ;
+    ex:namaToko "Morning Bakery" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Bakery & Pastries" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_BayfrontMall_Lapisa rdf:type ex:Toko ;
+    ex:namaToko "Lapisa" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Lapis Legit & Souvenirs" ;
+    ex:deskripsiToko "Spesialis kue lapis legit" .
+
+ex:Toko_BayfrontMall_Holy_Lapis_Legit rdf:type ex:Toko ;
+    ex:namaToko "Holy Lapis Legit" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Lapis Legit & Souvenirs" .
+
+ex:Toko_BayfrontMall_Lapis_Mulia rdf:type ex:Toko ;
+    ex:namaToko "Lapis Mulia" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Lapis Legit & Souvenirs" .
+
+ex:Toko_BayfrontMall_Lamoist rdf:type ex:Toko ;
+    ex:namaToko "Lamoist" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Lapis Legit & Soft Cakes" .
+
+ex:Toko_BayfrontMall_Lapis_No_01 rdf:type ex:Toko ;
+    ex:namaToko "Lapis No.01" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Lapis Legit & Souvenirs" .
+
+ex:Toko_BayfrontMall_The_Master_Layer rdf:type ex:Toko ;
+    ex:namaToko "The Master Layer" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Lapis Legit & Souvenirs" .
+
+ex:Toko_BayfrontMall_Forestela rdf:type ex:Toko ;
+    ex:namaToko "Forestela" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Brownies & Soft Cakes" .
+
+ex:Toko_BayfrontMall_Amanda rdf:type ex:Toko ;
+    ex:namaToko "Amanda" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Brownies & Soft Cakes" .
+
+ex:Toko_BayfrontMall_Mountiar_Cakery rdf:type ex:Toko ;
+    ex:namaToko "Mountiar Cakery" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Brownies & Soft Cakes" .
+
+ex:Toko_BayfrontMall_Holland_Bakery rdf:type ex:Toko ;
+    ex:namaToko "Holland Bakery" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Bakery & Pastries" .
+
+ex:Toko_BayfrontMall_Royal_Bakery rdf:type ex:Toko ;
+    ex:namaToko "Royal Bakery" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Bakery & Pastries" .
+
+ex:Toko_BayfrontMall_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti O" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "F&B, Bakery & Pastries" .
+
+# --- SOUVENIRS & SNACKS ---
+ex:Toko_BayfrontMall_DParis_Snack rdf:type ex:Toko ;
+    ex:namaToko "D’Paris Snack" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Local Snacks & Souvenirs" ;
+    ex:deskripsiToko "Menjual camilan lokal kemasan yang mudah dibawa" .
+
+ex:Toko_BayfrontMall_Good_Snack rdf:type ex:Toko ;
+    ex:namaToko "Good Snack" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Local Snacks & Souvenirs" .
+
+ex:Toko_BayfrontMall_Oleh_Oleh rdf:type ex:Toko ;
+    ex:namaToko "Oleh-Oleh" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Souvenirs" ;
+    ex:deskripsiToko "Toko serba ada oleh-oleh untuk wisatawan" .
+
+ex:Toko_BayfrontMall_Tora_Tora rdf:type ex:Toko ;
+    ex:namaToko "Tora-Tora" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Souvenirs" ;
+    ex:deskripsiToko "Toko serba ada oleh-oleh untuk wisatawan" .
+
+ex:Toko_BayfrontMall_Tourist_Shop rdf:type ex:Toko ;
+    ex:namaToko "Tourist Shop" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Trinkets & Keepsakes" .
+
+ex:Toko_BayfrontMall_Starwind_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Starwind Accessories" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Accessories" .
+
+# --- EVERYDAY NEEDS & HEALTH ---
+ex:Toko_BayfrontMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Health & Beauty, Pharmacy & Healthcare" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Health & Beauty, Pharmacy & Healthcare" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_Indomaret rdf:type ex:Toko ;
+    ex:namaToko "Indomaret" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Convenience Store" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_Harbour_Mart rdf:type ex:Toko ;
+    ex:namaToko "Harbour Mart" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Supermarket & Convenience" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_Liqbay_and_Mart rdf:type ex:Toko ;
+    ex:namaToko "Liqbay & Mart" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Convenience Store" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_Circle_K rdf:type ex:Toko ;
+    ex:namaToko "Circle K" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Retail, Convenience Store" ;
+    ex:lokasiToko "Ground Floor" .
+
+ex:Toko_BayfrontMall_IHH_Healthcare_Clinic rdf:type ex:Toko ;
+    ex:namaToko "IHH Healthcare Clinic" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Health & Beauty, Medical Clinic" ;
+    ex:lokasiToko "L2" ;
+    ex:deskripsiToko "Klinik untuk kebutuhan medis ringan tanpa perlu keluar mal" .
+
+# --- MASSAGE, SPA & NAIL ART ---
+ex:Toko_BayfrontMall_Eska_Wellness_Spa_and_Salon rdf:type ex:Toko ;
+    ex:namaToko "Eska Wellness Spa & Salon" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Health & Beauty, Spa & Salon" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_BayfrontMall_Relax_Zone rdf:type ex:Toko ;
+    ex:namaToko "Relax Zone" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Health & Beauty, Massage Chairs" ;
+    ex:lokasiToko "L2" ;
+    ex:deskripsiToko "Pijat kursi tanpa perlu reservasi" .
+
+ex:Toko_BayfrontMall_Claras_Choices_Nail_Art_and_Spa rdf:type ex:Toko ;
+    ex:namaToko "Clara’s Choices Nail Art & Spa" ;
+    ex:beradaDiMall ex:Mall74 ;
+    ex:kategoriToko "Health & Beauty, Nail Art & Spa" ;
+    ex:lokasiToko "L2" .

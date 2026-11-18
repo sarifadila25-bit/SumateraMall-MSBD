@@ -1,0 +1,571 @@
+const translations = {
+    en: {
+        nav_home: 'Home',
+        nav_team: 'Team',
+        nav_search_label: 'Search stores and malls',
+        nav_search_placeholder: 'Search stores, categories, or malls…',
+        nav_search_button: 'Search',
+        quick_filters: 'Quick filters',
+        filter_all: 'All',
+        filter_category: 'Category',
+        filter_rating: 'Minimum rating',
+        filter_rating_price: 'Rating and price level',
+        filter_any_rating: 'Any rating',
+        filter_any_price: 'Any price',
+        filter_rated: 'Rated 4.0+',
+        filter_operational: 'Operational',
+        filter_by_province: 'Filter by province or city',
+        showing: 'Showing',
+        mall_items: 'malls',
+        mall_filter_empty: 'No malls match these filters.',
+        search_results_for: 'Results for',
+        fuzzy_search_note: '— typo-tolerant matching',
+        refine_results: 'Refine these results',
+        team_eyebrow: 'ABOUT THE PROJECT',
+        team_title: 'The team behind SumateraMall',
+        team_description: 'A multidisciplinary project bringing mall discovery, semantic data, and practical trip planning together.',
+        team_semantic_title: 'Semantic data',
+        team_semantic_description: 'Connecting mall, store, category, and location information in a browsable knowledge graph.',
+        team_discovery_title: 'Mall discovery',
+        team_discovery_description: 'Building clear search, useful filters, and accessible ways to explore shopping destinations.',
+        team_integrations_title: 'Connected experiences',
+        team_integrations_description: 'Bringing together maps, open data, and trip-planning tools while making data limits clear.',
+        nav_malls: 'Malls',
+        nav_search: 'Search',
+        nav_routes: 'Route planner',
+        nav_recommendations: 'Recommendations',
+        nav_map: 'Map',
+        nav_budget: 'Budget',
+        nav_explore: 'Explore',
+        landing_eyebrow: 'YOUR SUMATRA SHOPPING GUIDE',
+        landing_title: 'Find the right mall for today.',
+        landing_description: 'See which malls are open, then find your favorite stores inside.',
+        landing_coverage: '10 provinces across Sumatra',
+        landing_search_title: 'Find your favorite store',
+        landing_search_description: 'Search for stores in a mall of your choice',
+        landing_search_placeholder: 'Try coffee, fashion, or books',
+        landing_any_mall: 'All malls',
+        landing_search_button: 'Search stores',
+        landing_open_eyebrow: 'READY WHEN YOU ARE',
+        landing_open_heading: 'Malls open now',
+        landing_open_description: 'Choose a city to see nearby options.',
+        landing_open_count: 'malls open',
+        landing_all_cities: 'All cities',
+        landing_use_location: 'Use my location',
+        landing_location_note: 'Nearby results are matched by city; mall coordinates are not available yet.',
+        landing_location_loading: 'Finding your city…',
+        landing_location_failed: 'Could not access your location. Choose a city instead.',
+        landing_geolocation_unsupported: 'Location is not supported by this browser.',
+        landing_city_not_found: 'We could not match your location to a city in the mall directory.',
+        landing_city_selected: 'Showing open malls in :city. Exact distances are not available.',
+        landing_data_unavailable: 'Mall data is temporarily unavailable.',
+        landing_data_retry: 'Please try again in a little while.',
+        landing_no_data: 'No mall records are available yet.',
+        landing_connect_data: 'Connect the RDF dataset to Fuseki to show open malls.',
+        landing_open_badge: 'Open now',
+        landing_view_details: 'View details',
+        landing_no_open: 'No open malls match this city right now.',
+        landing_choose_another_city: 'Choose another city to see available options.',
+        landing_no_open_anywhere: 'No mall opening schedules are available for this time.',
+        landing_hours_note: 'Open status is estimated from RDF hours and may not include special-day schedules.',
+        landing_show_more: 'Show all open malls',
+        landing_show_less: 'Show fewer malls',
+        hero_tag: 'SEMANTIC WEB TECHNOLOGY',
+        hero_title_one: 'Explore malls',
+        hero_title_two: 'Across Sumatra',
+        hero_description: 'Discover malls and stores across all 10 provinces of Sumatra with semantic search.',
+        hero_search: 'Start searching',
+        hero_routes: 'Plan a route',
+        hero_map: 'View map',
+        feature_heading: 'Explore features',
+        feature_subheading: 'More than a mall directory',
+        feature_route_heading: 'Mall hopping route',
+        feature_route_description: 'Plan an optimized multi-stop drive with Google Maps.',
+        feature_recommend_heading: 'Semantic recommendations',
+        feature_recommend_description: 'Discover stores through RDF graph traversal.',
+        feature_compare_heading: 'Compare malls',
+        feature_compare_description: 'Compare store counts and category coverage side by side.',
+        feature_status_heading: 'Operational data',
+        feature_status_description: 'Hours are shown only when present in RDF; crowd predictions are not enabled.',
+        feature_nearby_heading: 'Nearby amenities',
+        feature_nearby_description: 'Find mapped mosques, ATMs, and restrooms nearby.',
+        feature_export_heading: 'Export itinerary',
+        feature_export_description: 'Download your visit plan as a PDF or ICS calendar.',
+        feature_budget_heading: 'Budget estimator',
+        feature_budget_description: 'Transparent estimates from RDF price levels or your selected fallback.',
+        cta_heading: 'Ready to explore Sumatra?',
+        cta_description: 'Find malls and stores from Aceh to Lampung.',
+        cta_button: 'Explore now',
+        page_search_title: 'Smart search',
+        page_search_description: 'Find stores with semantic filters.',
+        field_city: 'City',
+        all_cities: 'All cities',
+        field_category: 'Category',
+        all_categories: 'All categories',
+        field_mall: 'Mall',
+        all_malls: 'All malls',
+        field_rating: 'Minimum rating',
+        all_ratings: 'Any rating',
+        field_open_now: 'Open now',
+        field_store_search: 'Search store names',
+        search_button: 'Search',
+        reset_button: 'Reset',
+        page_map_title: 'Mall map',
+        page_map_description: 'Mall locations from the RDF graph, shown on Google Maps.',
+        map_empty: 'No mall data is available yet. Import the merged RDF graph.',
+        maps_key_missing: 'Google Maps is not configured. Add a restricted browser key to GOOGLE_MAPS_BROWSER_KEY.',
+        maps_load_failed: 'Google Maps could not be loaded. Check the browser key, API restrictions, and billing.',
+        maps_locate: 'Show on map',
+        maps_locating: 'Finding this mall…',
+        maps_location_failed: 'Could not locate this mall address.',
+        maps_address_missing: 'No address is available to locate this mall.',
+        maps_open: 'Open in Google Maps',
+        page_recommend_title: 'Semantic recommendations',
+        page_recommend_description: 'Store recommendations traversing the RDF graph.',
+        recommend_button: 'Find recommendations',
+        page_budget_title: 'Budget estimator',
+        page_budget_description: 'Estimate shopping spend per person from available store price levels.',
+        field_people: 'Number of people',
+        estimate_button: 'Calculate estimate',
+        page_compare_title: 'Mall comparison',
+        compare_description: 'Compare locations, store coverage, and categories from RDF data.',
+        no_comparison_data: 'Not enough data to compare those selections. Choose malls with RDF data.',
+        page_route_title: 'Route planner',
+        route_description: 'Plan an optimized multi-stop drive with Google Maps Routes.',
+        route_start: 'Starting location (optional; leave blank to start at the first mall)',
+        route_stops: 'Choose malls (2-8; addresses are used for routing)',
+        route_submit: 'Calculate optimized route',
+        route_export_pdf: 'Download PDF',
+        route_export_ics: 'Download calendar (.ics)',
+        feature_status_note: 'Crowd data is not available yet.',
+        language_status: 'Language set to English',
+        footer_copyright: '© 2026 SumateraMall Semantic Explorer',
+        footer_coverage: 'Mall data from 10 provinces on Sumatra',
+        metric_provinces: 'Provinces',
+        metric_graph: 'Semantic graph',
+        metric_map: 'Maps & amenities',
+        metric_coverage: 'Provinces covered',
+        page_malls_title: 'Mall directory',
+        page_malls_description: 'Shopping malls across the island of Sumatra',
+        compare_select_label: 'Compare 2–3 malls',
+        compare_button: 'Compare',
+        compare_help: 'Choose 2 or 3 malls (Ctrl/Cmd + click).',
+        back_to_malls: 'Back to malls',
+        compare_store_count: 'Stores in RDF',
+        compare_category_count: 'Store categories',
+        compare_coordinates: 'Coordinates',
+        view_details: 'View details',
+        use_current_location: 'Use my current location',
+        map_mall_list: 'Mall list',
+        search_results_title: 'Search results',
+        search_results_found: 'Found',
+        search_results_count: 'results',
+        operational: 'Operational',
+        search_no_results: 'No results. Try different filters.',
+        recommend_empty: 'Choose filters to see recommended stores.',
+        choose_mall: 'Choose a mall',
+        budget_fallback_label: 'Fallback price level when store price data is unavailable',
+        budget_level_1: 'Level 1 — budget (Rp30,000/person)',
+        budget_level_2: 'Level 2 — moderate (Rp75,000/person)',
+        budget_level_3: 'Level 3 — premium (Rp150,000/person)',
+        budget_level_4: 'Level 4 — high (Rp300,000/person)',
+        budget_result_title: 'Estimate',
+        budget_average_level: 'Average level:',
+        budget_based_on_rdf: 'Based on RDF price levels from',
+        budget_stores_in_mall: 'stores in this mall. This is an estimate, not an official price.',
+        budget_no_price_data: 'Price-level data is unavailable for this mall; the selected fallback level is used.',
+        budget_for: 'For',
+        people: 'people',
+        per_person: 'per person',
+        budget_config_note: 'These estimates can be adjusted with BUDGET_PRICE_LEVEL_1..4 in .env.',
+        route_result_title: 'Your optimized route',
+        route_through: 'Route data:',
+        route_total_distance: 'Total distance',
+        route_total_duration: 'Total time',
+        route_malls_visited: 'Malls visited',
+        route_visit_order: 'Visit order',
+        route_new: 'Plan another route',
+        location: 'Location',
+        nearby_button: 'Find nearby mosques, ATMs, and restrooms',
+        accessibility: 'Accessibility',
+        accessibility_wheelchair: 'Wheelchair access',
+        accessibility_parking: 'Parking',
+        accessibility_elevator: 'Elevator',
+        not_recorded: 'Not recorded',
+        available: 'Available',
+        accessibility_note: 'Accessibility is shown only when recorded in RDF; unrecorded does not mean unavailable.',
+        stores_in_mall: 'Stores in this mall',
+        store_count: 'stores',
+        filter_all: 'All',
+        stores_empty: 'No store data is available for this mall.',
+        nearby_loading: 'Loading nearby amenities…',
+        nearby_unavailable: 'OpenStreetMap service is unavailable.',
+        nearby_found: ':count amenities found within 1.5 km.',
+        nearby_none: 'No mapped amenities found in this area.',
+        nearby_failed: 'Could not load nearby amenities.',
+        not_available: 'Not available',
+        chat_assistant: 'SumateraMall Assistant',
+        chat_powered_by: 'RDF-grounded chat',
+        chat_greeting: 'Hello! I am the SumateraMall virtual assistant. Try asking:',
+        chat_example_cafe: '- Find a cafe in Sun Plaza',
+        chat_example_malls: '- Malls in Medan',
+        chat_example_open: '- Stores that are open now',
+        chat_example_top: '- Top-rated stores',
+        chat_placeholder: 'Type your question…',
+        chat_thinking: 'Thinking…',
+        voice_unsupported: 'Voice search is not supported by this browser.',
+        voice_listening: 'Listening…',
+        voice_failed: 'Voice search failed. You can type your search instead.',
+        hours: 'hrs',
+        minutes: 'min',
+        route_estimate_notice: 'Google Maps road routing is unavailable.',
+        geolocation_failed: 'Could not access your location. Enter coordinates or start at the first mall.',
+        geolocation_unsupported: 'Geolocation is not supported by this browser.',
+        route_max_stops: 'Choose no more than 8 malls for one route.',
+        theme_switch_light: 'Light mode',
+        theme_switch_dark: 'Dark mode',
+        store_floor: 'Floor',
+        mall_hours: 'Opening hours',
+        mall_website: 'Website',
+        google_directions: 'Open route in Google Maps'
+    },
+    id: {
+        nav_home: 'Home',
+        nav_team: 'Team',
+        nav_search_label: 'Cari toko dan mall',
+        nav_search_placeholder: 'Cari toko, kategori, atau mall…',
+        nav_search_button: 'Cari',
+        quick_filters: 'Filter cepat',
+        filter_all: 'Semua',
+        filter_category: 'Kategori',
+        filter_rating: 'Rating minimum',
+        filter_rating_price: 'Rating dan kisaran harga',
+        filter_any_rating: 'Semua rating',
+        filter_any_price: 'Semua harga',
+        filter_rated: 'Rating 4.0+',
+        filter_operational: 'Operasional',
+        filter_by_province: 'Filter berdasarkan provinsi atau kota',
+        showing: 'Menampilkan',
+        mall_items: 'mall',
+        mall_filter_empty: 'Tidak ada mall yang cocok dengan filter ini.',
+        search_results_for: 'Hasil untuk',
+        fuzzy_search_note: '— pencarian tetap cocok meski ada typo',
+        refine_results: 'Persempit hasil ini',
+        team_eyebrow: 'TENTANG PROYEK',
+        team_title: 'Tim di balik SumateraMall',
+        team_description: 'Proyek multidisiplin yang menyatukan penemuan mall, data semantik, dan perencanaan perjalanan.',
+        team_semantic_title: 'Data semantik',
+        team_semantic_description: 'Menghubungkan informasi mall, toko, kategori, dan lokasi dalam knowledge graph yang dapat ditelusuri.',
+        team_discovery_title: 'Penemuan mall',
+        team_discovery_description: 'Membangun pencarian yang jelas, filter yang berguna, dan cara yang mudah diakses untuk menjelajah.',
+        team_integrations_title: 'Pengalaman terhubung',
+        team_integrations_description: 'Menggabungkan peta, data terbuka, dan alat perencanaan perjalanan dengan keterbatasan data yang transparan.',
+        nav_malls: 'Mall',
+        nav_search: 'Pencarian',
+        nav_routes: 'Route Planner',
+        nav_recommendations: 'Rekomendasi',
+        nav_map: 'Peta',
+        nav_budget: 'Budget',
+        nav_explore: 'Mulai Jelajah',
+        landing_eyebrow: 'PANDUAN BELANJA SUMATERA',
+        landing_title: 'Temukan mall yang pas untuk hari ini.',
+        landing_description: 'Lihat mall yang sedang buka, lalu temukan toko favorit Anda di dalamnya.',
+        landing_coverage: '10 provinsi di Sumatera',
+        landing_search_title: 'Cari toko favorit',
+        landing_search_description: 'Telusuri toko di mall pilihan Anda',
+        landing_search_placeholder: 'Contoh: kopi, fashion, buku',
+        landing_any_mall: 'Semua mall',
+        landing_search_button: 'Cari toko',
+        landing_open_eyebrow: 'SIAP DIKUNJUNGI',
+        landing_open_heading: 'Mall yang buka sekarang',
+        landing_open_description: 'Pilih kota untuk melihat pilihan di sekitar Anda.',
+        landing_open_count: 'mall buka',
+        landing_all_cities: 'Semua kota',
+        landing_use_location: 'Gunakan lokasi saya',
+        landing_location_note: 'Lokasi terdekat ditentukan berdasarkan kota; koordinat mall belum tersedia.',
+        landing_location_loading: 'Mencari kota Anda…',
+        landing_location_failed: 'Lokasi Anda tidak dapat diakses. Silakan pilih kota.',
+        landing_geolocation_unsupported: 'Browser ini tidak mendukung lokasi.',
+        landing_city_not_found: 'Lokasi Anda tidak cocok dengan kota di daftar mall.',
+        landing_city_selected: 'Menampilkan mall buka di :city. Jarak pasti belum tersedia.',
+        landing_data_unavailable: 'Data mall sementara tidak dapat dimuat.',
+        landing_data_retry: 'Silakan coba lagi beberapa saat lagi.',
+        landing_no_data: 'Data mall belum tersedia.',
+        landing_connect_data: 'Hubungkan dataset RDF ke Fuseki untuk menampilkan mall yang buka.',
+        landing_open_badge: 'Buka sekarang',
+        landing_view_details: 'Lihat detail',
+        landing_no_open: 'Belum ada mall buka yang cocok di kota ini.',
+        landing_choose_another_city: 'Pilih kota lain untuk melihat pilihan yang tersedia.',
+        landing_no_open_anywhere: 'Tidak ada jadwal mall buka yang tersedia saat ini.',
+        landing_hours_note: 'Status buka dihitung dari jam operasional RDF dan mungkin belum mencakup jadwal hari khusus.',
+        landing_show_more: 'Lihat semua mall yang buka',
+        landing_show_less: 'Tampilkan lebih sedikit',
+        hero_tag: 'TEKNOLOGI WEB SEMANTIK',
+        hero_title_one: 'Jelajahi Mall',
+        hero_title_two: 'Seluruh Sumatera',
+        hero_description: 'Temukan mall dan toko di 10 provinsi Sumatera dengan pencarian semantik.',
+        hero_search: 'Mulai Pencarian',
+        hero_routes: 'Rencanakan Rute',
+        hero_map: 'Lihat Peta',
+        feature_heading: 'Fitur Jelajah',
+        feature_subheading: 'Lebih dari sekadar direktori mall',
+        feature_route_heading: 'Rute mall hopping',
+        feature_route_description: 'Rencanakan perjalanan multi-stop optimal dengan Google Maps.',
+        feature_recommend_heading: 'Rekomendasi semantik',
+        feature_recommend_description: 'Temukan toko melalui penelusuran graph RDF.',
+        feature_compare_heading: 'Bandingkan mall',
+        feature_compare_description: 'Bandingkan jumlah toko dan kategori secara berdampingan.',
+        feature_status_heading: 'Data operasional',
+        feature_status_description: 'Jam buka hanya ditampilkan jika tersedia di RDF; prediksi keramaian belum diaktifkan.',
+        feature_nearby_heading: 'Fasilitas sekitar',
+        feature_nearby_description: 'Temukan masjid, ATM, dan toilet yang terpetakan.',
+        feature_export_heading: 'Ekspor itinerary',
+        feature_export_description: 'Unduh rencana kunjungan sebagai PDF atau kalender ICS.',
+        feature_budget_heading: 'Estimasi budget',
+        feature_budget_description: 'Estimasi transparan dari price level RDF atau level fallback pilihan Anda.',
+        cta_heading: 'Siap menjelajah Sumatera?',
+        cta_description: 'Temukan mall dan toko dari Aceh hingga Lampung.',
+        cta_button: 'Mulai jelajah',
+        page_search_title: 'Pencarian cerdas',
+        page_search_description: 'Temukan toko dengan filter semantik.',
+        field_city: 'Kota',
+        all_cities: 'Semua Kota',
+        field_category: 'Kategori',
+        all_categories: 'Semua Kategori',
+        field_mall: 'Mall',
+        all_malls: 'Semua Mall',
+        field_rating: 'Rating minimum',
+        all_ratings: 'Semua Rating',
+        field_open_now: 'Buka sekarang',
+        field_store_search: 'Cari nama toko',
+        search_button: 'Cari',
+        reset_button: 'Reset',
+        page_map_title: 'Peta mall',
+        page_map_description: 'Lokasi mall dari graph RDF, ditampilkan di Google Maps.',
+        map_empty: 'Data mall belum tersedia. Impor graph RDF gabungan terlebih dahulu.',
+        maps_key_missing: 'Google Maps belum dikonfigurasi. Tambahkan browser key yang dibatasi di GOOGLE_MAPS_BROWSER_KEY.',
+        maps_load_failed: 'Google Maps gagal dimuat. Periksa browser key, pembatasan API, dan billing.',
+        maps_locate: 'Tampilkan di peta',
+        maps_locating: 'Mencari lokasi mall…',
+        maps_location_failed: 'Alamat mall ini tidak dapat ditemukan.',
+        maps_address_missing: 'Alamat mall ini belum tersedia.',
+        maps_open: 'Buka di Google Maps',
+        page_recommend_title: 'Rekomendasi semantik',
+        page_recommend_description: 'Rekomendasi toko melalui penelusuran graph RDF.',
+        recommend_button: 'Cari rekomendasi',
+        page_budget_title: 'Estimasi budget',
+        page_budget_description: 'Perkirakan biaya belanja per orang dari price level toko yang tersedia.',
+        field_people: 'Jumlah orang',
+        estimate_button: 'Hitung estimasi',
+        page_compare_title: 'Perbandingan mall',
+        compare_description: 'Bandingkan lokasi, cakupan toko, dan kategori dari data RDF.',
+        no_comparison_data: 'Data tidak cukup untuk membandingkan pilihan tersebut. Pilih mall yang memiliki data RDF.',
+        page_route_title: 'Route Planner',
+        route_description: 'Rencanakan perjalanan multi-stop optimal dengan Google Maps Routes.',
+        route_start: 'Lokasi awal (opsional; kosongkan untuk mulai dari mall pertama)',
+        route_stops: 'Pilih mall (2-8; alamat digunakan untuk rute)',
+        route_submit: 'Hitung rute optimal',
+        route_export_pdf: 'Unduh PDF',
+        route_export_ics: 'Unduh kalender (.ics)',
+        feature_status_note: 'Data keramaian belum tersedia.',
+        language_status: 'Bahasa diatur ke Indonesia',
+        footer_copyright: '© 2026 SumateraMall Semantic Explorer',
+        footer_coverage: 'Data mall dari 10 provinsi di Sumatera',
+        metric_provinces: 'Provinsi',
+        metric_graph: 'Graph semantik',
+        metric_map: 'Peta & fasilitas',
+        metric_coverage: 'Provinsi terdata',
+        page_malls_title: 'Daftar mall',
+        page_malls_description: 'Pusat perbelanjaan di seluruh Pulau Sumatera',
+        compare_select_label: 'Bandingkan 2–3 mall',
+        compare_button: 'Bandingkan',
+        compare_help: 'Pilih 2 atau 3 mall (Ctrl/Cmd + klik).',
+        back_to_malls: 'Kembali ke daftar mall',
+        compare_store_count: 'Toko dalam RDF',
+        compare_category_count: 'Kategori toko',
+        compare_coordinates: 'Koordinat',
+        view_details: 'Lihat detail',
+        use_current_location: 'Gunakan lokasi saya saat ini',
+        map_mall_list: 'Daftar mall',
+        search_results_title: 'Hasil pencarian',
+        search_results_found: 'Ditemukan',
+        search_results_count: 'hasil',
+        operational: 'Operasional',
+        search_no_results: 'Tidak ada hasil. Coba filter lain.',
+        recommend_empty: 'Pilih filter untuk melihat rekomendasi toko.',
+        choose_mall: 'Pilih mall',
+        budget_fallback_label: 'Level harga fallback jika data harga toko tidak tersedia',
+        budget_level_1: 'Level 1 — hemat (Rp30.000/orang)',
+        budget_level_2: 'Level 2 — menengah (Rp75.000/orang)',
+        budget_level_3: 'Level 3 — premium (Rp150.000/orang)',
+        budget_level_4: 'Level 4 — tinggi (Rp300.000/orang)',
+        budget_result_title: 'Hasil estimasi',
+        budget_average_level: 'Rata-rata level:',
+        budget_based_on_rdf: 'Berdasarkan price level RDF dari',
+        budget_stores_in_mall: 'toko di mall ini. Ini perkiraan, bukan harga resmi.',
+        budget_no_price_data: 'Data price level belum tersedia untuk mall ini; hasil menggunakan level fallback yang dipilih.',
+        budget_for: 'Untuk',
+        people: 'orang',
+        per_person: 'per orang',
+        budget_config_note: 'Estimasi dapat disesuaikan melalui BUDGET_PRICE_LEVEL_1..4 di .env.',
+        route_result_title: 'Rute optimal Anda',
+        route_through: 'Sumber rute:',
+        route_total_distance: 'Total jarak',
+        route_total_duration: 'Total waktu',
+        route_malls_visited: 'Mall dikunjungi',
+        route_visit_order: 'Urutan kunjungan',
+        route_new: 'Buat rute baru',
+        location: 'Lokasi',
+        nearby_button: 'Cari masjid, ATM, dan toilet di sekitar',
+        accessibility: 'Aksesibilitas',
+        accessibility_wheelchair: 'Akses kursi roda',
+        accessibility_parking: 'Parkir',
+        accessibility_elevator: 'Elevator',
+        not_recorded: 'Belum tercatat',
+        available: 'Tersedia',
+        accessibility_note: 'Informasi aksesibilitas hanya ditampilkan jika tersedia di RDF; status yang tidak tercatat tidak dianggap tidak tersedia.',
+        stores_in_mall: 'Toko di mall ini',
+        store_count: 'toko',
+        filter_all: 'Semua',
+        stores_empty: 'Belum ada data toko untuk mall ini.',
+        nearby_loading: 'Memuat fasilitas sekitar…',
+        nearby_unavailable: 'Layanan OpenStreetMap tidak tersedia.',
+        nearby_found: ':count fasilitas ditemukan dalam radius 1,5 km.',
+        nearby_none: 'Tidak ada fasilitas terpetakan di sekitar lokasi ini.',
+        nearby_failed: 'Gagal memuat fasilitas sekitar.',
+        not_available: 'Belum tersedia',
+        chat_assistant: 'Asisten SumateraMall',
+        chat_powered_by: 'Chat berbasis RDF',
+        chat_greeting: 'Halo! Saya asisten virtual SumateraMall. Coba tanyakan:',
+        chat_example_cafe: '- Cari kafe di Sun Plaza',
+        chat_example_malls: '- Mall di Medan',
+        chat_example_open: '- Toko yang masih buka',
+        chat_example_top: '- Toko dengan rating tertinggi',
+        chat_placeholder: 'Ketik pertanyaan…',
+        chat_thinking: 'Sedang berpikir…',
+        voice_unsupported: 'Pencarian suara tidak didukung browser ini.',
+        voice_listening: 'Mendengarkan…',
+        voice_failed: 'Pencarian suara gagal. Anda dapat mengetik pencarian.',
+        hours: 'jam',
+        minutes: 'menit',
+        route_estimate_notice: 'Layanan Google Routes tidak tersedia.',
+        geolocation_failed: 'Lokasi tidak dapat diakses. Masukkan koordinat atau mulai dari mall pertama.',
+        geolocation_unsupported: 'Geolokasi tidak didukung browser ini.',
+        route_max_stops: 'Pilih maksimal 8 mall untuk satu rute.',
+        theme_switch_light: 'Mode terang',
+        theme_switch_dark: 'Mode gelap',
+        store_floor: 'Lantai',
+        mall_hours: 'Jam operasional',
+        mall_website: 'Situs web',
+        google_directions: 'Buka rute di Google Maps'
+    }
+};
+
+window.sumateraTranslate = key => translations[document.documentElement.lang]?.[key] || key;
+
+window.loadGoogleMaps = () => {
+    if (window.google?.maps?.importLibrary) return Promise.resolve(window.google.maps);
+    if (window.sumateraGoogleMapsPromise) return window.sumateraGoogleMapsPromise;
+    if (!window.sumateraGoogleMapsKey) {
+        return Promise.reject(new Error(window.sumateraTranslate('maps_key_missing')));
+    }
+
+    window.sumateraGoogleMapsPromise = new Promise((resolve, reject) => {
+        const callbackName = '__sumateraGoogleMapsReady';
+        const script = document.createElement('script');
+        window[callbackName] = () => resolve(window.google.maps);
+        script.src = `https://maps.googleapis.com/maps/api/js?${new URLSearchParams({
+            key: window.sumateraGoogleMapsKey,
+            v: 'weekly',
+            loading: 'async',
+            callback: callbackName
+        })}`;
+        script.async = true;
+        script.onerror = () => {
+            window.sumateraGoogleMapsPromise = null;
+            reject(new Error(window.sumateraTranslate('maps_load_failed')));
+        };
+        document.head.appendChild(script);
+    });
+
+    return window.sumateraGoogleMapsPromise;
+};
+
+const themeButton = document.querySelector('[data-theme-toggle]');
+const setTheme = theme => {
+    const selectedTheme = theme === 'light' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = selectedTheme;
+    try {
+        localStorage.setItem('sumateramall-theme', selectedTheme);
+    } catch (error) {
+        console.warn('SumateraMall could not save the selected theme.', error);
+    }
+    if (themeButton) {
+        const language = document.documentElement.lang === 'en' ? 'en' : 'id';
+        themeButton.textContent = translations[language][selectedTheme === 'dark' ? 'theme_switch_light' : 'theme_switch_dark'];
+    }
+};
+
+setTheme(document.documentElement.dataset.theme);
+themeButton?.addEventListener('click', () => {
+    setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+});
+
+const languageButton = document.querySelector('[data-language-toggle]');
+if (languageButton) {
+    const setLanguage = language => {
+        const selectedLanguage = language === 'en' ? 'en' : 'id';
+        document.documentElement.lang = selectedLanguage;
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const translated = translations[selectedLanguage][element.dataset.i18n];
+            if (translated) element.textContent = translated;
+        });
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+            const translated = translations[selectedLanguage][element.dataset.i18nPlaceholder];
+            if (translated) element.placeholder = translated;
+        });
+        document.querySelectorAll('[data-planner-locale]').forEach(element => {
+            element.value = selectedLanguage;
+        });
+        document.getElementById('voice-search')?.setAttribute('aria-label', translations[selectedLanguage].field_store_search);
+        languageButton.setAttribute('aria-pressed', String(selectedLanguage === 'en'));
+        localStorage.setItem('sumateramall-language', selectedLanguage);
+        setTheme(document.documentElement.dataset.theme);
+    };
+
+    setLanguage(localStorage.getItem('sumateramall-language') || 'id');
+    languageButton.addEventListener('click', () => {
+        setLanguage(document.documentElement.lang === 'id' ? 'en' : 'id');
+    });
+}
+
+const voiceButton = document.getElementById('voice-search');
+if (voiceButton) {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const status = document.getElementById('voice-search-status');
+    if (!SpeechRecognition) {
+        voiceButton.disabled = true;
+        status.textContent = window.sumateraTranslate('voice_unsupported');
+    } else {
+        voiceButton.addEventListener('click', () => {
+            const recognition = new SpeechRecognition();
+            recognition.lang = document.documentElement.lang === 'en' ? 'en-US' : 'id-ID';
+            recognition.interimResults = false;
+            recognition.maxAlternatives = 1;
+            status.textContent = window.sumateraTranslate('voice_listening');
+            recognition.addEventListener('result', event => {
+                const searchInput = document.querySelector('input[name="search"]');
+                searchInput.value = event.results[0][0].transcript;
+                status.textContent = `Recognized: ${searchInput.value}`;
+                searchInput.form.requestSubmit();
+            });
+            recognition.addEventListener('error', () => {
+                status.textContent = window.sumateraTranslate('voice_failed');
+            });
+            recognition.addEventListener('end', () => {
+                if (status.textContent === window.sumateraTranslate('voice_listening')) status.textContent = '';
+            });
+            recognition.start();
+        });
+    }
+}

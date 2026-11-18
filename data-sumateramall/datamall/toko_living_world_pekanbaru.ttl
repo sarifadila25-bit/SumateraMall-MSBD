@@ -1,0 +1,901 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_LivingWorldPekanbaru_Takosuki rdf:type ex:Toko ;
+    ex:namaToko "Takosuki" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765423994049_6ddb8de6-9ab7-41dd-9077-c9be09e1eb7c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Bakso_Lapangan_Tembak_Senayan rdf:type ex:Toko ;
+    ex:namaToko "Bakso Lapangan Tembak Senayan" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424040683_f426c8eb-931c-4326-80ce-da730933fa26.png> .
+
+ex:Toko_LivingWorldPekanbaru_Pepper_Lunch rdf:type ex:Toko ;
+    ex:namaToko "Pepper Lunch" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424077347_5a69af8e-87b5-4cb7-8d14-e1426a6dadc3.png> .
+
+ex:Toko_LivingWorldPekanbaru_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti O" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424136342_e1821dd9-3bb7-41c2-a642-e72e6123def0.png> .
+
+ex:Toko_LivingWorldPekanbaru_Raacha rdf:type ex:Toko ;
+    ex:namaToko "Raacha" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424198990_41dbfb03-e200-4893-8f5f-bb90e4e42f01.png> .
+
+ex:Toko_LivingWorldPekanbaru_Mr_Bakwan rdf:type ex:Toko ;
+    ex:namaToko "Mr Bakwan" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "B1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765423897848_eb5551d7-ab9a-450e-9946-d3a27165cd9d.png> .
+
+ex:Toko_LivingWorldPekanbaru_Cabe_Merah rdf:type ex:Toko ;
+    ex:namaToko "Cabe Merah" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765430812544_2d6d9730-c3df-430d-a8c2-110ac435ed57.png> .
+
+ex:Toko_LivingWorldPekanbaru_Ramen_1 rdf:type ex:Toko ;
+    ex:namaToko "Ramen 1" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424344481_cdd6c2ea-aab6-4afa-9bc6-cbe650ffea68.png> .
+
+ex:Toko_LivingWorldPekanbaru_Croco_by_Monsieur_Spoon rdf:type ex:Toko ;
+    ex:namaToko "Croco by Monsieur Spoon" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424369816_bcbe728f-5960-43fb-a2cd-d2acc16885fd.png> .
+
+ex:Toko_LivingWorldPekanbaru_J_Co rdf:type ex:Toko ;
+    ex:namaToko "J.Co" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424400758_b956b04b-93ce-4230-9aa1-4e79b5a5b43b.png> .
+
+ex:Toko_LivingWorldPekanbaru_Starbucks rdf:type ex:Toko ;
+    ex:namaToko "Starbucks" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424427786_337c2151-e1a6-4d99-91ef-e0b7616bdec7.png> .
+
+ex:Toko_LivingWorldPekanbaru_Farmers_Market rdf:type ex:Toko ;
+    ex:namaToko "Farmers Market" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765423951748_ae0c59e1-64d5-4d78-92ad-af90afec8b47.png> .
+
+ex:Toko_LivingWorldPekanbaru_Magal rdf:type ex:Toko ;
+    ex:namaToko "Magal" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424522450_d037b221-01b1-4850-b117-2b9e4108265f.png> .
+
+ex:Toko_LivingWorldPekanbaru_Imperial_Kitchen rdf:type ex:Toko ;
+    ex:namaToko "Imperial Kitchen" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424556669_3fe8498d-eda9-46d3-808b-f0eebb3fa0c3.png> .
+
+ex:Toko_LivingWorldPekanbaru_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424594517_7003766e-022d-4fcb-ae9e-8038d89dc392.png> .
+
+ex:Toko_LivingWorldPekanbaru_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424622307_a1c8473b-d37d-433d-8daa-166951244a10.png> .
+
+ex:Toko_LivingWorldPekanbaru_Willton_Cafe rdf:type ex:Toko ;
+    ex:namaToko "Willton Cafe" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424647218_49c09a4d-81b8-42b1-ba58-e6863bc78f2c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Burger_King rdf:type ex:Toko ;
+    ex:namaToko "Burger King" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424489379_8c8e313e-66b3-4237-9aef-3135dfe5756a.png> .
+
+ex:Toko_LivingWorldPekanbaru_Ichiban_Sushi rdf:type ex:Toko ;
+    ex:namaToko "Ichiban Sushi" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424680380_f380ed82-4fe6-4c6a-a5fd-f9e706fa4482.png> .
+
+ex:Toko_LivingWorldPekanbaru_Sour_Sally rdf:type ex:Toko ;
+    ex:namaToko "Sour Sally" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424903319_ac0dfc9b-36c8-4776-8c03-20caa92f83da.png> .
+
+ex:Toko_LivingWorldPekanbaru_Dum_Dum_Thai_Tea_and_Montato rdf:type ex:Toko ;
+    ex:namaToko "Dum Dum Thai Tea & Montato" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425098143_89c1af2b-d761-49a7-979c-f4a311315d8d.png> .
+
+ex:Toko_LivingWorldPekanbaru_Fore rdf:type ex:Toko ;
+    ex:namaToko "Fore" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424707208_dcfdfe1f-274d-4c1a-b6c5-6894972f10b9.png> .
+
+ex:Toko_LivingWorldPekanbaru_Gokana rdf:type ex:Toko ;
+    ex:namaToko "Gokana" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766112305077_68391645-86ff-49a7-a423-808c70ced0c3.png> .
+
+ex:Toko_LivingWorldPekanbaru_Marugame_Udon rdf:type ex:Toko ;
+    ex:namaToko "Marugame Udon" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424790575_ccd62190-15ba-4ce6-928c-4badd6241049.png> .
+
+ex:Toko_LivingWorldPekanbaru_Mako rdf:type ex:Toko ;
+    ex:namaToko "Mako" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424822513_03bb767c-c2cf-4491-8443-befdd8dbe46f.png> .
+
+ex:Toko_LivingWorldPekanbaru_Boost_Juice rdf:type ex:Toko ;
+    ex:namaToko "Boost Juice" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424850122_ba1cbf9b-19de-42e6-a948-e92c3581c03e.png> .
+
+ex:Toko_LivingWorldPekanbaru_Potato_Potate rdf:type ex:Toko ;
+    ex:namaToko "Potato Potate" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424877896_95527b14-1c5d-41a5-bf96-4b96b1cb2f85.png> .
+
+ex:Toko_LivingWorldPekanbaru_Shake_Shake_in_a_Tub rdf:type ex:Toko ;
+    ex:namaToko "Shake Shake in a Tub" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424934799_2ef5b8b6-09d6-4247-ba57-d733a6b60899.png> .
+
+ex:Toko_LivingWorldPekanbaru_My_Eureka_Snack rdf:type ex:Toko ;
+    ex:namaToko "My Eureka Snack" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424974814_9f4528de-4d26-4725-9aac-46dcfd3dac8a.png> .
+
+ex:Toko_LivingWorldPekanbaru_Calebs rdf:type ex:Toko ;
+    ex:namaToko "Caleb's" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425168509_d0fab87a-ac84-42ef-acd5-803045d4a24c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Bread_Boutique rdf:type ex:Toko ;
+    ex:namaToko "Bread Boutique" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425137250_1b0d3cc2-5442-4a0a-8aff-5df8249ef118.png> .
+
+ex:Toko_LivingWorldPekanbaru_Kopi_Janji_Jiwa rdf:type ex:Toko ;
+    ex:namaToko "Kopi Janji Jiwa" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425009039_98f510c9-911b-4dd1-8d79-60c486e22ed1.png> .
+
+ex:Toko_LivingWorldPekanbaru_Verina_Risoles rdf:type ex:Toko ;
+    ex:namaToko "Verina Risoles" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425041147_cb005423-9cef-47ae-a071-7507d55cb135.png> .
+
+ex:Toko_LivingWorldPekanbaru_Optik_Tunggal rdf:type ex:Toko ;
+    ex:namaToko "Optik Tunggal" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426111288_c2f56d38-1374-434d-ba6e-44e66f4b6ace.png> .
+
+ex:Toko_LivingWorldPekanbaru_Mixue rdf:type ex:Toko ;
+    ex:namaToko "Mixue" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426850964_5423a152-85f4-4648-b494-c31121f128e7.png> .
+
+ex:Toko_LivingWorldPekanbaru_4_Fingers rdf:type ex:Toko ;
+    ex:namaToko "4 Fingers" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426827164_1c8cee8e-4252-4a67-ba62-ccb288afb069.png> .
+
+ex:Toko_LivingWorldPekanbaru_Uniqlo rdf:type ex:Toko ;
+    ex:namaToko "Uniqlo" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425928303_d80820de-4e95-4e91-975c-5adaf2473740.png> .
+
+ex:Toko_LivingWorldPekanbaru_Manzone rdf:type ex:Toko ;
+    ex:namaToko "Manzone" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425957657_b7bdd49f-ea0a-4179-b4ea-d70c29a0f193.png> .
+
+ex:Toko_LivingWorldPekanbaru_Executive_and_Colorbox rdf:type ex:Toko ;
+    ex:namaToko "Executive & Colorbox" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425984370_da0ae603-7d59-4b7d-9efb-8ca91fb60da1.png> .
+
+ex:Toko_LivingWorldPekanbaru_Watch_Club rdf:type ex:Toko ;
+    ex:namaToko "Watch Club" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426610413_0d452923-83a6-4b91-9a7e-4d5d7dacaf46.png> .
+
+ex:Toko_LivingWorldPekanbaru_Crocs rdf:type ex:Toko ;
+    ex:namaToko "Crocs" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426751619_8ac4eea1-3f56-4246-a1f2-8cc313ebd04c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426066444_d319a26d-0c4d-498d-b69c-ab4eb8e7afe6.png> .
+
+ex:Toko_LivingWorldPekanbaru_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426498094_86506a23-57f5-40dd-a927-ea73354d0a11.png> .
+
+ex:Toko_LivingWorldPekanbaru_Sports_Direct rdf:type ex:Toko ;
+    ex:namaToko "Sports Direct" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425899872_b6c26ecf-6b20-4a3e-b926-3d8539dc43fe.png> .
+
+ex:Toko_LivingWorldPekanbaru_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426014732_fd365cf6-9d7d-4998-8337-74eee9305f92.png> .
+
+ex:Toko_LivingWorldPekanbaru_Et_Cetera rdf:type ex:Toko ;
+    ex:namaToko "Et Cetera" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426038552_291044d7-0821-4054-80e7-872b408a4f59.png> .
+
+ex:Toko_LivingWorldPekanbaru_Kopi_Kenangan rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kenangan" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425205499_6d6aae43-dd24-41ef-b124-70bf02456123.png> .
+
+ex:Toko_LivingWorldPekanbaru_llao_llao rdf:type ex:Toko ;
+    ex:namaToko "llao llao" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425239977_c3c80236-c5b9-4389-9d14-e57bc592a60b.png> .
+
+ex:Toko_LivingWorldPekanbaru_ReJuve rdf:type ex:Toko ;
+    ex:namaToko "ReJuve" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425268072_6b5c6226-b896-4ec8-902e-905beb1261c2.png> .
+
+ex:Toko_LivingWorldPekanbaru_Es_Krim_Potong_Singapore rdf:type ex:Toko ;
+    ex:namaToko "Es Krim Potong Singapore" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425294758_1971e656-ea64-4e83-8de7-305ff1ec0163.png> .
+
+ex:Toko_LivingWorldPekanbaru_Story_Pie rdf:type ex:Toko ;
+    ex:namaToko "Story Pie" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425323140_bcc83578-0156-42a6-8a89-2f60ac8aea99.png> .
+
+ex:Toko_LivingWorldPekanbaru_Wingstop rdf:type ex:Toko ;
+    ex:namaToko "Wingstop" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426731450_b69410b7-80f0-4bba-bf52-eb9a5e728cdd.png> .
+
+ex:Toko_LivingWorldPekanbaru_Pan_and_Flip rdf:type ex:Toko ;
+    ex:namaToko "Pan & Flip" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426800484_893d3969-b6ea-46c0-9533-91f74159973a.png> .
+
+ex:Toko_LivingWorldPekanbaru_Driver_Junior rdf:type ex:Toko ;
+    ex:namaToko "Driver Junior" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766993139436_66ca6477-2aba-4368-8b11-fcfad7e3d467.png> .
+
+ex:Toko_LivingWorldPekanbaru_Funworld_Adventure rdf:type ex:Toko ;
+    ex:namaToko "Funworld Adventure" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426880608_4a6df6bd-7dd2-4825-bb29-bdeb43b02f48.png> .
+
+ex:Toko_LivingWorldPekanbaru_Ixobox rdf:type ex:Toko ;
+    ex:namaToko "Ixobox" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426938460_c7402555-af9d-4e2b-849d-32ddf42086d9.png> .
+
+ex:Toko_LivingWorldPekanbaru_Funworld rdf:type ex:Toko ;
+    ex:namaToko "Funworld" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427151332_8445da92-4ed3-4145-8ce1-2423d011e73d.png> .
+
+ex:Toko_LivingWorldPekanbaru_Reddog rdf:type ex:Toko ;
+    ex:namaToko "Reddog" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427462831_95cfad2a-bc4e-4be8-a7fc-2fd19193cfbe.png> .
+
+ex:Toko_LivingWorldPekanbaru_Kidzlandia rdf:type ex:Toko ;
+    ex:namaToko "Kidzlandia" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427177686_f748db99-9412-49a2-95f3-d52b8ff02fbc.png> .
+
+ex:Toko_LivingWorldPekanbaru_Pinky rdf:type ex:Toko ;
+    ex:namaToko "Pinky" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427071481_11ae292f-747a-44ef-a4c8-f5e3ad438915.png> .
+
+ex:Toko_LivingWorldPekanbaru_Flawless_Jewelry rdf:type ex:Toko ;
+    ex:namaToko "Flawless Jewelry" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766989818146_7b86ee72-0fd3-47c4-8d41-87167407ea1c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426995341_8e86a8de-c93d-4eac-a1b3-7f20f45c5ed1.png> .
+
+ex:Toko_LivingWorldPekanbaru_Selfie_Time rdf:type ex:Toko ;
+    ex:namaToko "Selfie Time" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427123641_d89ea9fa-d1e2-4be8-99e6-3110c49b6af6.png> .
+
+ex:Toko_LivingWorldPekanbaru_Puma rdf:type ex:Toko ;
+    ex:namaToko "Puma" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427607390_800646d5-108e-4ea3-b371-fd105be4d4f2.png> .
+
+ex:Toko_LivingWorldPekanbaru_Photoism rdf:type ex:Toko ;
+    ex:namaToko "Photoism" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427898173_387370e2-1602-42b5-9490-c3a9c8d0588a.png> .
+
+ex:Toko_LivingWorldPekanbaru_Converse rdf:type ex:Toko ;
+    ex:namaToko "Converse" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427545257_de451f47-16eb-4600-a3b1-7ba17b337dac.png> .
+
+ex:Toko_LivingWorldPekanbaru_Chikuro rdf:type ex:Toko ;
+    ex:namaToko "Chikuro" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766992901851_785d44c3-4e2b-42a3-8e31-28e2c8541fa1.png> .
+
+ex:Toko_LivingWorldPekanbaru_Happy_Dental rdf:type ex:Toko ;
+    ex:namaToko "Happy Dental" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427805211_eaed39e8-e0a7-4937-b0d1-8e6f91ed7bb0.png> .
+
+ex:Toko_LivingWorldPekanbaru_Skin_and_Slim rdf:type ex:Toko ;
+    ex:namaToko "Skin+ & Slim+" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427848302_debb2e1b-96d9-4718-9513-6f07010ad3ee.png> .
+
+ex:Toko_LivingWorldPekanbaru_Vans rdf:type ex:Toko ;
+    ex:namaToko "Vans" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428126728_e795b110-1c07-4841-800b-689a914e968a.png> .
+
+ex:Toko_LivingWorldPekanbaru_FunClaw rdf:type ex:Toko ;
+    ex:namaToko "FunClaw" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427924224_9424f553-e711-44ea-86e1-136ea3bcf777.png> .
+
+ex:Toko_LivingWorldPekanbaru_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427964248_1966b530-467e-4b4e-82f6-ebce21e2f62c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Fipper rdf:type ex:Toko ;
+    ex:namaToko "Fipper" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428045952_2a9cffb4-9214-4eaf-8b8e-1e38365fae8b.png> .
+
+ex:Toko_LivingWorldPekanbaru_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428048975_50f8d427-0192-4f5a-88ce-643af0f82632.png> .
+
+ex:Toko_LivingWorldPekanbaru_YTX_Reflexology rdf:type ex:Toko ;
+    ex:namaToko "YTX Reflexology" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428126044_e62c6f1b-6d88-49a1-8f9b-7bdaeb5cb0db.png> .
+
+ex:Toko_LivingWorldPekanbaru_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428155479_ee2ea22d-ca77-4268-a2e8-10fad5916c9b.png> .
+
+ex:Toko_LivingWorldPekanbaru_Tammia rdf:type ex:Toko ;
+    ex:namaToko "Tammia" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427406377_9b9d2f74-1152-4dde-ae98-60c9124c4a0f.png> .
+
+ex:Toko_LivingWorldPekanbaru_Asics rdf:type ex:Toko ;
+    ex:namaToko "Asics" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427252781_af7c5ae0-84af-43c6-93bf-2aee7a094c04.png> .
+
+ex:Toko_LivingWorldPekanbaru_Zhengda rdf:type ex:Toko ;
+    ex:namaToko "Zhengda" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427432218_9b7da2b0-57dd-4f0a-b7d2-f5b2705d1149.png> .
+
+ex:Toko_LivingWorldPekanbaru_Zoonior rdf:type ex:Toko ;
+    ex:namaToko "Zoonior" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427565395_45192b3f-3595-4adf-a5af-298c30c504d2.png> .
+
+ex:Toko_LivingWorldPekanbaru_Pokemon_Mezastar rdf:type ex:Toko ;
+    ex:namaToko "Pokemon Mezastar" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427378642_4e134c26-f099-4a34-a0fb-1576476adf5c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Cinepolis rdf:type ex:Toko ;
+    ex:namaToko "Cinepolis" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427205056_e11e39f0-78d4-438a-bd99-5dcfd620df38.png> .
+
+ex:Toko_LivingWorldPekanbaru_Malvyn_and_Franklin rdf:type ex:Toko ;
+    ex:namaToko "Malvyn & Franklin" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766989662587_d182e99d-e066-476a-a060-060ab3d1b370.png> .
+
+ex:Toko_LivingWorldPekanbaru_Super_Gold_and_Royal_Gold rdf:type ex:Toko ;
+    ex:namaToko "Super Gold & Royal Gold" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766989881038_a9b5b63a-fd59-4f31-86c3-dec86f55e01c.png> .
+
+ex:Toko_LivingWorldPekanbaru_Konglo_Batik rdf:type ex:Toko ;
+    ex:namaToko "Konglo Batik" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766991778612_d9ff51a9-14bf-4a81-a9ba-fae57e7adce8.png> .
+
+ex:Toko_LivingWorldPekanbaru_Dwidaya_Tour rdf:type ex:Toko ;
+    ex:namaToko "Dwidaya Tour" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428211978_aa1110a8-0ac4-4b82-a361-dc2f11fc1633.png> .
+
+ex:Toko_LivingWorldPekanbaru_Wrangler rdf:type ex:Toko ;
+    ex:namaToko "Wrangler" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428225311_9dec8c71-532f-41bf-a779-6accc3b9787f.png> .
+
+ex:Toko_LivingWorldPekanbaru_Apple_Premium_Partner rdf:type ex:Toko ;
+    ex:namaToko "Apple Premium Partner" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428377630_b7101913-09c0-4cbc-8312-4d318b58ded0.png> .
+
+ex:Toko_LivingWorldPekanbaru_Cindy_Yayang rdf:type ex:Toko ;
+    ex:namaToko "Cindy Yayang" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428543185_d9a27e2c-e278-463f-92f9-a182d1961678.png> .
+
+ex:Toko_LivingWorldPekanbaru_THYS rdf:type ex:Toko ;
+    ex:namaToko "THYS" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428781049_e7428092-944f-4dad-9e83-65e36fb7186a.png> .
+
+ex:Toko_LivingWorldPekanbaru_Anker rdf:type ex:Toko ;
+    ex:namaToko "Anker" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428787668_811156a3-7bee-41df-9407-238dc22af341.png> .
+
+ex:Toko_LivingWorldPekanbaru_Loly_Poly rdf:type ex:Toko ;
+    ex:namaToko "Loly Poly" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428819991_3d2f4fc4-5194-4301-a1e1-4bbce66e0211.png> .
+
+ex:Toko_LivingWorldPekanbaru_Iqos rdf:type ex:Toko ;
+    ex:namaToko "Iqos" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428863348_cfc15bf5-c775-47e5-a7be-991d6fb45db7.png> .
+
+ex:Toko_LivingWorldPekanbaru_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428866989_5216a276-e90d-4a98-8f64-0692a75f932d.png> .
+
+ex:Toko_LivingWorldPekanbaru_Payless rdf:type ex:Toko ;
+    ex:namaToko "Payless" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428889230_2dd264ac-6a23-4601-b4d9-74e8648da0f2.png> .
+
+ex:Toko_LivingWorldPekanbaru_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428915592_9d13b95c-548c-4aea-b184-4e774e16b62d.png> .
+
+ex:Toko_LivingWorldPekanbaru_Huawei rdf:type ex:Toko ;
+    ex:namaToko "Huawei" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428480751_4e684b22-aebd-4da5-9c7c-450256813c99.png> .
+
+ex:Toko_LivingWorldPekanbaru_Erha_Ultimate rdf:type ex:Toko ;
+    ex:namaToko "Erha Ultimate" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428511768_84f2d273-b65a-4459-9a73-5ab036426179.png> .
+
+ex:Toko_LivingWorldPekanbaru_Grapari rdf:type ex:Toko ;
+    ex:namaToko "Grapari" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428571814_20b2993d-bbd8-48ab-bea5-315d10e62f58.png> .
+
+ex:Toko_LivingWorldPekanbaru_Beauty_Haul rdf:type ex:Toko ;
+    ex:namaToko "Beauty Haul" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428659338_79225096-f68c-4ae6-a941-9f3239166eeb.png> .
+
+ex:Toko_LivingWorldPekanbaru_Tiggi_Ride rdf:type ex:Toko ;
+    ex:namaToko "Tiggi Ride" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428699119_de1249b6-8dc6-40f6-8e9b-83a2bb168b7e.png> .
+
+ex:Toko_LivingWorldPekanbaru_Hi5_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Hi5 Accessories" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428733631_031b2edb-5e7f-4912-af8f-906ffad03284.png> .
+
+ex:Toko_LivingWorldPekanbaru_Flymannathalie rdf:type ex:Toko ;
+    ex:namaToko "Flymannathalie" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428761249_4a42f899-d16d-4b1a-a636-9e002c6f1cdc.png> .
+
+ex:Toko_LivingWorldPekanbaru_Twen rdf:type ex:Toko ;
+    ex:namaToko "Twen" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428247747_78c088cc-ab3c-4b29-b616-cebfa7401f58.png> .
+
+ex:Toko_LivingWorldPekanbaru_VR_Dream_World rdf:type ex:Toko ;
+    ex:namaToko "VR Dream World" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428278393_c53c0b8c-39ae-4cfe-b464-eea5bdf4f4c8.png> .
+
+ex:Toko_LivingWorldPekanbaru_Aora_Jewelry rdf:type ex:Toko ;
+    ex:namaToko "Aora Jewelry" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428315644_a4fb784a-5259-4cdb-ae1d-76ad290bb2e0.png> .
+
+ex:Toko_LivingWorldPekanbaru_Oriskin rdf:type ex:Toko ;
+    ex:namaToko "Oriskin" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428328336_b930ca17-7b7d-43ea-88da-da519cb59f86.png> .
+
+ex:Toko_LivingWorldPekanbaru_La_Belle rdf:type ex:Toko ;
+    ex:namaToko "La Belle" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1766990162160_2ac77b63-5247-416e-97cf-d14732bc26da.png> .
+
+ex:Toko_LivingWorldPekanbaru_Toys_Kingdom rdf:type ex:Toko ;
+    ex:namaToko "Toys Kingdom" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429435912_d2468006-6448-4529-a761-aa8804eb54ca.png> .
+
+ex:Toko_LivingWorldPekanbaru_Azko rdf:type ex:Toko ;
+    ex:namaToko "Azko" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429513814_2ec392c3-c69e-44e7-97ef-955240fecc03.png> .
+
+ex:Toko_LivingWorldPekanbaru_Gabino rdf:type ex:Toko ;
+    ex:namaToko "Gabino" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429023309_58a10f85-ee02-478c-bf1f-36ce8f61e2ed.png> .
+
+ex:Toko_LivingWorldPekanbaru_The_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Body Shop" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428943712_b7367bb6-787a-4d73-a050-3d9e7b4b71b2.png> .
+
+ex:Toko_LivingWorldPekanbaru_JREP rdf:type ex:Toko ;
+    ex:namaToko "JREP" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428962038_4df9e976-9d17-4442-9dde-d41e6e2beb0f.png> .
+
+ex:Toko_LivingWorldPekanbaru_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428993601_c45986b1-8421-44ed-a6ac-8cdbd816149f.png> .
+
+ex:Toko_LivingWorldPekanbaru_By_Aura rdf:type ex:Toko ;
+    ex:namaToko "By Aura" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" .
+
+ex:Toko_LivingWorldPekanbaru_Selma rdf:type ex:Toko ;
+    ex:namaToko "Selma" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "B1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765423851754_1f1bb69e-6d5d-4493-8026-02952b9b7cf4.png> .
+
+ex:Toko_LivingWorldPekanbaru_Gamchi rdf:type ex:Toko ;
+    ex:namaToko "Gamchi" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424111211_6c29b6a7-a747-405d-8454-842a33383fab.png> .
+
+ex:Toko_LivingWorldPekanbaru_Ataru rdf:type ex:Toko ;
+    ex:namaToko "Ataru" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429522065_66eadfff-c44a-4513-b9c9-a3e429eb4f19.png> .
+
+ex:Toko_LivingWorldPekanbaru_This_Is_April rdf:type ex:Toko ;
+    ex:namaToko "This Is April" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429547593_576f9013-54ac-4fb7-b753-28b8ce4f6816.png> .
+
+ex:Toko_LivingWorldPekanbaru_Calla_The_Label rdf:type ex:Toko ;
+    ex:namaToko "Calla The Label" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429565588_6020c345-29fe-461d-ae4f-875e1266d6c2.png> .
+
+ex:Toko_LivingWorldPekanbaru_Verona rdf:type ex:Toko ;
+    ex:namaToko "Verona" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429584441_a9044896-3cd2-43a0-8744-729f27f188aa.png> .
+
+ex:Toko_LivingWorldPekanbaru_White_Mode rdf:type ex:Toko ;
+    ex:namaToko "White Mode" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429617887_26ac685c-9ed4-4a44-b1c9-fa69d6b5b313.png> .
+
+ex:Toko_LivingWorldPekanbaru_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429273164_d487abed-d307-4591-975a-78cdba9ace55.png> .
+
+ex:Toko_LivingWorldPekanbaru_Yopie_Salon rdf:type ex:Toko ;
+    ex:namaToko "Yopie Salon" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429300947_5fa859fc-9cd0-4235-a955-94e1c98382ca.png> .
+
+ex:Toko_LivingWorldPekanbaru_Dcrepes rdf:type ex:Toko ;
+    ex:namaToko "Dcrepes" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429312320_30ea421f-5b5f-4a2f-938e-003086cceddd.png> .
+
+ex:Toko_LivingWorldPekanbaru_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429328309_4348198a-2928-415c-b45d-3b9358886696.png> .
+
+ex:Toko_LivingWorldPekanbaru_C_and_F_Perfumery rdf:type ex:Toko ;
+    ex:namaToko "C&F Perfumery" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429391738_441aa373-3ad6-4721-b299-9ea02096c8d8.png> .
+
+ex:Toko_LivingWorldPekanbaru_Button_Scarves rdf:type ex:Toko ;
+    ex:namaToko "Button Scarves" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429403997_0da1578d-75a7-466d-a097-b016fae1d687.png> .
+
+ex:Toko_LivingWorldPekanbaru_Little_X_Eight rdf:type ex:Toko ;
+    ex:namaToko "Little X Eight" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429462552_2babb34b-5d0d-4677-b5d9-1391579788de.png> .
+
+ex:Toko_LivingWorldPekanbaru_UR_Urban_Republic rdf:type ex:Toko ;
+    ex:namaToko "UR (Urban Republic)" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429004274_297fb3a7-0c9d-479c-aa28-099cfe6de6ee.png> .
+
+ex:Toko_LivingWorldPekanbaru_Relx rdf:type ex:Toko ;
+    ex:namaToko "Relx" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429085060_f826a328-6b91-4bd9-8470-7767f5247cfc.png> .
+
+ex:Toko_LivingWorldPekanbaru_Playworks rdf:type ex:Toko ;
+    ex:namaToko "Playworks" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429138895_8b65e047-b906-4221-be47-693920dc8639.png> .
+
+ex:Toko_LivingWorldPekanbaru_Intimo rdf:type ex:Toko ;
+    ex:namaToko "Intimo" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429162989_f087b3b6-57d8-470d-8546-425973218d89.png> .
+
+ex:Toko_LivingWorldPekanbaru_Garmin rdf:type ex:Toko ;
+    ex:namaToko "Garmin" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429190825_2a45826e-1014-4e67-9150-88634c97e2dc.png> .
+
+ex:Toko_LivingWorldPekanbaru_Benang_Jarum rdf:type ex:Toko ;
+    ex:namaToko "Benang Jarum" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429191349_1e1c717a-c928-4a05-813f-d6f58f1afe88.png> .
+
+ex:Toko_LivingWorldPekanbaru_Urban_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Urban & Co" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429218365_ceeeff33-54f0-49ef-9ef1-1879ada9e418.png> .
+
+ex:Toko_LivingWorldPekanbaru_Havaianas rdf:type ex:Toko ;
+    ex:namaToko "Havaianas" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429246767_50324d18-789e-43f1-88d2-cf1cfc6281ea.png> .
+
+ex:Toko_LivingWorldPekanbaru_The_Peoples_Cafe rdf:type ex:Toko ;
+    ex:namaToko "The Peoples Cafe" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424305434_ed19d8fd-8c24-4345-9d2c-0f822eff166d.png> .
+
+ex:Toko_LivingWorldPekanbaru_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765424169049_064154e6-9a10-4989-8f80-a73826d40011.png> .
+
+ex:Toko_LivingWorldPekanbaru_Tawan rdf:type ex:Toko ;
+    ex:namaToko "Tawan" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "B1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765423726970_fde824b3-2b39-4334-ae0a-fd3294d66a62.png> .
+
+ex:Toko_LivingWorldPekanbaru_OH_Some rdf:type ex:Toko ;
+    ex:namaToko "OH!Some" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765425871494_2e79d338-be3c-4680-acd9-7167708f3847.png> .
+
+ex:Toko_LivingWorldPekanbaru_Haraku_Ramen rdf:type ex:Toko ;
+    ex:namaToko "Haraku Ramen" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426770447_f95c8c60-6fdb-40ab-b7d4-4d2f4d5ef5d9.png> .
+
+ex:Toko_LivingWorldPekanbaru_Adidas rdf:type ex:Toko ;
+    ex:namaToko "Adidas" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427784666_719decf6-a11c-4ca4-8c98-c73c8b53b463.png> .
+
+ex:Toko_LivingWorldPekanbaru_Melasma rdf:type ex:Toko ;
+    ex:namaToko "Melasma" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428363022_e8d2a194-80b2-4ab8-a11f-db8c1500d0c6.png> .
+
+ex:Toko_LivingWorldPekanbaru_Advance rdf:type ex:Toko ;
+    ex:namaToko "Advance" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427772539_ba1f1452-46bb-4b06-814b-e4b0e0a77ad4.png> .
+
+ex:Toko_LivingWorldPekanbaru_Informa_Electronics rdf:type ex:Toko ;
+    ex:namaToko "Informa Electronics" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428581735_c152d919-b387-416a-8b67-9ba1d6b9e9b6.png> .
+
+ex:Toko_LivingWorldPekanbaru_Bli_Bli rdf:type ex:Toko ;
+    ex:namaToko "Bli Bli" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "1" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765429377383_bff60e3b-5840-4599-ad31-27b30ee948d4.png> .
+
+ex:Toko_LivingWorldPekanbaru_Informa rdf:type ex:Toko ;
+    ex:namaToko "Informa" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765428608523_d8240506-6ddc-4582-b764-9bd00046a75f.png> .
+
+ex:Toko_LivingWorldPekanbaru_Perfect_Relax rdf:type ex:Toko ;
+    ex:namaToko "Perfect Relax" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "2" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765427339897_34a82e8a-3ca1-4a21-9c37-71415d3d5990.png> .
+
+ex:Toko_LivingWorldPekanbaru_Potato_Donuts rdf:type ex:Toko ;
+    ex:namaToko "Potato Donuts" ;
+    ex:beradaDiMall ex:Mall32 ;
+    ex:lokasiToko "3" ;
+    ex:logoURL <https://d1k9u1u6vh11hk.cloudfront.net/LWPKB/Compro/1765426607429_747163ec-1031-445a-9265-818e86d94717.png> .

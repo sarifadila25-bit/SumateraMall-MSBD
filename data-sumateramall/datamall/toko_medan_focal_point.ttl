@@ -1,0 +1,78 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MedanFocalPoint_Mie_Zhou rdf:type ex:Toko ;
+    ex:namaToko "Mie Zhou" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Food, Mie, Chinese Food" .
+
+ex:Toko_MedanFocalPoint_Yakitori_Box rdf:type ex:Toko ;
+    ex:namaToko "Yakitori Box" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Yakitori" .
+
+ex:Toko_MedanFocalPoint_Wendys rdf:type ex:Toko ;
+    ex:namaToko "Wendy's" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Burger" .
+
+ex:Toko_MedanFocalPoint_Restoran_Garuda rdf:type ex:Toko ;
+    ex:namaToko "Restoran Garuda" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Restaurant" .
+
+ex:Toko_MedanFocalPoint_Warung_Kudeta rdf:type ex:Toko ;
+    ex:namaToko "Warung Kudeta Focal Point Medan" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:statusToko "Tutup Permanen" .
+
+ex:Toko_MedanFocalPoint_XO_Suki rdf:type ex:Toko ;
+    ex:namaToko "XO Suki" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Food, Chinese Food, Steamboat" .
+
+ex:Toko_MedanFocalPoint_Starbucks rdf:type ex:Toko ;
+    ex:namaToko "Starbucks" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Beverage, Cafe, Coffee" .
+
+ex:Toko_MedanFocalPoint_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Milk Tea" .
+
+ex:Toko_MedanFocalPoint_CGV_Cinemas rdf:type ex:Toko ;
+    ex:namaToko "CGV Cinemas" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L3" ;
+    ex:deskripsiToko "Bioskop yang dulunya bernama Blitzmegaplex" .
+
+ex:Toko_MedanFocalPoint_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Smartphone, Tablet" .
+
+ex:Toko_MedanFocalPoint_K3_Mart rdf:type ex:Toko ;
+    ex:namaToko "K3 Mart" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "Supermarket, Makanan, Minuman, K-food, Korean Snacks" .
+
+ex:Toko_MedanFocalPoint_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Bookstore & Stationery, Toko Buku" .
+
+ex:Toko_MedanFocalPoint_Family_Fitness rdf:type ex:Toko ;
+    ex:namaToko "Family Fitness" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "Sports, Fitness Center, Pusat Kebugaran" ;
+    ex:deskripsiToko "Tempat fitness untuk olahraga dan gaya hidup sehat" .
+
+ex:Toko_MedanFocalPoint_Inul_Vizta rdf:type ex:Toko ;
+    ex:namaToko "Inul Vizta" ;
+    ex:beradaDiMall ex:Mall10 ;
+    ex:kategoriToko "Entertainment, Karaoke" ;
+    ex:lokasiToko "B1" ;
+    ex:deskripsiToko "Tempat karaoke untuk hiburan" .

@@ -1,0 +1,62 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_TheCentralPlaza_Green_Grosir rdf:type ex:Toko ;
+    ex:namaToko "Green Grosir" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Retail, Grosir, Kebutuhan Harian" .
+
+ex:Toko_TheCentralPlaza_Bunda_Kosmetik rdf:type ex:Toko ;
+    ex:namaToko "Bunda Kosmetik" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Kosmetik, Perawatan Wajah" .
+
+ex:Toko_TheCentralPlaza_Boston rdf:type ex:Toko ;
+    ex:namaToko "Boston" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu & Tas" .
+
+ex:Toko_TheCentralPlaza_Diana_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Diana Fashion" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" .
+
+ex:Toko_TheCentralPlaza_Andika_Busana rdf:type ex:Toko ;
+    ex:namaToko "Andika Busana" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Busana Muslim, Pakaian Pria" .
+
+ex:Toko_TheCentralPlaza_Toko_Butiq_Inka rdf:type ex:Toko ;
+    ex:namaToko "Toko Butiq Inka" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Boutique, Pakaian Wanita" .
+
+ex:Toko_TheCentralPlaza_Toko_Baju_Anggelic rdf:type ex:Toko ;
+    ex:namaToko "Toko Baju Anggelic" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian Wanita" .
+
+ex:Toko_TheCentralPlaza_Toko_Baju_Ertigas_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Toko Baju Ertigas Fashion" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" .
+
+ex:Toko_TheCentralPlaza_Toko_Baju_Ikono_Busana rdf:type ex:Toko ;
+    ex:namaToko "Toko Baju Ikono Busana" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" .
+
+ex:Toko_TheCentralPlaza_Toko_Mas_Arafah rdf:type ex:Toko ;
+    ex:namaToko "Toko Mas Arafah" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Perhiasan, Emas, Toko Mas" .
+
+ex:Toko_TheCentralPlaza_Arabian_Stile rdf:type ex:Toko ;
+    ex:namaToko "Arabian Stile" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Busana Muslim, Pakaian Arab" .
+
+ex:Toko_TheCentralPlaza_Port_Busana rdf:type ex:Toko ;
+    ex:namaToko "Port Busana" ;
+    ex:beradaDiMall ex:Mall36 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Busana Muslim, Pakaian Pria" .

@@ -1,0 +1,1253 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_CentrePointMall_99_DO_Bakery rdf:type ex:Toko ;
+    ex:namaToko "99 DO Bakery" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #i-04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/df4e1ba68bf9427e39507d7d55e1eecb8261ebda-360x305.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Zoomoov rdf:type ex:Toko ;
+    ex:namaToko "Zoomoov" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 2 #i-01A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/c25b8509989a9f721cb2239c5e290aeb77596925-500x134.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_XXI_Cafe rdf:type ex:Toko ;
+    ex:namaToko "XXI Café" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-16" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/2dcfcb1a41340984e3404b5c7640550642430c26-1000x589.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Xing_Fu_Tang rdf:type ex:Toko ;
+    ex:namaToko "Xing Fu Tang" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #24B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/2ede3a50bbb563cb95674165a26547a1b72025ce-360x184.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Xiaomi_Authorized_Store_Centre rdf:type ex:Toko ;
+    ex:namaToko "Xiaomi Authorized Store Centre" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/3c6a7862e27265c024601fa9366bd460f38c0af6-112x112.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_X11 rdf:type ex:Toko ;
+    ex:namaToko "X11" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Upper Ground #02, #02B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/2b98761ab425326808ea06ec909a3336533117fd-58x35.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Lower Ground #19" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/35a85de0d50ca89930a9e01dc7c1c265d33f0360-506x111.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #24" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/5dcd070bc28cc6cf0bd4086008f407c1b2e323cc-300x252.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Vizta_Gym rdf:type ex:Toko ;
+    ex:namaToko "Vizta Gym" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Health & Wellness" ;
+    ex:lokasiToko "Level 3 #09-10" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9453916b0995b467d7b419f6b0995791350dc07f-360x67.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Vivo rdf:type ex:Toko ;
+    ex:namaToko "Vivo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #27" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/98ffe1658e6dee6a40a0f40438fb9f9524f8338e-3912x1024.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Urban_Republic rdf:type ex:Toko ;
+    ex:namaToko "Urban Republic" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #31" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/bb35fa1705b6da821d053f8a25411558d0d7aed9-360x68.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Unique_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Unique Accessories" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Jewelry & Watches" ;
+    ex:lokasiToko "Level 3 #i-05" .
+
+ex:Toko_CentrePointMall_TYESO rdf:type ex:Toko ;
+    ex:namaToko "TYESO" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Level 1 #i-03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/6b441319e4778176d5434be418d13624af775de3-1376x455.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Toys_Kingdom rdf:type ex:Toko ;
+    ex:namaToko "Toys Kingdom" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 1 #13" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/83586c31a4ffab88cd83f71360ebc3cf379b7c8e-320x73.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_TOPTOY rdf:type ex:Toko ;
+    ex:namaToko "TOPTOY" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Lower Ground #15" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e6b18fc2d1db49372deb4bd9f82fcc272caff498-360x378.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3 #01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/0a09682ad44d4693d0dc8efed9c325c0031f1ef8-169x15.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Timberland rdf:type ex:Toko ;
+    ex:namaToko "Timberland" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #33, #35" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7a84afaaf3d52a7c54ff6059a79dd46e853a7798-138x25.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Watch_Co rdf:type ex:Toko ;
+    ex:namaToko "The Watch Co." ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Jewelry & Watches" ;
+    ex:lokasiToko "Ground Floor #i-01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a1d7beff47b8f9bb13b64d796fbf89c2e586afd8-480x480.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Palace rdf:type ex:Toko ;
+    ex:namaToko "The Palace" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Jewelry & Watches" ;
+    ex:lokasiToko "Ground Floor #21A-21B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9531e8975b751d0cb705c1a68a7ea90b0d6c312e-320x141.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Dentique rdf:type ex:Toko ;
+    ex:namaToko "The Dentique" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Health & Wellness" ;
+    ex:lokasiToko "Level 3 #18" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ae7b4eca59c4be87d7775375dabd3e1cf9946564-360x135.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Coffee_Crowd rdf:type ex:Toko ;
+    ex:namaToko "The Coffee Crowd" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cafe" ;
+    ex:lokasiToko "Lower Ground #02-03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/0b461a97e7d5a064340166ba33f52617d1d54b83-360x185.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Coffee_Bean_and_Tea_Leaf rdf:type ex:Toko ;
+    ex:namaToko "The Coffee Bean & Tea Leaf" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cafe" ;
+    ex:lokasiToko "Ground Floor #Inside METRO" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/0916add3d0dfa2dfddf6914b32591f3827e5ca1c-316x317.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Brahouse rdf:type ex:Toko ;
+    ex:namaToko "The Brahouse" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #28A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8d378bad93aa40648613345ec66e6a5687fb8107-320x42.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_The_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Body Shop" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f6eebddb704d45bab4a06f20773338a19ace016c-1340x182.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Teazzi rdf:type ex:Toko ;
+    ex:namaToko "Teazzi" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-02B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/17a98589afad28029a0443687d34dcf925133636-300x121.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Sushi_Tei rdf:type ex:Toko ;
+    ex:namaToko "Sushi Tei" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Level 1 #7A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e314ac0d2a4ca6304ced6264c8cbd58c3ef7d4bd-168x300.webp?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Stroberi rdf:type ex:Toko ;
+    ex:namaToko "Stroberi" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Lower Ground #32" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/42fea372ab81b15cff13252bbef8027eea51598c-300x150.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Steak_21 rdf:type ex:Toko ;
+    ex:namaToko "Steak 21" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Western" ;
+    ex:lokasiToko "Level 3 #06 & 24AB" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/83cb1a277e2795c05c53c09800dd92698b418b66-320x89.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Starbucks rdf:type ex:Toko ;
+    ex:namaToko "Starbucks" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cafe" ;
+    ex:lokasiToko "Ground Floor #05-06" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/3ff188231f967d3ca1f23722b82b3282314e085a-320x325.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Star_Multi_Exchange rdf:type ex:Toko ;
+    ex:namaToko "Star Multi Exchange" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Banking & Finance" ;
+    ex:lokasiToko "Lower Ground #P-05" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e9303a1acf242dc0243ef2c707ddd77845cafeba-360x152.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #18-22" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/67885397232203efe08638813c11785eff6e9809-320x84.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Space_Ranger rdf:type ex:Toko ;
+    ex:namaToko "Space Ranger" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3A #33, #33A, #i-02" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9700c428c83c7a4773e788d0017f6d97c0f5b271-304x320.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Sour_Sally rdf:type ex:Toko ;
+    ex:namaToko "Sour Sally" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-07" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/aaa0826034cf85003036fa174bcdde1ac5aa0e85-360x214.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Song_Fa rdf:type ex:Toko ;
+    ex:namaToko "Song Fa" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Chinese" ;
+    ex:lokasiToko "Level 3 #02A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4c1b848eed0c3a0b877ac164edf9d00604c2ecce-480x420.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Indonesian" ;
+    ex:lokasiToko "Level 3A #35, #35A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/d913cbf87f1226fc858b0742b27993c9adf64f54-438x251.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Sociolla rdf:type ex:Toko ;
+    ex:namaToko "Sociolla" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Ground Floor #29" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/285217d23244b93abf68fd830a7b015d34837069-138x35.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Smiggle rdf:type ex:Toko ;
+    ex:namaToko "Smiggle" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 1 #i-01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4a9c74f5256c87fcb786c2ea12a36e4bf3db3db4-450x159.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #12-13" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/2bbc81c929bdd336552b7aa032be44fe25fc8f1d-150x15.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Shihlin rdf:type ex:Toko ;
+    ex:namaToko "Shihlin" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #21" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f625855fe45609d3ef371341518390e10f3de8b9-295x112.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Shigeru rdf:type ex:Toko ;
+    ex:namaToko "Shigeru" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Lower Ground #I-18" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/938dcf2dea01d657717b6adf479442e80f21e11a-732x666.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Shake_Shake_In_A_Tub rdf:type ex:Toko ;
+    ex:namaToko "Shake Shake In A Tub" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-12" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/b9e69842cb67c99e62a15afaf96458f8ea6e812d-480x355.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Shaburi_and_Kintan_Buffet rdf:type ex:Toko ;
+    ex:namaToko "Shaburi & Kintan Buffet" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Level 3A #20A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a6e0a90b4e70bf19a6b7f376905de6da87583782-210x59.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Selma rdf:type ex:Toko ;
+    ex:namaToko "Selma" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Level 1 #08" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/28b368f369c6f931f93a163c8c5fdff31208b74e-320x81.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Secret_Garden rdf:type ex:Toko ;
+    ex:namaToko "Secret Garden" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #i-03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/87388531634f0a72bedb223e91603a02324cf8ab-320x151.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #16" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/914c43424adfaa173e5467403cc9c7b3c9301035-120x19.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti'O" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #i-06B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/eeacc5ffd7a29b5ed7f3523769ee7690c245a69b-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Richeese_Factory rdf:type ex:Toko ;
+    ex:namaToko "Richeese Factory" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Western" ;
+    ex:lokasiToko "Level 3A #25" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/84408420c0aa8b9afcd1224314c68d922ec584e5-867x365.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Rejuve rdf:type ex:Toko ;
+    ex:namaToko "Rejuve" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-16A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/cbe33422cb8eb00813bd95866870301b97e516d0-683x162.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_REDDOG rdf:type ex:Toko ;
+    ex:namaToko "REDDOG" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-01B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a3bcc6520cae5817fc430b64623421e99305254c-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Realme rdf:type ex:Toko ;
+    ex:namaToko "Realme" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #34A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7496fb9fa5bf13488b8d36a9d42140cc9ecb41bd-64x15.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_RamenYA_ rdf:type ex:Toko ;
+    ex:namaToko "RamenYA!" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Lower Ground #21A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8fdddc4d7fac9aeb73a4857c76e393648e3fc0d2-964x960.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Raja_Emas_Indonesia rdf:type ex:Toko ;
+    ex:namaToko "Raja Emas Indonesia" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Jewelry & Watches" ;
+    ex:lokasiToko "Level 3 #19" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/eb13614ff1f4a204a31eda60023b151a25092959-320x516.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Quiksilver rdf:type ex:Toko ;
+    ex:namaToko "Quiksilver" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #06" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/42e0a2fad1de4f1c7a5acea73c26f91c0d95613a-212x112.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Polo rdf:type ex:Toko ;
+    ex:namaToko "Polo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #26" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/cd7dce7dfd3219aa3b3ad56efa7fa4e29be5d0b8-360x66.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_POLICE rdf:type ex:Toko ;
+    ex:namaToko "POLICE" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #20" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/c806d8c8f849f9a05e73acc4cc34141cf6d8e79e-126x16.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Pokemon_MEZASTAR rdf:type ex:Toko ;
+    ex:namaToko "Pokémon MEZASTAR" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 2 #i-01B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/73a38d3821e55fda6f58c35a2c9e07007631357f-780x197.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_PlayWorks rdf:type ex:Toko ;
+    ex:namaToko "PlayWorks" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #40" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/11b299f3fe5fa00ecf9ad8567ddbc4bc102bf58e-650x131.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Playtopia_Arcade rdf:type ex:Toko ;
+    ex:namaToko "Playtopia Arcade" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 2 #01A, #13-16" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ba6ee747cedb2a999cd2d673664bde631666e2f3-480x178.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Playtopia rdf:type ex:Toko ;
+    ex:namaToko "Playtopia" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 2 #01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8666d84488a261a8f43b5d7a4bac23d61d333b21-320x82.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Play_N_Learn rdf:type ex:Toko ;
+    ex:namaToko "Play ‘N’ Learn" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3 #01A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/fc4430bc742f681401b439e163a74a5f6da2b8f9-360x314.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Pizza_Hut rdf:type ex:Toko ;
+    ex:namaToko "Pizza Hut" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Western" ;
+    ex:lokasiToko "Lower Ground #34" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/19319b70dbb51f08edf755f6210406951ab38067-905x760.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_PinkPick rdf:type ex:Toko ;
+    ex:namaToko "PinkPick" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #19-20" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ac2817381ae45b44b021563eb60acec694707ef0-1037x1037.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Photomatics rdf:type ex:Toko ;
+    ex:namaToko "Photomatics" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Entertainment" ;
+    ex:lokasiToko "Level 3A #i-09" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/c9187c4e4379d26266bbc13b96e083b24b333c01-360x98.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Perfect_Relax_Level_3A rdf:type ex:Toko ;
+    ex:namaToko "Perfect Relax (Level 3A)" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Health & Wellness" ;
+    ex:lokasiToko "Level 3A #i-06" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a0efb8a043b1fb15c8833d1e250981a155788d0e-320x55.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Perfect_Relax_Level_3 rdf:type ex:Toko ;
+    ex:namaToko "Perfect Relax (Level 3)" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Health & Wellness" ;
+    ex:lokasiToko "Level 3 #i-02" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a0efb8a043b1fb15c8833d1e250981a155788d0e-320x55.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Perfect_Relax_Level_1 rdf:type ex:Toko ;
+    ex:namaToko "Perfect Relax (Level 1)" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Health & Wellness" ;
+    ex:lokasiToko "Level 1 #i-05" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a0efb8a043b1fb15c8833d1e250981a155788d0e-320x55.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Pepper_Lunch rdf:type ex:Toko ;
+    ex:namaToko "Pepper Lunch" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Level 3A #i-01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f95f36efb5afde668ecdf2d8d93705c890e5bf96-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Pedro rdf:type ex:Toko ;
+    ex:namaToko "Pedro" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #30" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a433f72c8e0708ccd88c640b827907863731f759-1771x331.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Paradise_Dynasty rdf:type ex:Toko ;
+    ex:namaToko "Paradise Dynasty" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Chinese" ;
+    ex:lokasiToko "Level 2 #05-08" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/1a44458a0e38654646c2e27bee45a092875ef2ce-320x183.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Paperclip rdf:type ex:Toko ;
+    ex:namaToko "Paperclip" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Upper Ground #10, #31" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e565c42dc5c9f19c95b42889557cf2603e47b758-330x64.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Panlandwoo rdf:type ex:Toko ;
+    ex:namaToko "Panlandwoo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Jewelry & Watches" ;
+    ex:lokasiToko "Level 2 #i-04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/6e303d3a3ed2472ab4d8d8c88f8631446f457845-373x181.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Oriskin rdf:type ex:Toko ;
+    ex:namaToko "Oriskin" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Level 3 #Masuk dari Vizta Gym" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/6e8f095f7908ff966cf7408e763758b77ee04fb3-360x108.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Optik_Tunggal rdf:type ex:Toko ;
+    ex:namaToko "Optik Tunggal" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #30" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/72b7e3a2039fe2ba41406880752037bebdb8658f-322x41.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #17" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4e5618affa5042bde45cfd314813e6322d032c3f-320x38.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Oppo rdf:type ex:Toko ;
+    ex:namaToko "Oppo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #35" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7bf9dac9ba563457457602574c9d4e5145c6483f-1000x238.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Olenji_Juseu rdf:type ex:Toko ;
+    ex:namaToko "Olenji Juseu" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-01A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a464555229ff0d0ba660921bc4ec09cb57af7935-713x794.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Next_Premium_Barbershop rdf:type ex:Toko ;
+    ex:namaToko "Next Premium Barbershop" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Level 3A #33B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9edc27d687617e56431a8802df10f19f00322078-360x259.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Nelayan_Suki rdf:type ex:Toko ;
+    ex:namaToko "Nelayan Suki" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Chinese" ;
+    ex:lokasiToko "Lower Ground #17-18" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ec558fbdc0e7f23c734a5e42daa0302bccb7fdb9-480x480.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Nelayan_Kafe rdf:type ex:Toko ;
+    ex:namaToko "Nelayan Kafe" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Chinese" ;
+    ex:lokasiToko "Level 1 #11" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/628a614070ef1fab5c2e8a24c83da6b375538786-320x320.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_My_Little_Gym rdf:type ex:Toko ;
+    ex:namaToko "My Little Gym" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3A #32, #32A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/97b6a43ed3b745fae295df3f55e4921b37fd296a-360x255.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_My_Feet rdf:type ex:Toko ;
+    ex:namaToko "My Feet" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #14" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/d863595e26b57304a301f74730d4080bfba45e62-320x79.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_MUMU_CO_and_BAKE rdf:type ex:Toko ;
+    ex:namaToko "MUMU.CO&BAKE" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #03A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/73e3676260974dccb7627df45e68242b97093719-360x395.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Muarchee_Penang rdf:type ex:Toko ;
+    ex:namaToko "Muarchee Penang" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-05C" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e87491c36e830ffa46f4427f32fab07befda870a-360x199.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_MR_D_I_Y_ rdf:type ex:Toko ;
+    ex:namaToko "MR.D.I.Y." ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Level 3A #36" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7eb9cf17c2ea045c922f9f3873c55be2d9ab3d98-219x70.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Montato rdf:type ex:Toko ;
+    ex:namaToko "Montato" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-11C" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9cb2f9a1f476be2dd6f437152937e1ef35b01263-320x273.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_MOMOIRO rdf:type ex:Toko ;
+    ex:namaToko "MOMOIRO" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #i-05B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8186169973fa3975e12b277facf029d675acbfad-213x80.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Momoci rdf:type ex:Toko ;
+    ex:namaToko "Momoci" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/06b10085d72909aaff15284499f652b32f0d8ef4-360x324.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_MOC rdf:type ex:Toko ;
+    ex:namaToko "MOC" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #07C" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8b248c5043175d547cf5120ccff4f4fb17f0308f-770x80.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Minoshe rdf:type ex:Toko ;
+    ex:namaToko "Minoshe" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #28B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/c08648da6a2e3a6eb406edbe4d40bb6241e592d7-320x38.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Upper Ground #15" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4bd31e5563fb1986c2e0aaf5383c789062c82468-750x881.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #23" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/6b1b3df3033d68763bdfb4b0556175b36051f3cd-320x55.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Mini_Discovery_Centre rdf:type ex:Toko ;
+    ex:namaToko "Mini Discovery Centre" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3 #01B" .
+
+ex:Toko_CentrePointMall_Metro rdf:type ex:Toko ;
+    ex:namaToko "Metro" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Department Store" ;
+    ex:lokasiToko "Ground Floor #01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e0d72d8196359eb6adda4de9cba523cca56e9acb-1000x317.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Mentari rdf:type ex:Toko ;
+    ex:namaToko "Mentari" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Indonesian" ;
+    ex:lokasiToko "Level 3A #20" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/47ecf63bfa1913a633afcc987bf9ef76959f0c8d-480x198.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Marutama_Ramen rdf:type ex:Toko ;
+    ex:namaToko "Marutama Ramen" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Level 1 #03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/de4141e96c26086f23051b25c89036cc9fdb80b4-300x74.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Marugame_Udon rdf:type ex:Toko ;
+    ex:namaToko "Marugame Udon" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Japanese" ;
+    ex:lokasiToko "Lower Ground #13 - 13A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/492915ee905ed2284fe22ac131290789a7f45104-360x46.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Manzone rdf:type ex:Toko ;
+    ex:namaToko "Manzone" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #07B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/071a3fb84afbc44a9fa9e3b11f4057b0c7ca1a93-1993x262.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Luxtronics rdf:type ex:Toko ;
+    ex:namaToko "Luxtronics" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Level 2 #23-24, #27-28" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7312648d82feb9f58e7d20579cc720faa164e276-420x196.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_LOTTE_MART rdf:type ex:Toko ;
+    ex:namaToko "LOTTE MART" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Department Store" ;
+    ex:lokasiToko "Lower Ground #01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/493793210b6e08935dd52ece4a8059e5c201ff8a-750x88.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_LOLY_POLY rdf:type ex:Toko ;
+    ex:namaToko "LOLY POLY" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #i-15A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/b9f09b389cb6f15dd5474421bc91aaad630b1ed4-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_LocknLock rdf:type ex:Toko ;
+    ex:namaToko "LocknLock" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Level 1 #i-02" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/73b90c1e51960e27ebda707140e56fc211062ac8-638x112.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Liang_Sandwich_Bar rdf:type ex:Toko ;
+    ex:namaToko "Liang Sandwich Bar" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Chinese" ;
+    ex:lokasiToko "Lower Ground #i-12" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7e2d0e2e0472a03ff703e3aad862222f2246a54d-369x130.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Le_Chic_Bakehouse rdf:type ex:Toko ;
+    ex:namaToko "Le Chic Bakehouse" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #i-10A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4cc683f7d0e134071d59ccfdba7c71c71c654ae9-480x180.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Kopi_Kenangan rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kenangan" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cafe" ;
+    ex:lokasiToko "Lower Ground #33" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8280e82823fdd9eada23a6c04e94256b92292625-512x214.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_KOI_The rdf:type ex:Toko ;
+    ex:namaToko "KOI Thé" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #26-27" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f6dd38c0ad0156df5ec4231d1d34623040afcc8a-210x44.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Kidzilla rdf:type ex:Toko ;
+    ex:namaToko "Kidzilla" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 2 #12" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e3de58e3476a19a83c889503a5f2fe73c861e9ad-320x94.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Kidz_Station rdf:type ex:Toko ;
+    ex:namaToko "Kidz Station" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 1 #25-27, #27A, #27B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/b440b3c31fc2208c2ef9f948b6eab67aa62fb521-320x77.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Western" ;
+    ex:lokasiToko "Lower Ground #20" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/fb2990d50d0664c1c66795d626e8e56d9502a549-152x152.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Johnny_Andrean rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Level 3 #18A, #19B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/158ae26ae0b856487a43011ba9b2c4890b54dfbf-360x126.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Jinjja_Chicken rdf:type ex:Toko ;
+    ex:namaToko "Jinjja Chicken" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Korean" ;
+    ex:lokasiToko "Level 2 #04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/c3415405e3a06728ce69f28ebf0642315b4d37c6-320x188.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_JBL rdf:type ex:Toko ;
+    ex:namaToko "JBL" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #39" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/bf46373daebe4b27e33af43c56092f9a409115dc-761x534.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Jaecoo rdf:type ex:Toko ;
+    ex:namaToko "Jaecoo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Automotive" ;
+    ex:lokasiToko "Ground Floor #03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/55482397cc65fc18d47438adb633086325c8fd53-1272x197.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_J_CO rdf:type ex:Toko ;
+    ex:namaToko "J.CO" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cafe" ;
+    ex:lokasiToko "Ground Floor #18-19" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/0de74754e030038801ee74efc762ecd28fc2526b-252x252.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_IXO_Barbershop rdf:type ex:Toko ;
+    ex:namaToko "IXO Barbershop" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Lower Ground #43" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/49e99f2bc9bd77518cde73a9bc113da77d0bbdcd-298x170.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_International_Church_IC_Medan rdf:type ex:Toko ;
+    ex:namaToko "International Church (IC Medan)" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "More" ;
+    ex:lokasiToko "Level 1 #01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/99df080f1f97fa7d0f4fff5301b2f61b8c1180be-320x75.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_INFORMA rdf:type ex:Toko ;
+    ex:namaToko "INFORMA" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Level 3 #12" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/97367838f38b4b6df7bf1607a59bd9741944ed37-121x32.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_iCAR rdf:type ex:Toko ;
+    ex:namaToko "iCAR" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Automotive" ;
+    ex:lokasiToko "Ground Floor #04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7886be6e73516c3c5ffe25993407e77ef7c3ec1a-118x21.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Huawei rdf:type ex:Toko ;
+    ex:namaToko "Huawei" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #07" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/13edd98264fe438607622c0b8a260d8b4edd245f-77x78.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_High_Five rdf:type ex:Toko ;
+    ex:namaToko "High Five" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #44" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/b223e01f3291495bf69bd39684c186e666375eee-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Haagen_Dazs rdf:type ex:Toko ;
+    ex:namaToko "Häagen-Dazs" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Upper Ground #i-01" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/62531c8453ca468916d2f4d7cad64bf7aef00334-188x88.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_H_and_M rdf:type ex:Toko ;
+    ex:namaToko "H&M" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #06-13" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ed9366e570c2ed357b39124198770e1af126c5ad-370x244.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Gulo_Jowo rdf:type ex:Toko ;
+    ex:namaToko "Gulo Jowo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-06A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a02fe05cd06ba580450d3987aed424e8997ea3dd-360x405.webp?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Lower Ground #05" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/bc0b5ed93f89c58c82f0493c4d637af4e8745585-201x48.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #25-26" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a4d7c48ff7b42119cd9a910b196ab45abf7c33ef-293x30.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_GAGA rdf:type ex:Toko ;
+    ex:namaToko "GAGA" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-01C & i-01D" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/3d6357ff102a14e96306211ae44135872b0512f8-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Funspot_Adventure_Park rdf:type ex:Toko ;
+    ex:namaToko "Funspot Adventure Park" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3A #20A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9ce150eafdaaeca0431b66a67fcc0b700c78b93c-360x87.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Frank_and_Co rdf:type ex:Toko ;
+    ex:namaToko "Frank & Co" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Jewelry & Watches" ;
+    ex:lokasiToko "Ground Floor #15-15A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e66bd8ecf847a081438669effe01562f2b122aeb-614x173.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Fountania rdf:type ex:Toko ;
+    ex:namaToko "Fountania" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Level 3 #05" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a82828c962988e6a015d134619c7f582d5aad0e1-320x288.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Footwear_Xpress rdf:type ex:Toko ;
+    ex:namaToko "Footwear Xpress" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #14" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/658b534bab004c596f90e127864b22eb4ea918f1-480x30.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Fipper rdf:type ex:Toko ;
+    ex:namaToko "Fipper" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 2 #26B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ceccba6b2ecf33fb8688cd43b6d2d866ba1a7c50-703x650.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Favo_Play_Toys rdf:type ex:Toko ;
+    ex:namaToko "Favo Play Toys" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Upper Ground #i-02" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/caff0965e8e67f83b83b64595d75ab450667b999-360x221.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_EXECUTIVE rdf:type ex:Toko ;
+    ex:namaToko "EXECUTIVE" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 2 #17, #18-18A, #20" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/d89230690ba54fb1080b3ee420e6c28e0c505c86-2802x326.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Everbest rdf:type ex:Toko ;
+    ex:namaToko "Everbest" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #05" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/69f82ecc07f8281671814846aeb2ac319a1e8eca-320x320.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Et_Cetera rdf:type ex:Toko ;
+    ex:namaToko "Et Cetera" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 2 #19" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/c9d47890d5faba9a74fc6d3d39170f316fd9a6a4-2216x415.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #37-38" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7de75cd9330962299a8c812a2351f9869363c515-480x95.webp?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Electronic_City rdf:type ex:Toko ;
+    ex:namaToko "Electronic City" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Department Store" ;
+    ex:lokasiToko "Level 1 #09" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/3d6d5b7e69fa3ec1d78dff3bfa0e2ed08968b947-320x153.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Edu_Creative rdf:type ex:Toko ;
+    ex:namaToko "Edu Creative" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3 #02" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/015907a6322d5668da1196bfad275b1a8dfa6b70-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dzmoon rdf:type ex:Toko ;
+    ex:namaToko "Dzmoon" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #w-03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/b436f57d6ef6be48509360d69958d5fa6ac8c81b-360x285.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dwidaya_Tour rdf:type ex:Toko ;
+    ex:namaToko "Dwidaya Tour" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "More" ;
+    ex:lokasiToko "Lower Ground #02A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/215e21c1a880178ae14e911718fa7c653061ccc5-360x60.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dum_Dum rdf:type ex:Toko ;
+    ex:namaToko "Dum Dum" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-11A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/1a968d8cddd18e2c098ed4b97ae878735c67898c-302x142.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dr_Specs rdf:type ex:Toko ;
+    ex:namaToko "Dr.Specs" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Lower Ground #23" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ab746b8949a5cdcbd921df67e8a782a5be514aff-360x93.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Digimap rdf:type ex:Toko ;
+    ex:namaToko "Digimap" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Ground Floor #22C" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/1dd920b26e2a78d4b393cd535dc591061c04006e-530x152.webp?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dian_Shop rdf:type ex:Toko ;
+    ex:namaToko "Dian Shop" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Kids & Games" ;
+    ex:lokasiToko "Level 3A #i-04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/89570a09e01bb20199a0bbc4cab93c796d51b029-360x360.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Desound rdf:type ex:Toko ;
+    ex:namaToko "Desound" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #I-15" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/2d7fc96af55ef387900ea5a76a538b8d727513ff-480x203.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dcrepes rdf:type ex:Toko ;
+    ex:namaToko "Dcrepes" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-03" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/d9908539cdc6baf40a295a8b2b2161b122544915-360x138.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Dairy_Queen rdf:type ex:Toko ;
+    ex:namaToko "Dairy Queen" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-08" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/e0af04b4e78ae1503fadf2cd5643200f42ad6e12-192x125.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Croppang rdf:type ex:Toko ;
+    ex:namaToko "Croppang" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/13023e9f2f7f5383bd42c9f9e636799f48f43ef6-308x308.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Crocs rdf:type ex:Toko ;
+    ex:namaToko "Crocs" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #26 & 27" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/ceb17e76b8ad629afeafa9987e77f4b9ab154d53-421x91.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Coway rdf:type ex:Toko ;
+    ex:namaToko "Coway" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #i-01E" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/3573edc58922c240ce02fe2ba0b76ede0edc7c1e-105x24.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_COLORBOX rdf:type ex:Toko ;
+    ex:namaToko "COLORBOX" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 2 #21" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8683083f5019f0cd8f3d28ebf19668c5d2766fd8-2763x313.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Entertainment" ;
+    ex:lokasiToko "Level 3A #21" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/5f0a101a8ad7b097f7ce1abf39adbcd95051b004-750x128.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_CIMB_Niaga_Digital_Lounge rdf:type ex:Toko ;
+    ex:namaToko "CIMB Niaga Digital Lounge" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Banking & Finance" ;
+    ex:lokasiToko "Level 1 #17A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f7ac05366d009ff029dd5a5eefce3fb69f586e28-1446x222.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Chikuro rdf:type ex:Toko ;
+    ex:namaToko "Chikuro" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Snacks" ;
+    ex:lokasiToko "Lower Ground #i-10B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/1dc438f4f4f105b8ced3b3eae1258488e49641e2-480x99.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Chery rdf:type ex:Toko ;
+    ex:namaToko "Chery" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Automotive" ;
+    ex:lokasiToko "Ground Floor #02" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8b46e459a709f53be229c659228d14bdd21cb27f-242x22.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #25" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/8589f335f0fdfcba5999e5bc8958feae5bbe6af9-101x92.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_CHATEQ rdf:type ex:Toko ;
+    ex:namaToko "CHATEQ" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-17" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a81be0cf87fc2a4201ad8800932736b9583709b6-360x280.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Charlie_s_Macaroni rdf:type ex:Toko ;
+    ex:namaToko "Charlie's Macaroni" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Western" ;
+    ex:lokasiToko "Lower Ground #i-02A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/eb6ec69649d38325154843b81e59dced4323c3c0-360x355.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Charles_and_Keith rdf:type ex:Toko ;
+    ex:namaToko "Charles & Keith" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #25" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/dc297cfe58d70b268974196c3d2e4037820d7952-1550x120.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Carthago rdf:type ex:Toko ;
+    ex:namaToko "Carthago" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Level 1 #15" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/24debff6f48840569c8d2a74049ea77437448a02-360x55.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_C_and_F rdf:type ex:Toko ;
+    ex:namaToko "C&F" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #26B" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f59c96df5be31b759093cf27bfd72d40a36e0e96-1969x744.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Burger_King rdf:type ex:Toko ;
+    ex:namaToko "Burger King" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Western" ;
+    ex:lokasiToko "Lower Ground #29-30" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/32a4b97c8e3b4c16c1ea4be207775672c7a7ab97-569x620.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Breville rdf:type ex:Toko ;
+    ex:namaToko "Breville" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Lower Ground #i-19" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/dd76e5a3d264bbbeceffc99cdc355fbca7edcc51-300x69.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Braun_Buffel rdf:type ex:Toko ;
+    ex:namaToko "Braun Büffel" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #32" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4f632abde623fb32082f074c110bed6351b61dc9-1392x283.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Bose rdf:type ex:Toko ;
+    ex:namaToko "Bose" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #37A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/1cbd99060d45cd5ade81ba493618da3a1beafbff-215x27.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Boost_Juice rdf:type ex:Toko ;
+    ex:namaToko "Boost Juice" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Drinks & Dessert" ;
+    ex:lokasiToko "Lower Ground #i-09" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/9f9bcb84ed46f4fbaf99eb828201a002fc1594ac-360x137.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Bonia rdf:type ex:Toko ;
+    ex:namaToko "Bonia" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #27" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/b414a9db368b3d44a82a235525a76acc42df817e-231x47.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Blibli rdf:type ex:Toko ;
+    ex:namaToko "Blibli" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #22-22A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/4c1d1a9002c1b6f4a2dfff97d3dbd1846ae93d5d-750x261.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Bel_Mondo rdf:type ex:Toko ;
+    ex:namaToko "Bel Mondo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cafe" ;
+    ex:lokasiToko "Level 3 #24" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a7283ab79df774f48acde3d5164a3c5125dcf2e6-480x269.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Beard_Papa_s rdf:type ex:Toko ;
+    ex:namaToko "Beard Papa's" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #i-08A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/7ca8fcfb2a4e8d7bafc71fb1aefbcee076a9634a-320x320.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Batik_Keris rdf:type ex:Toko ;
+    ex:namaToko "Batik Keris" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #11-11A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/032695d9bc40b712df49d3e7e70bf425ab35b666-320x236.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Bath_and_Body_Works rdf:type ex:Toko ;
+    ex:namaToko "Bath & Body Works" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Ground Floor #04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/92105facc6b01bdfb45101ad2b2222394cf754d3-320x274.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Bank_Mandiri rdf:type ex:Toko ;
+    ex:namaToko "Bank Mandiri" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Banking & Finance" ;
+    ex:lokasiToko "Level 1 #16" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/568df3d54ddd3e259ce212b5b4c14843d18148d7-320x94.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Baleno rdf:type ex:Toko ;
+    ex:namaToko "Baleno" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Upper Ground #21-23" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/618534b655fe8c84a7a9b9d9bfa6b70014f805a0-320x320.png?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Baking_Witk rdf:type ex:Toko ;
+    ex:namaToko "Baking Witk" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Bakery & Bread" ;
+    ex:lokasiToko "Lower Ground #I-05A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/3027a4412466f12329f65024f4f523ddd3b53f9a-360x568.webp?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_AZWARY rdf:type ex:Toko ;
+    ex:namaToko "AZWARY" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Level 3 #i-04" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/a5bc007c6193d40767ffeeb2e7ec4a6b7e3f2da8-407x80.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_AZKO rdf:type ex:Toko ;
+    ex:namaToko "AZKO" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Home & Lifestyle" ;
+    ex:lokasiToko "Level 2 #09" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/cc7f32a31b32ec3dc097d79177b00b22f5a70444-892x190.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_AURA rdf:type ex:Toko ;
+    ex:namaToko "AURA" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Cosmetics & Personal Care" ;
+    ex:lokasiToko "Upper Ground #16" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/f87d75b064f4327ec03373e7fd86ee84b87eed38-320x285.jpg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Asus rdf:type ex:Toko ;
+    ex:namaToko "Asus" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Gadgets & Tech" ;
+    ex:lokasiToko "Lower Ground #36" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/5ee12d664fd809fede46401854a7d5d658a13fa6-500x107.svg?w=400&fit=max&auto=format> .
+
+ex:Toko_CentrePointMall_Aldo rdf:type ex:Toko ;
+    ex:namaToko "Aldo" ;
+    ex:beradaDiMall ex:Mall84 ;
+    ex:kategoriToko "Fashion & Apparel" ;
+    ex:lokasiToko "Ground Floor #22A" ;
+    ex:logoURL <https://cdn.sanity.io/images/gzyamhf5/production/0f6a7fa0ad652d22d799be7e23284e7d447006ff-222x40.svg?w=400&fit=max&auto=format> .

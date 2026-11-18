@@ -1,0 +1,383 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- LANTAI 1 ---
+
+ex:Toko_ThamrinPlaza_Ayam_Penyet_Ria rdf:type ex:Toko ;
+    ex:namaToko "Ayam Penyet Ria" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Ayam" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Banyumas rdf:type ex:Toko ;
+    ex:namaToko "Banyumas" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Chicken_Holic rdf:type ex:Toko ;
+    ex:namaToko "Chicken Holic" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Chigo_by_Kopi_Kenangan rdf:type ex:Toko ;
+    ex:namaToko "Chigo by Kopi Kenangan" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Daizu rdf:type ex:Toko ;
+    ex:namaToko "Daizu" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Japanese Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_France_Bakery rdf:type ex:Toko ;
+    ex:namaToko "France Bakery" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Bakery, Roti" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_BreadTalk rdf:type ex:Toko ;
+    ex:namaToko "BreadTalk" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Bakery, Roti" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Gula_Kapas_Caca rdf:type ex:Toko ;
+    ex:namaToko "Gula Kapas Caca" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Snack, Permen Kapas" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Mochitalk rdf:type ex:Toko ;
+    ex:namaToko "Mochitalk" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Mochi, Dessert" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Pizza_Hut rdf:type ex:Toko ;
+    ex:namaToko "Pizza Hut" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Pizza, Fast Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti 'O" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Bakery, Roti" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Shihlin rdf:type ex:Toko ;
+    ex:namaToko "Shihlin" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Snack, Ayam, Crispy Chicken" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Takobar rdf:type ex:Toko ;
+    ex:namaToko "Takobar" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Takoyaki" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_The_Aillo rdf:type ex:Toko ;
+    ex:namaToko "The Aillo" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Tea, Milk Tea" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Lapis_Durian_Medan rdf:type ex:Toko ;
+    ex:namaToko "Lapis Durian Medan" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Oleh-oleh, Durian" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Coty rdf:type ex:Toko ;
+    ex:namaToko "Coty" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Perfume" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Honey_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Honey Accessories" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Mega_Silver rdf:type ex:Toko ;
+    ex:namaToko "Mega Silver" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Silver" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Unique_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Unique Accessories" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Bintang_Com_I_Click rdf:type ex:Toko ;
+    ex:namaToko "Bintang Com (I-Click)" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Electronics, Computer & IT Store" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Kopi_Selular_Kusuma_Tel rdf:type ex:Toko ;
+    ex:namaToko "Kopi Selular / Kusuma Tel" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Electronics, Smartphone, Reparasi" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Oppo_by_Sinergy_Cellular rdf:type ex:Toko ;
+    ex:namaToko "Oppo by Sinergy Cellular" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_ThamrinPlaza_Pratama_Ponsel rdf:type ex:Toko ;
+    ex:namaToko "Pratama Ponsel" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Electronics, Smartphone, Reparasi" ;
+    ex:lokasiToko "L1" .
+
+# --- LANTAI 2 ---
+
+ex:Toko_ThamrinPlaza_J_Co rdf:type ex:Toko ;
+    ex:namaToko "J.Co" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Donut, Coffee" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Starbucks rdf:type ex:Toko ;
+    ex:namaToko "Starbucks" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Cafe, Coffee" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Kopi_Kenangan rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kenangan" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Koi_The_Indonesia rdf:type ex:Toko ;
+    ex:namaToko "Koi The Indonesia" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Milk Tea" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Mille_Bel_by_Bel_Mondo rdf:type ex:Toko ;
+    ex:namaToko "Mille Bel by Bel Mondo" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Bakery, Dessert" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Bata rdf:type ex:Toko ;
+    ex:namaToko "Bata" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Payless rdf:type ex:Toko ;
+    ex:namaToko "Payless" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Manzone rdf:type ex:Toko ;
+    ex:namaToko "Manzone" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Police rdf:type ex:Toko ;
+    ex:namaToko "Police" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Accessories" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Cosmetics, Skincare" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_The_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Body Shop" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Skincare" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_ThamrinPlaza_Area_Bermain_Anak rdf:type ex:Toko ;
+    ex:namaToko "Area Bermain Anak" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Entertainment, Playground, Arcade, Mobil-mobilan, Mesin Capit" ;
+    ex:lokasiToko "L2" .
+
+# --- LANTAI 3, 4, 5 (FASHION) ---
+
+ex:Toko_ThamrinPlaza_Gaudi rdf:type ex:Toko ;
+    ex:namaToko "Gaudi" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Hush_Puppies rdf:type ex:Toko ;
+    ex:namaToko "Hush Puppies" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Clothing" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_This_is_April rdf:type ex:Toko ;
+    ex:namaToko "This is April" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Women's Underwear" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Buccheri rdf:type ex:Toko ;
+    ex:namaToko "Buccheri" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Bellagio rdf:type ex:Toko ;
+    ex:namaToko "Bellagio" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_ThamrinPlaza_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "L4" ;
+    ex:deskripsiToko "Memenuhi lantai 4, 5, dan 6" .
+
+# --- LANTAI 5 (SPESIFIK) ---
+
+ex:Toko_ThamrinPlaza_Jaco_Sport rdf:type ex:Toko ;
+    ex:namaToko "Jaco Sport" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Sports, Sports Store" ;
+    ex:lokasiToko "L5" .
+
+ex:Toko_ThamrinPlaza_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers" ;
+    ex:lokasiToko "L5" .
+
+ex:Toko_ThamrinPlaza_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Sports, Sports Store" ;
+    ex:lokasiToko "L5" .
+
+ex:Toko_ThamrinPlaza_The_Bra_House rdf:type ex:Toko ;
+    ex:namaToko "The Bra House" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Women's Underwear" ;
+    ex:lokasiToko "L5" .
+
+ex:Toko_ThamrinPlaza_Vogue rdf:type ex:Toko ;
+    ex:namaToko "Vogue" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L5" .
+
+ex:Toko_ThamrinPlaza_Kidz_Station rdf:type ex:Toko ;
+    ex:namaToko "Kidz Station" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys, Mainan Anak" ;
+    ex:lokasiToko "L5" .
+
+# --- LANTAI 6 & 7 (ENTERTAINMENT & AKSESORIS) ---
+
+ex:Toko_ThamrinPlaza_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L6" .
+
+ex:Toko_ThamrinPlaza_Happy_Kiddy rdf:type ex:Toko ;
+    ex:namaToko "Happy Kiddy" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Entertainment, Playground, Kids" ;
+    ex:lokasiToko "L6" .
+
+ex:Toko_ThamrinPlaza_Stroberi_Yayang rdf:type ex:Toko ;
+    ex:namaToko "Stroberi & Yayang" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Perhiasan" ;
+    ex:lokasiToko "L6" .
+
+ex:Toko_ThamrinPlaza_My_Secret_Garden rdf:type ex:Toko ;
+    ex:namaToko "My Secret Garden" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Fashion & Accessories, Accessories, Perhiasan" ;
+    ex:lokasiToko "L6" .
+
+ex:Toko_ThamrinPlaza_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L7" .
+
+ex:Toko_ThamrinPlaza_City_Ice_Cream rdf:type ex:Toko ;
+    ex:namaToko "City Ice Cream" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Ice Cream" ;
+    ex:lokasiToko "L7" ;
+    ex:deskripsiToko "Berada di area Food Court" .
+
+ex:Toko_ThamrinPlaza_Coffee_Farm rdf:type ex:Toko ;
+    ex:namaToko "Coffee Farm" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "L7" ;
+    ex:deskripsiToko "Berada di area Food Court" .
+
+ex:Toko_ThamrinPlaza_dLoft_Food_Lover rdf:type ex:Toko ;
+    ex:namaToko "dLoft Food Lover" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food Court" ;
+    ex:lokasiToko "L7" .
+
+ex:Toko_ThamrinPlaza_Fountain rdf:type ex:Toko ;
+    ex:namaToko "Fountain" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Food, Restaurant" ;
+    ex:lokasiToko "L7" ;
+    ex:deskripsiToko "Berada di area Food Court" .
+
+ex:Toko_ThamrinPlaza_The_Coffee_Crowd rdf:type ex:Toko ;
+    ex:namaToko "The Coffee Crowd" ;
+    ex:beradaDiMall ex:Mall16 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "L7" ;
+    ex:deskripsiToko "Berada di area Food Court" .

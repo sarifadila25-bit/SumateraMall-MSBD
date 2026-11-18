@@ -1,0 +1,117 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_TamanRayaSquare_Ramayana rdf:type ex:Toko ;
+    ex:namaToko "Ramayana" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" .
+
+ex:Toko_TamanRayaSquare_A_W_Restaurants rdf:type ex:Toko ;
+    ex:namaToko "A&W Restaurants" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Fast Food, Burger" .
+
+ex:Toko_TamanRayaSquare_Waroeng_Cobek rdf:type ex:Toko ;
+    ex:namaToko "Waroeng Cobek" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Indonesian Food" .
+
+ex:Toko_TamanRayaSquare_CFC rdf:type ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Fast Food, Ayam" .
+
+ex:Toko_TamanRayaSquare_McDonald_s rdf:type ex:Toko ;
+    ex:namaToko "McDonald's" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Fast Food, Burger" .
+
+ex:Toko_TamanRayaSquare_Es_Teler_77 rdf:type ex:Toko ;
+    ex:namaToko "Es Teler 77" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Indonesian Food, Dessert" .
+
+ex:Toko_TamanRayaSquare_Pizza_Hut rdf:type ex:Toko ;
+    ex:namaToko "Pizza Hut" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Fast Food, Pizza" .
+
+ex:Toko_TamanRayaSquare_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Fast Food, Ayam" .
+
+ex:Toko_TamanRayaSquare_Mister_Baso rdf:type ex:Toko ;
+    ex:namaToko "Mister Baso" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Indonesian Food, Bakso" .
+
+ex:Toko_TamanRayaSquare_Hoka_Hoka_Bento rdf:type ex:Toko ;
+    ex:namaToko "Hoka Hoka Bento" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Japanese Food, Bento" .
+
+ex:Toko_TamanRayaSquare_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Indonesian Food, Western and Asian Food" .
+
+ex:Toko_TamanRayaSquare_Rice_Bowl rdf:type ex:Toko ;
+    ex:namaToko "Rice Bowl" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Indonesian Food, Rice Bowl" .
+
+ex:Toko_TamanRayaSquare_Kafe_Bengawan_Solo rdf:type ex:Toko ;
+    ex:namaToko "Kafe Bengawan Solo" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Cafe, Bakery" .
+
+ex:Toko_TamanRayaSquare_Hanamasa rdf:type ex:Toko ;
+    ex:namaToko "Hanamasa" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Japanese Food, Shabu Shabu" .
+
+ex:Toko_TamanRayaSquare_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Entertainment, Arcade, Family Entertainment Center" .
+
+ex:Toko_TamanRayaSquare_Bioskop_21 rdf:type ex:Toko ;
+    ex:namaToko "Bioskop 21" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" .
+
+ex:Toko_TamanRayaSquare_Malibu rdf:type ex:Toko ;
+    ex:namaToko "Malibu" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" .
+
+ex:Toko_TamanRayaSquare_Salon_Christopher rdf:type ex:Toko ;
+    ex:namaToko "Salon Christopher" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" .
+
+ex:Toko_TamanRayaSquare_Tarshoes rdf:type ex:Toko ;
+    ex:namaToko "Tarshoes" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" .
+
+ex:Toko_TamanRayaSquare_Foodcourt rdf:type ex:Toko ;
+    ex:namaToko "Foodcourt" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Food Court" .
+
+ex:Toko_TamanRayaSquare_J_CO_Donuts_and_Coffee rdf:type ex:Toko ;
+    ex:namaToko "J.CO Donuts & Coffee" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Donut, Coffee" .
+
+ex:Toko_TamanRayaSquare_Breadtalk rdf:type ex:Toko ;
+    ex:namaToko "Breadtalk" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "F&B, Bakery, Roti" .
+
+ex:Toko_TamanRayaSquare_Johnny_Andrean rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean" ;
+    ex:beradaDiMall ex:Mall106 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" .

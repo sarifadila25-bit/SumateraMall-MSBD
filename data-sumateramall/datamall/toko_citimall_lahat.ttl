@@ -1,0 +1,38 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_CitimallLahat_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR.DIY" ;
+    ex:beradaDiMall ex:Mall66 ;
+    ex:kategoriToko "Retail, Home Essentials, Perkakas & Lifestyle Store" ;
+    ex:lokasiToko "Lantai G" ;
+    ex:deskripsiToko "Toko perkakas yang memasuki pasar Lahat pada tanggal 13 Mei 2019" .
+
+ex:Toko_CitimallLahat_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall66 ;
+    ex:kategoriToko "Department Store, Toko Serba Ada, Lifestyle & Fashion" ;
+    ex:lokasiToko "Lantai G dan 1" ;
+    ex:deskripsiToko "Toko serba ada yang menempati Lantai G dan 1" .
+
+ex:Toko_CitimallLahat_Platinum_Cineplex rdf:type ex:Toko ;
+    ex:namaToko "Platinum Cineplex" ;
+    ex:beradaDiMall ex:Mall66 ;
+    ex:kategoriToko "Entertainment, Cinema, Bioskop" ;
+    ex:lokasiToko "Lantai 1" ;
+    ex:deskripsiToko "Satu-satunya bioskop di Lahat" .
+
+ex:Toko_CitimallLahat_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall66 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Ayam" .
+
+ex:Toko_CitimallLahat_Hoka_Bento rdf:type ex:Toko ;
+    ex:namaToko "Hoka Bento" ;
+    ex:beradaDiMall ex:Mall66 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Bento" .
+
+ex:Toko_CitimallLahat_Fun_World rdf:type ex:Toko ;
+    ex:namaToko "Fun World" ;
+    ex:beradaDiMall ex:Mall66 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" .

@@ -1,0 +1,30 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_CitimallBaturaja_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall102 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "G" ;
+    ex:deskripsiToko "Penyewa kunci pertama yang dibuka di Citimall Baturaja" .
+
+ex:Toko_CitimallBaturaja_Platinum_Cineplex_Baturaja rdf:type ex:Toko ;
+    ex:namaToko "Platinum Cineplex Baturaja" ;
+    ex:beradaDiMall ex:Mall102 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L1" ;
+    ex:deskripsiToko "Dibuka pada tanggal 23 Juni 2017, menghadirkan 4 layar bioskop" .
+
+ex:Toko_CitimallBaturaja_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall102 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "L1" ;
+    ex:deskripsiToko "Penyewa kunci ketiga yang diresmikan pada tanggal 23 November 2017, terletak di Lantai 1 gedung mal" .
+
+ex:Toko_CitimallBaturaja_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR.DIY" ;
+    ex:beradaDiMall ex:Mall102 ;
+    ex:kategoriToko "Retail, Home Essentials, Lifestyle & Retail" ;
+    ex:lokasiToko "L1" ;
+    ex:deskripsiToko "Penyewa kunci yang diresmikan pada tanggal 4 September 2019, merupakan gerai ke-118 di Indonesia dan gerai pertama di Baturaja" .

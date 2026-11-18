@@ -1,0 +1,67 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_JambiTownSquare_Adidas rdf:type ex:Toko ;
+    ex:namaToko "Adidas" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu & Pakaian Olahraga" .
+
+ex:Toko_JambiTownSquare_Converse rdf:type ex:Toko ;
+    ex:namaToko "Converse" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" .
+
+ex:Toko_JambiTownSquare_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu Olahraga" .
+
+ex:Toko_JambiTownSquare_Executive rdf:type ex:Toko ;
+    ex:namaToko "Executive" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian Pria" .
+
+ex:Toko_JambiTownSquare_Colorbox rdf:type ex:Toko ;
+    ex:namaToko "Colorbox" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian Wanita" .
+
+ex:Toko_JambiTownSquare_Uniqlo rdf:type ex:Toko ;
+    ex:namaToko "Uniqlo" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" .
+
+ex:Toko_JambiTownSquare_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Retail, Toko Variasi & Gaya Hidup" .
+
+ex:Toko_JambiTownSquare_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" .
+
+ex:Toko_JambiTownSquare_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Burger" .
+
+ex:Toko_JambiTownSquare_Recheese rdf:type ex:Toko ;
+    ex:namaToko "Recheese" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Makanan & Minuman, Keju & Snack" .
+
+ex:Toko_JambiTownSquare_Hokben rdf:type ex:Toko ;
+    ex:namaToko "Hokben" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Makanan & Minuman, Makanan Jepang" .
+
+ex:Toko_JambiTownSquare_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Hiburan, Bioskop" .
+
+ex:Toko_JambiTownSquare_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall48 ;
+    ex:kategoriToko "Hiburan, Family Entertainment Center" .

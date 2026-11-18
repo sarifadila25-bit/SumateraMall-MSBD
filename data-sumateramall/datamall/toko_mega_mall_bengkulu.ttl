@@ -1,0 +1,516 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- GROUND FLOOR ---
+ex:Toko_MegaMallBengkulu_Giant_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Giant Supermarket" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Supermarket" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Optik_Internasional rdf:type ex:Toko ;
+    ex:namaToko "Optik Internasional" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Optic & Eye Wear" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Optik_Sakti rdf:type ex:Toko ;
+    ex:namaToko "Optik Sakti" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Optic & Eye Wear" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Andelaw_Accesories rdf:type ex:Toko ;
+    ex:namaToko "Andelaw Accesories" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Optic & Eye Wear" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti'O" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Bakery" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_K_Drink rdf:type ex:Toko ;
+    ex:namaToko "K-Drink" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Bakery" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Naughty_Accesories rdf:type ex:Toko ;
+    ex:namaToko "Naughty Accesories" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Nuur_Muslimah_Collection rdf:type ex:Toko ;
+    ex:namaToko "Nuur Muslimah Collection" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_VICARY rdf:type ex:Toko ;
+    ex:namaToko "VICARY" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Sweet_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Sweet Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Miami_Beach rdf:type ex:Toko ;
+    ex:namaToko "Miami Beach" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_ADA rdf:type ex:Toko ;
+    ex:namaToko "ADA" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_B_Fit rdf:type ex:Toko ;
+    ex:namaToko "B-Fit" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Sport & HealthCare" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Jaco_Fitness rdf:type ex:Toko ;
+    ex:namaToko "Jaco Fitness" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Sport & HealthCare" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_CFC rdf:type ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fast Food & Restaurant" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_SamWon_House rdf:type ex:Toko ;
+    ex:namaToko "SamWon House" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fast Food & Restaurant" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_Bakso_Lapangan_Tembak rdf:type ex:Toko ;
+    ex:namaToko "Bakso Lapangan Tembak" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fast Food & Restaurant" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MegaMallBengkulu_ATM_Center rdf:type ex:Toko ;
+    ex:namaToko "ATM Center" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Perbankan" ;
+    ex:lokasiToko "GF" .
+
+# --- 1ST FLOOR ---
+ex:Toko_MegaMallBengkulu_Momo rdf:type ex:Toko ;
+    ex:namaToko "Momo" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Goebog_Hijab rdf:type ex:Toko ;
+    ex:namaToko "Goebog Hijab" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Aurora rdf:type ex:Toko ;
+    ex:namaToko "Aurora" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Aulia_Group rdf:type ex:Toko ;
+    ex:namaToko "Aulia Group" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Ical_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Ical Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Rumah_Hijab_Aura rdf:type ex:Toko ;
+    ex:namaToko "Rumah Hijab Aura" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Serba_Murah rdf:type ex:Toko ;
+    ex:namaToko "Serba Murah" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Jaya_Collection rdf:type ex:Toko ;
+    ex:namaToko "Jaya Collection" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Beauty_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Beauty Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Galery_Kyoka rdf:type ex:Toko ;
+    ex:namaToko "Galery Kyoka" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Rumah_Hijab rdf:type ex:Toko ;
+    ex:namaToko "Rumah Hijab" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Butik_Kita rdf:type ex:Toko ;
+    ex:namaToko "Butik Kita" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Top_Mode rdf:type ex:Toko ;
+    ex:namaToko "Top Mode" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_AandN_Fashion rdf:type ex:Toko ;
+    ex:namaToko "A&N Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Raisya_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Raisya Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Zivana rdf:type ex:Toko ;
+    ex:namaToko "Zivana" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Galery_Hijab rdf:type ex:Toko ;
+    ex:namaToko "Galery Hijab" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_WF_Fashion rdf:type ex:Toko ;
+    ex:namaToko "WF Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Ayesha rdf:type ex:Toko ;
+    ex:namaToko "Ayesha" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Baju_25 rdf:type ex:Toko ;
+    ex:namaToko "Baju 25" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Abang_Pramuka rdf:type ex:Toko ;
+    ex:namaToko "Abang Pramuka" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Ndha_Fashion rdf:type ex:Toko ;
+    ex:namaToko "Ndha Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Abang_Adek_Gina_Collection rdf:type ex:Toko ;
+    ex:namaToko "Abang Adek Gina Collection" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Free_Style rdf:type ex:Toko ;
+    ex:namaToko "Free Style" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Cut_Intan rdf:type ex:Toko ;
+    ex:namaToko "Cut Intan" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Yessy_Collection rdf:type ex:Toko ;
+    ex:namaToko "Yessy Collection" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_DOrange rdf:type ex:Toko ;
+    ex:namaToko "D'Orange" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Lidya_Collection rdf:type ex:Toko ;
+    ex:namaToko "Lidya Collection" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Venicha_Collection rdf:type ex:Toko ;
+    ex:namaToko "Venicha Collection" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_DLuck_Shop rdf:type ex:Toko ;
+    ex:namaToko "D'Luck Shop" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Abang_Morison rdf:type ex:Toko ;
+    ex:namaToko "Abang Morison" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Nada_Colletion rdf:type ex:Toko ;
+    ex:namaToko "Nada Colletion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Cyber_Games rdf:type ex:Toko ;
+    ex:namaToko "Cyber Games" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Game Store" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Rumah_Balon rdf:type ex:Toko ;
+    ex:namaToko "Rumah Balon" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Entertainment" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_PT_Pos_Indonesia rdf:type ex:Toko ;
+    ex:namaToko "PT. Pos Indonesia" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Public Service" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Gerai_Samsat rdf:type ex:Toko ;
+    ex:namaToko "Gerai Samsat" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Public Service" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Khalid_Baby_Shop rdf:type ex:Toko ;
+    ex:namaToko "Khalid Baby Shop" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Baby Shop" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Ical_Parfum rdf:type ex:Toko ;
+    ex:namaToko "Ical Parfum" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Parfum" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Aditya_Studio_Foto rdf:type ex:Toko ;
+    ex:namaToko "Aditya Studio Foto" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Photography & Photo Studio" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Spa_and_Sauna_Octopus rdf:type ex:Toko ;
+    ex:namaToko "Spa & Sauna Octopus" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Sport & HealthCare" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Watch_Store rdf:type ex:Toko ;
+    ex:namaToko "Watch Store" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_DLuck_Accessories rdf:type ex:Toko ;
+    ex:namaToko "D'Luck Accessories" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Yanti_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Yanti Accessories" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Bunga_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Bunga Accessories" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_CASIO rdf:type ex:Toko ;
+    ex:namaToko "CASIO" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Makmur_Jaya_Abadi rdf:type ex:Toko ;
+    ex:namaToko "Makmur Jaya Abadi" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Bag & Shoes" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Milano_Bucherii rdf:type ex:Toko ;
+    ex:namaToko "Milano (Bucherii)" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Bag & Shoes" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_One_Bag rdf:type ex:Toko ;
+    ex:namaToko "One Bag" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Bag & Shoes" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MegaMallBengkulu_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Book Store" ;
+    ex:lokasiToko "L1" .
+
+# --- 2ND FLOOR ---
+ex:Toko_MegaMallBengkulu_Mega_Food_Court rdf:type ex:Toko ;
+    ex:namaToko "Mega Food Court" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fast Food & Restaurant" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MegaMallBengkulu_Fun_City rdf:type ex:Toko ;
+    ex:namaToko "Fun City" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Entertainment" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MegaMallBengkulu_Cinema_21 rdf:type ex:Toko ;
+    ex:namaToko "Cinema 21" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Entertainment" ;
+    ex:lokasiToko "L2" .
+
+# --- OTHER (ROOFTOP/SPECIAL AREA) ---
+ex:Toko_MegaMallBengkulu_Sahabat_Busana rdf:type ex:Toko ;
+    ex:namaToko "Sahabat Busana" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Prada_Textil rdf:type ex:Toko ;
+    ex:namaToko "Prada Textil" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Tiga_Permata rdf:type ex:Toko ;
+    ex:namaToko "Tiga Permata" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Marsya_Kerudung rdf:type ex:Toko ;
+    ex:namaToko "Marsya Kerudung" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Vainsa_cahaya rdf:type ex:Toko ;
+    ex:namaToko "Vainsa cahaya" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Rabbani rdf:type ex:Toko ;
+    ex:namaToko "Rabbani" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_LA_Fashion rdf:type ex:Toko ;
+    ex:namaToko "LA Fashion" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Fashion & Accesories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Sentral_Bag rdf:type ex:Toko ;
+    ex:namaToko "Sentral Bag" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Bag & Shoes" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_PT_BCA rdf:type ex:Toko ;
+    ex:namaToko "PT. BCA" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Perbankan" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_PT_BRI rdf:type ex:Toko ;
+    ex:namaToko "PT. BRI" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Perbankan" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_PT_BANK_BENGKULU rdf:type ex:Toko ;
+    ex:namaToko "PT. BANK BENGKULU" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Perbankan" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Unik_Kataki rdf:type ex:Toko ;
+    ex:namaToko "Unik Kataki" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Maharani rdf:type ex:Toko ;
+    ex:namaToko "Maharani" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Watch & Accessories" ;
+    ex:lokasiToko "Other" .
+
+ex:Toko_MegaMallBengkulu_Gamers rdf:type ex:Toko ;
+    ex:namaToko "Gamers" ;
+    ex:beradaDiMall ex:Mall53 ;
+    ex:kategoriToko "Game Store" ;
+    ex:lokasiToko "Other" .

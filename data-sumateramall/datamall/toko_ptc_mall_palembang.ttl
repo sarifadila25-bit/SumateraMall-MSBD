@@ -1,0 +1,137 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- PERTOKOAN ---
+ex:Toko_PTCMall_Diamond_Department_Store_and_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Diamond Department Store & Supermarket" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Department Store & Supermarket" .
+
+ex:Toko_PTCMall_Electronic_Solution_and_Home_Solution rdf:type ex:Toko ;
+    ex:namaToko "Electronic Solution & Home Solution" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Elektronik & Solusi Rumah" .
+
+ex:Toko_PTCMall_Kharisma_Bookstore rdf:type ex:Toko ;
+    ex:namaToko "Kharisma Bookstore" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Toko Buku" .
+
+ex:Toko_PTCMall_3_Second rdf:type ex:Toko ;
+    ex:namaToko "3 Second" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Fashion & Pakaian" .
+
+ex:Toko_PTCMall_Hammer rdf:type ex:Toko ;
+    ex:namaToko "Hammer" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Fashion & Pakaian" .
+
+ex:Toko_PTCMall_Batik_Semar rdf:type ex:Toko ;
+    ex:namaToko "Batik Semar" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Fashion & Batik" .
+
+ex:Toko_PTCMall_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Elektronik & Gadget" .
+
+# --- SALON KECANTIKAN ---
+ex:Toko_PTCMall_Johnny_Andrean_Salon rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean Salon" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Salon Kecantikan, Perawatan Rambut" .
+
+ex:Toko_PTCMall_Jopie_Salon rdf:type ex:Toko ;
+    ex:namaToko "Jopie Salon" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Salon Kecantikan, Perawatan Rambut" .
+
+ex:Toko_PTCMall_Christopher_Salon rdf:type ex:Toko ;
+    ex:namaToko "Christopher Salon" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Salon Kecantikan, Perawatan Rambut" .
+
+# --- TEMPAT MAKAN ---
+ex:Toko_PTCMall_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Fast Food & Ayam" .
+
+ex:Toko_PTCMall_Texas rdf:type ex:Toko ;
+    ex:namaToko "Texas" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Fast Food & Ayam" .
+
+ex:Toko_PTCMall_Sushi_So rdf:type ex:Toko ;
+    ex:namaToko "Sushi So" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Makanan Jepang & Sushi" .
+
+ex:Toko_PTCMall_Bakmi_Topaz rdf:type ex:Toko ;
+    ex:namaToko "Bakmi Topaz" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Mie & Makanan Tiongkok" .
+
+ex:Toko_PTCMall_Barong_Cafe_and_Resto rdf:type ex:Toko ;
+    ex:namaToko "Barong Cafe & Resto" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Cafe & Restoran" .
+
+# --- SARANA HIBURAN ---
+ex:Toko_PTCMall_Fun_World rdf:type ex:Toko ;
+    ex:namaToko "Fun World" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Sarana Hiburan, Arena Bermain" .
+
+ex:Toko_PTCMall_Kidzilla rdf:type ex:Toko ;
+    ex:namaToko "Kidzilla" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Sarana Hiburan, Arena Bermain Anak" .
+
+ex:Toko_PTCMall_Bioskop_CGV rdf:type ex:Toko ;
+    ex:namaToko "Bioskop CGV" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Sarana Hiburan, Bioskop & Film" .
+
+# --- DATA SEBELUMNYA (Tetap Dipertahankan) ---
+ex:Toko_PTCMall_OH_Some rdf:type ex:Toko ;
+    ex:namaToko "OH! SOME" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Retail, Variety Store, Arts & Crafts" .
+
+ex:Toko_PTCMall_Cabe_Merah rdf:type ex:Toko ;
+    ex:namaToko "Cabe Merah" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Indonesian Food" .
+
+ex:Toko_PTCMall_Informa rdf:type ex:Toko ;
+    ex:namaToko "Informa" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Furniture & Home Essentials" .
+
+ex:Toko_PTCMall_iBox rdf:type ex:Toko ;
+    ex:namaToko "iBox" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Elektronik & Gadget" .
+
+ex:Toko_PTCMall_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Tempat Makan, Indonesian & Asian Food" .
+
+ex:Toko_PTCMall_Playworks rdf:type ex:Toko ;
+    ex:namaToko "Playworks" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Gadget Accessories & Wearables" .
+
+ex:Toko_PTCMall_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Footwear & Sneakers" .
+
+ex:Toko_PTCMall_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall63 ;
+    ex:kategoriToko "Pertokoan, Sportswear & Equipment" .

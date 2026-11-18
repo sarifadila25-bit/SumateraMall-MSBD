@@ -1,0 +1,961 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MegaMallBatamCentre_DCREPES rdf:type ex:Toko ;
+    ex:namaToko "DCREPES" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Crepe" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/Dcrepes%20logo.png> .
+
+ex:Toko_MegaMallBatamCentre_CHIKURO rdf:type ex:Toko ;
+    ex:namaToko "CHIKURO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/chikuro.png> .
+
+ex:Toko_MegaMallBatamCentre_ENDORPHINS rdf:type ex:Toko ;
+    ex:namaToko "ENDORPHINS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Cake" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/ENDORPHINS.png> .
+
+ex:Toko_MegaMallBatamCentre_MARCOS_CHOP_SHOP_BARBERSHOP rdf:type ex:Toko ;
+    ex:namaToko "MARCOS CHOP SHOP BARBERSHOP" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Barbershop" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/LOGO%20MARCOS_CHOP.png> .
+
+ex:Toko_MegaMallBatamCentre_SANCHA rdf:type ex:Toko ;
+    ex:namaToko "SANCHA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Tea" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/LOGO%20SANCHA.png> .
+
+ex:Toko_MegaMallBatamCentre_MARUTAI rdf:type ex:Toko ;
+    ex:namaToko "MARUTAI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/LOGO%20MARUTAI.png> .
+
+ex:Toko_MegaMallBatamCentre_VIVO rdf:type ex:Toko ;
+    ex:namaToko "VIVO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/vivo_NEW.png> .
+
+ex:Toko_MegaMallBatamCentre_KINGSMAN_AUTO_GALLERY rdf:type ex:Toko ;
+    ex:namaToko "KINGSMAN AUTO GALLERY" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Automotive, Car Dealer" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/LOGO%20KINGSMAN%20AUTO%20GALLERY_NEW.png> .
+
+ex:Toko_MegaMallBatamCentre_PANDLAND_WOO rdf:type ex:Toko ;
+    ex:namaToko "PANDLAND WOO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/Untitled-1.png> .
+
+ex:Toko_MegaMallBatamCentre_NEOURA_COLOR_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "NEOURA COLOR STUDIO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Salon" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/product/3/gbr_program/563066633_17975987267945264_933478399519890323_n-Photoroom.png> .
+
+ex:Toko_MegaMallBatamCentre_ROTIMAN rdf:type ex:Toko ;
+    ex:namaToko "ROTIMAN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Roti" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LOGO%20ROTIMAN%20PNG.png> .
+
+ex:Toko_MegaMallBatamCentre_FONEL rdf:type ex:Toko ;
+    ex:namaToko "FONEL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LOGO%20FONEL%20png.png> .
+
+ex:Toko_MegaMallBatamCentre_DOMODOMO rdf:type ex:Toko ;
+    ex:namaToko "DOMODOMO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Japanese Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LOGO%20DOMO%20DOMO.png> .
+
+ex:Toko_MegaMallBatamCentre_LUCKY_CHEESE rdf:type ex:Toko ;
+    ex:namaToko "LUCKY CHEESE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Snack, Cheese" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LUCKY%20CHEESE.png> .
+
+ex:Toko_MegaMallBatamCentre_PHOTOMATICS rdf:type ex:Toko ;
+    ex:namaToko "PHOTOMATICS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Services, Photo Studio" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/PHOTOMATICS.png> .
+
+ex:Toko_MegaMallBatamCentre_MINISO_PINK rdf:type ex:Toko ;
+    ex:namaToko "MINISO PINK" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Lifestyle Variety Store" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MINISO.png> .
+
+ex:Toko_MegaMallBatamCentre_OH_SOME rdf:type ex:Toko ;
+    ex:namaToko "OH!SOME" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Variety Store, Arts & Crafts" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/OH%20SOME.png> .
+
+ex:Toko_MegaMallBatamCentre_BOOST_JUICE rdf:type ex:Toko ;
+    ex:namaToko "BOOST JUICE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Juice" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BOOST%20JUICE.png> .
+
+ex:Toko_MegaMallBatamCentre_ANKER rdf:type ex:Toko ;
+    ex:namaToko "ANKER" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Gadget Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ANKER.png> .
+
+ex:Toko_MegaMallBatamCentre_MONTATO rdf:type ex:Toko ;
+    ex:namaToko "MONTATO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Snack, Potato Fries" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MONTATO.png> .
+
+ex:Toko_MegaMallBatamCentre_SEM rdf:type ex:Toko ;
+    ex:namaToko "SEM" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/SEM.png> .
+
+ex:Toko_MegaMallBatamCentre_LAMOIST rdf:type ex:Toko ;
+    ex:namaToko "LAMOIST" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Cake" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LAMOIST.png> .
+
+ex:Toko_MegaMallBatamCentre_LADY_ANN_LAPIS_LEGIT rdf:type ex:Toko ;
+    ex:namaToko "LADY ANN LAPIS LEGIT" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Lapis Legit" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LADY%20ANN%20LAPIS%20LEGIT.png> .
+
+ex:Toko_MegaMallBatamCentre_RF_WORLD rdf:type ex:Toko ;
+    ex:namaToko "RF WORLD" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/RF%20WORLD.png> .
+
+ex:Toko_MegaMallBatamCentre_MR_CREAM_PUFF rdf:type ex:Toko ;
+    ex:namaToko "MR CREAM PUFF" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Cream Puff" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MR%20CREAM%20PUFF.png> .
+
+ex:Toko_MegaMallBatamCentre_CUNGYEN_DESSERT_HAAGEN_DAZS rdf:type ex:Toko ;
+    ex:namaToko "CUNGYEN DESSERT (HAAGEN DAZS)" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Dessert, Ice Cream" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/CUNGYEN%20DESSERT.png> .
+
+ex:Toko_MegaMallBatamCentre_DUM_DUM_THAI_TEA rdf:type ex:Toko ;
+    ex:namaToko "DUM DUM THAI TEA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Thai Tea" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DUM%20DUM%20THAI%20TEA.png> .
+
+ex:Toko_MegaMallBatamCentre_SHAKE_SHAKE_IN_A_TUBE rdf:type ex:Toko ;
+    ex:namaToko "SHAKE SHAKE IN A TUBE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Dessert" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/SHAKE%20SHAKE%20IN%20A%20TUB.png> .
+
+ex:Toko_MegaMallBatamCentre_LAPIS_NO_1 rdf:type ex:Toko ;
+    ex:namaToko "LAPIS NO.1" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Lapis Legit" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LAPIS%20NO%201.png> .
+
+ex:Toko_MegaMallBatamCentre_CASIO rdf:type ex:Toko ;
+    ex:namaToko "CASIO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Watch" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/CASIO.png> .
+
+ex:Toko_MegaMallBatamCentre_SOGURT rdf:type ex:Toko ;
+    ex:namaToko "SOGURT" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Dessert, Yogurt" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/sogurt.png> .
+
+ex:Toko_MegaMallBatamCentre_AMANDA rdf:type ex:Toko ;
+    ex:namaToko "AMANDA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Brownies" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/AMANDA.png> .
+
+ex:Toko_MegaMallBatamCentre_LAPISA rdf:type ex:Toko ;
+    ex:namaToko "LAPISA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Lapis Legit" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LAPISA.png> .
+
+ex:Toko_MegaMallBatamCentre_DOUBLE_U_COFFEE rdf:type ex:Toko ;
+    ex:namaToko "DOUBLE U COFFEE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DOUBLE%20U%20COFFEE.png> .
+
+ex:Toko_MegaMallBatamCentre_POLO_RALPH_LAUREN rdf:type ex:Toko ;
+    ex:namaToko "POLO RALPH LAUREN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/POLO%20RALPH%20LAUREN.png> .
+
+ex:Toko_MegaMallBatamCentre_ACCESSORIES_UNIVERSAL rdf:type ex:Toko ;
+    ex:namaToko "ACCESSORIES UNIVERSAL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ACCESSORIES%20UNIVERSAL.png> .
+
+ex:Toko_MegaMallBatamCentre_MINISO_PINK_UG rdf:type ex:Toko ;
+    ex:namaToko "MINISO PINK" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Lifestyle Variety Store" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MINISO%20PINK.png> .
+
+ex:Toko_MegaMallBatamCentre_WACOAL rdf:type ex:Toko ;
+    ex:namaToko "WACOAL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Underwear" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/WACOAL.png> .
+
+ex:Toko_MegaMallBatamCentre_MATAHARI rdf:type ex:Toko ;
+    ex:namaToko "MATAHARI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "GF dan UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MATAHARI.png> .
+
+ex:Toko_MegaMallBatamCentre_PUMA rdf:type ex:Toko ;
+    ex:namaToko "PUMA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/PUMA.png> .
+
+ex:Toko_MegaMallBatamCentre_MOC rdf:type ex:Toko ;
+    ex:namaToko "MOC" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MOC.png> .
+
+ex:Toko_MegaMallBatamCentre_OPTIK_MELAWAI rdf:type ex:Toko ;
+    ex:namaToko "OPTIK MELAWAI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/OPTIK%20MELAWAI.png> .
+
+ex:Toko_MegaMallBatamCentre_SAMSONITE rdf:type ex:Toko ;
+    ex:namaToko "SAMSONITE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Travel, Bags" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/SAMSONITE.png> .
+
+ex:Toko_MegaMallBatamCentre_ROTI_O rdf:type ex:Toko ;
+    ex:namaToko "ROTI O" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ROTI%20O.png> .
+
+ex:Toko_MegaMallBatamCentre_THE_PALACE rdf:type ex:Toko ;
+    ex:namaToko "THE PALACE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Watch & Jewellery, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/THE%20PALACE.png> .
+
+ex:Toko_MegaMallBatamCentre_SUSHI_RIO rdf:type ex:Toko ;
+    ex:namaToko "SUSHI RIO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Japanese Food, Sushi" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/SUSHI%20RIO.png> .
+
+ex:Toko_MegaMallBatamCentre_LYNNE_NAILS_ART_STUDIO rdf:type ex:Toko ;
+    ex:namaToko "LYNNE NAILS ART STUDIO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Nail Art" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LYNNE%20NAILS%20ART%20STUDIO.png> .
+
+ex:Toko_MegaMallBatamCentre_MR_MOO rdf:type ex:Toko ;
+    ex:namaToko "MR MOO" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Food, Burger" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MR%20MOO.png> .
+
+ex:Toko_MegaMallBatamCentre_QBEE_NAIL_AND_SALON rdf:type ex:Toko ;
+    ex:namaToko "QBEE NAIL & SALON" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Nail & Salon" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/Untitled-1.png> .
+
+ex:Toko_MegaMallBatamCentre_D_PENYETZ rdf:type ex:Toko ;
+    ex:namaToko "D PENYETZ" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DPENYETZ.png> .
+
+ex:Toko_MegaMallBatamCentre_NATASHA rdf:type ex:Toko ;
+    ex:namaToko "NATASHA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Skincare Clinic" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/NATASHA.png> .
+
+ex:Toko_MegaMallBatamCentre_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR DIY" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Home Essentials" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MR%20DIY.png> .
+
+ex:Toko_MegaMallBatamCentre_BARESTO_CAFE rdf:type ex:Toko ;
+    ex:namaToko "BARESTO CAFE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Seafood & Cafe" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BARESTO%20CAFE.png> .
+
+ex:Toko_MegaMallBatamCentre_KANGEN_CAFE rdf:type ex:Toko ;
+    ex:namaToko "KANGEN CAFE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Cafe" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/KANGEN%20CAFE.png> .
+
+ex:Toko_MegaMallBatamCentre_BANK_RIAU_KEPRI rdf:type ex:Toko ;
+    ex:namaToko "BANK RIAU KEPRI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Banking, Banking Services" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BANK%20RIAU%20KEPRI.png> .
+
+ex:Toko_MegaMallBatamCentre_RENUIN rdf:type ex:Toko ;
+    ex:namaToko "RENUIN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/RENUIN.png> .
+
+ex:Toko_MegaMallBatamCentre_BAKSO_LAPANGAN_TEMBAK_SENAYAN rdf:type ex:Toko ;
+    ex:namaToko "BAKSO LAPANGAN TEMBAK SENAYAN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakso" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BAKSO%20LAPANGAN%20TEMBAK%20SENAYAN.png> .
+
+ex:Toko_MegaMallBatamCentre_KARIN rdf:type ex:Toko ;
+    ex:namaToko "KARIN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/KARIN.png> .
+
+ex:Toko_MegaMallBatamCentre_EPIZ_CHICKEN rdf:type ex:Toko ;
+    ex:namaToko "EPIZ CHICKEN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Fast Food, Ayam" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/EPIZ%20CHICKEN.png> .
+
+ex:Toko_MegaMallBatamCentre_EPIZ_WAFFLE rdf:type ex:Toko ;
+    ex:namaToko "EPIZ WAFFLE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Waffle" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/EPIZ%20WAFFLE.png> .
+
+ex:Toko_MegaMallBatamCentre_BOBA_KING rdf:type ex:Toko ;
+    ex:namaToko "BOBA KING" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Boba" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BOBA%20KING.png> .
+
+ex:Toko_MegaMallBatamCentre_AYAM_PENYET_RIA rdf:type ex:Toko ;
+    ex:namaToko "AYAM PENYET RIA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Indonesian Food, Ayam" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/AYAM%20PENYET%20RIA.png> .
+
+ex:Toko_MegaMallBatamCentre_DAE_JANG_GEUM rdf:type ex:Toko ;
+    ex:namaToko "DAE JANG GEUM" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Korean Food" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DAE%20JANG%20GEUM.png> .
+
+ex:Toko_MegaMallBatamCentre_PEMPEK_KOLECTA rdf:type ex:Toko ;
+    ex:namaToko "PEMPEK KOLECTA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Indonesian Food, Pempek" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/PEMPEK%20KOLECTA.png> .
+
+ex:Toko_MegaMallBatamCentre_KLINIK_UTAMA_LILY rdf:type ex:Toko ;
+    ex:namaToko "KLINIK UTAMA LILY" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Medical Clinic" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/KLINIK%20UTAMA%20LILY.png> .
+
+ex:Toko_MegaMallBatamCentre_FEBY_FUBU rdf:type ex:Toko ;
+    ex:namaToko "FEBY FUBU" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/FEBY%20FUBU.png> .
+
+ex:Toko_MegaMallBatamCentre_STARSBOX rdf:type ex:Toko ;
+    ex:namaToko "STARSBOX" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Entertainment, Claw Machine" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/STARSBOX.png> .
+
+ex:Toko_MegaMallBatamCentre_REBORN_MASSAGE_AND_REFLEXOLOGY rdf:type ex:Toko ;
+    ex:namaToko "REBORN MASSAGE & REFLEXOLOGY" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Massage" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/REBORN.png> .
+
+ex:Toko_MegaMallBatamCentre_AYAM_GORENG_FATMAWATI rdf:type ex:Toko ;
+    ex:namaToko "AYAM GORENG FATMAWATI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Indonesian Food, Ayam" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/AYAM%20GORENG%20FATMAWATI.png> .
+
+ex:Toko_MegaMallBatamCentre_SOUR_SALLY rdf:type ex:Toko ;
+    ex:namaToko "SOUR SALLY" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Dessert, Frozen Yogurt" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/sour%20sally.png> .
+
+ex:Toko_MegaMallBatamCentre_BUBE rdf:type ex:Toko ;
+    ex:namaToko "BUBE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BUBE.png> .
+
+ex:Toko_MegaMallBatamCentre_PERSONA_LAB rdf:type ex:Toko ;
+    ex:namaToko "PERSONA LAB" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Skincare" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/PERSONA%20LAB.png> .
+
+ex:Toko_MegaMallBatamCentre_SNAPIC rdf:type ex:Toko ;
+    ex:namaToko "SNAPIC" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Services, Photo Studio" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/snapic.png> .
+
+ex:Toko_MegaMallBatamCentre_GMS rdf:type ex:Toko ;
+    ex:namaToko "GMS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Entertainment, Family Entertainment Center" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/GMS.png> .
+
+ex:Toko_MegaMallBatamCentre_CINEMA_XXI rdf:type ex:Toko ;
+    ex:namaToko "CINEMA XX1" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Entertainment, Cinema" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/CINEMA%20XXI.png> .
+
+ex:Toko_MegaMallBatamCentre_ESKA rdf:type ex:Toko ;
+    ex:namaToko "ESKA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Spa & Salon" ;
+    ex:lokasiToko "L2" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ESKA.png> .
+
+ex:Toko_MegaMallBatamCentre_MIXIT rdf:type ex:Toko ;
+    ex:namaToko "MIXIT" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MIXIT.png> .
+
+ex:Toko_MegaMallBatamCentre_GARDA_ASTRA rdf:type ex:Toko ;
+    ex:namaToko "GARDA ASTRA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Automotive, Insurance & Services" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ASTRA.png> .
+
+ex:Toko_MegaMallBatamCentre_BATAM_NEST rdf:type ex:Toko ;
+    ex:namaToko "BATAM NEST" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Local Souvenirs" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BATAM%20NEST.png> .
+
+ex:Toko_MegaMallBatamCentre_ANAMBAS_LUTI rdf:type ex:Toko ;
+    ex:namaToko "ANAMBAS LUTI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Retail, Local Souvenirs, Music" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ANAMBAS%20LUTI%20GENDANG.png> .
+
+ex:Toko_MegaMallBatamCentre_VANILLA_PARFUME rdf:type ex:Toko ;
+    ex:namaToko "VANILLA PARFUME" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Perfume" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/VANILLA%20PARFUME.png> .
+
+ex:Toko_MegaMallBatamCentre_NYONYA_LAKSA rdf:type ex:Toko ;
+    ex:namaToko "NYONYA LAKSA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Malaysian & Singaporean Food" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/NYONYA%20LAKSA.png> .
+
+ex:Toko_MegaMallBatamCentre_GLOW_KIDS rdf:type ex:Toko ;
+    ex:namaToko "GLOW KIDS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Kids Toys, Children's Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/GLOW%20KIDS.png> .
+
+ex:Toko_MegaMallBatamCentre_ALI_NAILS_AND_LASH rdf:type ex:Toko ;
+    ex:namaToko "ALI NAILS & LASH" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Nail & Lash" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ALI%20NAIL%20&%20LASH.png> .
+
+ex:Toko_MegaMallBatamCentre_WILLY_SALON rdf:type ex:Toko ;
+    ex:namaToko "WILLY SALON" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/willy_salon.png> .
+
+ex:Toko_MegaMallBatamCentre_BUCCHERI rdf:type ex:Toko ;
+    ex:namaToko "BUCCHERI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Shoes" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/buccheri.png> .
+
+ex:Toko_MegaMallBatamCentre_MINIMAL rdf:type ex:Toko ;
+    ex:namaToko "MINIMAL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/minimal_store.png> .
+
+ex:Toko_MegaMallBatamCentre_OXA rdf:type ex:Toko ;
+    ex:namaToko "OXA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/OXA_NEW.png> .
+
+ex:Toko_MegaMallBatamCentre_MY_BESTIE rdf:type ex:Toko ;
+    ex:namaToko "MY BESTIE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MY%20BESTIE.png> .
+
+ex:Toko_MegaMallBatamCentre_GRIYA_TENIS rdf:type ex:Toko ;
+    ex:namaToko "GRIYA TENIS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/GRIYA%20TENIS.png> .
+
+ex:Toko_MegaMallBatamCentre_GATTCHA_HOBBY_STORE rdf:type ex:Toko ;
+    ex:namaToko "GATTCHA HOBBY STORE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Books, Toys & Hobbies" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/GATTCHA.png> .
+
+ex:Toko_MegaMallBatamCentre_HAKATA_IKKOUSHA rdf:type ex:Toko ;
+    ex:namaToko "HAKATA IKKOUSHA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Japanese Food, Ramen" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/HAKATA%20IKKOUSHA.png> .
+
+ex:Toko_MegaMallBatamCentre_ERAFONE rdf:type ex:Toko ;
+    ex:namaToko "ERAFONE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/ERAFONE.png> .
+
+ex:Toko_MegaMallBatamCentre_OPTIK_PLANET rdf:type ex:Toko ;
+    ex:namaToko "OPTIK PLANET" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/optik_planet.png> .
+
+ex:Toko_MegaMallBatamCentre_MUSHROOM rdf:type ex:Toko ;
+    ex:namaToko "MUSHROOM" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MUSHROOM.png> .
+
+ex:Toko_MegaMallBatamCentre_MANZONE rdf:type ex:Toko ;
+    ex:namaToko "MANZONE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/manzone_concept.png> .
+
+ex:Toko_MegaMallBatamCentre_OPTIK_TUNGGAL rdf:type ex:Toko ;
+    ex:namaToko "OPTIK TUNGGAL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/OPTIK%20TUNGGAL.png> .
+
+ex:Toko_MegaMallBatamCentre_SOCIOLLA rdf:type ex:Toko ;
+    ex:namaToko "SOCIOLLA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/SOCIOLLA.png> .
+
+ex:Toko_MegaMallBatamCentre_DSTYLE_SALON rdf:type ex:Toko ;
+    ex:namaToko "DSTYLE SALON" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DSTYLE.png> .
+
+ex:Toko_MegaMallBatamCentre_FIDELYO_WATCH_STORE rdf:type ex:Toko ;
+    ex:namaToko "FIDELYO WATCH STORE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Watch & Jewellery, Watch" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/FIDELYO.png> .
+
+ex:Toko_MegaMallBatamCentre_FIVE rdf:type ex:Toko ;
+    ex:namaToko "FIVE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/FIVE.png> .
+
+ex:Toko_MegaMallBatamCentre_MELATI_SALON rdf:type ex:Toko ;
+    ex:namaToko "MELATI SALON" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Hair Salon" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MELATI%20SALON_GREEN.png> .
+
+ex:Toko_MegaMallBatamCentre_DR_SPECS rdf:type ex:Toko ;
+    ex:namaToko "DR SPECS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DR%20SPECS.png> .
+
+ex:Toko_MegaMallBatamCentre_MALAYA_CAFE rdf:type ex:Toko ;
+    ex:namaToko "MALAYA CAFE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Cafe" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/MALAYA%20CAFE.png> .
+
+ex:Toko_MegaMallBatamCentre_RICHEESE_FACTORY rdf:type ex:Toko ;
+    ex:namaToko "RICHEESE FACTORY" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Fast Food, Ayam" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/RICHEESE%20FACTORY.png> .
+
+ex:Toko_MegaMallBatamCentre_GODIVA rdf:type ex:Toko ;
+    ex:namaToko "GODIVA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Chocolate, Dessert" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/godiva_cafe.png> .
+
+ex:Toko_MegaMallBatamCentre_WATSONS rdf:type ex:Toko ;
+    ex:namaToko "WATSONS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/WATSONS.png> .
+
+ex:Toko_MegaMallBatamCentre_JUWIS_OPTICAL rdf:type ex:Toko ;
+    ex:namaToko "JUWIS OPTICAL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/JUWIS%20OPTICAL.png> .
+
+ex:Toko_MegaMallBatamCentre_KOPI_KENANGAN rdf:type ex:Toko ;
+    ex:namaToko "KOPI KENANGAN" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/KOPI%20KENANGAN.png> .
+
+ex:Toko_MegaMallBatamCentre_HUAWEI rdf:type ex:Toko ;
+    ex:namaToko "HUAWEI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/HUAWEI.png> .
+
+ex:Toko_MegaMallBatamCentre_BREAD_SOCIAL rdf:type ex:Toko ;
+    ex:namaToko "BREAD SOCIAL" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BREAD%20SOCIAL.png> .
+
+ex:Toko_MegaMallBatamCentre_TOKO_MAS_BANDA_BARU rdf:type ex:Toko ;
+    ex:namaToko "TOKO MAS BANDA BARU" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Watch & Jewellery, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/TOKO%20MAS%20BANDA%20BARU.png> .
+
+ex:Toko_MegaMallBatamCentre_THE_BRAHOUSE rdf:type ex:Toko ;
+    ex:namaToko "THE BRAHOUSE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Underwear" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/THE%20BRAHOUSE.png> .
+
+ex:Toko_MegaMallBatamCentre_LEVIS rdf:type ex:Toko ;
+    ex:namaToko "LEVIS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Jeans" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LEVIS.png> .
+
+ex:Toko_MegaMallBatamCentre_OPPA_OPTIK rdf:type ex:Toko ;
+    ex:namaToko "OPPA OPTIK" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/OOPPA.png> .
+
+ex:Toko_MegaMallBatamCentre_PLAYWORKS rdf:type ex:Toko ;
+    ex:namaToko "PLAYWORKS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Gadget Accessories" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/playworks.png> .
+
+ex:Toko_MegaMallBatamCentre_HARTADINATA_ABADI rdf:type ex:Toko ;
+    ex:namaToko "HARTADINATA ABADI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Watch & Jewellery, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/HARTADINATA%20ABADI.png> .
+
+ex:Toko_MegaMallBatamCentre_FIPPER rdf:type ex:Toko ;
+    ex:namaToko "FIPPER" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Sandal" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/fipper.png> .
+
+ex:Toko_MegaMallBatamCentre_BEARD_PAPAS rdf:type ex:Toko ;
+    ex:namaToko "BEARD PAPAS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Bakery, Cream Puff" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BEARD%20PAPAS.png> .
+
+ex:Toko_MegaMallBatamCentre_CONDOTTI rdf:type ex:Toko ;
+    ex:namaToko "CONDOTTI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Shoes" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/condotti.png> .
+
+ex:Toko_MegaMallBatamCentre_OPTIK_SEIS rdf:type ex:Toko ;
+    ex:namaToko "OPTIK SEIS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Optical" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/optik_seis.png> .
+
+ex:Toko_MegaMallBatamCentre_SKECHERS rdf:type ex:Toko ;
+    ex:namaToko "SKECHERS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories, Shoes" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/SKECHERS.png> .
+
+ex:Toko_MegaMallBatamCentre_DIGIPLUS rdf:type ex:Toko ;
+    ex:namaToko "DIGIPLUS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Gadget" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/DIGIPLUS.png> .
+
+ex:Toko_MegaMallBatamCentre_FORE rdf:type ex:Toko ;
+    ex:namaToko "FORE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/FORE.png> .
+
+ex:Toko_MegaMallBatamCentre_RUMAH_MAKAN_SEDERHANA rdf:type ex:Toko ;
+    ex:namaToko "RUMAH MAKAN SEDERHANA" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Indonesian Food" ;
+    ex:lokasiToko "Parkir Motor" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/RUMAH%20MAKAN%20SEDERHANA.png> .
+
+ex:Toko_MegaMallBatamCentre_IBOX rdf:type ex:Toko ;
+    ex:namaToko "IBOX" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Apple Products" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/IBOX.png> .
+
+ex:Toko_MegaMallBatamCentre_BLIBLI rdf:type ex:Toko ;
+    ex:namaToko "BLIBLI" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, E-commerce Store" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/BLIBLI.png> .
+
+ex:Toko_MegaMallBatamCentre_SAMSUNG rdf:type ex:Toko ;
+    ex:namaToko "SAMSUNG" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Electronics, Smartphone" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/samsung_experience_store.png> .
+
+ex:Toko_MegaMallBatamCentre_HYPERMART rdf:type ex:Toko ;
+    ex:namaToko "HYPERMART" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Supermarket, Grocery" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/hypermart.png> .
+
+ex:Toko_MegaMallBatamCentre_FAMOUS rdf:type ex:Toko ;
+    ex:namaToko "FAMOUS" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Kids Toys" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/famous.png> .
+
+ex:Toko_MegaMallBatamCentre_THE_BODY_SHOP rdf:type ex:Toko ;
+    ex:namaToko "THE BODY SHOP" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Health & Beauty, Cosmetics" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/body_shop.png> .
+
+ex:Toko_MegaMallBatamCentre_KIDZ_STATION rdf:type ex:Toko ;
+    ex:namaToko "KIDZ STATION" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Books, Toys & Hobbies" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/kidz_station.png> .
+
+ex:Toko_MegaMallBatamCentre_APINK rdf:type ex:Toko ;
+    ex:namaToko "APINK" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Fashion & Accessories" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/Untitled-1.png> .
+
+ex:Toko_MegaMallBatamCentre_A_W_RESTAURANT rdf:type ex:Toko ;
+    ex:namaToko "A&W RESTAURANT" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Fast Food, Burger" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/aw-restaurants-logo-png-transparent.png> .
+
+ex:Toko_MegaMallBatamCentre_PIZZA_HUT rdf:type ex:Toko ;
+    ex:namaToko "PIZZA HUT" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Fast Food, Pizza" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/LOGO%20PIZZA%20HUT.png> .
+
+ex:Toko_MegaMallBatamCentre_TIMEZONE rdf:type ex:Toko ;
+    ex:namaToko "TIMEZONE" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "Entertainment, Arcade" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/TIMEZONE_RED.png> .
+
+ex:Toko_MegaMallBatamCentre_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall103 ;
+    ex:kategoriToko "F&B, Fast Food, Ayam" ;
+    ex:lokasiToko "UG" ;
+    ex:logoURL <https://www.megamallbatam.com/tenant/3/0/0/gbr_program/kentucky_fried_chicken_(kfc).png> .

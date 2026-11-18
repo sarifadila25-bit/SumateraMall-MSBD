@@ -1,0 +1,148 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- GROUND FLOOR ---
+
+ex:Toko_RingRoadCityWalks_Smarco_Superstore rdf:type ex:Toko ;
+    ex:namaToko "Smarco Superstore" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Supermarket, Makanan, Minuman" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Cosmetics, Skincare" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_The_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "The Body Shop" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Skincare" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Electronics, Smartphone, Gadget" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_J_Co rdf:type ex:Toko ;
+    ex:namaToko "J-Co" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Donut, Coffee" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_Uncle_K rdf:type ex:Toko ;
+    ex:namaToko "Uncle K" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_City_Ice_Cream rdf:type ex:Toko ;
+    ex:namaToko "City Ice Cream" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Ice Cream, Dessert" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_Tre_Mont_Bistro_Cafe rdf:type ex:Toko ;
+    ex:namaToko "Tre Mont Bistro & Cafe" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Cafe, Bistro, Western Food" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_BreadTalk rdf:type ex:Toko ;
+    ex:namaToko "BreadTalk" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Bakery, Roti" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_RingRoadCityWalks_JACO_TV_Shopping rdf:type ex:Toko ;
+    ex:namaToko "JACO TV Shopping" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Electronics, Home Electronics & Appliances" ;
+    ex:lokasiToko "GF" .
+
+# --- LEVEL 1 ---
+
+ex:Toko_RingRoadCityWalks_Planet_Surf rdf:type ex:Toko ;
+    ex:namaToko "Planet Surf" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_RingRoadCityWalks_Bata rdf:type ex:Toko ;
+    ex:namaToko "Bata" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_RingRoadCityWalks_Fountain rdf:type ex:Toko ;
+    ex:namaToko "Fountain" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Restaurant, Family Restaurant" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_RingRoadCityWalks_Christopher_Salon rdf:type ex:Toko ;
+    ex:namaToko "Christopher Salon" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair Salon" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_RingRoadCityWalks_Sir_Salon rdf:type ex:Toko ;
+    ex:namaToko "Sir Salon" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair Salon" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_RingRoadCityWalks_DAMN_Black_Label rdf:type ex:Toko ;
+    ex:namaToko "DAMN Black Label" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L1" .
+
+# --- LEVEL 2 ---
+
+ex:Toko_RingRoadCityWalks_Celebrity_Fitness rdf:type ex:Toko ;
+    ex:namaToko "Celebrity Fitness" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Sports, Fitness Center, Pusat Kebugaran" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_RingRoadCityWalks_Amazone rdf:type ex:Toko ;
+    ex:namaToko "Amazone" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Electronics, Computer & IT Store, Laptop, PC" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_RingRoadCityWalks_The_Thirty_Six rdf:type ex:Toko ;
+    ex:namaToko "The Thirty Six" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing" ;
+    ex:lokasiToko "L2" .
+
+# --- LEVEL 3 ---
+
+ex:Toko_RingRoadCityWalks_Cinema_XXI_Premiere rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI + Premiere" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_RingRoadCityWalks_Origamii rdf:type ex:Toko ;
+    ex:namaToko "Origamii" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Beverage, Matcha, Tea" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_RingRoadCityWalks_Da_Costa rdf:type ex:Toko ;
+    ex:namaToko "Da Costa" ;
+    ex:beradaDiMall ex:Mall14 ;
+    ex:kategoriToko "F&B, Food, Restaurant, Western Food" ;
+    ex:lokasiToko "L3" .

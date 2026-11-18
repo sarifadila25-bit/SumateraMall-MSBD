@@ -1,0 +1,57 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PSXMall_Levi_s rdf:type ex:Toko ;
+    ex:namaToko "Levi's" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_PSXMall_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_PSXMall_Everbest rdf:type ex:Toko ;
+    ex:namaToko "Everbest" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear, Sepatu" .
+
+ex:Toko_PSXMall_Giordani rdf:type ex:Toko ;
+    ex:namaToko "Giordani" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_PSXMall_Romp rdf:type ex:Toko ;
+    ex:namaToko "Romp" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_PSXMall_Elzatta rdf:type ex:Toko ;
+    ex:namaToko "Elzatta" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Hijab & Scarves, Fashion Muslim" .
+
+ex:Toko_PSXMall_Caption rdf:type ex:Toko ;
+    ex:namaToko "Caption" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Home & Living, Perlengkapan Kamar Tidur, Selimut, Bedcover, Sprei" .
+
+ex:Toko_PSXMall_Batik_Keris rdf:type ex:Toko ;
+    ex:namaToko "Batik Keris" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Batik Khas Indonesia" .
+
+ex:Toko_PSXMall_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Retail, Keperluan Pribadi, Lifestyle Store" .
+
+ex:Toko_PSXMall_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Supermarket, Kebutuhan Rumah Tangga" .
+
+ex:Toko_PSXMall_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall62 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" .

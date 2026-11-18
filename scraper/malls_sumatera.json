@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Mal Aceh",
+    "city": "Banda Aceh",
+    "province": "Aceh",
+    "description": "",
+    "source": "hardcoded",
+    "id": "mal_aceh"
+  },
+  {
+    "name": "Aceh Mall",
+    "city": "Banda Aceh",
+    "province": "Aceh",
+    "description": "",
+    "source": "hardcoded",
+    "id": "aceh_mall"
+  },
+  {
+    "name": "Lapanga Mall",
+    "city": "Banda Aceh",
+    "province": "Aceh",
+    "description": "",
+    "source": "hardcoded",
+    "id": "lapanga_mall"
+  },
+  {
+    "name": "Sun Plaza",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "sun_plaza"
+  },
+  {
+    "name": "Centre Point Mall",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "centre_point_mall"
+  },
+  {
+    "name": "Deli Park Mall",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "deli_park_mall"
+  },
+  {
+    "name": "Medan Mall",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "medan_mall"
+  },
+  {
+    "name": "Plaza Medan Fair",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "plaza_medan_fair"
+  },
+  {
+    "name": "Thamrin Plaza",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "thamrin_plaza"
+  },
+  {
+    "name": "SKA Mall",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "ska_mall"
+  },
+  {
+    "name": "Hermes Place",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "hermes_place"
+  },
+  {
+    "name": "Millennium Centennial Center",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "millennium_centennial_center"
+  },
+  {
+    "name": "Naga City Mall",
+    "city": "Medan",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "naga_city_mall"
+  },
+  {
+    "name": "Pematang Siantar Mall",
+    "city": "Pematang Siantar",
+    "province": "Sumatera Utara",
+    "description": "",
+    "source": "hardcoded",
+    "id": "pematang_siantar_mall"
+  },
+  {
+    "name": "Plaza Andalas",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "description": "",
+    "source": "hardcoded",
+    "id": "plaza_andalas"
+  },
+  {
+    "name": "SKA Padang",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "description": "",
+    "source": "hardcoded",
+    "id": "ska_padang"
+  },
+  {
+    "name": "Living World Padang",
+    "city": "Padang",
+    "province": "Sumatera Barat",
+    "description": "",
+    "source": "hardcoded",
+    "id": "living_world_padang"
+  },
+  {
+    "name": "SKA Mall Pekanbaru",
+    "city": "Pekanbaru",
+    "province": "Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "ska_mall_pekanbaru"
+  },
+  {
+    "name": "Mall Ciputra Seraya",
+    "city": "Pekanbaru",
+    "province": "Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "mall_ciputra_seraya"
+  },
+  {
+    "name": "Pusat Pasar City Mall",
+    "city": "Pekanbaru",
+    "province": "Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "pusat_pasar_city_mall"
+  },
+  {
+    "name": "Nagoya Hill Mall",
+    "city": "Batam",
+    "province": "Kepulauan Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "nagoya_hill_mall"
+  },
+  {
+    "name": "Batam City Square",
+    "city": "Batam",
+    "province": "Kepulauan Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "batam_city_square"
+  },
+  {
+    "name": "Grand Batam Mall",
+    "city": "Batam",
+    "province": "Kepulauan Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "grand_batam_mall"
+  },
+  {
+    "name": "Mega Mall Batam Centre",
+    "city": "Batam",
+    "province": "Kepulauan Riau",
+    "description": "",
+    "source": "hardcoded",
+    "id": "mega_mall_batam_centre"
+  },
+  {
+    "name": "Jambi Town Square",
+    "city": "Jambi",
+    "province": "Jambi",
+    "description": "",
+    "source": "hardcoded",
+    "id": "jambi_town_square"
+  },
+  {
+    "name": "Mall Batang Hari",
+    "city": "Jambi",
+    "province": "Jambi",
+    "description": "",
+    "source": "hardcoded",
+    "id": "mall_batang_hari"
+  },
+  {
+    "name": "Palembang Icon",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "description": "",
+    "source": "hardcoded",
+    "id": "palembang_icon"
+  },
+  {
+    "name": "Palembang Square",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "description": "",
+    "source": "hardcoded",
+    "id": "palembang_square"
+  },
+  {
+    "name": "Palembang Indah Mall",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "description": "",
+    "source": "hardcoded",
+    "id": "palembang_indah_mall"
+  },
+  {
+    "name": "OPI Mall",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "description": "",
+    "source": "hardcoded",
+    "id": "opi_mall"
+  },
+  {
+    "name": "Transmart Palembang",
+    "city": "Palembang",
+    "province": "Sumatera Selatan",
+    "description": "",
+    "source": "hardcoded",
+    "id": "transmart_palembang"
+  },
+  {
+    "name": "Batu Rusa Mall",
+    "city": "Pangkal Pinang",
+    "province": "Bangka Belitung",
+    "description": "",
+    "source": "hardcoded",
+    "id": "batu_rusa_mall"
+  },
+  {
+    "name": "Pangkal Pinang Mall",
+    "city": "Pangkal Pinang",
+    "province": "Bangka Belitung",
+    "description": "",
+    "source": "hardcoded",
+    "id": "pangkal_pinang_mall"
+  },
+  {
+    "name": "Bengkulu Mall",
+    "city": "Bengkulu",
+    "province": "Bengkulu",
+    "description": "",
+    "source": "hardcoded",
+    "id": "bengkulu_mall"
+  },
+  {
+    "name": "Rafflesia Mall",
+    "city": "Bengkulu",
+    "province": "Bengkulu",
+    "description": "",
+    "source": "hardcoded",
+    "id": "rafflesia_mall"
+  },
+  {
+    "name": "Chandra Mall",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "description": "",
+    "source": "hardcoded",
+    "id": "chandra_mall"
+  },
+  {
+    "name": "Rajabasa Square",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "description": "",
+    "source": "hardcoded",
+    "id": "rajabasa_square"
+  },
+  {
+    "name": "Lampung Walk",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "description": "",
+    "source": "hardcoded",
+    "id": "lampung_walk"
+  },
+  {
+    "name": "Transmart Lampung",
+    "city": "Bandar Lampung",
+    "province": "Lampung",
+    "description": "",
+    "source": "hardcoded",
+    "id": "transmart_lampung"
+  }
+]

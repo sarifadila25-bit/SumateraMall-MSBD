@@ -1,0 +1,22 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PlazaPangkalPinang_Transmart rdf:type ex:Toko ;
+    ex:namaToko "Transmart" ;
+    ex:beradaDiMall ex:Mall73 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs, Department Store" ;
+    ex:lokasiToko "L1 dan L2" ;
+    ex:deskripsiToko "Penyewa kunci mal yang menempati Lantai 1 dan 2" .
+
+ex:Toko_PlazaPangkalPinang_Trans_Studio_Mini rdf:type ex:Toko ;
+    ex:namaToko "Trans Studio Mini" ;
+    ex:beradaDiMall ex:Mall73 ;
+    ex:kategoriToko "Entertainment, Theme Park, Arena Bermain" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_PlazaPangkalPinang_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall73 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L4" ;
+    ex:deskripsiToko "Penyewa kunci kedua mal yang menempati Lantai 4" .

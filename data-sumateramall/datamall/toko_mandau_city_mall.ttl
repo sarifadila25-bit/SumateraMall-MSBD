@@ -1,0 +1,42 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MandauCityMall_Digimap rdf:type ex:Toko ;
+    ex:namaToko "Digimap" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Elektronik, Toko Gadget & Komputer" .
+
+ex:Toko_MandauCityMall_Blibli rdf:type ex:Toko ;
+    ex:namaToko "Blibli" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Retail, E-commerce Store" .
+
+ex:Toko_MandauCityMall_Cinepolis rdf:type ex:Toko ;
+    ex:namaToko "Cinépolis" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Hiburan, Bioskop" .
+
+ex:Toko_MandauCityMall_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR.D.I.Y." ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Retail, Kebutuhan Rumah & Perbaikan" .
+
+ex:Toko_MandauCityMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Kesehatan & Kecantikan, Apotek & Kosmetik" .
+
+ex:Toko_MandauCityMall_Ichiban_Sushi_Express rdf:type ex:Toko ;
+    ex:namaToko "Ichiban Sushi Express" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Makanan & Minuman, Sushi, Makanan Jepang" .
+
+ex:Toko_MandauCityMall_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Fashion & Olahraga, Sepatu & Pakaian Olahraga" .
+
+ex:Toko_MandauCityMall_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall43 ;
+    ex:kategoriToko "Retail, Supermarket" .

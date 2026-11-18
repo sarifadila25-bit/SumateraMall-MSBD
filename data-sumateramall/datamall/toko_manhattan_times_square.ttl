@@ -1,0 +1,134 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# --- TEMPAT MAKAN ---
+
+ex:Toko_ManhattanTimesSquare_Pepper_Lunch rdf:type ex:Toko ;
+    ex:namaToko "Pepper Lunch" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Daging Sapi, Hot Plate, Nasi" .
+
+ex:Toko_ManhattanTimesSquare_Hot_Wings rdf:type ex:Toko ;
+    ex:namaToko "Hot Wings" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" .
+
+ex:Toko_ManhattanTimesSquare_Steak_21 rdf:type ex:Toko ;
+    ex:namaToko "Steak 21" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Daging Sapi, Steak" .
+
+ex:Toko_ManhattanTimesSquare_Sushi_Tei rdf:type ex:Toko ;
+    ex:namaToko "Sushi Tei" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Sushi" .
+
+ex:Toko_ManhattanTimesSquare_Texas_Chicken rdf:type ex:Toko ;
+    ex:namaToko "Texas Chicken" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" .
+
+ex:Toko_ManhattanTimesSquare_Popotato rdf:type ex:Toko ;
+    ex:namaToko "Popotato" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Snack, Kentang" .
+
+ex:Toko_ManhattanTimesSquare_Waffelicious rdf:type ex:Toko ;
+    ex:namaToko "Waffelicious" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Waffle, Dessert" .
+
+ex:Toko_ManhattanTimesSquare_Ayam_Penyet_Ria rdf:type ex:Toko ;
+    ex:namaToko "Ayam Penyet Ria" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Ayam" .
+
+ex:Toko_ManhattanTimesSquare_Shihlin rdf:type ex:Toko ;
+    ex:namaToko "Shihlin" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Food, Snack, Ayam, Crispy Chicken" .
+
+ex:Toko_ManhattanTimesSquare_Starbucks rdf:type ex:Toko ;
+    ex:namaToko "Starbucks" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "F&B, Beverage, Cafe, Coffee" .
+
+# --- TENANT BELANJA ---
+
+ex:Toko_ManhattanTimesSquare_Brastagi_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Brastagi Supermarket" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Supermarket, Makanan, Minuman" .
+
+ex:Toko_ManhattanTimesSquare_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Bookstore & Stationery, Toko Buku" .
+
+ex:Toko_ManhattanTimesSquare_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion, Fashion Anak, Fashion Pria, Fashion Wanita" .
+
+ex:Toko_ManhattanTimesSquare_Payless rdf:type ex:Toko ;
+    ex:namaToko "Payless" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" .
+
+ex:Toko_ManhattanTimesSquare_LAcode rdf:type ex:Toko ;
+    ex:namaToko "LAcode" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_ManhattanTimesSquare_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Cosmetics, Skincare" .
+
+ex:Toko_ManhattanTimesSquare_Century rdf:type ex:Toko ;
+    ex:namaToko "Century" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Pharmacy, Vitamins" .
+
+ex:Toko_ManhattanTimesSquare_The_Executive rdf:type ex:Toko ;
+    ex:namaToko "The Executive" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_ManhattanTimesSquare_X_8 rdf:type ex:Toko ;
+    ex:namaToko "X-8" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" .
+
+ex:Toko_ManhattanTimesSquare_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sepatu" .
+
+ex:Toko_ManhattanTimesSquare_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Sports, Sports Store, Alat Olahraga, Pakaian Olahraga" .
+
+ex:Toko_ManhattanTimesSquare_Bata rdf:type ex:Toko ;
+    ex:namaToko "Bata" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" .
+
+ex:Toko_ManhattanTimesSquare_Mr_DIY rdf:type ex:Toko ;
+    ex:namaToko "Mr. D.I.Y." ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Home & Living, Home Essentials, Lifestyle & Retail" ;
+    ex:lokasiToko "L3" .
+
+# --- SARANA HIBURAN ---
+
+ex:Toko_ManhattanTimesSquare_Fun_World rdf:type ex:Toko ;
+    ex:namaToko "Fun World" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" .
+
+ex:Toko_ManhattanTimesSquare_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall9 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" .

@@ -1,0 +1,373 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://sumateramall.org/ontology#> .
+@prefix res: <http://sumateramall.org/resource/> .
+
+# ============================================
+# 5 CLASSES
+# ============================================
+
+ex:Mall a rdfs:Class ;
+    rdfs:label "Mall"@id ;
+    rdfs:comment "Pusat perbelanjaan"@id .
+
+ex:Toko a rdfs:Class ;
+    rdfs:label "Toko"@id ;
+    rdfs:comment "Toko di dalam mall"@id .
+
+ex:Kategori a rdfs:Class ;
+    rdfs:label "Kategori"@id ;
+    rdfs:comment "Kategori toko"@id .
+
+ex:Kota a rdfs:Class ;
+    rdfs:label "Kota"@id ;
+    rdfs:comment "Kota lokasi mall"@id .
+
+ex:Provinsi a rdfs:Class ;
+    rdfs:label "Provinsi"@id ;
+    rdfs:comment "Provinsi lokasi mall"@id .
+
+# ============================================
+# 10 OBJECT PROPERTIES
+# ============================================
+
+ex:beradaDiMall a rdf:Property ;
+    rdfs:label "beradaDiMall"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range ex:Mall ;
+    rdfs:comment "Toko berada di Mall"@id .
+
+ex:beradaDiKota a rdf:Property ;
+    rdfs:label "beradaDiKota"@id ;
+    rdfs:domain ex:Mall ;
+    rdfs:range ex:Kota ;
+    rdfs:comment "Mall berada di Kota"@id .
+
+ex:beradaDiProvinsi a rdf:Property ;
+    rdfs:label "beradaDiProvinsi"@id ;
+    rdfs:domain ex:Mall ;
+    rdfs:range ex:Provinsi ;
+    rdfs:comment "Mall berada di Provinsi"@id .
+
+ex:memilikiKategori a rdf:Property ;
+    rdfs:label "memilikiKategori"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range ex:Kategori ;
+    rdfs:comment "Toko memiliki kategori"@id .
+
+ex:beradaDiLantai a rdf:Property ;
+    rdfs:label "beradaDiLantai"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range ex:Toko ;
+    rdfs:comment "Toko berada di lantai yang sama dengan toko lain"@id .
+
+ex:memilikiToko a rdf:Property ;
+    rdfs:label "memilikiToko"@id ;
+    rdfs:domain ex:Mall ;
+    rdfs:range ex:Toko ;
+    rdfs:comment "Mall memiliki toko"@id .
+
+ex:beradaDiKotaYangSama a rdf:Property ;
+    rdfs:label "beradaDiKotaYangSama"@id ;
+    rdfs:domain ex:Mall ;
+    rdfs:range ex:Mall ;
+    rdfs:comment "Mall berada di kota yang sama"@id .
+
+ex:kategoriSerupa a rdf:Property ;
+    rdfs:label "kategoriSerupa"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range ex:Toko ;
+    rdfs:comment "Toko dengan kategori serupa"@id .
+
+ex:provinsiMemilikiKota a rdf:Property ;
+    rdfs:label "provinsiMemilikiKota"@id ;
+    rdfs:domain ex:Provinsi ;
+    rdfs:range ex:Kota ;
+    rdfs:comment "Provinsi memiliki kota"@id .
+
+ex:kotaMemilikiMall a rdf:Property ;
+    rdfs:label "kotaMemilikiMall"@id ;
+    rdfs:domain ex:Kota ;
+    rdfs:range ex:Mall ;
+    rdfs:comment "Kota memiliki mall"@id .
+
+# ============================================
+# 10 DATA PROPERTIES
+# ============================================
+
+ex:namaToko a rdf:Property ;
+    rdfs:label "namaToko"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nama toko"@id .
+
+ex:namaMall a rdf:Property ;
+    rdfs:label "namaMall"@id ;
+    rdfs:domain ex:Mall ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nama mall"@id .
+
+ex:kategoriToko a rdf:Property ;
+    rdfs:label "kategoriToko"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Kategori toko (string)"@id .
+
+ex:lokasiToko a rdf:Property ;
+    rdfs:label "lokasiToko"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Lokasi toko di mall (lantai & nomor)"@id .
+
+ex:alamatMall a rdf:Property ;
+    rdfs:label "alamatMall"@id ;
+    rdfs:domain ex:Mall ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Alamat mall"@id .
+
+ex:namaKota a rdf:Property ;
+    rdfs:label "namaKota"@id ;
+    rdfs:domain ex:Kota ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nama kota"@id .
+
+ex:namaProvinsi a rdf:Property ;
+    rdfs:label "namaProvinsi"@id ;
+    rdfs:domain ex:Provinsi ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nama provinsi"@id .
+
+ex:ratingToko a rdf:Property ;
+    rdfs:label "ratingToko"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range xsd:float ;
+    rdfs:comment "Rating toko (0-5)"@id .
+
+ex:jamBuka a rdf:Property ;
+    rdfs:label "jamBuka"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Jam buka toko"@id .
+
+ex:nomorTelepon a rdf:Property ;
+    rdfs:label "nomorTelepon"@id ;
+    rdfs:domain ex:Toko ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nomor telepon toko"@id .
+
+# ============================================
+# INSTANCE DATA: OPI MALL
+# ============================================
+
+# --- Provinsi & Kota ---
+res:Provinsi_SumateraSelatan a ex:Provinsi ;
+    ex:namaProvinsi "Sumatera Selatan" .
+
+res:Kota_Palembang a ex:Kota ;
+    ex:namaKota "Palembang" ;
+    ex:beradaDiProvinsi res:Provinsi_SumateraSelatan .
+
+res:Provinsi_SumateraSelatan ex:provinsiMemilikiKota res:Kota_Palembang .
+
+# --- Mall: OPI Mall (Mall65) ---
+res:Mall65 a ex:Mall ;
+    ex:namaMall "OPI Mall" ;
+    ex:alamatMall "Jl. POM IX, Palembang, Sumatera Selatan" ;
+    ex:beradaDiKota res:Kota_Palembang ;
+    ex:beradaDiProvinsi res:Provinsi_SumateraSelatan .
+
+res:Kota_Palembang ex:kotaMemilikiMall res:Mall65 .
+
+# --- Kategori ---
+res:Kategori_FnB a ex:Kategori ;
+    ex:namaKategori "F&B" .
+
+res:Kategori_Fashion a ex:Kategori ;
+    ex:namaKategori "Fashion" .
+
+res:Kategori_Entertainment a ex:Kategori ;
+    ex:namaKategori "Entertainment" .
+
+res:Kategori_Retail a ex:Kategori ;
+    ex:namaKategori "Retail" .
+
+res:Kategori_Services a ex:Kategori ;
+    ex:namaKategori "Services" .
+
+res:Kategori_Electronics a ex:Kategori ;
+    ex:namaKategori "Electronics" .
+
+res:Kategori_HomeLiving a ex:Kategori ;
+    ex:namaKategori "Home & Living" .
+
+res:Kategori_BooksToys a ex:Kategori ;
+    ex:namaKategori "Books, Toys & Hobbies" .
+
+# --- TOKO-TOKO DI OPI MALL ---
+
+res:Toko_OPIMall_My_Queen a ex:Toko ;
+    ex:namaToko "My Queen" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Fashion ;
+    ex:kategoriToko "Fashion & Accessories, Women's Clothing" ;
+    ex:lokasiToko "L2 - 3" ;
+    ex:ratingToko 4.2 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_OPI_Ice_Skating_Arena a ex:Toko ;
+    ex:namaToko "OPI Ice Skating Arena" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Entertainment ;
+    ex:kategoriToko "Entertainment, Ice Skating, Sports Arena" ;
+    ex:lokasiToko "L2 - 4" ;
+    ex:ratingToko 4.5 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Gigitz a ex:Toko ;
+    ex:namaToko "Gigitz" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_FnB ;
+    ex:kategoriToko "F&B, Food, Snack, Ice Cream" ;
+    ex:lokasiToko "L2 - 6" ;
+    ex:ratingToko 4.3 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Fremil a ex:Toko ;
+    ex:namaToko "Fremil" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_FnB ;
+    ex:kategoriToko "F&B, Food, Snack, Ice Cream" ;
+    ex:lokasiToko "L2 - 6" ;
+    ex:ratingToko 4.1 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Sweet_Corn a ex:Toko ;
+    ex:namaToko "Sweet Corn" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_FnB ;
+    ex:kategoriToko "F&B, Food, Snack, Corn" ;
+    ex:lokasiToko "L2 - 7" ;
+    ex:ratingToko 4.0 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_BOLDe_Lifestyle_Store a ex:Toko ;
+    ex:namaToko "BOLDe Lifestyle Store" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Retail ;
+    ex:kategoriToko "Retail, Lifestyle Store" ;
+    ex:lokasiToko "L2 - 8" ;
+    ex:ratingToko 4.2 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Optik_Global a ex:Toko ;
+    ex:namaToko "Optik Global" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Fashion ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "L2 - 10" ;
+    ex:ratingToko 4.4 ;
+    ex:jamBuka "10:00-22:00" ;
+    ex:nomorTelepon "0711-123456" .
+
+res:Toko_OPIMall_Wennedys a ex:Toko ;
+    ex:namaToko "Wennedys" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Services ;
+    ex:kategoriToko "Services, Photo Studio" ;
+    ex:lokasiToko "L2 - 11" ;
+    ex:ratingToko 4.6 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Ayam_Gepuk a ex:Toko ;
+    ex:namaToko "Ayam Gepuk" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_FnB ;
+    ex:kategoriToko "F&B, Food, Ayam, Indonesian Food" ;
+    ex:lokasiToko "L2 - 12" ;
+    ex:ratingToko 4.3 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_CFC a ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_FnB ;
+    ex:kategoriToko "F&B, Food, Ayam, Fast Food" ;
+    ex:lokasiToko "L2 - 13 & 14" ;
+    ex:ratingToko 4.2 ;
+    ex:jamBuka "10:00-22:00" ;
+    ex:nomorTelepon "0711-234567" .
+
+res:Toko_OPIMall_Narchz a ex:Toko ;
+    ex:namaToko "Narchz" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Services ;
+    ex:kategoriToko "Services, Photo Studio, Photobooth" ;
+    ex:lokasiToko "L2 - 15" ;
+    ex:ratingToko 4.5 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_MR_DIY a ex:Toko ;
+    ex:namaToko "Mr. D.I.Y." ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Retail ;
+    ex:kategoriToko "Retail, Home Essentials & Lifestyle" ;
+    ex:lokasiToko "L2 - 16" ;
+    ex:ratingToko 4.4 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Cinema_XXI_The_Premiere a ex:Toko ;
+    ex:namaToko "Cinema XXI The Premiere" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Entertainment ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L2 - 17" ;
+    ex:ratingToko 4.7 ;
+    ex:jamBuka "10:00-23:00" ;
+    ex:nomorTelepon "0711-345678" .
+
+res:Toko_OPIMall_Playtopia a ex:Toko ;
+    ex:namaToko "Playtopia" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Entertainment ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2 - 18" ;
+    ex:ratingToko 4.5 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Azko a ex:Toko ;
+    ex:namaToko "Azko" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_HomeLiving ;
+    ex:kategoriToko "Home & Living, Home Essentials & Furniture" ;
+    ex:lokasiToko "L2 - 19" ;
+    ex:ratingToko 4.3 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Toys_Kingdom a ex:Toko ;
+    ex:namaToko "Toys Kingdom" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_BooksToys ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys, Mainan Anak" ;
+    ex:lokasiToko "L2 - 20" ;
+    ex:ratingToko 4.6 ;
+    ex:jamBuka "10:00-22:00" .
+
+res:Toko_OPIMall_Amazone a ex:Toko ;
+    ex:namaToko "Amazone" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_Electronics ;
+    ex:kategoriToko "Electronics, Computer & IT Store" ;
+    ex:lokasiToko "L2 - 21" ;
+    ex:ratingToko 4.4 ;
+    ex:jamBuka "10:00-22:00" ;
+    ex:nomorTelepon "0711-456789" .
+
+res:Toko_OPIMall_The_Little_Kitchen a ex:Toko ;
+    ex:namaToko "The Little Kitchen" ;
+    ex:beradaDiMall res:Mall65 ;
+    ex:memilikiKategori res:Kategori_FnB ;
+    ex:kategoriToko "F&B, Food, Restaurant" ;
+    ex:lokasiToko "L2 - 22" ;
+    ex:ratingToko 4.5 ;
+    ex:jamBuka "10:00-22:00" .

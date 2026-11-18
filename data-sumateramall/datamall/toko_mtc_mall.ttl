@@ -1,0 +1,107 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MTCMall_Bata rdf:type ex:Toko ;
+    ex:namaToko "Bata" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" .
+
+ex:Toko_MTCMall_BRK_Sayiah rdf:type ex:Toko ;
+    ex:namaToko "BRK Sayiah" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian Muslim" .
+
+ex:Toko_MTCMall_Buccheri rdf:type ex:Toko ;
+    ex:namaToko "Buccheri" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" .
+
+ex:Toko_MTCMall_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Bubble Tea" .
+
+ex:Toko_MTCMall_City rdf:type ex:Toko ;
+    ex:namaToko "City" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Retail, Department Store" .
+
+ex:Toko_MTCMall_Danamon rdf:type ex:Toko ;
+    ex:namaToko "Danamon" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Layanan Perbankan, Bank" .
+
+ex:Toko_MTCMall_Funcity rdf:type ex:Toko ;
+    ex:namaToko "Funcity" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Hiburan, Family Entertainment Center" .
+
+ex:Toko_MTCMall_Yamaha rdf:type ex:Toko ;
+    ex:namaToko "Yamaha" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Otomotif, Sepeda Motor & Aksesoris" .
+
+ex:Toko_MTCMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Apotek & Kosmetik" .
+
+ex:Toko_MTCMall_J_CO_Donuts_Coffee rdf:type ex:Toko ;
+    ex:namaToko "J-CO Donuts & Coffee" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Donat & Kopi" .
+
+ex:Toko_MTCMall_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" .
+
+ex:Toko_MTCMall_Kopi_Kenanga rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kenanga" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Kopi" .
+
+ex:Toko_MTCMall_Mie_Bandung_Kejaksaan rdf:type ex:Toko ;
+    ex:namaToko "Mie Bandung Kejaksaan" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Mie, Makanan Indonesia" .
+
+ex:Toko_MTCMall_Mixue rdf:type ex:Toko ;
+    ex:namaToko "Mixue" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Es Krim & Bubble Tea" .
+
+ex:Toko_MTCMall_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR DIY" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Retail, Kebutuhan Rumah & Perbaikan Rumah" .
+
+ex:Toko_MTCMall_Pinky rdf:type ex:Toko ;
+    ex:namaToko "Pinky" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Aksesoris" .
+
+ex:Toko_MTCMall_Ramen_Ya rdf:type ex:Toko ;
+    ex:namaToko "Ramen Ya" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Ramen, Makanan Jepang" .
+
+ex:Toko_MTCMall_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti O" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Makanan & Minuman, Bakery, Roti" .
+
+ex:Toko_MTCMall_Telkomsel rdf:type ex:Toko ;
+    ex:namaToko "Telkomsel" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Layanan Telekomunikasi, GraPARI" .
+
+ex:Toko_MTCMall_Terra_Zone rdf:type ex:Toko ;
+    ex:namaToko "Terra Zone" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Hiburan, Wahana Permainan & Arcade" .
+
+ex:Toko_MTCMall_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall33 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Apotek & Kosmetik" .

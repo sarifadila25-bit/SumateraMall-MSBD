@@ -1,0 +1,78 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_LampungCityMall_Chandra_Superstore rdf:type ex:Toko ;
+    ex:namaToko "Chandra Superstore" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Supermarket, Kebutuhan Sehari-hari & Produk Rumah Tangga" ;
+    ex:deskripsiToko "Menawarkan pilihan barang konsumsi dan berbagai produk rumah tangga untuk belanja harian" .
+
+ex:Toko_LampungCityMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Health & Beauty, Perawatan Tubuh, Kecantikan & Kesehatan" ;
+    ex:deskripsiToko "Menyediakan berbagai produk perawatan tubuh, kecantikan, kesehatan, dan perlengkapan mandi" .
+
+ex:Toko_LampungCityMall_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kacamata & Pemeriksaan Mata" ;
+    ex:deskripsiToko "Pilihan bagi pengunjung yang mencari kacamata atau membutuhkan layanan pemeriksaan mata" .
+
+ex:Toko_LampungCityMall_H_and_M rdf:type ex:Toko ;
+    ex:namaToko "H&M" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Pakaian & Aksesori" ;
+    ex:deskripsiToko "Merek fesyen yang menawarkan berbagai pilihan pakaian dan aksesori" .
+
+ex:Toko_LampungCityMall_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Electronics, Smartphone & Aksesori Perangkat" .
+
+ex:Toko_LampungCityMall_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Electronics, Smartphone & Aksesori Perangkat" .
+
+ex:Toko_LampungCityMall_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Entertainment, Playground, Pusat Permainan & Aktivitas Rekreasi" ;
+    ex:deskripsiToko "Pusat permainan yang menghadirkan beragam mesin permainan dan aktivitas rekreasi dalam ruangan untuk keluarga" .
+
+ex:Toko_LampungCityMall_Marugame_Udon rdf:type ex:Toko ;
+    ex:namaToko "Marugame Udon" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "F&B, Japanese Food, Udon" .
+
+ex:Toko_LampungCityMall_HokBen rdf:type ex:Toko ;
+    ex:namaToko "HokBen" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "F&B, Japanese Food, Fast Food" .
+
+ex:Toko_LampungCityMall_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "F&B, Indonesian, Western & Asian Food" .
+
+ex:Toko_LampungCityMall_Mr_Sumo rdf:type ex:Toko ;
+    ex:namaToko "Mr Sumo" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "F&B, Japanese Food, Sumo" .
+
+ex:Toko_LampungCityMall_My_Kopi_O rdf:type ex:Toko ;
+    ex:namaToko "My Kopi O" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" .
+
+ex:Toko_LampungCityMall_El_s_Coffee rdf:type ex:Toko ;
+    ex:namaToko "El’s Coffee" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" .
+
+ex:Toko_LampungCityMall_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall71 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:deskripsiToko "Fasilitas hiburan bioskop sebagai alternatif menonton film bersama keluarga, pasangan, atau teman" .

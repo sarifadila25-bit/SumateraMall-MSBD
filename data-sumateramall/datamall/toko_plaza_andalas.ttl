@@ -1,0 +1,91 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PlazaAndalas_Ramayana rdf:type ex:Toko ;
+    ex:namaToko "Ramayana" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" .
+
+ex:Toko_PlazaAndalas_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Ayam" ;
+    ex:deskripsiToko "Gerai yang cukup luas" .
+
+ex:Toko_PlazaAndalas_J_Co_Donut rdf:type ex:Toko ;
+    ex:namaToko "J.Co Donut" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Donut, Coffee" .
+
+ex:Toko_PlazaAndalas_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Indonesian Food, Western and Asian Food" .
+
+ex:Toko_PlazaAndalas_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Variety Store" .
+
+ex:Toko_PlazaAndalas_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Healthcare, Cosmetics, Skincare" .
+
+ex:Toko_PlazaAndalas_CFC rdf:type ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Ayam" .
+
+ex:Toko_PlazaAndalas_Imperial_Kitchen rdf:type ex:Toko ;
+    ex:namaToko "Imperial Kitchen" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Chinese Food, Dimsum" .
+
+ex:Toko_PlazaAndalas_D_Cost rdf:type ex:Toko ;
+    ex:namaToko "D'Cost" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Seafood, Indonesian Food" .
+
+ex:Toko_PlazaAndalas_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti O" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Bakery, Roti" .
+
+ex:Toko_PlazaAndalas_Mokko_Donut rdf:type ex:Toko ;
+    ex:namaToko "Mokko Donut" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Food, Donut, Dessert" .
+
+ex:Toko_PlazaAndalas_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sports Store, Pakaian Olahraga" .
+
+ex:Toko_PlazaAndalas_Kopi_Kulo rdf:type ex:Toko ;
+    ex:namaToko "Kopi Kulo" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" .
+
+ex:Toko_PlazaAndalas_Janji_Jiwa rdf:type ex:Toko ;
+    ex:namaToko "Janji Jiwa" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" .
+
+ex:Toko_PlazaAndalas_Area_Bermain rdf:type ex:Toko ;
+    ex:namaToko "Area Bermain" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Hiburan, Playground, Arena Bermain Anak" ;
+    ex:lokasiToko "L4" .
+
+ex:Toko_PlazaAndalas_Inul_Vizta rdf:type ex:Toko ;
+    ex:namaToko "Inul Vizta" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Hiburan, Karaoke" ;
+    ex:lokasiToko "L4" .
+
+ex:Toko_PlazaAndalas_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall27 ;
+    ex:kategoriToko "Hiburan, Cinema, Movie Theater" ;
+    ex:lokasiToko "L4" .

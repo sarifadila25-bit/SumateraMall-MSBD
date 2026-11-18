@@ -1,0 +1,198 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PlazaAceh_3_STORE rdf:type ex:Toko ;
+    ex:namaToko "3 STORE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Services, Telecommunication Services, Layanan Pelanggan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/3%20STORE_1769228625.webp> .
+
+ex:Toko_PlazaAceh_CHATIME rdf:type ex:Toko ;
+    ex:namaToko "CHATIME" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Milk Tea, Tea" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/Zh3lq0ph2RPG6O54RBf7iJm6PY0TuBQwh2Ozwzky_1756366427.webp> .
+
+ex:Toko_PlazaAceh_D_PIT_NOODLES rdf:type ex:Toko ;
+    ex:namaToko "D'PIT NOODLES" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Food, Mie Ayam" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/D'PIT%20NOODLES_1769228737.webp> .
+
+ex:Toko_PlazaAceh_DR_SPECS rdf:type ex:Toko ;
+    ex:namaToko "DR. SPECS" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Eyewear, Optical, Kaca Mata" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DR.%20SPECS_1761127998.webp> .
+
+ex:Toko_PlazaAceh_DUST rdf:type ex:Toko ;
+    ex:namaToko "DUST" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/DUST_1769228891.webp> .
+
+ex:Toko_PlazaAceh_ERAFONE rdf:type ex:Toko ;
+    ex:namaToko "ERAFONE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Electronics, Laptop, Smartphones & Wearables, Mac Book, PC, Smartphone" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ERAFONE_1756377866.png> .
+
+ex:Toko_PlazaAceh_GUARDIAN rdf:type ex:Toko ;
+    ex:namaToko "GUARDIAN" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Beauty & Wellness, Cosmetics, Health, Skincare, Vitamins" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/GUARDIAN_1756697649.webp> .
+
+ex:Toko_PlazaAceh_IBOX rdf:type ex:Toko ;
+    ex:namaToko "IBOX" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Electronics, Laptop, Phones, Mac Book, PC, Smartphone, Tablet, Wearable" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/IBOX_1756701974.webp> .
+
+ex:Toko_PlazaAceh_ICHIBAN_SUSHI rdf:type ex:Toko ;
+    ex:namaToko "ICHIBAN SUSHI" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Sushi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ICHIBAN%20SUSHI_1757666185.webp> .
+
+ex:Toko_PlazaAceh_JETE rdf:type ex:Toko ;
+    ex:namaToko "JETE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Electronics, Accessories, Gadget Accessories, Wearable" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/JETE_1756971208.webp> .
+
+ex:Toko_PlazaAceh_LARUSSO rdf:type ex:Toko ;
+    ex:namaToko "LARUSSO" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/LARUSSO_1756722878.webp> .
+
+ex:Toko_PlazaAceh_MAGIC_PHOTO rdf:type ex:Toko ;
+    ex:namaToko "MAGIC PHOTO" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Services, Photo Studio, Photobooth" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/MAGIC%20PHOTO_1761795018.webp> .
+
+ex:Toko_PlazaAceh_MATAHARI_DEPT_STORE rdf:type ex:Toko ;
+    ex:namaToko "MATAHARI DEPT STORE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion, Fashion Anak, Fashion Pria, Fashion Wanita" ;
+    ex:lokasiToko "L1" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/MATAHARI%20LOGO_1750138953.webp> .
+
+ex:Toko_PlazaAceh_MR_D_I_Y rdf:type ex:Toko ;
+    ex:namaToko "MR. D.I.Y." ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Home & Living, Home Essentials, Lifestyle & Retail" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/MR.%20D.I.Y.%20LOGO_1750138786.webp> .
+
+ex:Toko_PlazaAceh_OH_SOME rdf:type ex:Toko ;
+    ex:namaToko "OH! SOME" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys, Variety Store, Arts & Crafts, Decorations" ;
+    ex:lokasiToko "LG" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ohsome_1765437526.webp> .
+
+ex:Toko_PlazaAceh_OPTIK_MELAWAI rdf:type ex:Toko ;
+    ex:namaToko "OPTIK MELAWAI" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/OPTIK%20MELAWAI_1756376476.webp> .
+
+ex:Toko_PlazaAceh_PARIS_CORNER rdf:type ex:Toko ;
+    ex:namaToko "PARIS CORNER" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Food, Snack, Crispy Chicken, Kentang, Pop Corn, Waffle" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PARIS%20CORNER_1769229199.webp> .
+
+ex:Toko_PlazaAceh_PLANET_SURF rdf:type ex:Toko ;
+    ex:namaToko "PLANET SURF" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Footwear, Sneakers, Baju, Topi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/PLANET%20SURF_1769229396.webp> .
+
+ex:Toko_PlazaAceh_RAMEN_1 rdf:type ex:Toko ;
+    ex:namaToko "RAMEN 1" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Ramen" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/RAMEN%201_1768986826.webp> .
+
+ex:Toko_PlazaAceh_ROTI_O rdf:type ex:Toko ;
+    ex:namaToko "ROTI O" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Beverage, Food, Coffee, Roti" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/ROTI%20O_1757304874.webp> .
+
+ex:Toko_PlazaAceh_SAMSUNG rdf:type ex:Toko ;
+    ex:namaToko "SAMSUNG" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Electronics, Smartphones & Wearables, Gadget Accessories, Headphones & Earbuds, Smartphone, Tablet" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage//brands/samsung-logo-preview_1750238760.webp> .
+
+ex:Toko_PlazaAceh_SOCIOLLA rdf:type ex:Toko ;
+    ex:namaToko "SOCIOLLA" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Cosmetics, Perfume, Skincare" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/SOCIOLLA_1756961709.webp> .
+
+ex:Toko_PlazaAceh_THE_BODY_SHOP rdf:type ex:Toko ;
+    ex:namaToko "THE BODY SHOP" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Beauty & Wellness, Skincare" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20BODY%20SHOP_1757584484.webp> .
+
+ex:Toko_PlazaAceh_THE_EXECUTIVE rdf:type ex:Toko ;
+    ex:namaToko "THE EXECUTIVE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20EXECUTIVE_1757319731.webp> .
+
+ex:Toko_PlazaAceh_THE_PALACE rdf:type ex:Toko ;
+    ex:namaToko "THE PALACE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Watch & Jewellery, Jewelry, Gold" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/THE%20PALACE_1757319976.webp> .
+
+ex:Toko_PlazaAceh_TOMORO_COFFEE rdf:type ex:Toko ;
+    ex:namaToko "TOMORO COFFEE" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/TOMORO%20COFFEE_1757491045.webp> .
+
+ex:Toko_PlazaAceh_WATSONS rdf:type ex:Toko ;
+    ex:namaToko "WATSONS" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Healthcare, Cosmetics, Fragrance, Skincare, Vitamins" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WATSONS_1757320572.webp> .
+
+ex:Toko_PlazaAceh_WRANGLER rdf:type ex:Toko ;
+    ex:namaToko "WRANGLER" ;
+    ex:beradaDiMall ex:Mall1 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana, Topi" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://websitecms.lippomalls.com/storage/brands/WRANGLER_1757920982.webp> .

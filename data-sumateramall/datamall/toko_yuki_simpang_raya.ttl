@@ -1,0 +1,38 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_YukiSimpangRaya_ATM_Bank_BCA rdf:type ex:Toko ;
+    ex:namaToko "ATM Bank BCA 4114 Yuki Simpang Plaza" ;
+    ex:beradaDiMall ex:Mall5 ;
+    ex:kategoriToko "Layanan Perbankan, Anjungan Tunai Mandiri" ;
+    ex:logoURL <https://www.semuabis.com/atm-bank-bca-yuki-simpang-plaza-021-0500888> .
+
+ex:Toko_YukiSimpangRaya_Arisan rdf:type ex:Toko ;
+    ex:namaToko "Arisan" ;
+    ex:beradaDiMall ex:Mall5 ;
+    ex:kategoriToko "Restoran, Rumah Makan Indonesia" ;
+    ex:logoURL <https://www.semuabis.com/arisan_48-061-7354027> .
+
+ex:Toko_YukiSimpangRaya_Ciro_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Ciro Accessories" ;
+    ex:beradaDiMall ex:Mall5 ;
+    ex:kategoriToko "Fashion & Accessories, Aksesoris" ;
+    ex:logoURL <https://www.semuabis.com/ciro-accessories_67> .
+
+ex:Toko_YukiSimpangRaya_Hokky_Bear rdf:type ex:Toko ;
+    ex:namaToko "Hokky Bear" ;
+    ex:beradaDiMall ex:Mall5 ;
+    ex:kategoriToko "Entertainment, Boling, Bowling Alley" ;
+    ex:logoURL <https://www.semuabis.com/hokky-bear-061-7355867> .
+
+ex:Toko_YukiSimpangRaya_Toko_PS rdf:type ex:Toko ;
+    ex:namaToko "Toko PS" ;
+    ex:beradaDiMall ex:Mall5 ;
+    ex:kategoriToko "Electronics, Toko Seluler, Handphone" ;
+    ex:logoURL <https://www.semuabis.com/toko-ps_42-0878-6810-9339> .
+
+ex:Toko_YukiSimpangRaya_YUKI_Coffee_Shop rdf:type ex:Toko ;
+    ex:namaToko "YUKI Coffee Shop" ;
+    ex:beradaDiMall ex:Mall5 ;
+    ex:kategoriToko "F&B, Kafetaria, Coffee Shop" ;
+    ex:logoURL <https://www.semuabis.com/yuki-coffee-shop-061-7354027> .

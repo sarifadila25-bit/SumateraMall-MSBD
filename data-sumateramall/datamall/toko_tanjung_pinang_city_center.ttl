@@ -1,0 +1,55 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_TanjungPinangCityCenter_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "GF dan UG" ;
+    ex:deskripsiToko "Penyewa kunci pertama yang membuka gerai di mal ini" .
+
+ex:Toko_TanjungPinangCityCenter_Amazone rdf:type ex:Toko ;
+    ex:namaToko "Amazone" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Entertainment, Taman Permainan Arkade" ;
+    ex:lokasiToko "UG" ;
+    ex:deskripsiToko "Salah satu penyewa kunci yang diresmikan beberapa minggu setelah pembukaan mal" .
+
+ex:Toko_TanjungPinangCityCenter_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "LG" ;
+    ex:deskripsiToko "Penyewa kunci toko swalayan yang diresmikan beberapa minggu setelah pembukaan mal" .
+
+ex:Toko_TanjungPinangCityCenter_TCC_XXI rdf:type ex:Toko ;
+    ex:namaToko "TCC XXI" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L1" ;
+    ex:deskripsiToko "Cabang pertama Cineplex 21 Group di Tanjungpinang, dibuka pada 25 Mei 2017, menyediakan 6 layar bioskop dengan kapasitas 880 kursi" .
+
+ex:Toko_TanjungPinangCityCenter_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR.DIY" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Retail, Home Essentials, Lifestyle & Retail" ;
+    ex:lokasiToko "GF" ;
+    ex:deskripsiToko "Penyewa kunci yang diresmikan pada 7 September 2019, merupakan gerai pertama di Tanjungpinang" .
+
+ex:Toko_TanjungPinangCityCenter_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "SPORT STATION" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear & Equipment" ;
+    ex:deskripsiToko "Sports equipment and accessories" .
+
+ex:Toko_TanjungPinangCityCenter_Kidz_Station rdf:type ex:Toko ;
+    ex:namaToko "KIDZ STATION" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Toys, Mainan Anak" ;
+    ex:deskripsiToko "Ragam mainan Kidz Station 100% original" .
+
+ex:Toko_TanjungPinangCityCenter_Miniso rdf:type ex:Toko ;
+    ex:namaToko "MINISO" ;
+    ex:beradaDiMall ex:Mall101 ;
+    ex:kategoriToko "Retail, Japanese Designer Brand, Lifestyle Variety Store" ;
+    ex:deskripsiToko "Japanese designer brand" .

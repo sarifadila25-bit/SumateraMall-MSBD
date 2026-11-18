@@ -1,0 +1,35 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_LivingPlazaBatam_AZKO rdf:type ex:Toko ;
+    ex:namaToko "AZKO" ;
+    ex:beradaDiMall ex:Mall77 ;
+    ex:kategoriToko "Home & Living, Elektronik, Peralatan Rumah Tangga" ;
+    ex:deskripsiToko "Menawarkan diskon hingga 55%, promo Evaporative Air Cooler, dan Oven Toaster seharga Rp99.900, serta hadiah menarik untuk pembelanjaan tertentu." .
+
+ex:Toko_LivingPlazaBatam_Informa rdf:type ex:Toko ;
+    ex:namaToko "INFORMA & INFORMA Electronics" ;
+    ex:beradaDiMall ex:Mall77 ;
+    ex:kategoriToko "Home & Living, Furniture, Elektronik" ;
+    ex:deskripsiToko "Menyediakan diskon hingga 60%, cashback hingga Rp300 ribu, voucher, keanggotaan member gratis, dan hadiah langsung seperti gift bag atau beverage dispenser." .
+
+ex:Toko_LivingPlazaBatam_EYE_SOUL rdf:type ex:Toko ;
+    ex:namaToko "EYE SOUL" ;
+    ex:beradaDiMall ex:Mall77 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kacamata" ;
+    ex:deskripsiToko "Menawarkan promo Beli 1 Gratis 1 untuk semua frame, diskon hingga 50%, voucher Rp100 ribu, dan diskon 15% untuk lensa Leinz." .
+
+ex:Toko_LivingPlazaBatam_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall77 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Milk Tea" ;
+    ex:deskripsiToko "Menyediakan promo Buy 2 Get 1 untuk Chatime Milk Tea." .
+
+ex:Toko_LivingPlazaBatam_Cupbop rdf:type ex:Toko ;
+    ex:namaToko "Cupbop" ;
+    ex:beradaDiMall ex:Mall77 ;
+    ex:kategoriToko "F&B, Food, Korean Food, Camilan" ;
+    ex:deskripsiToko "Menyediakan paket hemat mulai Rp35 ribu untuk minuman dan camilan Korea favorit." .
+
+# --- Informasi Tambahan tentang Mall (Opsional, untuk konteks presentasi) ---
+ex:Mall77 ex:deskripsiMall "Living Plaza Batam adalah destinasi gaya hidup modern yang tidak hanya menjadi pusat belanja, tetapi juga menjalankan komitmen sosial seperti edukasi hidup bersih, dukungan sarana perpustakaan, aksi bersih lingkungan, serta membuka lapangan kerja dengan 90% tenaga kerja lokal dari Batam." .

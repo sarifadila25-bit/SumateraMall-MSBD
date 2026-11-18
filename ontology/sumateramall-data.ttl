@@ -1,0 +1,942 @@
+@prefix mm: <http://sumateramall.org/ontology#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sumateramall.org/resource/Category/accessories> a mm:Category ;
+    schema1:name "Accessories"@id .
+
+<http://sumateramall.org/resource/Category/entertainment> a mm:Category ;
+    schema1:name "Entertainment"@id .
+
+<http://sumateramall.org/resource/Category/fnb> a mm:Category ;
+    schema1:name "Food & Beverage"@id .
+
+<http://sumateramall.org/resource/Category/health> a mm:Category ;
+    schema1:name "Health & Pharmacy"@id .
+
+<http://sumateramall.org/resource/Category/other> a mm:Category ;
+    schema1:name "Other"@id .
+
+<http://sumateramall.org/resource/Mall/aceh_mall> a mm:Mall ;
+    schema1:name "Aceh Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/banda_aceh> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/aceh> .
+
+<http://sumateramall.org/resource/Mall/batam_city_square> a mm:Mall ;
+    schema1:name "Batam City Square"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/batam> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/kepulauan_riau> .
+
+<http://sumateramall.org/resource/Mall/batu_rusa_mall> a mm:Mall ;
+    schema1:name "Batu Rusa Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/pangkal_pinang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/bangka_belitung> .
+
+<http://sumateramall.org/resource/Mall/bengkulu_mall> a mm:Mall ;
+    schema1:name "Bengkulu Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/bengkulu> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/bengkulu> .
+
+<http://sumateramall.org/resource/Mall/centre_point_mall> a mm:Mall ;
+    schema1:name "Centre Point Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/chandra_mall> a mm:Mall ;
+    schema1:name "Chandra Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/bandar_lampung> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/lampung> .
+
+<http://sumateramall.org/resource/Mall/deli_park_mall> a mm:Mall ;
+    schema1:name "Deli Park Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/grand_batam_mall> a mm:Mall ;
+    schema1:name "Grand Batam Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/batam> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/kepulauan_riau> .
+
+<http://sumateramall.org/resource/Mall/hermes_place> a mm:Mall ;
+    schema1:name "Hermes Place"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/jambi_town_square> a mm:Mall ;
+    schema1:name "Jambi Town Square"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/jambi> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/jambi> .
+
+<http://sumateramall.org/resource/Mall/lampung_walk> a mm:Mall ;
+    schema1:name "Lampung Walk"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/bandar_lampung> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/lampung> .
+
+<http://sumateramall.org/resource/Mall/lapanga_mall> a mm:Mall ;
+    schema1:name "Lapanga Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/banda_aceh> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/aceh> .
+
+<http://sumateramall.org/resource/Mall/living_world_padang> a mm:Mall ;
+    schema1:name "Living World Padang"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/padang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_barat> .
+
+<http://sumateramall.org/resource/Mall/mal_aceh> a mm:Mall ;
+    schema1:name "Mal Aceh"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/banda_aceh> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/aceh> .
+
+<http://sumateramall.org/resource/Mall/mall_batang_hari> a mm:Mall ;
+    schema1:name "Mall Batang Hari"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/jambi> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/jambi> .
+
+<http://sumateramall.org/resource/Mall/medan_mall> a mm:Mall ;
+    schema1:name "Medan Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/mega_mall_batam_centre> a mm:Mall ;
+    schema1:name "Mega Mall Batam Centre"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/batam> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/kepulauan_riau> .
+
+<http://sumateramall.org/resource/Mall/millennium_centennial_center> a mm:Mall ;
+    schema1:name "Millennium Centennial Center"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/naga_city_mall> a mm:Mall ;
+    schema1:name "Naga City Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/opi_mall> a mm:Mall ;
+    schema1:name "OPI Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/palembang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_selatan> .
+
+<http://sumateramall.org/resource/Mall/palembang_indah_mall> a mm:Mall ;
+    schema1:name "Palembang Indah Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/palembang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_selatan> .
+
+<http://sumateramall.org/resource/Mall/palembang_square> a mm:Mall ;
+    schema1:name "Palembang Square"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/palembang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_selatan> .
+
+<http://sumateramall.org/resource/Mall/pangkal_pinang_mall> a mm:Mall ;
+    schema1:name "Pangkal Pinang Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/pangkal_pinang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/bangka_belitung> .
+
+<http://sumateramall.org/resource/Mall/pematang_siantar_mall> a mm:Mall ;
+    schema1:name "Pematang Siantar Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/pematang_siantar> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/plaza_andalas> a mm:Mall ;
+    schema1:name "Plaza Andalas"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/padang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_barat> .
+
+<http://sumateramall.org/resource/Mall/plaza_medan_fair> a mm:Mall ;
+    schema1:name "Plaza Medan Fair"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/pusat_pasar_city_mall> a mm:Mall ;
+    schema1:name "Pusat Pasar City Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/pekanbaru> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/riau> .
+
+<http://sumateramall.org/resource/Mall/rafflesia_mall> a mm:Mall ;
+    schema1:name "Rafflesia Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/bengkulu> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/bengkulu> .
+
+<http://sumateramall.org/resource/Mall/rajabasa_square> a mm:Mall ;
+    schema1:name "Rajabasa Square"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/bandar_lampung> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/lampung> .
+
+<http://sumateramall.org/resource/Mall/ska_mall> a mm:Mall ;
+    schema1:name "SKA Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/ska_mall_pekanbaru> a mm:Mall ;
+    schema1:name "SKA Mall Pekanbaru"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/pekanbaru> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/riau> .
+
+<http://sumateramall.org/resource/Mall/ska_padang> a mm:Mall ;
+    schema1:name "SKA Padang"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/padang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_barat> .
+
+<http://sumateramall.org/resource/Mall/sun_plaza> a mm:Mall ;
+    schema1:name "Sun Plaza"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Mall/transmart_lampung> a mm:Mall ;
+    schema1:name "Transmart Lampung"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/bandar_lampung> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/lampung> .
+
+<http://sumateramall.org/resource/Mall/transmart_palembang> a mm:Mall ;
+    schema1:name "Transmart Palembang"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/palembang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_selatan> .
+
+<http://sumateramall.org/resource/Store/osm_12019352815> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5372991"^^xsd:float ;
+            schema1:longitude "101.4347943"^^xsd:float ] ;
+    schema1:name "Warung Mas Djarot"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_12019352816> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5382581"^^xsd:float ;
+            schema1:longitude "101.4307665"^^xsd:float ] ;
+    schema1:name "Willy Jaya Houseware"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/houseware> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_1366455972> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9832428"^^xsd:float ;
+            schema1:longitude "104.7513913"^^xsd:float ] ;
+    schema1:name "Ramayana"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_1921374142> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5833302"^^xsd:float ;
+            schema1:longitude "98.6900744"^^xsd:float ] ;
+    schema1:name "Char kway tiao"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_2323990242> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5882259"^^xsd:float ;
+            schema1:longitude "98.6875494"^^xsd:float ] ;
+    schema1:name "Olympia Plaza"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/mall> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_2324130129> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5815235"^^xsd:float ;
+            schema1:longitude "98.6908242"^^xsd:float ] ;
+    schema1:name "Cha Sio Asan"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_2539956132> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9830319"^^xsd:float ;
+            schema1:longitude "104.7512859"^^xsd:float ] ;
+    schema1:name "Ramayana"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_3189780171> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.53547"^^xsd:float ;
+            schema1:longitude "101.4322374"^^xsd:float ] ;
+    schema1:name "Pasar Buah 88"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3227647735> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5850317"^^xsd:float ;
+            schema1:longitude "98.6876639"^^xsd:float ] ;
+    schema1:name "Ricca"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/beauty> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3236018344> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5287518"^^xsd:float ;
+            schema1:longitude "101.4326053"^^xsd:float ] ;
+    schema1:name "cafe serba 5000"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3707464811> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5348257"^^xsd:float ;
+            schema1:longitude "101.430727"^^xsd:float ] ;
+    schema1:name "Serba Lezat"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3707524237> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5350667"^^xsd:float ;
+            schema1:longitude "101.430829"^^xsd:float ] ;
+    schema1:name "Takadeli"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/bakery> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3707525350> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5354508"^^xsd:float ;
+            schema1:longitude "101.4330536"^^xsd:float ] ;
+    schema1:name "Sate Tegal"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3707525861> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.531964"^^xsd:float ;
+            schema1:longitude "101.4353281"^^xsd:float ] ;
+    schema1:name "Yellow Baby"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/fashion> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3736932328> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.534961"^^xsd:float ;
+            schema1:longitude "101.4256749"^^xsd:float ] ;
+    schema1:name "Super Baby Shop"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/fashion> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_3908448615> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.58268"^^xsd:float ;
+            schema1:longitude "98.6940812"^^xsd:float ] ;
+    schema1:name "Ayam Mas"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/fashion> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3908448619> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5847996"^^xsd:float ;
+            schema1:longitude "98.6937405"^^xsd:float ] ;
+    schema1:name "Camar Seafood and Minang Restaurant"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3908448621> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.587476"^^xsd:float ;
+            schema1:longitude "98.6925556"^^xsd:float ] ;
+    schema1:name "Coffee Corner"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3908448625> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.589161"^^xsd:float ;
+            schema1:longitude "98.6911793"^^xsd:float ] ;
+    schema1:name "Kok Tong"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3908448626> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5875745"^^xsd:float ;
+            schema1:longitude "98.6928479"^^xsd:float ] ;
+    schema1:name "Mie Pangsit Akun"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3908448627> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5876514"^^xsd:float ;
+            schema1:longitude "98.6946468"^^xsd:float ] ;
+    schema1:name "Mie Pansit Awai"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_3908448632> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5876218"^^xsd:float ;
+            schema1:longitude "98.6924766"^^xsd:float ] ;
+    schema1:name "Sir Salon"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/hairdresser> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_4202053308> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5350322"^^xsd:float ;
+            schema1:longitude "101.4300975"^^xsd:float ] ;
+    schema1:name "Indomaret"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_4215560698> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5374694"^^xsd:float ;
+            schema1:longitude "101.4288529"^^xsd:float ] ;
+    schema1:name "Roti Bobo"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/bakery> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_4215594511> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5350304"^^xsd:float ;
+            schema1:longitude "101.4299094"^^xsd:float ] ;
+    schema1:name "christian andrie"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/bakery> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_4328836688> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5905566"^^xsd:float ;
+            schema1:longitude "98.6963569"^^xsd:float ] ;
+    schema1:name "Mie Bangka"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_4328838389> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5905918"^^xsd:float ;
+            schema1:longitude "98.6960188"^^xsd:float ] ;
+    schema1:name "Mie Lindung"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_4561045726> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5350649"^^xsd:float ;
+            schema1:longitude "101.4317371"^^xsd:float ] ;
+    schema1:name "nadya cafe"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_461802011> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5356249"^^xsd:float ;
+            schema1:longitude "101.4324799"^^xsd:float ] ;
+    schema1:name "Ayam Goreng Suharti"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_4784253390> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5379973"^^xsd:float ;
+            schema1:longitude "101.4235724"^^xsd:float ] ;
+    schema1:name "RMPG_FOOD"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_4811165321> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9854079"^^xsd:float ;
+            schema1:longitude "104.7456121"^^xsd:float ] ;
+    schema1:name "4wd fusion"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_5034059721> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5836642"^^xsd:float ;
+            schema1:longitude "98.6845813"^^xsd:float ] ;
+    schema1:name "Nasi Ayam Hainam Asli SP 10"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_5034059921> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5835148"^^xsd:float ;
+            schema1:longitude "98.6847125"^^xsd:float ] ;
+    schema1:name "Mie Tiong Sim"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_5076419137> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.584121"^^xsd:float ;
+            schema1:longitude "98.6907099"^^xsd:float ] ;
+    schema1:name "Mie Lebong"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_5162725222> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5844639"^^xsd:float ;
+            schema1:longitude "98.6910441"^^xsd:float ] ;
+    schema1:name "Star jaya"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/electronics> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_5249655121> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5350419"^^xsd:float ;
+            schema1:longitude "101.4234074"^^xsd:float ] ;
+    schema1:name "Sejati Fotocopy & Stationary"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/books> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_5452267515> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5905919"^^xsd:float ;
+            schema1:longitude "98.6961792"^^xsd:float ] ;
+    schema1:name "Mama Koki"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_5791312588> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5320926"^^xsd:float ;
+            schema1:longitude "101.4344562"^^xsd:float ] ;
+    schema1:name "OK Bento"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_5791313821> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.532105"^^xsd:float ;
+            schema1:longitude "101.4345399"^^xsd:float ] ;
+    schema1:name "Warung Kopi Candra"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_5791459922> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5320698"^^xsd:float ;
+            schema1:longitude "101.4357018"^^xsd:float ] ;
+    schema1:name "Warung Simpang Kemuning"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Store/osm_6320285557> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.585406"^^xsd:float ;
+            schema1:longitude "98.6844546"^^xsd:float ] ;
+    schema1:name "Gunung Sari - Electronic Supermarket"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/electronics> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_6320373811> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "3.5844492"^^xsd:float ;
+            schema1:longitude "98.6856908"^^xsd:float ] ;
+    schema1:name "Mie Tiong Sim"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/thamrin_plaza> .
+
+<http://sumateramall.org/resource/Store/osm_703825156> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1535"^^xsd:float ;
+            schema1:longitude "104.00836"^^xsd:float ] ;
+    schema1:name "Podok Kuring"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_703825738> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1478101"^^xsd:float ;
+            schema1:longitude "104.0096299"^^xsd:float ] ;
+    schema1:name "Martabak Har (Indian Food)"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_703825744> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1480301"^^xsd:float ;
+            schema1:longitude "104.01238"^^xsd:float ] ;
+    schema1:name "Honda Dealer"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/motorcycle> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_703825746> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14796"^^xsd:float ;
+            schema1:longitude "104.01251"^^xsd:float ] ;
+    schema1:name "Cirkel K Minimarket (24Hrs)"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_7114670385> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9744514"^^xsd:float ;
+            schema1:longitude "104.7528027"^^xsd:float ] ;
+    schema1:name "Pempek Candy"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_736599488> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.13985"^^xsd:float ;
+            schema1:longitude "104.01549"^^xsd:float ] ;
+    schema1:name "Pizza Hut"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736609690> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1433722"^^xsd:float ;
+            schema1:longitude "104.0114628"^^xsd:float ] ;
+    schema1:name "Bubur Jakarta"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736609691> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1435"^^xsd:float ;
+            schema1:longitude "104.01143"^^xsd:float ] ;
+    schema1:name "Hawai Sea Food"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736609692> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14361"^^xsd:float ;
+            schema1:longitude "104.01156"^^xsd:float ] ;
+    schema1:name "Pa Ciu Ciu 24 Food Court"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736610278> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14198"^^xsd:float ;
+            schema1:longitude "104.01235"^^xsd:float ] ;
+    schema1:name "Rm.Padang Sederhana"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736610379> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14123"^^xsd:float ;
+            schema1:longitude "104.01354"^^xsd:float ] ;
+    schema1:name "Winsor Food Court"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736618037> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1444"^^xsd:float ;
+            schema1:longitude "104.01079"^^xsd:float ] ;
+    schema1:name "Image Bridal Photo"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/photo> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736618297> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14455"^^xsd:float ;
+            schema1:longitude "104.01064"^^xsd:float ] ;
+    schema1:name "Naga Photo"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/photo> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736618308> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14485"^^xsd:float ;
+            schema1:longitude "104.01034"^^xsd:float ] ;
+    schema1:name "Hawaii Foto"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/photo> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736618337> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14099"^^xsd:float ;
+            schema1:longitude "104.01345"^^xsd:float ] ;
+    schema1:name "Winsord Seafod"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736618366> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14035"^^xsd:float ;
+            schema1:longitude "104.01219"^^xsd:float ] ;
+    schema1:name "RUPAT KARYA"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/supermarket> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736618847> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.1408"^^xsd:float ;
+            schema1:longitude "104.01529"^^xsd:float ] ;
+    schema1:name "Seafood 888"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736619033> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14142"^^xsd:float ;
+            schema1:longitude "104.01699"^^xsd:float ] ;
+    schema1:name "Honda Nagoya"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/car> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736619879> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14633"^^xsd:float ;
+            schema1:longitude "104.00691"^^xsd:float ] ;
+    schema1:name "Sop Ikan Istimewa (Yongki Seafood)"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736619921> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.14545"^^xsd:float ;
+            schema1:longitude "104.00579"^^xsd:float ] ;
+    schema1:name "Rm.P.Salero Bagindo(24Hrs)"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_736619927> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "1.15144"^^xsd:float ;
+            schema1:longitude "104.01081"^^xsd:float ] ;
+    schema1:name "Sop Kondro Anging Mamiri"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/nagoya_hill_mall> .
+
+<http://sumateramall.org/resource/Store/osm_9797617402> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9845604"^^xsd:float ;
+            schema1:longitude "104.7512422"^^xsd:float ] ;
+    schema1:name "Rumah Makan Bu Henny"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797618610> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9848189"^^xsd:float ;
+            schema1:longitude "104.74456"^^xsd:float ] ;
+    schema1:name "Nasi Soto mang Abun"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797652859> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.987379"^^xsd:float ;
+            schema1:longitude "104.7460702"^^xsd:float ] ;
+    schema1:name "Steak & Shake Ahmad Dahlan"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797653908> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9852088"^^xsd:float ;
+            schema1:longitude "104.7445263"^^xsd:float ] ;
+    schema1:name "Waroeng Seafood 999"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797653909> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9843883"^^xsd:float ;
+            schema1:longitude "104.7446653"^^xsd:float ] ;
+    schema1:name "Martabak Telor Arpan"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797654274> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9870508"^^xsd:float ;
+            schema1:longitude "104.7445688"^^xsd:float ] ;
+    schema1:name "Palembang Lamonde"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797654276> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9872233"^^xsd:float ;
+            schema1:longitude "104.7458666"^^xsd:float ] ;
+    schema1:name "Bang Kopi"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797661770> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9814216"^^xsd:float ;
+            schema1:longitude "104.7521648"^^xsd:float ] ;
+    schema1:name "Warung Dos"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797666152> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9854194"^^xsd:float ;
+            schema1:longitude "104.751317"^^xsd:float ] ;
+    schema1:name "Harmony Moctail"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797666189> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9847358"^^xsd:float ;
+            schema1:longitude "104.7513995"^^xsd:float ] ;
+    schema1:name "Peh Dimsum Palembang"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797668161> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9861375"^^xsd:float ;
+            schema1:longitude "104.7505923"^^xsd:float ] ;
+    schema1:name "Tahu Bakso Palembang"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797668162> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9852272"^^xsd:float ;
+            schema1:longitude "104.7515487"^^xsd:float ] ;
+    schema1:name "Jomo Warkop"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797668597> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9851976"^^xsd:float ;
+            schema1:longitude "104.744206"^^xsd:float ] ;
+    schema1:name "Pempek Nony 168"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797672709> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9858317"^^xsd:float ;
+            schema1:longitude "104.750876"^^xsd:float ] ;
+    schema1:name "Gracias Resto"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797674057> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.9842827"^^xsd:float ;
+            schema1:longitude "104.7509851"^^xsd:float ] ;
+    schema1:name "Ayam Geprek Kak Tio"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9797674284> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "-2.986352"^^xsd:float ;
+            schema1:longitude "104.7440276"^^xsd:float ] ;
+    schema1:name "Pempek Candy"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/food_beverage> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/palembang_icon> .
+
+<http://sumateramall.org/resource/Store/osm_9852695220> a mm:Store ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude "0.5312986"^^xsd:float ;
+            schema1:longitude "101.43755"^^xsd:float ] ;
+    schema1:name "Klinik Estetiq Pekanbaru"@id ;
+    mm:hasCategory <http://sumateramall.org/resource/Category/beauty> ;
+    mm:locatedIn <http://sumateramall.org/resource/Mall/mall_ciputra_seraya> .
+
+<http://sumateramall.org/resource/Category/books> a mm:Category ;
+    schema1:name "Books & Stationery"@id .
+
+<http://sumateramall.org/resource/City/pematang_siantar> a mm:City ;
+    schema1:name "Pematang Siantar"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Category/beauty> a mm:Category ;
+    schema1:name "Beauty & Health"@id .
+
+<http://sumateramall.org/resource/Category/electronics> a mm:Category ;
+    schema1:name "Electronics"@id .
+
+<http://sumateramall.org/resource/City/bengkulu> a mm:City ;
+    schema1:name "Bengkulu"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/bengkulu> .
+
+<http://sumateramall.org/resource/City/jambi> a mm:City ;
+    schema1:name "Jambi"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/jambi> .
+
+<http://sumateramall.org/resource/City/pangkal_pinang> a mm:City ;
+    schema1:name "Pangkal Pinang"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/bangka_belitung> .
+
+<http://sumateramall.org/resource/Category/fashion> a mm:Category ;
+    schema1:name "Fashion"@id .
+
+<http://sumateramall.org/resource/City/banda_aceh> a mm:City ;
+    schema1:name "Banda Aceh"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/aceh> .
+
+<http://sumateramall.org/resource/City/padang> a mm:City ;
+    schema1:name "Padang"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_barat> .
+
+<http://sumateramall.org/resource/City/pekanbaru> a mm:City ;
+    schema1:name "Pekanbaru"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/riau> .
+
+<http://sumateramall.org/resource/Province/bangka_belitung> a mm:Province ;
+    schema1:name "Bangka Belitung"@id .
+
+<http://sumateramall.org/resource/Province/bengkulu> a mm:Province ;
+    schema1:name "Bengkulu"@id .
+
+<http://sumateramall.org/resource/Province/jambi> a mm:Province ;
+    schema1:name "Jambi"@id .
+
+<http://sumateramall.org/resource/City/bandar_lampung> a mm:City ;
+    schema1:name "Bandar Lampung"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/lampung> .
+
+<http://sumateramall.org/resource/City/batam> a mm:City ;
+    schema1:name "Batam"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/kepulauan_riau> .
+
+<http://sumateramall.org/resource/Province/aceh> a mm:Province ;
+    schema1:name "Aceh"@id .
+
+<http://sumateramall.org/resource/Province/riau> a mm:Province ;
+    schema1:name "Riau"@id .
+
+<http://sumateramall.org/resource/Province/sumatera_barat> a mm:Province ;
+    schema1:name "Sumatera Barat"@id .
+
+<http://sumateramall.org/resource/City/palembang> a mm:City ;
+    schema1:name "Palembang"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_selatan> .
+
+<http://sumateramall.org/resource/Province/kepulauan_riau> a mm:Province ;
+    schema1:name "Kepulauan Riau"@id .
+
+<http://sumateramall.org/resource/Province/lampung> a mm:Province ;
+    schema1:name "Lampung"@id .
+
+<http://sumateramall.org/resource/Province/sumatera_selatan> a mm:Province ;
+    schema1:name "Sumatera Selatan"@id .
+
+<http://sumateramall.org/resource/Category/supermarket> a mm:Category ;
+    schema1:name "Supermarket"@id .
+
+<http://sumateramall.org/resource/City/medan> a mm:City ;
+    schema1:name "Medan"@id ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .
+
+<http://sumateramall.org/resource/Province/sumatera_utara> a mm:Province ;
+    schema1:name "Sumatera Utara"@id .
+
+<http://sumateramall.org/resource/Mall/mall_ciputra_seraya> a mm:Mall ;
+    schema1:name "Mall Ciputra Seraya"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/pekanbaru> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/riau> .
+
+<http://sumateramall.org/resource/Mall/nagoya_hill_mall> a mm:Mall ;
+    schema1:name "Nagoya Hill Mall"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/batam> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/kepulauan_riau> .
+
+<http://sumateramall.org/resource/Mall/palembang_icon> a mm:Mall ;
+    schema1:name "Palembang Icon"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/palembang> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_selatan> .
+
+<http://sumateramall.org/resource/Mall/thamrin_plaza> a mm:Mall ;
+    schema1:name "Thamrin Plaza"@id ;
+    mm:inCity <http://sumateramall.org/resource/City/medan> ;
+    mm:inProvince <http://sumateramall.org/resource/Province/sumatera_utara> .

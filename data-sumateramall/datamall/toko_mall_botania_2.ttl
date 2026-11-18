@@ -1,0 +1,37 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MallBotania2_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall78 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "LG" ;
+    ex:deskripsiToko "Penyewa kunci mal saat dibuka, namun resmi ditutup pada akhir tahun 2022" .
+
+ex:Toko_MallBotania2_Cinepolis rdf:type ex:Toko ;
+    ex:namaToko "Cinépolis" ;
+    ex:beradaDiMall ex:Mall78 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L1" ;
+    ex:deskripsiToko "Penyewa kunci mal yang menyediakan 5 teater dengan kapasitas 1.066 kursi" .
+
+ex:Toko_MallBotania2_Gogo_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Gogo Supermarket" ;
+    ex:beradaDiMall ex:Mall78 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "GF" ;
+    ex:deskripsiToko "Menggantikan peran Hypermart sebagai toko swalayan per tanggal 10 Juli 2023" .
+
+ex:Toko_MallBotania2_Azko rdf:type ex:Toko ;
+    ex:namaToko "Azko" ;
+    ex:beradaDiMall ex:Mall78 ;
+    ex:kategoriToko "Home & Living, Home Essentials, Furniture Store" ;
+    ex:lokasiToko "GF" ;
+    ex:deskripsiToko "Toko perabot yang membuka gerai pada tanggal 22 Februari 2019" .
+
+ex:Toko_MallBotania2_Selma rdf:type ex:Toko ;
+    ex:namaToko "Selma" ;
+    ex:beradaDiMall ex:Mall78 ;
+    ex:kategoriToko "Home & Living, Home Essentials, Furniture Store" ;
+    ex:lokasiToko "UG" ;
+    ex:deskripsiToko "Merek toko perabot di bawah Kawan Lama Group yang membuka gerai pada tanggal 14 Januari 2020" .

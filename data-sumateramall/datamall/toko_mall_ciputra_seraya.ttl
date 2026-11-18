@@ -1,0 +1,527 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MallCiputraSeraya_3_Store rdf:type ex:Toko ;
+    ex:namaToko "3 Store" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan, Fotografi & Jasa Lainnya" .
+
+ex:Toko_MallCiputraSeraya_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_ATM_Bank_Danamon rdf:type ex:Toko ;
+    ex:namaToko "ATM Bank Danamon" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan Perbankan & Finansial" .
+
+ex:Toko_MallCiputraSeraya_ATM_BCA rdf:type ex:Toko ;
+    ex:namaToko "ATM BCA" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan Perbankan & Finansial" .
+
+ex:Toko_MallCiputraSeraya_ATM_Mandiri rdf:type ex:Toko ;
+    ex:namaToko "ATM Mandiri" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan Perbankan & Finansial" .
+
+ex:Toko_MallCiputraSeraya_ATM_Panin_Bank rdf:type ex:Toko ;
+    ex:namaToko "ATM Panin Bank" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan Perbankan & Finansial" .
+
+ex:Toko_MallCiputraSeraya_Bakso_Gil rdf:type ex:Toko ;
+    ex:namaToko "Bakso Gil" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Bakso" .
+
+ex:Toko_MallCiputraSeraya_Bakso_Lapangan_Tembak rdf:type ex:Toko ;
+    ex:namaToko "Bakso Lapangan Tembak" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Bakso" .
+
+ex:Toko_MallCiputraSeraya_Baskin_Robbins rdf:type ex:Toko ;
+    ex:namaToko "Baskin Robbins" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Es Krim" .
+
+ex:Toko_MallCiputraSeraya_Batik_Keris rdf:type ex:Toko ;
+    ex:namaToko "Batik Keris" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Batik" .
+
+ex:Toko_MallCiputraSeraya_Bazaar_Matahari rdf:type ex:Toko ;
+    ex:namaToko "Bazaar Matahari" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Retail, Department Store" .
+
+ex:Toko_MallCiputraSeraya_Bingxue rdf:type ex:Toko ;
+    ex:namaToko "Bingxue" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Es & Dessert" .
+
+ex:Toko_MallCiputraSeraya_BLV rdf:type ex:Toko ;
+    ex:namaToko "BLV" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_BUCCHERI_and_GABINO rdf:type ex:Toko ;
+    ex:namaToko "BUCCHERI & GABINO" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" .
+
+ex:Toko_MallCiputraSeraya_C_and_F rdf:type ex:Toko ;
+    ex:namaToko "C&F" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kecantikan & Parfum" .
+
+ex:Toko_MallCiputraSeraya_Cabe_Merah rdf:type ex:Toko ;
+    ex:namaToko "Cabe Merah" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_Calais_and_Crepe_Signature rdf:type ex:Toko ;
+    ex:namaToko "Calais & Crepe Signature" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Crepe" .
+
+ex:Toko_MallCiputraSeraya_Casio_and_Time_Connection rdf:type ex:Toko ;
+    ex:namaToko "Casio & Time Connection" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Elektronik, Jam Tangan" .
+
+ex:Toko_MallCiputraSeraya_CHATIME rdf:type ex:Toko ;
+    ex:namaToko "CHATIME" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Bubble Tea" .
+
+ex:Toko_MallCiputraSeraya_Chicken_Yummy rdf:type ex:Toko ;
+    ex:namaToko "Chicken Yummy" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Ayam" .
+
+ex:Toko_MallCiputraSeraya_Cindy rdf:type ex:Toko ;
+    ex:namaToko "Cindy" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Hiburan, Bioskop" .
+
+ex:Toko_MallCiputraSeraya_Colorbox_Wrangler rdf:type ex:Toko ;
+    ex:namaToko "Colorbox / Wrangler" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion Pria & Wanita" .
+
+ex:Toko_MallCiputraSeraya_CONVERSE rdf:type ex:Toko ;
+    ex:namaToko "CONVERSE" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Produk Kulit, Tas & Sepatu" .
+
+ex:Toko_MallCiputraSeraya_Crocs rdf:type ex:Toko ;
+    ex:namaToko "Crocs" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" .
+
+ex:Toko_MallCiputraSeraya_D_Paris_Silver rdf:type ex:Toko ;
+    ex:namaToko "D'Paris Silver" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Perhiasan Silver" .
+
+ex:Toko_MallCiputraSeraya_Dapur_Solo rdf:type ex:Toko ;
+    ex:namaToko "Dapur Solo" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Makanan Indonesia" .
+
+ex:Toko_MallCiputraSeraya_Dcrepes rdf:type ex:Toko ;
+    ex:namaToko "Dcrepes" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Crepe" .
+
+ex:Toko_MallCiputraSeraya_DUM_DUM rdf:type ex:Toko ;
+    ex:namaToko "DUM DUM" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Thai Tea" .
+
+ex:Toko_MallCiputraSeraya_EVERBEST rdf:type ex:Toko ;
+    ex:namaToko "EVERBEST" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu Olahraga" .
+
+ex:Toko_MallCiputraSeraya_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion Pria, Wanita & Khusus" .
+
+ex:Toko_MallCiputraSeraya_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Hobi, Hadiah & Buku" .
+
+ex:Toko_MallCiputraSeraya_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" .
+
+ex:Toko_MallCiputraSeraya_Hartadinata_Abadi rdf:type ex:Toko ;
+    ex:namaToko "Hartadinata Abadi" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Perhiasan Emas" .
+
+ex:Toko_MallCiputraSeraya_Heaven_Scent rdf:type ex:Toko ;
+    ex:namaToko "Heaven Scent" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_Hello rdf:type ex:Toko ;
+    ex:namaToko "Hello" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_Home_Collection rdf:type ex:Toko ;
+    ex:namaToko "Home Collection" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Retail, Perlengkapan Rumah" .
+
+ex:Toko_MallCiputraSeraya_HOUSE_OF_TOWEL rdf:type ex:Toko ;
+    ex:namaToko "HOUSE OF TOWEL" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Retail, Perlengkapan Rumah" .
+
+ex:Toko_MallCiputraSeraya_Hush_Puppies rdf:type ex:Toko ;
+    ex:namaToko "Hush Puppies" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Produk Kulit, Tas & Sepatu" .
+
+ex:Toko_MallCiputraSeraya_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Toko Besar & Supermarket" .
+
+ex:Toko_MallCiputraSeraya_Imperial_Kitchen_and_Dimsum rdf:type ex:Toko ;
+    ex:namaToko "Imperial Kitchen & Dimsum" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Chinese Food" .
+
+ex:Toko_MallCiputraSeraya_Infinix rdf:type ex:Toko ;
+    ex:namaToko "Infinix" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Elektronik, Ponsel & Gadget" .
+
+ex:Toko_MallCiputraSeraya_Informa rdf:type ex:Toko ;
+    ex:namaToko "Informa" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Retail, Furniture & Perabotan" .
+
+ex:Toko_MallCiputraSeraya_JCO_Donuts_and_Coffee rdf:type ex:Toko ;
+    ex:namaToko "JCO Donuts & Coffee" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Donat & Kopi" .
+
+ex:Toko_MallCiputraSeraya_Johnny_Andrean rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kecantikan, Salon Rambut" .
+
+ex:Toko_MallCiputraSeraya_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food" .
+
+ex:Toko_MallCiputraSeraya_Kimteng rdf:type ex:Toko ;
+    ex:namaToko "Kimteng" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_Kopi_Dari_Hati rdf:type ex:Toko ;
+    ex:namaToko "Kopi Dari Hati" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_Levi_s rdf:type ex:Toko ;
+    ex:namaToko "Levi's" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Jeans" .
+
+ex:Toko_MallCiputraSeraya_Loly_Poly rdf:type ex:Toko ;
+    ex:namaToko "Loly Poly" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Aksesoris" .
+
+ex:Toko_MallCiputraSeraya_MAKO rdf:type ex:Toko ;
+    ex:namaToko "MAKO" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman" .
+
+ex:Toko_MallCiputraSeraya_Matahari rdf:type ex:Toko ;
+    ex:namaToko "Matahari" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Toko Besar, Department Store" .
+
+ex:Toko_MallCiputraSeraya_McDonald_s rdf:type ex:Toko ;
+    ex:namaToko "McDonald's" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food" .
+
+ex:Toko_MallCiputraSeraya_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_MINISO rdf:type ex:Toko ;
+    ex:namaToko "MINISO" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Hobi, Hadiah & Buku, Lifestyle" .
+
+ex:Toko_MallCiputraSeraya_MOC rdf:type ex:Toko ;
+    ex:namaToko "MOC" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion Pria" .
+
+ex:Toko_MallCiputraSeraya_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR. D.I.Y" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Retail, Kebutuhan Rumah" .
+
+ex:Toko_MallCiputraSeraya_Narchz_Photobox rdf:type ex:Toko ;
+    ex:namaToko "Narchz Photobox" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan, Fotografi & Photobox" .
+
+ex:Toko_MallCiputraSeraya_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kesehatan, Optik & Kacamata" .
+
+ex:Toko_MallCiputraSeraya_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kesehatan, Optik & Kacamata" .
+
+ex:Toko_MallCiputraSeraya_Oriskin rdf:type ex:Toko ;
+    ex:namaToko "Oriskin" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Skincare" .
+
+ex:Toko_MallCiputraSeraya_PAPERCLIP rdf:type ex:Toko ;
+    ex:namaToko "PAPERCLIP" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_Pekanbaru_Musik rdf:type ex:Toko ;
+    ex:namaToko "Pekanbaru Musik" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Elektronik, Musik & Gadget" .
+
+ex:Toko_MallCiputraSeraya_Pempek_628_Tini rdf:type ex:Toko ;
+    ex:namaToko "Pempek 628 Tini" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Pempek" .
+
+ex:Toko_MallCiputraSeraya_Perfect_Health rdf:type ex:Toko ;
+    ex:namaToko "Perfect Health" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kesehatan & Kecantikan" .
+
+ex:Toko_MallCiputraSeraya_Perfect_Relax rdf:type ex:Toko ;
+    ex:namaToko "Perfect Relax" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kesehatan & Kecantikan, Spa" .
+
+ex:Toko_MallCiputraSeraya_Play_n_Win rdf:type ex:Toko ;
+    ex:namaToko "Play n Win" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Hiburan, Permainan" .
+
+ex:Toko_MallCiputraSeraya_Potato_Donuts rdf:type ex:Toko ;
+    ex:namaToko "Potato Donuts" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Donat" .
+
+ex:Toko_MallCiputraSeraya_Potato_Potate rdf:type ex:Toko ;
+    ex:namaToko "Potato Potate" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Kentang" .
+
+ex:Toko_MallCiputraSeraya_Prima_Bolu rdf:type ex:Toko ;
+    ex:namaToko "Prima Bolu" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Kue & Roti" .
+
+ex:Toko_MallCiputraSeraya_Ramen_Ya rdf:type ex:Toko ;
+    ex:namaToko "Ramen Ya" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_Rasyidin rdf:type ex:Toko ;
+    ex:namaToko "Rasyidin" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion Wanita" .
+
+ex:Toko_MallCiputraSeraya_Re_juve rdf:type ex:Toko ;
+    ex:namaToko "Re.juve" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Jus Buah" .
+
+ex:Toko_MallCiputraSeraya_Rider rdf:type ex:Toko ;
+    ex:namaToko "Rider" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti O" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Roti & Kopi" .
+
+ex:Toko_MallCiputraSeraya_Saint_Cinnamon rdf:type ex:Toko ;
+    ex:namaToko "Saint Cinnamon" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman" .
+
+ex:Toko_MallCiputraSeraya_SAMSUNG rdf:type ex:Toko ;
+    ex:namaToko "SAMSUNG" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Elektronik, Ponsel & Gadget" .
+
+ex:Toko_MallCiputraSeraya_Sancha rdf:type ex:Toko ;
+    ex:namaToko "Sancha" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Tea" .
+
+ex:Toko_MallCiputraSeraya_Saturdays rdf:type ex:Toko ;
+    ex:namaToko "Saturdays" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Optik & Kacamata" .
+
+ex:Toko_MallCiputraSeraya_Shake_Shake_in_a_Tub rdf:type ex:Toko ;
+    ex:namaToko "Shake Shake in a Tub" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Dessert" .
+
+ex:Toko_MallCiputraSeraya_Shigeru rdf:type ex:Toko ;
+    ex:namaToko "Shigeru" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Japanese Food" .
+
+ex:Toko_MallCiputraSeraya_Shihlin_Taiwan_Street_Snack rdf:type ex:Toko ;
+    ex:namaToko "Shihlin Taiwan Street Snack" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Snack Taiwan" .
+
+ex:Toko_MallCiputraSeraya_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" .
+
+ex:Toko_MallCiputraSeraya_Snapic_Photo rdf:type ex:Toko ;
+    ex:namaToko "Snapic Photo" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan, Fotografi & Photobox" .
+
+ex:Toko_MallCiputraSeraya_Sociolla_X rdf:type ex:Toko ;
+    ex:namaToko "Sociolla X" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Kosmetik" .
+
+ex:Toko_MallCiputraSeraya_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran Keluarga" .
+
+ex:Toko_MallCiputraSeraya_Sour_Sally rdf:type ex:Toko ;
+    ex:namaToko "Sour Sally" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Frozen Yogurt" .
+
+ex:Toko_MallCiputraSeraya_Spilla_Jewelry rdf:type ex:Toko ;
+    ex:namaToko "Spilla Jewelry" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Perhiasan Emas" .
+
+ex:Toko_MallCiputraSeraya_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Peralatan Olahraga & Pakaian" .
+
+ex:Toko_MallCiputraSeraya_STARBUCKS_COFFEE rdf:type ex:Toko ;
+    ex:namaToko "STARBUCKS COFFEE" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Coffee Shop" .
+
+ex:Toko_MallCiputraSeraya_Superland rdf:type ex:Toko ;
+    ex:namaToko "Superland" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Retail, Department Store" .
+
+ex:Toko_MallCiputraSeraya_TC_One_Ponsel rdf:type ex:Toko ;
+    ex:namaToko "TC One Ponsel" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Elektronik, Ponsel & Gadget" .
+
+ex:Toko_MallCiputraSeraya_Teazzi rdf:type ex:Toko ;
+    ex:namaToko "Teazzi" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Tea" .
+
+ex:Toko_MallCiputraSeraya_THE_BRAHOUSE rdf:type ex:Toko ;
+    ex:namaToko "THE BRAHOUSE" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion Wanita, Pakaian Dalam" .
+
+ex:Toko_MallCiputraSeraya_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Hiburan, Family Entertainment Center" .
+
+ex:Toko_MallCiputraSeraya_TWEN rdf:type ex:Toko ;
+    ex:namaToko "TWEN" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Peralatan Olahraga & Pakaian" .
+
+ex:Toko_MallCiputraSeraya_Unit_Layanan_Paspor_Imigrasi rdf:type ex:Toko ;
+    ex:namaToko "Unit Layanan Paspor Imigrasi" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Layanan Pemerintah, Imigrasi" .
+
+ex:Toko_MallCiputraSeraya_Verina_Risoles rdf:type ex:Toko ;
+    ex:namaToko "Verina Risoles" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Risoles" .
+
+ex:Toko_MallCiputraSeraya_VR_Dream_World rdf:type ex:Toko ;
+    ex:namaToko "VR Dream World" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Hiburan, Virtual Reality" .
+
+ex:Toko_MallCiputraSeraya_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion Wanita, Pakaian Dalam" .
+
+ex:Toko_MallCiputraSeraya_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Apotek & Kosmetik" .
+
+ex:Toko_MallCiputraSeraya_White_Mode rdf:type ex:Toko ;
+    ex:namaToko "White Mode" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_MallCiputraSeraya_Willton rdf:type ex:Toko ;
+    ex:namaToko "Willton" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_XO_SUKI_SIGNATURE rdf:type ex:Toko ;
+    ex:namaToko "XO SUKI SIGNATURE" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran & Cafe" .
+
+ex:Toko_MallCiputraSeraya_Zuma rdf:type ex:Toko ;
+    ex:namaToko "Zuma" ;
+    ex:beradaDiMall ex:Mall44 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .

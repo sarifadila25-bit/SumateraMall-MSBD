@@ -1,0 +1,288 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_WTCBatanghari_MR_DIY rdf:type ex:Toko ;
+    ex:namaToko "MR. D.I.Y" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Retail, Kebutuhan Rumah & Perbaikan" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_EVOLVE rdf:type ex:Toko ;
+    ex:namaToko "EVOLVE" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_SamWon_Ekspress rdf:type ex:Toko ;
+    ex:namaToko "SamWon Ekspress" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Korean Food" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Hiburan, Bioskop" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_Amazone rdf:type ex:Toko ;
+    ex:namaToko "Amazone" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Elektronik, Komputer & Gadget" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_Gereja_Bethany rdf:type ex:Toko ;
+    ex:namaToko "Gereja Bethany" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Layanan, Tempat Ibadah" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_Coffee_Time rdf:type ex:Toko ;
+    ex:namaToko "Coffee Time" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Coffee Shop" ;
+    ex:lokasiToko "L3" .
+
+ex:Toko_WTCBatanghari_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Elektronik, Ponsel & Gadget" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Celcius rdf:type ex:Toko ;
+    ex:namaToko "Celcius" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Shihlin_Taiwan rdf:type ex:Toko ;
+    ex:namaToko "Shihlin Taiwan" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Taiwanese Street Food" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Elektronik, Ponsel & Gadget" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Dine_and_Chat rdf:type ex:Toko ;
+    ex:namaToko "Dine & Chat" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Calais rdf:type ex:Toko ;
+    ex:namaToko "Calais" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Crepe & Dessert" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran Keluarga" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Dapur_Iga rdf:type ex:Toko ;
+    ex:namaToko "Dapur Iga" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Iga & Makanan Indonesia" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_WTCBatanghari_Hardware rdf:type ex:Toko ;
+    ex:namaToko "Hardware" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Retail, Peralatan Rumah & Bangunan" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_WTCBatanghari_3Second rdf:type ex:Toko ;
+    ex:namaToko "3Second" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_WTCBatanghari_Ichiban rdf:type ex:Toko ;
+    ex:namaToko "Ichiban" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Japanese Food" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_WTCBatanghari_Time_Connection rdf:type ex:Toko ;
+    ex:namaToko "Time Connection" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Jam Tangan" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_WTCBatanghari_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Olahraga, Peralatan Olahraga" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_WTCBatanghari_Kidz_Station rdf:type ex:Toko ;
+    ex:namaToko "Kidz Station" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Retail, Mainan Anak & Buku" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_WTCBatanghari_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Kesehatan, Optik & Kacamata" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_X8 rdf:type ex:Toko ;
+    ex:namaToko "X8" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Elizabeth rdf:type ex:Toko ;
+    ex:namaToko "Elizabeth" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian Wanita" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Negiya_Express rdf:type ex:Toko ;
+    ex:namaToko "Negiya Express" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Japanese Food" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Tawan rdf:type ex:Toko ;
+    ex:namaToko "Tawan" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Chinese Food" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_LEVI_S rdf:type ex:Toko ;
+    ex:namaToko "LEVI'S" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Jeans" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Starbucks rdf:type ex:Toko ;
+    ex:namaToko "Starbucks" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Coffee Shop" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Optik_Tunggal rdf:type ex:Toko ;
+    ex:namaToko "Optik Tunggal" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Kesehatan, Optik & Kacamata" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Bellagio rdf:type ex:Toko ;
+    ex:namaToko "Bellagio" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Excelso rdf:type ex:Toko ;
+    ex:namaToko "Excelso" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Coffee Shop" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_J_CO_Donuts_and_Coffee rdf:type ex:Toko ;
+    ex:namaToko "J.CO Donuts & Coffee" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Donat & Kopi" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Johnny_Andrean rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Kecantikan, Salon Rambut" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Gosh rdf:type ex:Toko ;
+    ex:namaToko "Gosh" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_C_F_C rdf:type ex:Toko ;
+    ex:namaToko "C F C" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Hammer rdf:type ex:Toko ;
+    ex:namaToko "Hammer" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Kesehatan, Optik & Kacamata" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Wrangler rdf:type ex:Toko ;
+    ex:namaToko "Wrangler" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Jeans" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Planet_Surf rdf:type ex:Toko ;
+    ex:namaToko "Planet Surf" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian & Sepatu" ;
+    ex:lokasiToko "LD" .
+
+ex:Toko_WTCBatanghari_Osella rdf:type ex:Toko ;
+    ex:namaToko "Osella" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" .
+
+ex:Toko_WTCBatanghari_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Fashion Wanita, Pakaian Dalam" .
+
+ex:Toko_WTCBatanghari_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "Body Shop" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Kecantikan & Kesehatan, Kosmetik" .
+
+ex:Toko_WTCBatanghari_Salt_n_Pepper rdf:type ex:Toko ;
+    ex:namaToko "Salt n Pepper" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Restoran" .
+
+ex:Toko_WTCBatanghari_Food_Centre_Sendok_Garpu rdf:type ex:Toko ;
+    ex:namaToko "Food Centre Sendok Garpu" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Food Court" .
+
+ex:Toko_WTCBatanghari_BreadTalk rdf:type ex:Toko ;
+    ex:namaToko "BreadTalk" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Bakery, Roti" .
+
+ex:Toko_WTCBatanghari_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" .
+
+ex:Toko_WTCBatanghari_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A & W" ;
+    ex:beradaDiMall ex:Mall51 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Burger" .

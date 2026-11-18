@@ -1,0 +1,47 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Python virtual environment
+/data-sumateramall/.venv/
+
+# Generated RDF import files
+/storage/app/rdf_import.json
+/storage/app/sumateramall-merged.ttl
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Fuseki installation and runtime data
+/fuseki/*
+!/fuseki/configuration/
+/fuseki/configuration/*
+!/fuseki/configuration/sumateramall.ttl
+
+/historiterminal.md
+/search-results-part1.txt

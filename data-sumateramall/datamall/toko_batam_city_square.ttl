@@ -1,0 +1,19 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_BatamCitySquare_BCS_Batam_XXI rdf:type ex:Toko ;
+    ex:namaToko "BCS Batam XXI" ;
+    ex:beradaDiMall ex:Mall75 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" .
+
+ex:Toko_BatamCitySquare_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall75 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Bookstore & Stationery, Toko Buku" .
+
+ex:Toko_BatamCitySquare_4PLAY rdf:type ex:Toko ;
+    ex:namaToko "4PLAY" ;
+    ex:beradaDiMall ex:Mall75 ;
+    ex:kategoriToko "Retail, TCG, Konsol Game, Blind Box" ;
+    ex:lokasiToko "Semi Basement (Blok A6 No. 02–05)" ;
+    ex:deskripsiToko "Toko kartu Pokémon, One Piece, dan Yu-Gi-Oh!, blind box, serta konsol PS5 dan Nintendo Switch, dengan meja untuk membuka pack di tempat. Buka setiap hari 10.30–21.00." .

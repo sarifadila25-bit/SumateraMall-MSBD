@@ -1,0 +1,14 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_OneBatamMall_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Supermarket" ;
+    ex:beradaDiMall ex:Mall95 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "Basement 1" .
+
+ex:Toko_OneBatamMall_One_Batam_Mall_XXI rdf:type ex:Toko ;
+    ex:namaToko "One Batam Mall XXI" ;
+    ex:beradaDiMall ex:Mall95 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "Lantai 3" .

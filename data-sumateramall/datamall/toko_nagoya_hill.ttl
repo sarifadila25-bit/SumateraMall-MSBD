@@ -1,0 +1,143 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_NagoyaHill_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Health & Beauty, Healthcare, Cosmetics, Skincare" .
+
+ex:Toko_NagoyaHill_Spa_Central_Batam rdf:type ex:Toko ;
+    ex:namaToko "Spa Central Batam" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Health & Beauty, Spa & Wellness" .
+
+ex:Toko_NagoyaHill_Kopi_Janji_Jiwa rdf:type ex:Toko ;
+    ex:namaToko "Kopi Janji Jiwa" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" .
+
+ex:Toko_NagoyaHill_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Ayam" .
+
+ex:Toko_NagoyaHill_Panties_Pizza rdf:type ex:Toko ;
+    ex:namaToko "Panties Pizza" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Pizza" .
+
+ex:Toko_NagoyaHill_llaollao rdf:type ex:Toko ;
+    ex:namaToko "llaollao" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Frozen Yogurt, Dessert" .
+
+ex:Toko_NagoyaHill_ACE_Hardware rdf:type ex:Toko ;
+    ex:namaToko "ACE Hardware" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Retail, Home Improvement & Hardware" .
+
+ex:Toko_NagoyaHill_Baresto_Cafe rdf:type ex:Toko ;
+    ex:namaToko "Baresto Café" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Seafood & Café" .
+
+ex:Toko_NagoyaHill_Kangen_Cafe rdf:type ex:Toko ;
+    ex:namaToko "Kangen Café" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Beverage, Coffee & Café" .
+
+ex:Toko_NagoyaHill_A_and_W rdf:type ex:Toko ;
+    ex:namaToko "A&W" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Burger" .
+
+ex:Toko_NagoyaHill_Ayam_Penyet_Ria rdf:type ex:Toko ;
+    ex:namaToko "Ayam Penyet Ria" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Ayam, Indonesian Food" .
+
+ex:Toko_NagoyaHill_Ding_Tea rdf:type ex:Toko ;
+    ex:namaToko "Ding Tea" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Beverage, Tea" .
+
+ex:Toko_NagoyaHill_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" .
+
+ex:Toko_NagoyaHill_GraPARI_Telkomsel rdf:type ex:Toko ;
+    ex:namaToko "GraPARI Telkomsel" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Services, Telekomunikasi, GraPARI" .
+
+ex:Toko_NagoyaHill_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" .
+
+ex:Toko_NagoyaHill_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" .
+
+ex:Toko_NagoyaHill_Bata rdf:type ex:Toko ;
+    ex:namaToko "Bata" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" .
+
+ex:Toko_NagoyaHill_Informa rdf:type ex:Toko ;
+    ex:namaToko "Informa" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Home & Living, Furniture & Home Essentials" .
+
+ex:Toko_NagoyaHill_Electronic_City rdf:type ex:Toko ;
+    ex:namaToko "Electronic City" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Electronics, Computer & IT Store" .
+
+ex:Toko_NagoyaHill_Malaya rdf:type ex:Toko ;
+    ex:namaToko "Malaya" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Restaurant & Café" .
+
+ex:Toko_NagoyaHill_This_Is_April rdf:type ex:Toko ;
+    ex:namaToko "This Is April" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" .
+
+ex:Toko_NagoyaHill_Sports_Station rdf:type ex:Toko ;
+    ex:namaToko "Sports Station" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear & Equipment" .
+
+ex:Toko_NagoyaHill_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" .
+
+ex:Toko_NagoyaHill_Matahari rdf:type ex:Toko ;
+    ex:namaToko "Matahari" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" .
+
+ex:Toko_NagoyaHill_MINISO rdf:type ex:Toko ;
+    ex:namaToko "MINISO" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Retail, Lifestyle Variety Store" .
+
+# --- Tambahan sesuai permintaan ---
+ex:Toko_NagoyaHill_Johnny_Andrean rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair Salon" .
+
+ex:Toko_NagoyaHill_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Beverage, Bubble Tea, Milk Tea" .
+
+ex:Toko_NagoyaHill_JCO rdf:type ex:Toko ;
+    ex:namaToko "JCO" ;
+    ex:beradaDiMall ex:Mall79 ;
+    ex:kategoriToko "F&B, Food, Donut, Coffee" .

@@ -1,0 +1,46 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_PekanbaruXchange_ERIGO rdf:type ex:Toko ;
+    ex:namaToko "ERIGO" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" ;
+    ex:logoURL <https://pekanbaruxchange.com/wp-content/uploads/2023/10/erigo-1.jpg.webp> .
+
+ex:Toko_PekanbaruXchange_GO_STEAK rdf:type ex:Toko ;
+    ex:namaToko "GO!STEAK" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Makanan & Minuman, Steak & Western Food" ;
+    ex:logoURL <https://pekanbaruxchange.com/wp-content/uploads/2023/10/photo_6282874230597077196_y.jpg.webp> .
+
+ex:Toko_PekanbaruXchange_POJOK_RUNCIT_by_SCAN_AND_GO rdf:type ex:Toko ;
+    ex:namaToko "POJOK RUNCIT by SCAN AND GO" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Retail, Minimarket & Snack" ;
+    ex:logoURL <https://pekanbaruxchange.com/wp-content/uploads/2023/10/pojok-runcit.jpg.webp> .
+
+ex:Toko_PekanbaruXchange_FRUITCITY rdf:type ex:Toko ;
+    ex:namaToko "FRUITCITY" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Makanan & Minuman, Buah Segar & Jus" ;
+    ex:logoURL <https://pekanbaruxchange.com/wp-content/uploads/2023/10/photo_6282874230597077191_y.jpg.webp> .
+
+ex:Toko_PekanbaruXchange_ASGARD rdf:type ex:Toko ;
+    ex:namaToko "ASGARD" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" .
+
+ex:Toko_PekanbaruXchange_WINGSTOP rdf:type ex:Toko ;
+    ex:namaToko "WINGSTOP" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" .
+
+ex:Toko_PekanbaruXchange_OPTIK_SEIS rdf:type ex:Toko ;
+    ex:namaToko "OPTIK SEIS" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Kesehatan & Kecantikan, Kacamata & Optik" .
+
+ex:Toko_PekanbaruXchange_Tenant_Re_Caffe rdf:type ex:Toko ;
+    ex:namaToko "Tenant Re-Caffe" ;
+    ex:beradaDiMall ex:Mall40 ;
+    ex:kategoriToko "Makanan & Minuman, Kopi & Kafe" .

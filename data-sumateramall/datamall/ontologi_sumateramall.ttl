@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:ex="http://www.example.org/mall#">
+
+    <!-- ============================================ -->
+    <!-- 5 CLASSES -->
+    <!-- ============================================ -->
+
+    <rdfs:Class rdf:about="http://www.example.org/mall#Mall">
+        <rdfs:label xml:lang="id">Mall</rdfs:label>
+        <rdfs:comment xml:lang="id">Pusat perbelanjaan di Pulau Sumatera</rdfs:comment>
+    </rdfs:Class>
+
+    <rdfs:Class rdf:about="http://www.example.org/mall#Toko">
+        <rdfs:label xml:lang="id">Toko</rdfs:label>
+        <rdfs:comment xml:lang="id">Toko atau tenant di dalam mall</rdfs:comment>
+    </rdfs:Class>
+
+    <rdfs:Class rdf:about="http://www.example.org/mall#Kategori">
+        <rdfs:label xml:lang="id">Kategori</rdfs:label>
+        <rdfs:comment xml:lang="id">Kategori atau jenis toko</rdfs:comment>
+    </rdfs:Class>
+
+    <rdfs:Class rdf:about="http://www.example.org/mall#Kota">
+        <rdfs:label xml:lang="id">Kota</rdfs:label>
+        <rdfs:comment xml:lang="id">Kota lokasi mall</rdfs:comment>
+    </rdfs:Class>
+
+    <rdfs:Class rdf:about="http://www.example.org/mall#Provinsi">
+        <rdfs:label xml:lang="id">Provinsi</rdfs:label>
+        <rdfs:comment xml:lang="id">Provinsi di Pulau Sumatera</rdfs:comment>
+    </rdfs:Class>
+
+    <!-- ============================================ -->
+    <!-- 10 OBJECT PROPERTIES -->
+    <!-- ============================================ -->
+
+    <rdf:Property rdf:about="http://www.example.org/mall#beradaDiMall">
+        <rdfs:label xml:lang="id">beradaDiMall</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:comment xml:lang="id">Toko berada di dalam Mall</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#beradaDiKota">
+        <rdfs:label xml:lang="id">beradaDiKota</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Kota"/>
+        <rdfs:comment xml:lang="id">Mall berada di Kota</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#beradaDiProvinsi">
+        <rdfs:label xml:lang="id">beradaDiProvinsi</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Provinsi"/>
+        <rdfs:comment xml:lang="id">Mall berada di Provinsi</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#memilikiKategori">
+        <rdfs:label xml:lang="id">memilikiKategori</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Kategori"/>
+        <rdfs:comment xml:lang="id">Toko memiliki kategori tertentu</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#beradaDiLantai">
+        <rdfs:label xml:lang="id">beradaDiLantai</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:comment xml:lang="id">Toko berada di lantai yang sama</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#memilikiToko">
+        <rdfs:label xml:lang="id">memilikiToko</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:comment xml:lang="id">Mall memiliki toko/tenant</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#beradaDiKotaYangSama">
+        <rdfs:label xml:lang="id">beradaDiKotaYangSama</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:comment xml:lang="id">Mall berada di kota yang sama</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#kategoriSerupa">
+        <rdfs:label xml:lang="id">kategoriSerupa</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:comment xml:lang="id">Toko memiliki kategori yang serupa</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#provinsiMemilikiKota">
+        <rdfs:label xml:lang="id">provinsiMemilikiKota</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Provinsi"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Kota"/>
+        <rdfs:comment xml:lang="id">Provinsi memiliki kota-kota</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#kotaMemilikiMall">
+        <rdfs:label xml:lang="id">kotaMemilikiMall</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Kota"/>
+        <rdfs:range rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:comment xml:lang="id">Kota memiliki mall-mall</rdfs:comment>
+    </rdf:Property>
+
+    <!-- ============================================ -->
+    <!-- 10 DATA PROPERTIES -->
+    <!-- ============================================ -->
+
+    <rdf:Property rdf:about="http://www.example.org/mall#namaToko">
+        <rdfs:label xml:lang="id">namaToko</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Nama toko</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#namaMall">
+        <rdfs:label xml:lang="id">namaMall</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Nama mall</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#kategoriToko">
+        <rdfs:label xml:lang="id">kategoriToko</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Kategori toko dalam bentuk teks</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#lokasiToko">
+        <rdfs:label xml:lang="id">lokasiToko</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Lokasi toko di mall (lantai dan nomor)</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#alamatMall">
+        <rdfs:label xml:lang="id">alamatMall</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Mall"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Alamat lengkap mall</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#namaKota">
+        <rdfs:label xml:lang="id">namaKota</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Kota"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Nama kota</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#namaProvinsi">
+        <rdfs:label xml:lang="id">namaProvinsi</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Provinsi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Nama provinsi</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#ratingToko">
+        <rdfs:label xml:lang="id">ratingToko</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="id">Rating toko (skala 0-5)</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#jamBuka">
+        <rdfs:label xml:lang="id">jamBuka</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Jam buka toko</rdfs:comment>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/mall#nomorTelepon">
+        <rdfs:label xml:lang="id">nomorTelepon</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.example.org/mall#Toko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="id">Nomor telepon toko</rdfs:comment>
+    </rdf:Property>
+
+</rdf:RDF>

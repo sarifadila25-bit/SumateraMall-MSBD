@@ -1,0 +1,589 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_BaskoCityMall_A_W_Restaurant rdf:type ex:Toko ;
+    ex:namaToko "A&W Restaurant" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/a-and-w-restaurant.webp> .
+
+ex:Toko_BaskoCityMall_Adidas rdf:type ex:Toko ;
+    ex:namaToko "Adidas" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/adidas.webp> .
+
+ex:Toko_BaskoCityMall_Andrew_Smith rdf:type ex:Toko ;
+    ex:namaToko "Andrew Smith" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/andrew-smith.webp> .
+
+ex:Toko_BaskoCityMall_Ayam_Betutu_Khas_Bali_Aji_Krisna rdf:type ex:Toko ;
+    ex:namaToko "Ayam Betutu Khas Bali Aji Krisna" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/ayam-betutu-khas-bali-aji-krisna.webp> .
+
+ex:Toko_BaskoCityMall_Azwa_Perfume rdf:type ex:Toko ;
+    ex:namaToko "Azwa Perfume" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/azwa-perfume.webp> .
+
+ex:Toko_BaskoCityMall_Bakso_Lapangan_Tembak_Senayan rdf:type ex:Toko ;
+    ex:namaToko "Bakso Lapangan Tembak Senayan" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/bakso-lapangan-tembak-senayan.webp> .
+
+ex:Toko_BaskoCityMall_Beard_Papa_s rdf:type ex:Toko ;
+    ex:namaToko "Beard Papa's" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/beard-papa-s.webp> .
+
+ex:Toko_BaskoCityMall_Blibli rdf:type ex:Toko ;
+    ex:namaToko "Blibli" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Elektronik" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/blibli.webp> .
+
+ex:Toko_BaskoCityMall_C_F_Perfumery rdf:type ex:Toko ;
+    ex:namaToko "C&F Perfumery" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/c-and-f-perfumery.webp> .
+
+ex:Toko_BaskoCityMall_Cabe_Merah rdf:type ex:Toko ;
+    ex:namaToko "Cabe Merah" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/cabe-merah.webp> .
+
+ex:Toko_BaskoCityMall_Cardinal rdf:type ex:Toko ;
+    ex:namaToko "Cardinal" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/cardinal.webp> .
+
+ex:Toko_BaskoCityMall_Celcius rdf:type ex:Toko ;
+    ex:namaToko "Celcius" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/celcius.webp> .
+
+ex:Toko_BaskoCityMall_Celcius_Woman rdf:type ex:Toko ;
+    ex:namaToko "Celcius Woman" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/celcius-woman.webp> .
+
+ex:Toko_BaskoCityMall_CFC rdf:type ex:Toko ;
+    ex:namaToko "CFC" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/cfc.webp> .
+
+ex:Toko_BaskoCityMall_Charles_Keith rdf:type ex:Toko ;
+    ex:namaToko "Charles & Keith" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_BaskoCityMall_Chatime rdf:type ex:Toko ;
+    ex:namaToko "Chatime" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/chatime.webp> .
+
+ex:Toko_BaskoCityMall_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Hiburan" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/cinema-xxi.webp> .
+
+ex:Toko_BaskoCityMall_Crocs rdf:type ex:Toko ;
+    ex:namaToko "Crocs" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/crocs.webp> .
+
+ex:Toko_BaskoCityMall_D_Cost rdf:type ex:Toko ;
+    ex:namaToko "D'Cost" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/d-cost.webp> .
+
+ex:Toko_BaskoCityMall_Digimap rdf:type ex:Toko ;
+    ex:namaToko "Digimap" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Elektronik" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/digimap.webp> .
+
+ex:Toko_BaskoCityMall_Djournal_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Djournal Coffee" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/djournal-coffee.webp> .
+
+ex:Toko_BaskoCityMall_Elzatta rdf:type ex:Toko ;
+    ex:namaToko "Elzatta" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/elzatta.webp> .
+
+ex:Toko_BaskoCityMall_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Elektronik" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/erafone.webp> .
+
+ex:Toko_BaskoCityMall_Executive_Colorbox rdf:type ex:Toko ;
+    ex:namaToko "Executive & Colorbox" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/executive-and-colorbox.webp> .
+
+ex:Toko_BaskoCityMall_Food_Court rdf:type ex:Toko ;
+    ex:namaToko "Food Court" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fasilitas" ;
+    ex:lokasiToko "SB" ;
+    ex:logoURL <https://baskocitymall.com/tenants/food-court.webp> .
+
+ex:Toko_BaskoCityMall_Fore_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Fore Coffee" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/fore-coffee.webp> .
+
+ex:Toko_BaskoCityMall_FuniFun_ rdf:type ex:Toko ;
+    ex:namaToko "FuniFun!" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Mainan & Anak" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/funifun.webp> .
+
+ex:Toko_BaskoCityMall_Funworld rdf:type ex:Toko ;
+    ex:namaToko "Funworld" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Hiburan" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/funworld.webp> .
+
+ex:Toko_BaskoCityMall_Funworld_Bowling rdf:type ex:Toko ;
+    ex:namaToko "Funworld Bowling" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Hiburan" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/funworld-bowling.webp> .
+
+ex:Toko_BaskoCityMall_Gabino rdf:type ex:Toko ;
+    ex:namaToko "Gabino" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/gabino.webp> .
+
+ex:Toko_BaskoCityMall_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/giordano.webp> .
+
+ex:Toko_BaskoCityMall_Guardian rdf:type ex:Toko ;
+    ex:namaToko "Guardian" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/guardian.webp> .
+
+ex:Toko_BaskoCityMall_Happynice_Ice_Cream rdf:type ex:Toko ;
+    ex:namaToko "Happynice Ice Cream" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/happynice-ice-cream.webp> .
+
+ex:Toko_BaskoCityMall_Haraku_Ramen rdf:type ex:Toko ;
+    ex:namaToko "Haraku Ramen" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/haraku-ramen.webp> .
+
+ex:Toko_BaskoCityMall_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kebutuhan Rumah" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/hypermart.webp> .
+
+ex:Toko_BaskoCityMall_Ichiban_Sushi rdf:type ex:Toko ;
+    ex:namaToko "Ichiban Sushi" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/ichiban-sushi.webp> .
+
+ex:Toko_BaskoCityMall_IQOS rdf:type ex:Toko ;
+    ex:namaToko "IQOS" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Elektronik" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/iqos.webp> .
+
+ex:Toko_BaskoCityMall_Kebab_Turki_Baba_Rafi rdf:type ex:Toko ;
+    ex:namaToko "Kebab Turki Baba Rafi" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/kebab-turki-baba-rafi.webp> .
+
+ex:Toko_BaskoCityMall_Kidz_Station rdf:type ex:Toko ;
+    ex:namaToko "Kidz Station" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Mainan & Anak" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/kidz-station.webp> .
+
+ex:Toko_BaskoCityMall_Kidzlandia rdf:type ex:Toko ;
+    ex:namaToko "Kidzlandia" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Mainan & Anak" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/kidzlandia.webp> .
+
+ex:Toko_BaskoCityMall_Larusso rdf:type ex:Toko ;
+    ex:namaToko "Larusso" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/larusso.webp> .
+
+ex:Toko_BaskoCityMall_Logo_Jeans rdf:type ex:Toko ;
+    ex:namaToko "Logo Jeans" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/logo-jeans.webp> .
+
+ex:Toko_BaskoCityMall_Miniso rdf:type ex:Toko ;
+    ex:namaToko "Miniso" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/miniso.webp> .
+
+ex:Toko_BaskoCityMall_Minoshe rdf:type ex:Toko ;
+    ex:namaToko "Minoshe" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/minoshe.webp> .
+
+ex:Toko_BaskoCityMall_Mississippi rdf:type ex:Toko ;
+    ex:namaToko "Mississippi" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/mississippi.webp> .
+
+ex:Toko_BaskoCityMall_Mixue rdf:type ex:Toko ;
+    ex:namaToko "Mixue" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/mixue.webp> .
+
+ex:Toko_BaskoCityMall_Naughty rdf:type ex:Toko ;
+    ex:namaToko "Naughty" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/naughty.webp> .
+
+ex:Toko_BaskoCityMall_Ngulik_Gelato rdf:type ex:Toko ;
+    ex:namaToko "Ngulik Gelato" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/ngulik-gelato.webp> .
+
+ex:Toko_BaskoCityMall_OB_Fit rdf:type ex:Toko ;
+    ex:namaToko "OB Fit" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/ob-fit.webp> .
+
+ex:Toko_BaskoCityMall_Office rdf:type ex:Toko ;
+    ex:namaToko "Office" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fasilitas" ;
+    ex:lokasiToko "SB" ;
+    ex:logoURL <https://baskocitymall.com/tenants/office.webp> .
+
+ex:Toko_BaskoCityMall_Oh_Some rdf:type ex:Toko ;
+    ex:namaToko "Oh!Some" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/oh-some.webp> .
+
+ex:Toko_BaskoCityMall_Optik_Melawai rdf:type ex:Toko ;
+    ex:namaToko "Optik Melawai" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/optik-melawai.webp> .
+
+ex:Toko_BaskoCityMall_Optik_Tunggal rdf:type ex:Toko ;
+    ex:namaToko "Optik Tunggal" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/optik-tunggal.webp> .
+
+ex:Toko_BaskoCityMall_Oxygen_Denim rdf:type ex:Toko ;
+    ex:namaToko "Oxygen Denim" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/oxygen-denim.webp> .
+
+ex:Toko_BaskoCityMall_Papi_s_Orange_x_Es_Potong_Singapore rdf:type ex:Toko ;
+    ex:namaToko "Papi's Orange x Es Potong Singapore" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/papi-s-orange-x-es-potong-singapore.webp> .
+
+ex:Toko_BaskoCityMall_Parking rdf:type ex:Toko ;
+    ex:namaToko "Parking" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fasilitas" ;
+    ex:lokasiToko "SB" ;
+    ex:logoURL <https://baskocitymall.com/tenants/parking.webp> .
+
+ex:Toko_BaskoCityMall_Photomatter rdf:type ex:Toko ;
+    ex:namaToko "Photomatter" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Hiburan" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/photomatter.webp> .
+
+ex:Toko_BaskoCityMall_PlayWorks rdf:type ex:Toko ;
+    ex:namaToko "PlayWorks" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Mainan & Anak" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/playworks.webp> .
+
+ex:Toko_BaskoCityMall_Polo rdf:type ex:Toko ;
+    ex:namaToko "Polo" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/polo.webp> .
+
+ex:Toko_BaskoCityMall_Queensland rdf:type ex:Toko ;
+    ex:namaToko "Queensland" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/queensland.webp> .
+
+ex:Toko_BaskoCityMall_Ramen_1 rdf:type ex:Toko ;
+    ex:namaToko "Ramen 1" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/ramen-1.webp> .
+
+ex:Toko_BaskoCityMall_Reddog rdf:type ex:Toko ;
+    ex:namaToko "Reddog" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/reddog.webp> .
+
+ex:Toko_BaskoCityMall_Roti_O rdf:type ex:Toko ;
+    ex:namaToko "Roti'O" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/roti-o.webp> .
+
+ex:Toko_BaskoCityMall_Salsa_Dessert rdf:type ex:Toko ;
+    ex:namaToko "Salsa Dessert" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/salsa-dessert.webp> .
+
+ex:Toko_BaskoCityMall_Samsonite rdf:type ex:Toko ;
+    ex:namaToko "Samsonite" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/samsonite.webp> .
+
+ex:Toko_BaskoCityMall_Samsung rdf:type ex:Toko ;
+    ex:namaToko "Samsung" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Elektronik" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/samsung.webp> .
+
+ex:Toko_BaskoCityMall_Selma rdf:type ex:Toko ;
+    ex:namaToko "Selma" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kebutuhan Rumah" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/selma.webp> .
+
+ex:Toko_BaskoCityMall_Shigeru rdf:type ex:Toko ;
+    ex:namaToko "Shigeru" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/shigeru.webp> .
+
+ex:Toko_BaskoCityMall_Siska_Accessories rdf:type ex:Toko ;
+    ex:namaToko "Siska Accessories" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "2F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/siska-accessories.webp> .
+
+ex:Toko_BaskoCityMall_Skechers rdf:type ex:Toko ;
+    ex:namaToko "Skechers" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/skechers.webp> .
+
+ex:Toko_BaskoCityMall_Sociolla rdf:type ex:Toko ;
+    ex:namaToko "Sociolla" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/sociolla.webp> .
+
+ex:Toko_BaskoCityMall_Solaria rdf:type ex:Toko ;
+    ex:namaToko "Solaria" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/solaria.webp> .
+
+ex:Toko_BaskoCityMall_Sour_Sally rdf:type ex:Toko ;
+    ex:namaToko "Sour Sally" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/sour-sally.webp> .
+
+ex:Toko_BaskoCityMall_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/sport-station.webp> .
+
+ex:Toko_BaskoCityMall_Ta_Wan rdf:type ex:Toko ;
+    ex:namaToko "Ta Wan" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/ta-wan.webp> .
+
+ex:Toko_BaskoCityMall_The_Palace rdf:type ex:Toko ;
+    ex:namaToko "The Palace" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/the-palace.webp> .
+
+ex:Toko_BaskoCityMall_The_People_s_Cafe rdf:type ex:Toko ;
+    ex:namaToko "The People's Cafe" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/the-people-s-cafe.webp> .
+
+ex:Toko_BaskoCityMall_Triset rdf:type ex:Toko ;
+    ex:namaToko "Triset" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/triset.webp> .
+
+ex:Toko_BaskoCityMall_Uniqlo rdf:type ex:Toko ;
+    ex:namaToko "Uniqlo" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "GF" ;
+    ex:logoURL <https://baskocitymall.com/tenants/uniqlo.webp> .
+
+ex:Toko_BaskoCityMall_URBAN_CO rdf:type ex:Toko ;
+    ex:namaToko "URBAN&CO" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/urban-and-co.webp> .
+
+ex:Toko_BaskoCityMall_WATCHOUT_ rdf:type ex:Toko ;
+    ex:namaToko "WATCHOUT!" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/watchout.webp> .
+
+ex:Toko_BaskoCityMall_Watsons rdf:type ex:Toko ;
+    ex:namaToko "Watsons" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Kecantikan & Kesehatan" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/watsons.webp> .
+
+ex:Toko_BaskoCityMall_XXI_Cafe rdf:type ex:Toko ;
+    ex:namaToko "XXI Cafe" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Makanan & Minuman" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/xxi-cafe.webp> .
+
+ex:Toko_BaskoCityMall_Zoom_Watch rdf:type ex:Toko ;
+    ex:namaToko "Zoom Watch" ;
+    ex:beradaDiMall ex:Mall25 ;
+    ex:kategoriToko "Fashion & Gaya Hidup" ;
+    ex:lokasiToko "1F" ;
+    ex:logoURL <https://baskocitymall.com/tenants/zoom-watch.webp> .

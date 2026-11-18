@@ -1,0 +1,87 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Toko_MalSKA_Matahari_Department_Store rdf:type ex:Toko ;
+    ex:namaToko "Matahari Department Store" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Retail, Department Store" .
+
+ex:Toko_MalSKA_Hypermart rdf:type ex:Toko ;
+    ex:namaToko "Hypermart" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Retail, Supermarket" .
+
+ex:Toko_MalSKA_Ace_Hardware rdf:type ex:Toko ;
+    ex:namaToko "Ace Hardware" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Retail, Home Improvement & Hardware" .
+
+ex:Toko_MalSKA_Informa rdf:type ex:Toko ;
+    ex:namaToko "Informa" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Retail, Furniture & Home Living" .
+
+ex:Toko_MalSKA_KFC rdf:type ex:Toko ;
+    ex:namaToko "KFC" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Ayam" .
+
+ex:Toko_MalSKA_Burger_King rdf:type ex:Toko ;
+    ex:namaToko "Burger King" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Burger" .
+
+ex:Toko_MalSKA_Pizza_Hut rdf:type ex:Toko ;
+    ex:namaToko "Pizza Hut" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Makanan & Minuman, Fast Food, Pizza" .
+
+ex:Toko_MalSKA_BreadTalk rdf:type ex:Toko ;
+    ex:namaToko "BreadTalk" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Makanan & Minuman, Bakery, Roti" .
+
+ex:Toko_MalSKA_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Hiburan, Family Entertainment Center" .
+
+ex:Toko_MalSKA_Trampolin_Park rdf:type ex:Toko ;
+    ex:namaToko "Trampolin Park" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Hiburan, Trampoline Park" .
+
+ex:Toko_MalSKA_Kidzilla_Ska_Mall rdf:type ex:Toko ;
+    ex:namaToko "Kidzilla Ska Mall" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Hiburan, Area Bermain Anak" .
+
+ex:Toko_MalSKA_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Hiburan, Bioskop" .
+
+ex:Toko_MalSKA_Nike rdf:type ex:Toko ;
+    ex:namaToko "Nike" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu & Pakaian Olahraga" .
+
+ex:Toko_MalSKA_Puma rdf:type ex:Toko ;
+    ex:namaToko "Puma" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu & Pakaian Olahraga" .
+
+ex:Toko_MalSKA_Adidas rdf:type ex:Toko ;
+    ex:namaToko "Adidas" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Sepatu & Pakaian Olahraga" .
+
+ex:Toko_MalSKA_H_and_M rdf:type ex:Toko ;
+    ex:namaToko "H&M" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Fashion & Gaya Hidup, Pakaian" .
+
+ex:Toko_MalSKA_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall38 ;
+    ex:kategoriToko "Retail, Toko Buku & Alat Tulis" .

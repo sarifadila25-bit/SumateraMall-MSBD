@@ -1,0 +1,272 @@
+@prefix ex: <http://www.example.org/mall#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# ==================== BASEMENT ====================
+ex:Toko_MalBoemiKedaton_Erafone rdf:type ex:Toko ;
+    ex:namaToko "Erafone" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Electronics, Smartphone & Gadget" ;
+    ex:lokasiToko "Basement" .
+
+ex:Toko_MalBoemiKedaton_ATM_Center rdf:type ex:Toko ;
+    ex:namaToko "ATM Center" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Banking, Banking Services, Layanan Perbankan" ;
+    ex:lokasiToko "Basement" .
+
+ex:Toko_MalBoemiKedaton_Parkir_Mobil rdf:type ex:Toko ;
+    ex:namaToko "Parkir Mobil" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fasilitas, Parkir" ;
+    ex:lokasiToko "Basement" .
+
+# ==================== GROUND FLOOR ====================
+ex:Toko_MalBoemiKedaton_Gramedia rdf:type ex:Toko ;
+    ex:namaToko "Gramedia" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Books, Toys & Hobbies, Bookstore & Stationery, Toko Buku" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MalBoemiKedaton_Chandra_Supermarket rdf:type ex:Toko ;
+    ex:namaToko "Chandra Supermarket" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Supermarket, Grocery, Daily Needs" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MalBoemiKedaton_A_and_W_Family_Restaurant rdf:type ex:Toko ;
+    ex:namaToko "A&W Family Restaurant" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Food, Fast Food, Burger" ;
+    ex:lokasiToko "GF" .
+
+ex:Toko_MalBoemiKedaton_Shabu_Shabu rdf:type ex:Toko ;
+    ex:namaToko "Shabu Shabu" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Food, Japanese Food, Hot Pot" ;
+    ex:lokasiToko "GF" .
+
+# ==================== 1ST FLOOR ====================
+ex:Toko_MalBoemiKedaton_Chandra_Dept_Store_01 rdf:type ex:Toko ;
+    ex:namaToko "Chandra Dept. Store 01" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Department Store, Lifestyle & Fashion" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Starbucks_Coffee rdf:type ex:Toko ;
+    ex:namaToko "Starbucks Coffee" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Beverage, Coffee" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Rodeo rdf:type ex:Toko ;
+    ex:namaToko "Rodeo" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Executive rdf:type ex:Toko ;
+    ex:namaToko "Executive" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Gaudi rdf:type ex:Toko ;
+    ex:namaToko "Gaudi" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Gosh rdf:type ex:Toko ;
+    ex:namaToko "Gosh" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Bellagio rdf:type ex:Toko ;
+    ex:namaToko "Bellagio" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Hammer rdf:type ex:Toko ;
+    ex:namaToko "Hammer" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Wrangler rdf:type ex:Toko ;
+    ex:namaToko "Wrangler" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Jeans" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Shoeline rdf:type ex:Toko ;
+    ex:namaToko "Shoeline" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sepatu" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Color_Box rdf:type ex:Toko ;
+    ex:namaToko "Color Box" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Minimal rdf:type ex:Toko ;
+    ex:namaToko "Minimal" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Levis rdf:type ex:Toko ;
+    ex:namaToko "Levis" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Jeans" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Adidas rdf:type ex:Toko ;
+    ex:namaToko "Adidas" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Footwear, Sneakers, Sportwear" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_BreadTalk rdf:type ex:Toko ;
+    ex:namaToko "BreadTalk" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Food, Bakery, Roti" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Body_Shop rdf:type ex:Toko ;
+    ex:namaToko "Body Shop" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Skincare" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Giordano rdf:type ex:Toko ;
+    ex:namaToko "Giordano" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Baju, Celana" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_C_and_F rdf:type ex:Toko ;
+    ex:namaToko "C&F" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Health & Beauty, Beauty & Personal Care, Perfume" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Calais rdf:type ex:Toko ;
+    ex:namaToko "Calais" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Food, Crepe, Dessert" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_J_CO rdf:type ex:Toko ;
+    ex:namaToko "J.CO" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Food, Donut, Coffee" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Optik_Seis rdf:type ex:Toko ;
+    ex:namaToko "Optik Seis" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Optical, Kaca Mata" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Sport_Station rdf:type ex:Toko ;
+    ex:namaToko "Sport Station" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Sportswear & Equipment" ;
+    ex:lokasiToko "L1" .
+
+ex:Toko_MalBoemiKedaton_Playland rdf:type ex:Toko ;
+    ex:namaToko "Playland" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L1" .
+
+# ==================== 2ND FLOOR ====================
+ex:Toko_MalBoemiKedaton_Chandra_Dept_Store_2_Kids rdf:type ex:Toko ;
+    ex:namaToko "Chandra Departement Store 2 (Kids)" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Department Store, Fashion Anak" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Ace_Hardware rdf:type ex:Toko ;
+    ex:namaToko "Ace Hardware" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Retail, Home Improvement & Hardware" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Timezone rdf:type ex:Toko ;
+    ex:namaToko "Timezone" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_iBox rdf:type ex:Toko ;
+    ex:namaToko "iBox" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Electronics, Apple Products, Smartphone, Tablet" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Electronic_City rdf:type ex:Toko ;
+    ex:namaToko "Electronic City" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Electronics, Computer & IT Store" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Johnny_Andrean_Salon rdf:type ex:Toko ;
+    ex:namaToko "Johnny Andrean Salon" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair Salon" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Yoppie_Salon rdf:type ex:Toko ;
+    ex:namaToko "Yoppie Salon" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Health & Beauty, Beauty Services, Hair Salon" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Salt_N_Pepper rdf:type ex:Toko ;
+    ex:namaToko "Salt N Pepper" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Food, Restaurant" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Cool_Kids rdf:type ex:Toko ;
+    ex:namaToko "Cool Kids" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Children's Clothing" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Rainbow_Gift_House rdf:type ex:Toko ;
+    ex:namaToko "Rainbow Gift House" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Retail, Gift Shop, Souvenirs" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Wacoal rdf:type ex:Toko ;
+    ex:namaToko "Wacoal" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Fashion & Accessories, Clothing, Women's Underwear" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Raja_Ice rdf:type ex:Toko ;
+    ex:namaToko "Raja Ice" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "F&B, Beverage, Ice Cream" ;
+    ex:lokasiToko "L2" .
+
+ex:Toko_MalBoemiKedaton_Usupo rdf:type ex:Toko ;
+    ex:namaToko "Usupo" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Entertainment, Playground, Arena Bermain" ;
+    ex:lokasiToko "L2" .
+
+# ==================== 3RD FLOOR ====================
+ex:Toko_MalBoemiKedaton_Cinema_XXI rdf:type ex:Toko ;
+    ex:namaToko "Cinema XXI" ;
+    ex:beradaDiMall ex:Mall72 ;
+    ex:kategoriToko "Entertainment, Cinema, Movie Theater" ;
+    ex:lokasiToko "L3" ;
+    ex:deskripsiToko "Bioskop dengan luas area 2300m²" .
