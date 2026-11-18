@@ -203,6 +203,9 @@ class ChatbotController extends Controller
             'nagoya hill' => 'Nagoya Hill',
             'palembang icon' => 'Palembang Icon',
             'grand batam' => 'Grand Batam',
+            'focal point medan' => 'Medan Focal Point Mall',
+            'medan focal point mall' => 'Medan Focal Point Mall',
+            'focal point' => 'Medan Focal Point Mall',
         ];
 
         foreach ($malls as $keyword => $mallName) {
