@@ -165,10 +165,10 @@ class ChatbotController extends Controller
         }
 
         $categories = [
-            'makan' => 'Food & Beverage',
-            'restoran' => 'Food & Beverage',
-            'cafe' => 'Food & Beverage',
-            'coffee' => 'Food & Beverage',
+            'makan' => 'F&B',
+            'restoran' => 'F&B',
+            'cafe' => 'F&B',
+            'coffee' => 'F&B',
             'baju' => 'Fashion',
             'fashion' => 'Fashion',
             'sepatu' => 'Fashion',
@@ -177,9 +177,9 @@ class ChatbotController extends Controller
             'bioskop' => 'Entertainment',
             'nonton' => 'Entertainment',
             'supermarket' => 'Supermarket',
-            'restaurant' => 'Food & Beverage',
-            'food' => 'Food & Beverage',
-            'dining' => 'Food & Beverage',
+            'restaurant' => 'F&B',
+            'food' => 'F&B',
+            'dining' => 'F&B',
             'clothes' => 'Fashion',
             'shoes' => 'Fashion',
             'electronics' => 'Electronics',
@@ -196,6 +196,9 @@ class ChatbotController extends Controller
         }
 
         $malls = [
+            'focal point medan' => 'Medan Focal Point Mall',
+            'medan focal point mall' => 'Medan Focal Point Mall',
+            'focal point' => 'Medan Focal Point Mall',
             'sun plaza' => 'Sun Plaza',
             'centre point' => 'Centre Point',
             'deli park' => 'DeliPark',
@@ -360,14 +363,14 @@ class ChatbotController extends Controller
         $text = mb_strtolower($message);
 
        $remove = [
-        'cari', 'dimana', 'di mana', 'ada', 'toko', 'mall', 'mal',
+        'cari', 'dimana', 'di mana', 'di', 'ada', 'toko', 'mall', 'mal',
         'rekomendasi', 'find', 'search', 'where', 'store', 'recommend',
         'terbaik', 'top', 'rating', 'populer', 'best', 'highest rated',
         'info', 'tentang', 'profil', 'about', 'profile',
         'daftar', 'kota', 'provinsi', 'city', 'province', 'list',
         'tolong', 'dong', 'please', 'in', 'at', 'the', 'yang',
         'apa saja', 'apa aja', 'yang ada',
-        'restoran', 'restaurant', 'makan', 'food', 'dining',
+        'restoran', 'restaurant', 'makan', 'food', 'dining', 'focal point',
         'cafe', 'coffee', 'baju', 'fashion', 'sepatu',
         'elektronik', 'electronics', 'hp', 'bioskop', 'nonton',
         'supermarket', 'clothes', 'shoes',
@@ -419,10 +422,16 @@ class ChatbotController extends Controller
         }
 
         if ($results === []) {
-            return $english
-                ? 'Sorry, I could not find matching data. Try different keywords.'
-                : 'Maaf, aku tidak menemukan data yang sesuai. Coba kata kunci lain.';
-        }
+    if ($intent['type'] === 'top_rated') {
+        return $english
+            ? 'Rating information is not available yet, so I cannot determine the highest-rated stores.'
+            : 'Maaf, data rating toko belum tersedia. Jadi, aku belum bisa menentukan toko dengan rating tertinggi.';
+    }
+
+    return $english
+        ? 'Sorry, I could not find matching data. Try different keywords.'
+        : 'Maaf, aku tidak menemukan data yang sesuai. Coba kata kunci lain.';
+}
 
         return match ($intent['type']) {
             'find_store' => ($english ? 'I found ' : 'Aku menemukan ')
