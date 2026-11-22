@@ -9,6 +9,7 @@ use App\Http\Controllers\RecommendationController;
 use App\Http\Controllers\RoutePlannerController;
 use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReservationController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::view('/team', 'team')->name('team');
@@ -33,3 +34,12 @@ Route::get('/budget', [BudgetController::class, 'index'])->name('budget.index');
 Route::get('/budget/estimate', [BudgetController::class, 'estimate'])->name('budget.estimate');
 
 Route::post('/chatbot', [ChatbotController::class, 'chat'])->middleware('throttle:10,1')->name('chatbot.chat');
+
+Route::prefix('reservations')->name('reservations.')->group(function (): void {
+    Route::get('/', [ReservationController::class, 'index'])->name('index');
+    Route::get('/create', [ReservationController::class, 'create'])->name('create');
+    Route::post('/', [ReservationController::class, 'store'])->name('store');
+    Route::get('/{code}', [ReservationController::class, 'show'])->name('show');
+    Route::patch('/{code}/cancel', [ReservationController::class, 'cancel'])->name('cancel');
+    Route::patch('/{code}/status', [ReservationController::class, 'updateStatus'])->name('update-status');
+});
