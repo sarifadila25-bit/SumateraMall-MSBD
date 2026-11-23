@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Reservation extends Model
 {
@@ -34,5 +35,11 @@ class Reservation extends Model
     public function store(): BelongsTo
     {
         return $this->belongsTo(Store::class);
+    }
+
+    public function statusLogs(): HasMany
+    {
+    return $this->hasMany(ReservationStatusLog::class)
+        ->orderByDesc('created_at');
     }
 }

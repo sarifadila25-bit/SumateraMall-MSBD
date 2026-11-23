@@ -16,11 +16,12 @@ use App\Http\Controllers\VoucherController;
 
 use App\Http\Controllers\ReservationController;
 
+
 // Reservation
 Route::get('/reservations', [ReservationController::class, 'index'])
     ->name('reservations.index');
 
-Route::middleware('auth')->group(function () {
+Route::middleware(['auth', 'user'])->group(function () {
     Route::post('/reservations/{store}', [ReservationController::class, 'store'])
         ->name('reservations.store');
 
@@ -28,17 +29,17 @@ Route::middleware('auth')->group(function () {
         ->name('reservations.mine');
 
     Route::patch('/my-reservations/{reservation}/cancel', [ReservationController::class, 'cancel'])
-    ->name('reservations.cancel');
+        ->name('reservations.cancel');
 });
 
+// Voucher
 Route::get('/vouchers', [VoucherController::class, 'index'])
     ->name('vouchers.index');
 
-Route::post('/vouchers/{voucher}/claim', [VoucherController::class, 'claim'])
-    ->middleware('auth')
-    ->name('vouchers.claim');
+Route::middleware(['auth', 'user'])->group(function () {
+    Route::post('/vouchers/{voucher}/claim', [VoucherController::class, 'claim'])
+        ->name('vouchers.claim');
 
-Route::middleware('auth')->group(function () {
     Route::get('/vouchers/{voucher}/checkout', [VoucherController::class, 'checkout'])
         ->name('vouchers.checkout');
 
@@ -99,7 +100,7 @@ Route::post('/logout', [AuthController::class, 'logout'])
     ->name('logout');
 
     // User Itineraries
-Route::middleware('auth')->group(function () {
+Route::middleware(['auth', 'user'])->group(function () {
     Route::get('/my-itineraries', [ItineraryController::class, 'index'])
         ->name('itineraries.index');
 
