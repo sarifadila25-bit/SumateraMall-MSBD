@@ -56,7 +56,35 @@ public function show(string $id): View
     $mallModel = Mall::with(['city.province'])
         ->findOrFail($id);
 
+    $imageFiles = collect(\Illuminate\Support\Facades\File::files(
+    public_path('images/malls')
+));
+
+$imageAliases = [
+    'Centre Point Medan' => 'centre-point',
+    'Internasional Plaza' => 'international-plaza',
+    'Mall Ciputra Seraya' => 'mall-ciputra-seraya-pekanbaru',
+    'Mal SKA' => 'mall-ska-pekanbaru',
+    'Mal Pekanbaru' => 'mal-pekanbaru',
+    'OPI Mall' => 'OPI-Mall-Palembang',
+    'The Plaza Millenium' => 'plaza-millenium-medan',
+    'Yuki Simpang Raya' => 'yuki-simpang-raya-medna',
+];
+
+$imageName = $imageAliases[$mallModel->name]
+    ?? \Illuminate\Support\Str::slug($mallModel->name);
+
+$imageFile = $imageFiles->first(function ($file) use ($imageName) {
+    return strtolower(pathinfo($file->getFilename(), PATHINFO_FILENAME))
+        === strtolower($imageName);
+});
+
+$mallImage = $imageFile
+    ? asset('images/malls/'.$imageFile->getFilename())
+    : null;
+
     $mall = [
+        'image' => $mallImage,
         'id' => $mallModel->id,
         'resource_uri' => $mallModel->resource_uri,
         'name' => $mallModel->name,

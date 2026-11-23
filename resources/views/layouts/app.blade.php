@@ -63,11 +63,16 @@
 
                     @else
 
-                        {{-- MENU USER --}}
+                        {{-- LOGO + HOME --}}
                         <a href="{{ route('home') }}"
-                           data-i18n="nav_home"
-                           class="site-nav__link">
-                            Home
+                        class="flex items-center gap-2 shrink-0"
+                        aria-label="SumateraMall Home">
+                            <img src="{{ asset('images/sumateramall-logo.png') }}"
+                                alt="SumateraMall Logo"
+                                class="w-9 h-9 object-contain rounded-lg">
+                            <span data-i18n="nav_home" class="site-nav__link">
+                                Home
+                            </span>
                         </a>
 
                         <a href="{{ route('planner.index') }}"
@@ -94,11 +99,16 @@
                     @endif
                 @else
 
-                    {{-- MENU PENGUNJUNG --}}
+                    {{-- LOGO + HOME --}}
                     <a href="{{ route('home') }}"
-                       data-i18n="nav_home"
-                       class="site-nav__link">
-                        Home
+                    class="flex items-center gap-2 shrink-0"
+                    aria-label="SumateraMall Home">
+                        <img src="{{ asset('images/sumateramall-logo.png') }}"
+                            alt="SumateraMall Logo"
+                            class="w-9 h-9 object-contain rounded-lg">
+                        <span data-i18n="nav_home" class="site-nav__link">
+                            Home
+                        </span>
                     </a>
 
                     <a href="{{ route('planner.index') }}"

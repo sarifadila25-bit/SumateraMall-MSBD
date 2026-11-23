@@ -103,17 +103,37 @@
                 @foreach($openMalls as $mall)
                 <a href="{{ route('malls.show', ['id' => $mall['id']]) }}"
                    class="mall-landing__card" data-open-mall data-city="{{ $mall['city'] }}">
+                    
                     <div class="mall-landing__card-art" data-art="{{ $loop->index % 4 }}">
+                        @if(!empty($mall['image']))
+                            <img
+                                src="{{ $mall['image'] }}"
+                                alt="Foto {{ $mall['name'] }}"
+                                class="w-full h-full object-cover"
+                                loading="lazy"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                            >
+                            <div class="mall-landing__fallback" style="display:none;">
+                                <svg class="mall-landing__building" viewBox="0 0 100 76" aria-hidden="true">
+                                    <path d="M12 72V31h24v41M36 72V12h30v60M66 72V26h22v46M5 72h90" />
+                                    <path d="M20 40h8m-8 9h8m-8 9h8m16-36h7m8 0h7M44 34h7m8 0h7M44 45h7m8 0h7M44 56h7m8 0h7m7-20h7m-7 11h7m-7 11h7" />
+                                </svg>
+                            </div>
+                        @else
+                            <svg class="mall-landing__building" viewBox="0 0 100 76" aria-hidden="true">
+                                <path d="M12 72V31h24v41M36 72V12h30v60M66 72V26h22v46M5 72h90" />
+                                <path d="M20 40h8m-8 9h8m-8 9h8m16-36h7m8 0h7M44 34h7m8 0h7M44 45h7m8 0h7M44 56h7m8 0h7m7-20h7m-7 11h7m-7 11h7" />
+                            </svg>
+                        @endif
+
                         <span class="mall-landing__card-city">{{ $mall['city'] }}</span>
-                        <svg class="mall-landing__building" viewBox="0 0 100 76" aria-hidden="true">
-                            <path d="M12 72V31h24v41M36 72V12h30v60M66 72V26h22v46M5 72h90" />
-                            <path d="M20 40h8m-8 9h8m-8 9h8m16-36h7m8 0h7M44 34h7m8 0h7M44 45h7m8 0h7M44 56h7m8 0h7m7-20h7m-7 11h7m-7 11h7" />
-                        </svg>
+
                         <span class="mall-landing__open-badge">
                             <span></span>
                             <span data-i18n="landing_open_badge">Buka sekarang</span>
                         </span>
                     </div>
+
                     <div class="mall-landing__card-body">
                         <div class="mall-landing__card-title">
                             <h3>{{ $mall['name'] }}</h3>

@@ -12,13 +12,48 @@ class HomeController extends Controller
     {
         $now = Carbon::now('Asia/Jakarta');
 
+        $imageFiles = collect(\Illuminate\Support\Facades\File::files(
+    public_path('images/malls')
+));
+
+$imageAliases = [
+    'Centre Point Medan' => 'centre-point',
+    'Internasional Plaza' => 'international-plaza',
+    'Mall Ciputra Seraya' => 'mall-ciputra-seraya-pekanbaru',
+    'Mal SKA' => 'mall-ska-pekanbaru',
+    'Mal Pekanbaru' => 'mal-pekanbaru',
+    'OPI Mall' => 'OPI-Mall-Palembang',
+    'The Plaza Millenium' => 'plaza-millenium-medan',
+    'Yuki Simpang Raya' => 'yuki-simpang-raya-medna',
+    'Mall Kapuk' => 'mall-kapuk-jambi',
+    'Plaza Citra Pekanbaru' => 'plaza-citra-pekanbari',
+    'Plaza Lotus' => 'plaza-lotus-lampung',
+    'Sidimpuan City Walk' => 'sidempuan-city-walks',
+    'The Central Plaza' => 'the-central-plaza-pekanbaru',
+    'Medan Focal Point Mall' => 'medan-focal-point',
+    'Lucky Plaza' => 'lucky-plaza-batam',
+];
+
         $malls = Mall::with(['city.province'])
             ->orderBy('name')
             ->get()
-            ->map(function (Mall $mall) use ($now): array {
+            ->map(function (Mall $mall) use ($now, $imageFiles, $imageAliases): array {
                 $hours = $mall->opening_hours;
 
+                $imageName = $imageAliases[$mall->name]
+    ?? \Illuminate\Support\Str::slug($mall->name);
+
+$imageFile = $imageFiles->first(function ($file) use ($imageName) {
+    return strtolower(pathinfo($file->getFilename(), PATHINFO_FILENAME))
+        === strtolower($imageName);
+});
+
+$mallImage = $imageFile
+    ? asset('images/malls/'.$imageFile->getFilename())
+    : null;
+
                 return [
+                    'image' => $mallImage,
                     'id' => $mall->id,
                     'mall' => $mall->resource_uri,
                     'name' => $mall->name,

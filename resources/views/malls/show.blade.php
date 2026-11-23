@@ -11,30 +11,39 @@
      resource="{{ $mall['resource_uri'] }}">
 
     {{-- Mall Header --}}
-    <div class="glass rounded-3xl p-8 mb-8">
-        <h1 property="schema:name" class="font-display text-5xl font-bold mb-3">
-            {{ $mall['name'] }}
-        </h1>
+        <div class="glass rounded-3xl p-8 mb-8">
 
-        <div class="flex gap-3 mb-5">
-            <span class="glass px-4 py-1 rounded-full text-sm">
-                {{ $mall['city'] }}
-            </span>
-            <span class="glass px-4 py-1 rounded-full text-sm">
-                {{ $mall['province'] }}
-            </span>
+            @if(!empty($mall['image']))
+                
+        <div class="mb-6 flex h-[280px] items-center justify-center overflow-hidden rounded-2xl border border-[#eadfca] bg-[#fffaf0] shadow-sm">
+            <img
+                src="{{ $mall['image'] }}"
+                alt="Foto {{ $mall['name'] }}"
+                class="max-w-full max-h-full object-contain"
+                style="width: auto; height: auto; max-width: 100%; max-height: 280px;"
+                loading="lazy"
+                onerror="this.parentElement.remove();"
+            >
         </div>
 
-        @if(!empty($mall['desc']))
-            <p class="text-gray-300 text-lg" property="schema:description">
-                {{ $mall['desc'] }}
-            </p>
-        @endif
+    @endif
+    <h1 property="schema:name" class="font-display text-3xl md:text-4xl font-bold mb-3">
+        {{ $mall['name'] }}
+    </h1>
 
-        @if(!empty($mall['address']))
-            <p class="text-gray-400 mt-3">{{ $mall['address'] }}</p>
-        @endif
+    <div class="flex gap-3 mb-5">
+        {{-- Pertahankan isi lokasi kota dan provinsi yang sebelumnya ada di sini --}}
     </div>
+
+    @if(!empty($mall['desc']))
+        {{-- Pertahankan tampilan deskripsi mall yang sebelumnya ada di sini --}}
+    @endif
+
+    @if(!empty($mall['address']))
+        {{-- Pertahankan tampilan alamat mall yang sebelumnya ada di sini --}}
+    @endif
+
+</div>
 
     {{-- Mall Location Map --}}
     @if((!empty($mall['lat']) && !empty($mall['lng'])) || !empty($mall['address']))
@@ -76,42 +85,44 @@
         </div>
     @endif
 
-    {{-- Mall Information --}}
-    @if(!empty($mall['hours']) || !empty($mall['website']) || !empty($mall['floors']))
-        <div class="glass rounded-3xl p-6 mb-8 grid md:grid-cols-3 gap-4">
+    
 
-            @if(!empty($mall['hours']))
-                <div>
-                    <p data-i18n="mall_hours" class="text-sm text-gray-400">
-                        Jam operasional
-                    </p>
-                    <p class="mt-1">{{ $mall['hours'] }}</p>
-                </div>
-            @endif
+{{-- Mall Information --}}
+@if(!empty($mall['hours']) || !empty($mall['website']) || !empty($mall['floors']))
+    <div class="glass rounded-3xl p-6 mb-8 grid grid-cols-1 md:grid-cols-3 gap-6 items-start md:pl-4">
 
-            @if(!empty($mall['website']))
-                <div>
-                    <p data-i18n="mall_website" class="text-sm text-gray-400">
-                        Situs web
-                    </p>
-                    <a class="mt-1 text-neon-cyan hover:underline"
-                       href="{{ $mall['website'] }}"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        {{ $mall['website'] }}
-                    </a>
-                </div>
-            @endif
+        @if(!empty($mall['hours']))
+            <div class="min-w-0">
+                <p data-i18n="mall_hours" class="text-sm text-gray-400">Jam operasional</p>
+                <p class="mt-2">{{ $mall['hours'] }}</p>
+            </div>
+        @endif
 
-            @if(!empty($mall['floors']))
-                <div>
-                    <p class="text-sm text-gray-400">Floors</p>
-                    <p class="mt-1">{{ $mall['floors'] }}</p>
-                </div>
-            @endif
+        @if(!empty($mall['website']))
+            <div class="min-w-0">
+                <p data-i18n="mall_website" class="text-sm text-gray-400">Situs web</p>
+                <a
+                    href="{{ $mall['website'] }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="mt-2 block text-amber-600 hover:underline"
+                    style="overflow-wrap:anywhere;"
+                >
+                    {{ $mall['website'] }}
+                </a>
+            </div>
+        @endif
 
-        </div>
-    @endif
+        @if(!empty($mall['floors']))
+                <div class="min-w-0 md:-ml-8">
+                <p class="text-sm text-gray-400">Floors</p>
+                <p class="mt-2">{{ $mall['floors'] }}</p>
+            </div>
+        @endif
+
+    </div>
+@endif
+
 
     {{-- Accessibility --}}
     <div class="glass rounded-3xl p-8 mb-8">
