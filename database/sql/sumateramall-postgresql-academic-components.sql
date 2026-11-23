@@ -28,8 +28,8 @@ CREATE OR REPLACE FUNCTION fn_trg_reservations_status_audit()
 RETURNS TRIGGER AS $$
 BEGIN
     IF TG_OP = 'UPDATE' AND OLD.status IS DISTINCT FROM NEW.status THEN
-        INSERT INTO reservation_status_logs (reservation_id, old_status, new_status, notes, created_at, updated_at)
-        VALUES (NEW.id, OLD.status, NEW.status, 'Status updated via database trigger', NOW(), NOW());
+        INSERT INTO reservation_status_logs (reservation_id, from_status, to_status, note, created_at)
+        VALUES (NEW.id, OLD.status, NEW.status, 'Status updated via database trigger', NOW());
     END IF;
     RETURN NEW;
 END;
