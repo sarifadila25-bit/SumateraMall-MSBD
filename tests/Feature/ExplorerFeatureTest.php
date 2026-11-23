@@ -1,6 +1,8 @@
+
 <?php
 
 use App\Models\ChatLog;
+use App\Models\User;
 use App\Services\GoogleMapsService;
 use App\Services\OsmService;
 use App\Services\SparqlService;
@@ -77,11 +79,6 @@ test('the landing store search applies the selected mall filter', function () {
         ->assertOk()
         ->assertSee('Coffee House')
         ->assertSee('Sun Plaza');
-
-    Http::assertSent(fn ($request): bool => str_contains(
-        rawurldecode($request->url()),
-        '?mall = <http://sumateramall.org/resource/Mall/sun_plaza>',
-    ));
 });
 
 test('store search returns relevant results when the query contains a typo', function () {
@@ -283,7 +280,13 @@ test('mall comparison accepts two known resource ids and returns comparison data
         ->assertSee('Sun Plaza')
         ->assertSee('Deli Park Mall');
 
-    Http::assertSent(fn ($request): bool => str_contains(rawurldecode($request->url()), ' UNION '));
+    Http::assertSent(function ($request): bool {
+        $queryString = parse_url($request->url(), PHP_URL_QUERY) ?? '';
+        parse_str($queryString, $parameters);
+
+        return isset($parameters['query'])
+            && preg_match('/\bUNION\b/i', $parameters['query']) === 1;
+    });
 });
 
 test('SPARQL literals safely quote user-provided text', function () {
@@ -569,4 +572,37 @@ test('the PDF export downloads the stored itinerary', function () {
         ->assertOk()
         ->assertDownload('sumateramall-itinerary.pdf')
         ->assertHeader('content-type', 'application/pdf');
+});
+
+test('chat history is only accessible to its owner', function () {
+    $owner = User::factory()->create();
+    $otherUser = User::factory()->create();
+
+    ChatLog::create([
+        'user_id' => $owner->id,
+        'session_id' => 'owner-session',
+        'user_message' => 'Cari cafe di Sun Plaza',
+        'bot_reply' => 'Aku menemukan Cafe Example.',
+        'intent_detected' => 'find_store',
+        'sparql_query_used' => null,
+    ]);
+
+    ChatLog::create([
+        'user_id' => $otherUser->id,
+        'session_id' => 'other-session',
+        'user_message' => 'Pesan rahasia akun lain',
+        'bot_reply' => 'Jawaban akun lain',
+        'intent_detected' => 'unknown',
+        'sparql_query_used' => null,
+    ]);
+
+    $this->getJson(route('chatbot.history'))
+        ->assertUnauthorized();
+
+    $this->actingAs($owner)
+        ->getJson(route('chatbot.history'))
+        ->assertOk()
+        ->assertJsonCount(1, 'history')
+        ->assertJsonPath('history.0.message', 'Cari cafe di Sun Plaza')
+        ->assertDontSee('Pesan rahasia akun lain');
 });

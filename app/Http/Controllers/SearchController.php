@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\City;
 use App\Models\Mall;
 use App\Models\Store;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -58,75 +59,72 @@ class SearchController extends Controller
         ]);
 
         // Filter berdasarkan kota.
-        if (! empty($validated['city'])) {
-            $query->whereHas('mall.city', function ($cityQuery) use ($validated) {
-                $cityQuery->where('id', $validated['city']);
+        if (!empty($validated['city'])) {
+            $query->whereHas('mall', function ($mallQuery) use ($validated) {
+                $mallQuery->where('city_id', $validated['city']);
             });
         }
 
         // Filter berdasarkan mall.
-        if (! empty($validated['mall'])) {
+        if (!empty($validated['mall'])) {
             $query->where('mall_id', $validated['mall']);
         }
 
         // Filter berdasarkan kategori.
-        // Menggunakan relasi kategori dan category_text
-        // karena sebagian data kategori masih tersimpan sebagai teks.
-        if (! empty($validated['category'])) {
-            $category = Category::find($validated['category']);
+        if (!empty($validated['category'])) {
+            $category = Category::findOrFail($validated['category']);
 
-            if ($category) {
-                $query->where(function ($categoryQuery) use ($category) {
-                    $categoryQuery
-                        ->whereHas('categories', function ($relationQuery) use ($category) {
-                            $relationQuery->where('categories.id', $category->id);
-                        })
-                        ->orWhere('category_text', 'ILIKE', '%' . $category->name . '%');
-                });
-            }
+            $query->where(function ($storeQuery) use ($category) {
+                $storeQuery
+                    ->whereRaw(
+                        'LOWER(category_text) = ?',
+                        [mb_strtolower($category->name)]
+                    )
+                    ->orWhereHas('categories', function ($categoryQuery) use ($category) {
+                        $categoryQuery->where('categories.id', $category->id);
+                    });
+            });
         }
 
         // Filter rating minimum.
-        if (isset($validated['min_rating']) && $validated['min_rating'] !== '') {
+        if (isset($validated['min_rating'])) {
             $query->where('rating', '>=', $validated['min_rating']);
+        }
+
+        $stores = $query->get();
+
+        // Ubah data PostgreSQL ke format yang digunakan Blade.
+        $results = $stores->map(function (Store $store) {
+            return [
+                'id' => $store->id,
+                'storeName' => $store->name,
+                'mallName' => $store->mall?->name ?? '-',
+                'mall_id' => $store->mall_id,
+                'city' => $store->mall?->city?->name ?? '-',
+                'province' => $store->mall?->city?->province?->name ?? '-',
+                'category' => $store->category_text
+                    ?: $store->categories->pluck('name')->implode(', '),
+                'rating' => $store->rating,
+                'status' => $store->status,
+                'openingHours' => $store->opening_hours,
+                'location' => $store->location,
+            ];
+        });
+
+        $now = Carbon::now('Asia/Jakarta');
+
+        // Hanya tampilkan toko yang jam operasionalnya bisa diverifikasi.
+        if ($request->boolean('open_now')) {
+            $results = $results->filter(function (array $store) use ($now) {
+                return $store['status'] !== 'Tutup Permanen'
+                    && !empty($store['openingHours'])
+                    && $this->isOpenNow($store['openingHours'], $now);
+            });
         }
 
         $searchTerm = trim($validated['search'] ?? '');
 
-        // Ambil data toko beserta mall, kota, dan kategorinya.
-        $stores = $query->limit(5000)->get();
-
-        $results = $stores->map(function (Store $store) {
-            $mall = $store->mall;
-            $city = $mall?->city;
-
-            $categories = $store->categories
-                ->pluck('name')
-                ->filter()
-                ->values();
-
-            $categoryText = trim((string) $store->category_text);
-
-            return [
-                'id' => $store->id,
-                'store' => $store->resource_uri,
-                'storeName' => $store->name ?? '-',
-                'mallName' => $mall?->name ?? '-',
-                'city' => $city?->name ?? '-',
-                'province' => $city?->province?->name ?? '-',
-                'category' => $categoryText !== ''
-                    ? $categoryText
-                    : ($categories->implode(', ') ?: '-'),
-                'rating' => $store->rating,
-                'status' => $store->status,
-                'floor' => $store->location,
-                'address' => $mall?->address,
-                'image' => $store->logo_url,
-                'openingHours' => $store->opening_hours,
-            ];
-        });
-
-        // Pencarian toleran typo (fuzzy matching).
+        // Pencarian dengan toleransi typo.
         if ($searchTerm !== '') {
             $queryTokens = $this->searchTokens($searchTerm);
 
@@ -140,16 +138,7 @@ class SearchController extends Controller
                     return $result;
                 })
                 ->filter(fn (array $result) => $result['_score'] >= 0.55)
-                ->sort(function (array $a, array $b) {
-                    $scoreComparison = $b['_score'] <=> $a['_score'];
-
-                    if ($scoreComparison !== 0) {
-                        return $scoreComparison;
-                    }
-
-                    return (float) ($b['rating'] ?? 0)
-                        <=> (float) ($a['rating'] ?? 0);
-                })
+                ->sortByDesc('_score')
                 ->take(200)
                 ->values()
                 ->map(function (array $result) {
@@ -169,6 +158,47 @@ class SearchController extends Controller
             'count' => $results->count(),
             'searchTerm' => $searchTerm,
         ]);
+    }
+
+    private function isOpenNow(string $hours, Carbon $now): bool
+    {
+        if (!preg_match(
+            '/(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})/',
+            $hours,
+            $matches
+        )) {
+            return false;
+        }
+
+        $openingHour = (int) $matches[1];
+        $openingMinute = (int) $matches[2];
+        $closingHour = (int) $matches[3];
+        $closingMinute = (int) $matches[4];
+
+        if (
+            $openingHour > 23 ||
+            $closingHour > 23 ||
+            $openingMinute > 59 ||
+            $closingMinute > 59
+        ) {
+            return false;
+        }
+
+        $opensAt = $openingHour * 60 + $openingMinute;
+        $closesAt = $closingHour * 60 + $closingMinute;
+        $currentTime = $now->hour * 60 + $now->minute;
+
+        if ($closesAt === 0) {
+            $closesAt = 1440;
+        }
+
+        if ($opensAt === $closesAt) {
+            return false;
+        }
+
+        return $opensAt < $closesAt
+            ? $currentTime >= $opensAt && $currentTime < $closesAt
+            : $currentTime >= $opensAt || $currentTime < $closesAt;
     }
 
     private function searchTokens(string $search): array
@@ -195,8 +225,7 @@ class SearchController extends Controller
             'mallName',
             'city',
             'category',
-            'floor',
-            'address',
+            'location',
         ];
 
         $text = mb_strtolower(implode(' ', array_filter(
@@ -234,7 +263,6 @@ class SearchController extends Controller
                 }
 
                 $distance = levenshtein($token, $word);
-
                 $score = 1 - ($distance / $maxLength);
 
                 $bestScore = max($bestScore, $score);

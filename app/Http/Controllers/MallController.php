@@ -51,123 +51,157 @@ public function index(Request $request): View
 }
 
 
-
 public function show(string $id): View
 {
-    $mallModel = Mall::with([
-        'city.province',
-        'stores.categories',
-    ])->findOrFail($id);
+    $mallModel = Mall::with(['city.province'])
+        ->findOrFail($id);
 
     $mall = [
+        'id' => $mallModel->id,
         'resource_uri' => $mallModel->resource_uri,
         'name' => $mallModel->name,
         'desc' => $mallModel->description,
+        'address' => $mallModel->address,
         'city' => $mallModel->city?->name ?? '-',
         'province' => $mallModel->city?->province?->name ?? '-',
-        'address' => $mallModel->address,
         'hours' => $mallModel->opening_hours,
         'website' => $mallModel->website,
         'floors' => $mallModel->floors,
-        'lat' => null,
-        'lng' => null,
+        'lat' => $mallModel->latitude,
+        'lng' => $mallModel->longitude,
         'wheelchair' => null,
         'parking' => null,
         'elevator' => null,
     ];
 
-    if ($mall['website']) {
-        $scheme = parse_url($mall['website'], PHP_URL_SCHEME);
+    $stores = $mallModel->stores()
+        ->with('categories')
+        ->orderBy('name')
+        ->get()
+        ->map(function ($store) {
+            return [
+                'storeName' => $store->name,
+                'category' => $store->category_text
+                    ?: $store->categories->pluck('name')->implode(', '),
+                'rating' => $store->rating,
+                'status' => $store->status,
+                'priceLevel' => null,
+                'floor' => null,
+            ];
+        })
+        ->values()
+        ->all();
 
-        if (! in_array(strtolower((string) $scheme), ['http', 'https'], true)) {
-            $mall['website'] = null;
-        }
-    }
+        $categories = collect($stores)
+    ->pluck('category')
+    ->filter()
+    ->unique()
+    ->values()
+    ->all();
 
-    $stores = $mallModel->stores->map(function ($store) {
-        $categories = $store->categories
-            ->pluck('name')
-            ->filter()
-            ->values();
+$priceLevels = collect($stores)
+    ->pluck('priceLevel')
+    ->filter()
+    ->unique()
+    ->sort()
+    ->values()
+    ->all();
 
-        return [
-            'store' => $store->resource_uri,
-            'storeName' => $store->name,
-            'category' => $store->category_text
-                ?: $categories->implode(', '),
-            'rating' => $store->rating,
-            'status' => $store->status,
-            'priceLevel' => null,
-            'floor' => $store->location,
-            'image' => $store->logo_url,
-            'lat' => null,
-            'lng' => null,
-        ];
-    })->sortBy('storeName')->values();
+    $id = (string) $mallModel->id;
 
-    return view('malls.show', [
-        'mall' => $mall,
-        'id' => $mallModel->id,
-        'stores' => $stores,
-    ]);
+    return view('malls.show', compact(
+    'mall',
+    'id',
+    'stores',
+    'categories',
+    'priceLevels'
+));
 }
+
+
+
+
 
 
 
 public function compare(Request $request): View
 {
     $validated = $request->validate([
-        'mall_ids' => ['required', 'array', 'min:2', 'max:3'],
-        'mall_ids.*' => ['required', 'integer', 'distinct', 'exists:malls,id'],
+        'mall_ids' => ['required', 'array', 'min:2', 'max:2'],
+        'mall_ids.*' => ['required', 'string', 'regex:/\A[a-z0-9_]+\z/'],
     ]);
 
-    $selectedIds = $validated['mall_ids'];
+    $mallIris = collect($validated['mall_ids'])
+        ->map(fn ($id) => $this->sparql->internalResource(
+            'http://sumateramall.org/resource/Mall/'.$id,
+            'Mall'
+        ));
 
-    $mallModels = Mall::with([
-        'city.province',
-        'stores.categories',
-    ])
-        ->whereIn('id', $selectedIds)
-        ->get()
-        ->keyBy('id');
+    $unionPatterns = $mallIris
+        ->map(fn ($iri) => '{ BIND(<'.$iri.'> AS ?mall) }')
+        ->implode("\nUNION\n");
 
-    $malls = collect($selectedIds)
-        ->map(function ($id) use ($mallModels) {
-            $mall = $mallModels->get($id);
+    $malls = $this->sparql->query(<<<SPARQL
+PREFIX mm: <http://sumateramall.org/ontology#>
+PREFIX schema: <http://schema.org/>
 
-            if (! $mall) {
-                return null;
+SELECT
+    ?mall
+    ?name
+    ?city
+    ?province
+    ?storeCount
+    ?categoryCount
+WHERE {
+    {
+        {$unionPatterns}
+    }
+
+    ?mall schema:name ?name ;
+          mm:locatedIn/mm:inCity ?cityResource .
+
+    ?cityResource schema:name ?city .
+
+    OPTIONAL {
+        ?cityResource mm:inProvince ?provinceResource .
+        ?provinceResource schema:name ?province .
+    }
+
+    OPTIONAL {
+        SELECT
+            ?mall
+            (COUNT(DISTINCT ?store) AS ?storeCount)
+            (COUNT(DISTINCT ?category) AS ?categoryCount)
+        WHERE {
+            ?store a mm:Store ;
+                   mm:locatedIn ?mall .
+
+            OPTIONAL {
+                ?store mm:hasCategory ?category .
             }
-
-            return [
-                'id' => $mall->id,
-                'mall' => $mall->resource_uri,
-                'name' => $mall->name,
-                'city' => $mall->city?->name ?? '-',
-                'province' => $mall->city?->province?->name ?? '-',
-                'lat' => null,
-                'lng' => null,
-                'storeCount' => $mall->stores->count(),
-                'categoryCount' => $mall->stores
-    ->map(function ($store) {
-        $categoryText = trim((string) $store->category_text);
-
-        if ($categoryText !== '') {
-            return trim(explode(',', $categoryText)[0]);
         }
+        GROUP BY ?mall
+    }
+}
+ORDER BY ?name
+SPARQL, 0);
 
-        return $store->categories->first()?->name;
+   $malls = collect($malls)
+    ->map(function ($mall) {
+        $mall['id'] = basename($mall['mall']);
+
+        $mall['city'] = $mall['city'] ?? '-';
+        $mall['province'] = $mall['province'] ?? '-';
+        $mall['storeCount'] = $mall['storeCount'] ?? 0;
+        $mall['categoryCount'] = $mall['categoryCount'] ?? 0;
+
+        return $mall;
     })
-    ->filter()
-    ->unique(fn ($category) => mb_strtolower($category))
-    ->count(),
-            ];
-        })
-        ->filter()
-        ->values();
+    ->values()
+    ->all();
 
-    return view('malls.compare', [
-        'malls' => $malls,
-    ]);
+return view('malls.compare', [
+    'malls' => $malls,
+]);
 }
 }

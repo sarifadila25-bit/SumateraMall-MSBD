@@ -20,6 +20,8 @@ class Mall extends Model
         'description',
         'source_namespace',
         'resource_uri',
+        'latitude',
+        'longitude',
     ];
 
     public function city(): BelongsTo
@@ -30,5 +32,10 @@ class Mall extends Model
     public function stores(): HasMany
     {
         return $this->hasMany(Store::class);
+    }
+
+    public function vouchers(): HasMany
+    {
+    return $this->hasMany(Voucher::class);
     }
 }

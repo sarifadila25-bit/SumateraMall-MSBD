@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\GoogleMapsService;
+use App\Models\Itinerary;
+use App\Models\Mall;
+use App\Services\OsmService;
 use App\Services\SparqlService;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Client\ConnectionException;
@@ -19,92 +21,197 @@ use RuntimeException;
 class RoutePlannerController extends Controller
 {
     public function __construct(
-        private readonly SparqlService $sparql,
-        private readonly GoogleMapsService $googleMaps,
-    ) {}
+    private readonly SparqlService $sparql,
+    private readonly OsmService $osm,
+) {}
 
     public function index(): View
-    {
-        $malls = $this->sparql->query(<<<'SPARQL'
-PREFIX mm: <http://sumateramall.org/ontology#>
-PREFIX schema: <http://schema.org/>
-SELECT ?id ?name ?city ?province ?address ?lat ?lng WHERE {
-    ?mall a mm:Mall ; schema:name ?name ; mm:inCity ?cityRes ; mm:inProvince ?provinceRes .
-    ?cityRes schema:name ?city .
-    ?provinceRes schema:name ?province .
-    OPTIONAL { ?mall schema:address ?address }
-    OPTIONAL { ?mall schema:geo ?geo . ?geo schema:latitude ?lat ; schema:longitude ?lng }
-    BIND(STRAFTER(STR(?mall), 'resource/Mall/') AS ?id)
+{
+    $rdfMalls = $this->sparql->query(<<<'SPARQL'
+PREFIX mall: <http://www.example.org/mall#>
+
+SELECT ?id ?name ?city ?province ?address WHERE {
+    ?mall a mall:Mall ;
+          mall:namaMall ?name ;
+          mall:beradaDiKota ?cityRes ;
+          mall:beradaDiProvinsi ?provinceRes .
+
+    ?cityRes mall:namaKota ?city .
+    ?provinceRes mall:namaProvinsi ?province .
+
+    OPTIONAL { ?mall mall:berlokasiDi ?address }
+
+    BIND(STRAFTER(STR(?mall), 'mall#') AS ?id)
 }
 ORDER BY ?city ?name
-SPARQL, 3600);
+SPARQL, 0);
 
-        return view('planner.index', compact('malls'));
+    $coordinateMalls = Mall::query()
+        ->whereNotNull('latitude')
+        ->whereNotNull('longitude')
+        ->get()
+        ->keyBy('resource_uri');
+
+    $malls = [];
+
+    foreach ($rdfMalls as $mall) {
+        $uri = 'http://www.example.org/mall#'.$mall['id'];
+
+        $coordinate = $coordinateMalls->get($uri);
+
+        if (! $coordinate) {
+            continue;
+        }
+
+        $mall['lat'] = (float) $coordinate->latitude;
+        $mall['lng'] = (float) $coordinate->longitude;
+
+        $malls[] = $mall;
     }
 
-    public function calculate(Request $request): View|RedirectResponse
-    {
-        $validated = $request->validate([
-            'mall_ids' => ['required', 'array', 'min:2', 'max:8'],
-            'mall_ids.*' => ['required', 'string', 'regex:/\A[a-z0-9_]+\z/', 'distinct'],
-            'start_lat' => ['nullable', 'numeric', 'between:-90,90', 'required_with:start_lng'],
-            'start_lng' => ['nullable', 'numeric', 'between:-180,180', 'required_with:start_lat'],
-            'locale' => ['nullable', 'in:id,en'],
-        ]);
-        $selectedIris = array_map(
-            fn (string $id): string => $this->sparql->internalResource('http://sumateramall.org/resource/Mall/'.$id, 'Mall'),
-            $validated['mall_ids'],
-        );
-        $malls = $this->sparql->query(<<<SPARQL
-PREFIX mm: <http://sumateramall.org/ontology#>
-PREFIX schema: <http://schema.org/>
-SELECT ?id ?name ?city ?province ?address ?lat ?lng WHERE {
-    VALUES ?mall { {$this->joinIris($selectedIris)} }
-    ?mall schema:name ?name ;
-          mm:inCity ?cityRes ;
-          mm:inProvince ?provinceRes .
-    ?cityRes schema:name ?city .
-    ?provinceRes schema:name ?province .
-    OPTIONAL { ?mall schema:address ?address }
-    OPTIONAL { ?mall schema:geo ?geo . ?geo schema:latitude ?lat ; schema:longitude ?lng }
-    BIND(STRAFTER(STR(?mall), 'resource/Mall/') AS ?id)
+    return view('planner.index', compact('malls'));
 }
-SPARQL);
+    
+public function calculate(Request $request): View|RedirectResponse
+{
+    $validated = $request->validate([
+        'mall_ids' => ['required', 'array', 'min:2', 'max:8'],
+        'mall_ids.*' => ['required', 'string', 'regex:/\A[A-Za-z0-9_]+\z/', 'distinct'],
+        'start_lat' => ['nullable', 'numeric', 'between:-90,90', 'required_with:start_lng'],
+        'start_lng' => ['nullable', 'numeric', 'between:-180,180', 'required_with:start_lat'],
+        'locale' => ['nullable', 'in:id,en'],
+    ]);
 
-        if (count($malls) !== count($validated['mall_ids'])) {
-            throw ValidationException::withMessages([
-                'mall_ids' => 'Some selected malls are missing from the RDF graph. Refresh the imported mall data and try again.',
-            ]);
-        }
+    $locale = $validated['locale'] ?? 'id';
 
-        try {
-            $route = $this->googleMaps->planRoute(
-                $malls,
-                isset($validated['start_lat']) ? (float) $validated['start_lat'] : null,
-                isset($validated['start_lng']) ? (float) $validated['start_lng'] : null,
-                $validated['locale'] ?? 'id',
-            );
-        } catch (ConnectionException|RequestException|RuntimeException $exception) {
-            Log::warning('Google Maps route calculation failed.', [
-                'message' => $exception->getMessage(),
-            ]);
+    // Buat URI mall yang dipilih.
+    $selectedUris = array_map(
+        fn (string $id): string => 'http://www.example.org/mall#'.$id,
+        $validated['mall_ids'],
+    );
 
-            return redirect()->route('planner.index')
-                ->withInput()
-                ->with('error', ($validated['locale'] ?? 'id') === 'en'
-                    ? 'Google Maps routing is unavailable. Check the Routes API key, API access, and billing, then try again.'
-                    : 'Layanan rute Google Maps tidak tersedia. Periksa API key, akses Routes API, dan billing, lalu coba lagi.');
-        }
-        $itinerary = [
-            ...$route,
-            'plannedAt' => now('Asia/Jakarta')->toIso8601String(),
-            'startIsMall' => ! isset($validated['start_lat']),
-            'locale' => $validated['locale'] ?? 'id',
-        ];
-        $request->session()->put('planner.itinerary', $itinerary);
+    // Ambil data mall dari RDF.
+    $selectedIris = array_map(
+        fn (string $uri): string => '<'.$uri.'>',
+        $selectedUris,
+    );
 
-        return view('planner.result', $itinerary);
+    $rdfMalls = $this->sparql->query(<<<SPARQL
+PREFIX mall: <http://www.example.org/mall#>
+
+SELECT ?id ?name ?city ?province ?address WHERE {
+    VALUES ?mall { {$this->joinIris($selectedIris)} }
+
+    ?mall a mall:Mall ;
+          mall:namaMall ?name ;
+          mall:beradaDiKota ?cityRes ;
+          mall:beradaDiProvinsi ?provinceRes .
+
+    ?cityRes mall:namaKota ?city .
+    ?provinceRes mall:namaProvinsi ?province .
+
+    OPTIONAL { ?mall mall:berlokasiDi ?address }
+
+    BIND(STRAFTER(STR(?mall), 'mall#') AS ?id)
+}
+SPARQL, 0);
+
+    if (count($rdfMalls) !== count($validated['mall_ids'])) {
+        throw ValidationException::withMessages([
+            'mall_ids' => 'Some selected malls are missing from the RDF graph.',
+        ]);
     }
+
+    // Ambil koordinat dari PostgreSQL.
+    $coordinateMalls = Mall::query()
+        ->whereIn('resource_uri', $selectedUris)
+        ->whereNotNull('latitude')
+        ->whereNotNull('longitude')
+        ->get()
+        ->keyBy('resource_uri');
+
+    if ($coordinateMalls->count() !== count($selectedUris)) {
+        throw ValidationException::withMessages([
+            'mall_ids' => 'Some selected malls do not have valid coordinates.',
+        ]);
+    }
+
+    // Gabungkan data RDF dan koordinat PostgreSQL.
+    $stops = [];
+
+    foreach ($rdfMalls as $mall) {
+        $uri = 'http://www.example.org/mall#'.$mall['id'];
+        $coordinate = $coordinateMalls->get($uri);
+
+        if (! $coordinate) {
+            continue;
+        }
+
+        $stops[] = [
+            'id' => $mall['id'],
+            'name' => $mall['name'],
+            'city' => $mall['city'],
+            'address' => $mall['address'] ?? '',
+            'lat' => (float) $coordinate->latitude,
+            'lng' => (float) $coordinate->longitude,
+        ];
+    }
+
+    $startLat = isset($validated['start_lat'])
+        ? (float) $validated['start_lat']
+        : null;
+
+    $startLng = isset($validated['start_lng'])
+        ? (float) $validated['start_lng']
+        : null;
+
+    $startIsMall = $startLat === null && $startLng === null;
+
+    // Hitung rute menggunakan OpenStreetMap / OSRM.
+    $route = $this->osm->planRoute($stops, $startLat, $startLng);
+
+    // Lengkapi informasi titik awal jika dimulai dari mall pertama.
+    if ($startIsMall) {
+        $firstMall = $stops[0];
+
+        $route['origin']['address'] = $firstMall['address'];
+        $route['origin']['city'] = $firstMall['city'];
+    }
+
+    // Pesan jika OSRM menggunakan estimasi jarak.
+    if (($route['source'] ?? null) === 'estimated') {
+        $route['notice'] = $locale === 'en'
+            ? 'Road routing is unavailable. Distances and durations are estimates.'
+            : 'Rute jalan tidak tersedia. Jarak dan durasi yang ditampilkan merupakan estimasi.';
+    }
+
+    $itinerary = [
+        ...$route,
+        'plannedAt' => now('Asia/Jakarta')->toIso8601String(),
+        'startIsMall' => $startIsMall,
+        'locale' => $locale,
+    ];
+
+    // Simpan ke session agar export PDF dan ICS tetap berjalan.
+    $request->session()->put('planner.itinerary', $itinerary);
+
+    // Simpan permanen jika user sudah login.
+    if ($request->user()) {
+        Itinerary::create([
+            'user_id' => $request->user()->id,
+            'session_id' => $request->session()->getId(),
+            'title' => 'Mall hopping itinerary - '.now('Asia/Jakarta')->format('d M Y H:i'),
+            'payload' => $itinerary,
+            'starts_at' => Carbon::parse(
+                $itinerary['plannedAt'],
+                'Asia/Jakarta'
+            ),
+        ]);
+    }
+
+    return view('planner.result', $itinerary);
+}
+
 
     public function exportPdf(Request $request): Response|RedirectResponse
     {

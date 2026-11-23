@@ -3,12 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\ChatLog;
-use App\Models\Category;
-use App\Models\City;
-use App\Models\Mall;
-use App\Models\Province;
-use App\Models\Store;
 use App\Services\GeminiService;
+use App\Services\SparqlService;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\JsonResponse;
@@ -22,7 +18,33 @@ class ChatbotController extends Controller
 {
     public function __construct(
         private readonly GeminiService $gemini,
+        private readonly SparqlService $sparql,
     ) {}
+
+    public function history(Request $request): JsonResponse
+{
+    $history = $request->user()
+        ->chatLogs()
+        ->orderByDesc('id')
+        ->limit(50)
+        ->get([
+            'id',
+            'user_message',
+            'bot_reply',
+            'created_at',
+        ])
+        ->reverse()
+        ->values()
+        ->map(fn (ChatLog $chat) => [
+            'message' => $chat->user_message,
+            'reply' => $chat->bot_reply,
+            'created_at' => $chat->created_at?->format('d/m/Y H:i'),
+        ]);
+
+    return response()->json([
+        'history' => $history,
+    ]);
+}
 
     public function chat(Request $request): JsonResponse
     {
@@ -66,10 +88,11 @@ class ChatbotController extends Controller
 
             $notice = $locale === 'en'
                 ? 'AI is not configured yet; this is a rule-based reply.'
-                : 'AI belum dikonfigurasi; jawaban ini menggunakan data PostgreSQL.';
+                : 'AI belum dikonfigurasi; jawaban ini menggunakan aturan pencarian.';
         }
 
         ChatLog::create([
+            'user_id' => $request->user()?->id,
             'session_id' => $sessionId,
             'user_message' => $message,
             'bot_reply' => $reply,
@@ -186,6 +209,8 @@ class ChatbotController extends Controller
             'phone' => 'Electronics',
             'cinema' => 'Entertainment',
             'movie' => 'Entertainment',
+            'kafe' => 'F&B',
+            'kopi' => 'F&B',    
         ];
 
         foreach ($categories as $keyword => $category) {
@@ -206,9 +231,6 @@ class ChatbotController extends Controller
             'nagoya hill' => 'Nagoya Hill',
             'palembang icon' => 'Palembang Icon',
             'grand batam' => 'Grand Batam',
-            'focal point medan' => 'Medan Focal Point Mall',
-            'medan focal point mall' => 'Medan Focal Point Mall',
-            'focal point' => 'Medan Focal Point Mall',
         ];
 
         foreach ($malls as $keyword => $mallName) {
@@ -222,136 +244,168 @@ class ChatbotController extends Controller
     }
 
     /**
-     * Retrieve verified records from PostgreSQL using Eloquent.
+     * Retrieve records from Apache Jena Fuseki using SPARQL.
      *
      * @param array<string, string> $intent
      * @return array<int, array<string, string>>
      */
-    protected function getResults(array $intent, string $message): array
-    {
-        if (in_array($intent['type'], ['budget', 'open_now', 'unknown'], true)) {
+   
+protected function getResults(array $intent, string $message): array
+{
+    if (in_array($intent['type'], ['budget', 'unknown', 'top_rated'], true)) {
+        return [];
+    }
+
+    $filters = [];
+
+    if (isset($intent['city'])) {
+        $city = $this->sparql->literal($intent['city']);
+$filters[] = 'FILTER(LCASE(STR(?city)) = LCASE('.$city.'))'; 
+    }
+
+    if (isset($intent['province'])) {
+        $province = $this->sparql->literal($intent['province']);
+        $filters[] = 'FILTER(CONTAINS(LCASE(STR(?province)), LCASE('.$province.')))'; 
+    }
+
+    if (isset($intent['mall'])) {
+        $mall = $this->sparql->literal($intent['mall']);
+        $filters[] = 'FILTER(CONTAINS(LCASE(STR(?mallName)), LCASE('.$mall.')))'; 
+    }
+
+    $filterQuery = implode("\n", $filters);
+
+    $mallPattern = '
+        ?mall a mall:Mall ;
+              mall:namaMall ?mallName ;
+              mall:beradaDiKota ?cityRes .
+
+        ?cityRes mall:namaKota ?city .
+
+        OPTIONAL {
+            ?cityRes mall:kotaTerletakDiProvinsi ?provinceRes .
+            ?provinceRes mall:namaProvinsi ?province .
+        }
+    ';
+
+    // Mall yang sedang buka.
+    if ($intent['type'] === 'open_now') {
+        $sparql = <<<SPARQL
+PREFIX mall: <http://www.example.org/mall#>
+
+SELECT DISTINCT ?mallName ?city ?province ?hours
+WHERE {
+    {$mallPattern}
+    ?mall mall:jamBuka ?hours .
+    {$filterQuery}
+}
+ORDER BY ?mallName
+LIMIT 100
+SPARQL;
+
+        $malls = $this->sparql->query($sparql, 0);
+
+        $currentMinutes = ((int) now('Asia/Jakarta')->format('H')) * 60
+            + (int) now('Asia/Jakarta')->format('i');
+
+        return array_values(array_filter(
+            $malls,
+            fn (array $mall): bool => $this->isMallOpen(
+                (string) ($mall['hours'] ?? ''),
+                $currentMinutes
+            )
+        ));
+    }
+
+    // Daftar mall berdasarkan kota atau provinsi.
+    if ($intent['type'] === 'list_by_region') {
+        $sparql = <<<SPARQL
+PREFIX mall: <http://www.example.org/mall#>
+
+SELECT DISTINCT ?mallName ?city ?province
+WHERE {
+    {$mallPattern}
+    {$filterQuery}
+}
+ORDER BY ?mallName
+LIMIT 30
+SPARQL;
+
+        return $this->sparql->query($sparql, 0);
+    }
+
+    // Informasi mall.
+    if ($intent['type'] === 'mall_info') {
+        if (!isset($intent['mall']) && !isset($intent['city'])) {
             return [];
         }
 
-        if ($intent['type'] === 'list_by_region') {
-            $query = Mall::with(['city.province']);
+        $sparql = <<<SPARQL
+PREFIX mall: <http://www.example.org/mall#>
 
-            if (isset($intent['province'])) {
-                $query->whereHas('city.province', function ($q) use ($intent) {
-                    $q->where('name', $intent['province']);
-                });
-            }
+SELECT DISTINCT ?mallName ?city ?province ?address
+WHERE {
+    {$mallPattern}
 
-            if (isset($intent['city'])) {
-                $query->whereHas('city', function ($q) use ($intent) {
-                    $q->where('name', 'ILIKE', '%'.$intent['city'].'%');
-                });
-            }
-
-            return $query->orderBy('name')
-                ->limit(30)
-                ->get()
-                ->map(fn (Mall $mall) => [
-                    'mallName' => (string) $mall->name,
-                    'city' => (string) ($mall->city?->name ?? '-'),
-                    'province' => (string) ($mall->city?->province?->name ?? '-'),
-                ])
-                ->all();
-        }
-
-        if ($intent['type'] === 'mall_info') {
-            $query = Mall::with(['city.province']);
-
-            if (isset($intent['mall'])) {
-                $query->where('name', 'ILIKE', '%'.$intent['mall'].'%');
-            } elseif (isset($intent['city'])) {
-                $query->whereHas('city', function ($q) use ($intent) {
-                    $q->where('name', 'ILIKE', '%'.$intent['city'].'%');
-                });
-            } else {
-                return [];
-            }
-
-            return $query->limit(1)
-                ->get()
-                ->map(fn (Mall $mall) => [
-                    'mallName' => (string) $mall->name,
-                    'city' => (string) ($mall->city?->name ?? '-'),
-                    'province' => (string) ($mall->city?->province?->name ?? '-'),
-                    'address' => (string) ($mall->address ?? ''),
-                ])
-                ->all();
-        }
-
-        $query = Store::with(['mall.city.province', 'categories'])
-            ->whereHas('mall');
-
-        if (isset($intent['province'])) {
-            $query->whereHas('mall.city.province', function ($q) use ($intent) {
-                $q->where('name', $intent['province']);
-            });
-        }
-
-        if (isset($intent['city'])) {
-            $query->whereHas('mall.city', function ($q) use ($intent) {
-                $q->where('name', 'ILIKE', '%'.$intent['city'].'%');
-            });
-        }
-
-        if (isset($intent['mall'])) {
-            $query->whereHas('mall', function ($q) use ($intent) {
-                $q->where('name', 'ILIKE', '%'.$intent['mall'].'%');
-            });
-        }
-
-        if (isset($intent['category'])) {
-            $category = $intent['category'];
-
-            $query->where(function ($q) use ($category) {
-                $q->where('category_text', 'ILIKE', '%'.$category.'%')
-                    ->orWhereHas('categories', function ($categoryQuery) use ($category) {
-                        $categoryQuery->where('name', 'ILIKE', '%'.$category.'%');
-                    });
-            });
-        }
-
-        $searchTerm = $this->extractSearchTerm($message, $intent);
-
-        if ($searchTerm !== '') {
-            $query->where(function ($q) use ($searchTerm) {
-                $q->where('name', 'ILIKE', '%'.$searchTerm.'%')
-                    ->orWhere('category_text', 'ILIKE', '%'.$searchTerm.'%')
-                    ->orWhereHas('mall', function ($mallQuery) use ($searchTerm) {
-                        $mallQuery->where('name', 'ILIKE', '%'.$searchTerm.'%');
-                    });
-            });
-        }
-
-        if ($intent['type'] === 'top_rated') {
-            $query->whereNotNull('rating')
-                ->orderByDesc('rating');
-        } else {
-            $query->orderBy('name');
-        }
-
-        return $query->limit(10)
-            ->get()
-            ->map(function (Store $store) {
-                return [
-                    'storeName' => (string) $store->name,
-                    'mallName' => (string) ($store->mall?->name ?? '-'),
-                    'city' => (string) ($store->mall?->city?->name ?? '-'),
-                    'province' => (string) ($store->mall?->city?->province?->name ?? '-'),
-                    'category' => (string) ($store->category_text ?: $store->categories->pluck('name')->implode(', ')),
-                    'floor' => (string) ($store->location ?? ''),
-                    'address' => (string) ($store->mall?->address ?? ''),
-                    'rating' => (string) ($store->rating ?? ''),
-                    'status' => (string) ($store->status ?? ''),
-                    'priceLevel' => '',
-                ];
-            })
-            ->all();
+    OPTIONAL {
+        ?mall mall:berlokasiDi ?address .
     }
+
+    {$filterQuery}
+}
+ORDER BY ?mallName
+LIMIT 1
+SPARQL;
+
+        return $this->sparql->query($sparql, 0);
+    }
+
+    // Pencarian toko berdasarkan nama, mall, kota, dan kategori.
+    if (isset($intent['category'])) {
+        $category = $intent['category'];
+
+        if ($category === 'F&B') {
+            $filters[] = 'FILTER(REGEX(STR(?category), "F\\\\s*&\\\\s*B|food|restaurant", "i"))';
+        } else {
+            $categoryLiteral = $this->sparql->literal($category);
+            $filters[] = 'FILTER(CONTAINS(LCASE(STR(?category)), LCASE('.$categoryLiteral.')))';
+        }
+    }
+
+    $searchTerm = $this->extractSearchTerm($message, $intent);
+
+    if ($searchTerm !== '') {
+        $term = $this->sparql->literal($searchTerm);
+
+        $filters[] = 'FILTER(
+            CONTAINS(LCASE(STR(?storeName)), LCASE('.$term.')) ||
+            CONTAINS(LCASE(STR(?category)), LCASE('.$term.'))
+        )';
+    }
+
+    $filterQuery = implode("\n", $filters);
+
+    $sparql = <<<SPARQL
+PREFIX mall: <http://www.example.org/mall#>
+
+SELECT DISTINCT ?storeName ?mallName ?city ?province ?category
+WHERE {
+    ?store a mall:Toko ;
+           mall:namaToko ?storeName ;
+           mall:kategoriToko ?category ;
+           mall:beradaDiMall ?mall .
+
+    {$mallPattern}
+
+    {$filterQuery}
+}
+ORDER BY ?storeName
+LIMIT 10
+SPARQL;
+
+    return $this->sparql->query($sparql, 0);
+}
+
 
     /**
      * Remove common intent, location and category words from the message.
@@ -362,18 +416,18 @@ class ChatbotController extends Controller
     {
         $text = mb_strtolower($message);
 
-       $remove = [
-        'cari', 'dimana', 'di mana', 'di', 'ada', 'toko', 'mall', 'mal',
-        'rekomendasi', 'find', 'search', 'where', 'store', 'recommend',
-        'terbaik', 'top', 'rating', 'populer', 'best', 'highest rated',
-        'info', 'tentang', 'profil', 'about', 'profile',
-        'daftar', 'kota', 'provinsi', 'city', 'province', 'list',
-        'tolong', 'dong', 'please', 'in', 'at', 'the', 'yang',
-        'apa saja', 'apa aja', 'yang ada',
-        'restoran', 'restaurant', 'makan', 'food', 'dining', 'focal point',
-        'cafe', 'coffee', 'baju', 'fashion', 'sepatu',
-        'elektronik', 'electronics', 'hp', 'bioskop', 'nonton',
-        'supermarket', 'clothes', 'shoes',
+        $remove = [
+            'a', 'an', 'cari', 'dimana', 'di mana', 'di', 'ada', 'toko',
+            'mall', 'mal', 'rekomendasi', 'find', 'search', 'where',
+            'store', 'recommend', 'terbaik', 'top', 'rating', 'populer',
+            'best', 'highest rated', 'info', 'tentang', 'profil', 'about',
+            'profile', 'daftar', 'kota', 'provinsi', 'city', 'province',
+            'list', 'tolong', 'dong', 'please', 'in', 'at', 'the', 'yang',
+            'apa saja', 'apa aja', 'yang ada', 'restoran', 'restaurant',
+            'makan', 'food', 'dining', 'focal point', 'cafe', 'coffee',
+            'kafe', 'kopi', 'restoran', 'restaurant', 'makan', 'food', 'dining', 'focal point',
+            'baju', 'fashion', 'sepatu', 'elektronik', 'electronics',
+            'hp', 'bioskop', 'nonton', 'supermarket', 'clothes', 'shoes',
         ];
 
         foreach (['province', 'city', 'category', 'mall'] as $key) {
@@ -384,7 +438,7 @@ class ChatbotController extends Controller
 
         foreach ($remove as $word) {
             $text = preg_replace(
-                '/'.preg_quote($word, '/').'/u',
+                '/\b'.preg_quote($word, '/').'\b/iu',
                 ' ',
                 $text
             ) ?? $text;
@@ -402,6 +456,39 @@ class ChatbotController extends Controller
      * @param array<string, string> $intent
      * @param array<int, array<string, string>> $results
      */
+
+    protected function isMallOpen(string $hours, int $currentMinutes): bool
+{
+    $hours = trim($hours);
+
+    $matched = preg_match(
+        '/(\d{1,2})\s*[.,:]\s*(\d{2})\s*(?:[-–—]|\s+)\s*(\d{1,2})\s*[.,:]\s*(\d{2})/',
+        $hours,
+        $matches
+    );
+
+    if (!$matched) {
+        return false;
+    }
+
+    $open = ((int) $matches[1] * 60) + (int) $matches[2];
+    $close = ((int) $matches[3] * 60) + (int) $matches[4];
+
+    if ($open >= 1440 || $close >= 1440) {
+        return false;
+    }
+
+    if ($close <= $open) {
+        $close += 1440;
+    }
+
+    if ($currentMinutes < $open && $close > 1440) {
+        $currentMinutes += 1440;
+    }
+
+    return $currentMinutes >= $open && $currentMinutes < $close;
+}
+
     protected function formatReply(
         array $intent,
         array $results,
@@ -409,11 +496,23 @@ class ChatbotController extends Controller
     ): string {
         $english = $locale === 'en';
 
-        if ($intent['type'] === 'budget') {
-            return $english
-                ? 'Price information is not available in the current store database, so I cannot provide a reliable budget estimate.'
-                : 'Informasi harga belum tersedia di database toko, jadi aku belum bisa memberikan estimasi budget yang akurat.';
-        }
+        if ($intent['type'] === 'open_now') {
+    if ($results === []) {
+        return $english
+            ? 'I could not find any malls confirmed to be open right now in the available data.'
+            : 'Aku tidak menemukan mall yang terkonfirmasi sedang buka berdasarkan data jam operasional yang tersedia.';
+    }
+
+    return ($english
+        ? "Malls currently open:\n\n"
+        : "Mall yang sedang buka:\n\n")
+        .implode("\n", array_map(
+            fn (array $row) => '- '.($row['mallName'] ?? '-')
+                .' ('.($row['city'] ?? '-').')'
+                .' — '.($row['hours'] ?? '-'),
+            array_slice($results, 0, 20)
+        ));
+}
 
         if ($intent['type'] === 'open_now') {
             return $english
@@ -422,51 +521,60 @@ class ChatbotController extends Controller
         }
 
         if ($results === []) {
-    if ($intent['type'] === 'top_rated') {
-        return $english
-            ? 'Rating information is not available yet, so I cannot determine the highest-rated stores.'
-            : 'Maaf, data rating toko belum tersedia. Jadi, aku belum bisa menentukan toko dengan rating tertinggi.';
-    }
+            if ($intent['type'] === 'top_rated') {
+                return $english
+                    ? 'Rating information is not available yet, so I cannot determine the highest-rated stores.'
+                    : 'Maaf, data rating toko belum tersedia. Jadi, aku belum bisa menentukan toko dengan rating tertinggi.';
+            }
 
-    return $english
-        ? 'Sorry, I could not find matching data. Try different keywords.'
-        : 'Maaf, aku tidak menemukan data yang sesuai. Coba kata kunci lain.';
-}
+            return $english
+                ? 'Sorry, I could not find matching data. Try different keywords.'
+                : 'Maaf, aku tidak menemukan data yang sesuai. Coba kata kunci lain.';
+        }
 
         return match ($intent['type']) {
             'find_store' => ($english ? 'I found ' : 'Aku menemukan ')
                 .count($results)
-                .($english ? " stores:\n\n" : " toko:\n\n")
+                .($english
+                    ? (count($results) === 1 ? " store:\n\n" : " stores:\n\n")
+                    : " toko:\n\n")
                 .implode("\n", array_map(
-                    fn (array $row) => '- '.$row['storeName']
+                    fn (array $row) => '- '.($row['storeName'] ?? '-')
                         .($english ? ' at ' : ' di ')
-                        .$row['mallName'].' ('.$row['city'].')',
+                        .($row['mallName'] ?? '-')
+                        .' ('.($row['city'] ?? '-').')',
                     array_slice($results, 0, 5)
                 )),
 
             'top_rated' => ($english ? "Top-rated stores:\n\n" : "Toko dengan rating tertinggi:\n\n")
                 .implode("\n", array_map(
-                    fn (array $row) => '- '.$row['storeName']
-                        .' ('.$row['mallName'].', '.$row['city'].')'
-                        .($row['rating'] !== '' ? ' — '.$row['rating'] : ''),
+                    fn (array $row) => '- '.($row['storeName'] ?? '-')
+                        .' ('.($row['mallName'] ?? '-')
+                        .', '.($row['city'] ?? '-').')'
+                        .(!empty($row['rating']) ? ' — '.$row['rating'] : ''),
                     array_slice($results, 0, 5)
                 )),
 
             'list_by_region' => ($english ? "Mall directory:\n\n" : "Daftar mall:\n\n")
                 .implode("\n", array_map(
-                    fn (array $row) => '- '.$row['mallName']
-                        .' ('.$row['city'].', '.$row['province'].')',
+                    fn (array $row) => '- '.($row['mallName'] ?? '-')
+                        .' ('.($row['city'] ?? '-')
+                        .', '.($row['province'] ?? '-').')',
                     array_slice($results, 0, 20)
                 )),
 
             'mall_info' => $english
-                ? $results[0]['mallName'].' is in '.$results[0]['city'].', '.$results[0]['province']
-                    .($results[0]['address'] !== '' ? ' — '.$results[0]['address'] : '')
-                : $results[0]['mallName'].' berada di '.$results[0]['city'].', '.$results[0]['province']
-                    .($results[0]['address'] !== '' ? ' — '.$results[0]['address'] : ''),
+                ? ($results[0]['mallName'] ?? '-').' is in '
+                    .($results[0]['city'] ?? '-').', '
+                    .($results[0]['province'] ?? '-')
+                    .(!empty($results[0]['address']) ? ' — '.$results[0]['address'] : '')
+                : ($results[0]['mallName'] ?? '-').' berada di '
+                    .($results[0]['city'] ?? '-').', '
+                    .($results[0]['province'] ?? '-')
+                    .(!empty($results[0]['address']) ? ' — '.$results[0]['address'] : ''),
 
             default => $english
-                ? 'I found '.$results === [] ? '0 results.' : count($results).' results. Try asking a more specific question.'
+                ? 'I found '.count($results).' results. Try asking a more specific question.'
                 : 'Aku menemukan '.count($results).' hasil. Coba pertanyaannya lebih spesifik.',
         };
     }

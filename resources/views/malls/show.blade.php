@@ -75,8 +75,84 @@
             <h2 data-i18n="stores_in_mall" class="font-display text-2xl font-bold">Toko di Mall Ini</h2>
             <span class="glass px-4 py-2 rounded-full text-sm">{{ count($stores) }} <span data-i18n="store_count">toko</span></span>
         </div>
-        @php($categories = collect($stores)->pluck('category')->filter()->unique()->sort())
-        @php($priceLevels = collect($stores)->pluck('priceLevel')->filter()->unique()->sort())
+        
+@if(count($stores) > 0)
+    @php($categories = collect($stores)->pluck('category')->filter()->unique()->sort())
+    @php($priceLevels = collect($stores)->pluck('priceLevel')->filter()->unique()->sort())
+
+    <div class="glass rounded-2xl p-4 mb-5">
+        <p class="text-xs text-gray-400 mb-2" data-i18n="filter_category">Kategori</p>
+        <div class="bubble-filter-row mb-3" role="group" aria-label="Filter stores by category">
+            <button type="button" data-store-category="" class="bubble-filter bubble-filter--active" aria-pressed="true" data-i18n="filter_all">Semua</button>
+            @foreach($categories as $category)
+                <button type="button" data-store-category="{{ $category }}" class="bubble-filter" aria-pressed="false">{{ $category }}</button>
+            @endforeach
+        </div>
+
+        <p class="text-xs text-gray-400 mb-2" data-i18n="filter_rating_price">Rating dan kisaran harga</p>
+        <div class="bubble-filter-row" role="group" aria-label="Filter stores by rating and price">
+            <button type="button" data-store-rating="0" class="bubble-filter bubble-filter--active" aria-pressed="true" data-i18n="filter_any_rating">Semua rating</button>
+            <button type="button" data-store-rating="4" class="bubble-filter" aria-pressed="false">★ 4.0+</button>
+            <button type="button" data-store-rating="4.5" class="bubble-filter" aria-pressed="false">★ 4.5+</button>
+            <button type="button" data-store-price="" class="bubble-filter bubble-filter--active" aria-pressed="true" data-i18n="filter_any_price">Semua harga</button>
+            @foreach($priceLevels as $priceLevel)
+                <button type="button" data-store-price="{{ $priceLevel }}" class="bubble-filter" aria-pressed="false">Rp {{ $priceLevel }} / 4</button>
+            @endforeach
+        </div>
+
+        <p class="text-xs text-gray-500 mt-3">
+            <span data-i18n="showing">Menampilkan</span>
+            <strong id="store-filter-count">{{ count($stores) }}</strong>
+            <span data-i18n="store_count">toko</span>
+        </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4" id="stores-container">
+        @foreach($stores as $store)
+            <article class="glass rounded-xl p-5 hover:border-neon-cyan/50 transition-all store-item"
+                     data-category="{{ $store['category'] }}"
+                     data-rating="{{ $store['rating'] ?? '' }}"
+                     data-price-level="{{ $store['priceLevel'] ?? '' }}"
+                     typeof="schema:Store">
+                <div class="flex justify-between items-start mb-3">
+                    <div>
+                        <h3 class="font-display font-bold text-lg" property="schema:name">{{ $store['storeName'] }}</h3>
+                        <p class="text-sm text-gray-400">{{ $store['category'] }}</p>
+                    </div>
+                    @if(!empty($store['rating']))
+                        <span class="text-sm font-semibold">★ {{ $store['rating'] }}</span>
+                    @endif
+                </div>
+
+                @if(!empty($store['status']))
+                    <p class="mt-3 text-xs {{ $store['status'] === 'OPERATIONAL' ? 'text-green-400' : 'text-red-400' }}">
+                        @if($store['status'] === 'OPERATIONAL')
+                            <span data-i18n="operational">Operasional</span>
+                        @else
+                            {{ $store['status'] }}
+                        @endif
+                    </p>
+                @endif
+
+                @if(!empty($store['floor']))
+                    <p class="text-xs text-gray-400 mt-2">
+                        <span data-i18n="store_floor">Lantai</span>: {{ $store['floor'] }}
+                    </p>
+                @endif
+
+                @if(!empty($store['priceLevel']))
+                    <p class="text-xs text-gray-400 mt-2">Price level {{ $store['priceLevel'] }} / 4</p>
+                @endif
+            </article>
+        @endforeach
+    </div>
+@else
+    <div class="glass rounded-2xl p-8 text-center">
+        <p class="text-gray-400" data-i18n="stores_empty">
+            Belum ada data toko untuk mall ini.
+        </p>
+    </div>
+@endif
         <div class="glass rounded-2xl p-4 mb-5">
         <p class="text-xs text-gray-400 mb-2" data-i18n="filter_category">Kategori</p>
         <div class="bubble-filter-row mb-3" role="group" aria-label="Filter stores by category">

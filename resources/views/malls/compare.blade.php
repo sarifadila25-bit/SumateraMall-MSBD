@@ -33,7 +33,7 @@
                     <dd class="text-right text-sm">@if(isset($mall['lat'], $mall['lng'])){{ $mall['lat'].', '.$mall['lng'] }}@else<span data-i18n="not_available">Belum tersedia</span>@endif</dd>
                 </div>
             </dl>
-            <a data-i18n="view_details" href="{{ route('malls.show', ['id' => $mall['id']]) }}" class="inline-block mt-6 text-neon-cyan">Lihat detail</a>
+           <a data-i18n="view_details" href="{{ route('malls.show', ['id' => basename($mall['mall'])]) }}" class="inline-block mt-6 text-neon-cyan">Lihat detail</a>
         </article>
         @endforeach
     </div>

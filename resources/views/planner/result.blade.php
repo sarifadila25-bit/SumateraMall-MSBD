@@ -6,7 +6,7 @@
 <div class="max-w-5xl mx-auto px-6">
     <div class="mb-8">
         <h1 data-i18n="route_result_title" class="font-display text-5xl font-bold mb-3">Rute Optimal Anda</h1>
-        <p class="text-gray-400"><span data-i18n="route_through">Sumber rute:</span> Google Maps Routes API.</p>
+        <p class="text-gray-400"><span data-i18n="route_through">Sumber rute:</span> OpenStreetMap / OSRM.</p>
     </div>
 
     @if($notice)
@@ -72,7 +72,14 @@
     </div>
 </div>
 
+
 @push('scripts')
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script>
 const routePoints = @js($routeCoordinates);
 const routeMalls = @js($malls);
@@ -81,55 +88,91 @@ const routeMapStatus = document.getElementById('route-map-status');
 const originForDirections = {{ Illuminate\Support\Js::from($startIsMall
     ? (($origin['address'] ?? $origin['name']).', '.($origin['city'] ?? '').', Indonesia')
     : $origin['lat'].','.$origin['lng']) }};
+
 const destinationForDirections = {{ Illuminate\Support\Js::from(
     (($malls[count($malls) - 1]['address'] ?? $malls[count($malls) - 1]['name']).', '.$malls[count($malls) - 1]['city'].', Indonesia')
 ) }};
+
 const directionParameters = new URLSearchParams({
     api: '1',
     origin: originForDirections,
     destination: destinationForDirections,
     travelmode: 'driving'
 });
+
 const routeWaypoints = routeMalls.slice(0, -1).slice(@js($startIsMall ? 1 : 0));
+
 if (routeWaypoints.length) {
     directionParameters.set('waypoints', routeWaypoints.map(mall =>
         `${mall.address || mall.name}, ${mall.city}, Indonesia`
     ).join('|'));
 }
+
 document.getElementById('google-directions-link').href =
     `https://www.google.com/maps/dir/?${directionParameters.toString()}`;
 
-async function renderRouteMap() {
-    if (!window.sumateraGoogleMapsKey) {
-        routeMapStatus.textContent = window.sumateraTranslate('maps_key_missing');
-        return;
-    }
+function renderRouteMap() {
     try {
-        const maps = await window.loadGoogleMaps();
-        await maps.importLibrary('maps');
-        const map = new maps.Map(document.getElementById('route-map'), {
-            center: routePoints[0] ? { lat: routePoints[0][0], lng: routePoints[0][1] } : { lat: 0.5, lng: 101 },
-            zoom: 7
-        });
-        const route = new google.maps.Polyline({
-            path: routePoints.map(([lat, lng]) => ({ lat, lng })),
-            geodesic: true,
-            strokeColor: '#bd8f2f',
-            strokeOpacity: 0.9,
-            strokeWeight: 5
-        });
-        route.setMap(map);
-        const bounds = new google.maps.LatLngBounds();
-        routePoints.forEach(point => bounds.extend({ lat: point[0], lng: point[1] }));
+        if (typeof L === 'undefined') {
+            throw new Error('Leaflet gagal dimuat. Periksa koneksi internet.');
+        }
+
+        const mallPoints = routeMalls
+            .filter(mall =>
+                Number.isFinite(Number(mall.lat)) &&
+                Number.isFinite(Number(mall.lng))
+            )
+            .map(mall => [
+                Number(mall.lat),
+                Number(mall.lng)
+            ]);
+
+        const allPoints = [
+            ...routePoints,
+            ...mallPoints
+        ];
+
+        if (!allPoints.length) {
+            routeMapStatus.textContent = 'Koordinat rute tidak tersedia.';
+            return;
+        }
+
+        const map = L.map('route-map');
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Garis rute dari OSRM.
+        if (routePoints.length) {
+            L.polyline(routePoints, {
+                color: '#bd8f2f',
+                weight: 5,
+                opacity: 0.9
+            }).addTo(map);
+        }
+
+        // Marker setiap mall.
         routeMalls.forEach((mall, index) => {
-            if (!Number.isFinite(Number(mall.lat)) || !Number.isFinite(Number(mall.lng))) return;
-            const position = { lat: Number(mall.lat), lng: Number(mall.lng) };
-            bounds.extend(position);
-            new google.maps.Marker({ map, position, title: `${index + 1}. ${mall.name}` });
+            const lat = Number(mall.lat);
+            const lng = Number(mall.lng);
+
+            if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+
+            L.marker([lat, lng])
+                .addTo(map)
+                .bindPopup(`<strong>${index + 1}. ${mall.name}</strong><br>${mall.city}`);
         });
-        if (routePoints.length) map.fitBounds(bounds, 24);
+
+        map.fitBounds(allPoints, {
+            padding: [30, 30]
+        });
+
+        routeMapStatus.textContent = 'Peta menggunakan OpenStreetMap dengan rute dari OSRM.';
     } catch (error) {
-        routeMapStatus.textContent = error.message || window.sumateraTranslate('maps_load_failed');
+        routeMapStatus.textContent = error.message || 'Peta gagal dimuat.';
+        console.error(error);
     }
 }
 
