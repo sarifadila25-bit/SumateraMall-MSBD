@@ -1,21 +1,19 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BudgetController;
 use App\Http\Controllers\ChatbotController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ItineraryController;
 use App\Http\Controllers\MallController;
 use App\Http\Controllers\MapController;
 use App\Http\Controllers\RecommendationController;
+use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\RoutePlannerController;
 use App\Http\Controllers\SearchController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\ItineraryController;
-use App\Http\Controllers\AdminController;
 use App\Http\Controllers\VoucherController;
-
-use App\Http\Controllers\ReservationController;
-
+use Illuminate\Support\Facades\Route;
 
 // Reservation
 Route::get('/reservations', [ReservationController::class, 'index'])
@@ -99,7 +97,7 @@ Route::post('/logout', [AuthController::class, 'logout'])
     ->middleware('auth')
     ->name('logout');
 
-    // User Itineraries
+// User Itineraries
 Route::middleware(['auth', 'user'])->group(function () {
     Route::get('/my-itineraries', [ItineraryController::class, 'index'])
         ->name('itineraries.index');
@@ -117,11 +115,11 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::get('/dashboard', [AdminController::class, 'index'])
         ->name('dashboard');
 
-    Route::resource('/vouchers', \App\Http\Controllers\Admin\VoucherController::class);
+    Route::resource('/vouchers', App\Http\Controllers\Admin\VoucherController::class);
 
-    Route::get('/reservations', [\App\Http\Controllers\Admin\ReservationController::class, 'index'])
-    ->name('reservations.index');
+    Route::get('/reservations', [App\Http\Controllers\Admin\ReservationController::class, 'index'])
+        ->name('reservations.index');
 
-Route::patch('/reservations/{reservation}', [\App\Http\Controllers\Admin\ReservationController::class, 'update'])
-    ->name('reservations.update');
+    Route::patch('/reservations/{reservation}', [App\Http\Controllers\Admin\ReservationController::class, 'update'])
+        ->name('reservations.update');
 });

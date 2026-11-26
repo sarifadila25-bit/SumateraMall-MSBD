@@ -6,8 +6,8 @@ use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 #[Fillable(['name', 'email', 'password'])]
@@ -41,22 +41,22 @@ class User extends Authenticatable
     }
 
     public function userVouchers(): HasMany
-{
-    return $this->hasMany(UserVoucher::class);
-}
+    {
+        return $this->hasMany(UserVoucher::class);
+    }
 
     public function reservations(): HasMany
     {
-    return $this->hasMany(Reservation::class);
+        return $this->hasMany(Reservation::class);
     }
 
     public function createdVouchers(): HasMany
-    {      
-    return $this->hasMany(Voucher::class, 'created_by');
+    {
+        return $this->hasMany(Voucher::class, 'created_by');
     }
 
     public function isAdmin(): bool
     {
-    return $this->role === 'admin';
-    }   
+        return $this->role === 'admin';
+    }
 }

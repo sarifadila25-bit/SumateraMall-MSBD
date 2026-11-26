@@ -45,13 +45,17 @@ class SearchController extends Controller
     public function filter(Request $request): View
     {
         $validated = $request->validate([
-            'city' => ['nullable', 'integer', 'exists:cities,id'],
-            'mall' => ['nullable', 'integer', 'exists:malls,id'],
-            'category' => ['nullable', 'integer', 'exists:categories,id'],
+            'city' => ['nullable', 'string', 'regex:/\A(?:[1-9]\d*|https?:\/\/[^\s<>]+\/City\/[a-zA-Z0-9_-]+)\z/'],
+            'mall' => ['nullable', 'string', 'regex:/\A(?:[1-9]\d*|https?:\/\/[^\s<>]+\/Mall\/[a-zA-Z0-9_-]+)\z/'],
+            'category' => ['nullable', 'string', 'regex:/\A(?:[1-9]\d*|https?:\/\/[^\s<>]+\/Category\/[a-zA-Z0-9_-]+)\z/'],
             'open_now' => ['sometimes', 'boolean'],
             'min_rating' => ['nullable', 'numeric', 'between:0,5'],
             'search' => ['nullable', 'string', 'max:100'],
         ]);
+
+        $cityId = $this->resolveResourceId(City::class, $validated['city'] ?? null);
+        $mallId = $this->resolveResourceId(Mall::class, $validated['mall'] ?? null);
+        $categoryId = $this->resolveResourceId(Category::class, $validated['category'] ?? null);
 
         $query = Store::with([
             'mall.city.province',
@@ -59,20 +63,20 @@ class SearchController extends Controller
         ]);
 
         // Filter berdasarkan kota.
-        if (!empty($validated['city'])) {
-            $query->whereHas('mall', function ($mallQuery) use ($validated) {
-                $mallQuery->where('city_id', $validated['city']);
+        if ($cityId !== null) {
+            $query->whereHas('mall', function ($mallQuery) use ($cityId) {
+                $mallQuery->where('city_id', $cityId);
             });
         }
 
         // Filter berdasarkan mall.
-        if (!empty($validated['mall'])) {
-            $query->where('mall_id', $validated['mall']);
+        if ($mallId !== null) {
+            $query->where('mall_id', $mallId);
         }
 
         // Filter berdasarkan kategori.
-        if (!empty($validated['category'])) {
-            $category = Category::findOrFail($validated['category']);
+        if ($categoryId !== null) {
+            $category = Category::findOrFail($categoryId);
 
             $query->where(function ($storeQuery) use ($category) {
                 $storeQuery
@@ -117,7 +121,7 @@ class SearchController extends Controller
         if ($request->boolean('open_now')) {
             $results = $results->filter(function (array $store) use ($now) {
                 return $store['status'] !== 'Tutup Permanen'
-                    && !empty($store['openingHours'])
+                    && ! empty($store['openingHours'])
                     && $this->isOpenNow($store['openingHours'], $now);
             });
         }
@@ -160,9 +164,28 @@ class SearchController extends Controller
         ]);
     }
 
+    private function resolveResourceId(string $modelClass, ?string $value): ?int
+    {
+        if ($value === null || $value === '') {
+            return null;
+        }
+
+        if (ctype_digit($value)) {
+            $id = (int) $value;
+
+            return $modelClass::query()->whereKey($id)->exists() ? $id : null;
+        }
+
+        $model = $modelClass::query()
+            ->where('resource_uri', $value)
+            ->first();
+
+        return $model?->id;
+    }
+
     private function isOpenNow(string $hours, Carbon $now): bool
     {
-        if (!preg_match(
+        if (! preg_match(
             '/(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})/',
             $hours,
             $matches

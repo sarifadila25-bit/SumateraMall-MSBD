@@ -2,25 +2,28 @@
 
 namespace App\Console\Commands;
 
-use App\Models\Province;
+use App\Models\Category;
 use App\Models\City;
 use App\Models\Mall;
+use App\Models\Province;
 use App\Models\Store;
-use App\Models\Category;
+use Illuminate\Console\Attributes\Description;
+use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use RuntimeException;
 
-#[\Illuminate\Console\Attributes\Signature('app:import-sumatera-mall-data')]
-#[\Illuminate\Console\Attributes\Description('Import data RDF SumateraMall ke PostgreSQL')]
+#[Signature('app:import-sumatera-mall-data')]
+#[Description('Import data RDF SumateraMall ke PostgreSQL')]
 class ImportSumateraMallData extends Command
 {
     public function handle(): int
     {
         $path = storage_path('app/rdf_import.json');
 
-        if (!file_exists($path)) {
+        if (! file_exists($path)) {
             $this->error('File rdf_import.json tidak ditemukan.');
+
             return self::FAILURE;
         }
 
@@ -53,7 +56,7 @@ class ImportSumateraMallData extends Command
                 foreach ($data['cities'] as $item) {
                     $province = $provinceByUri[$item['province_uri']] ?? null;
 
-                    if (!$province) {
+                    if (! $province) {
                         throw new RuntimeException(
                             "Provinsi tidak ditemukan: {$item['province_uri']}"
                         );
@@ -73,8 +76,7 @@ class ImportSumateraMallData extends Command
 
                 // 3. Alias URI kota dari namespace ns1
                 $cityUriAliases = [
-                    'http://sumateramall.org/resource/Kota_Palembang'
-                        => 'Palembang',
+                    'http://sumateramall.org/resource/Kota_Palembang' => 'Palembang',
                 ];
 
                 // 4. Import mall
@@ -83,7 +85,7 @@ class ImportSumateraMallData extends Command
                 foreach ($data['malls'] as $item) {
                     $city = $cityByUri[$item['city_uri']] ?? null;
 
-                    if (!$city && isset($cityUriAliases[$item['city_uri']])) {
+                    if (! $city && isset($cityUriAliases[$item['city_uri']])) {
                         $cityName = strtolower(
                             trim($cityUriAliases[$item['city_uri']])
                         );
@@ -91,7 +93,7 @@ class ImportSumateraMallData extends Command
                         $city = $cityByName[$cityName] ?? null;
                     }
 
-                    if (!$city) {
+                    if (! $city) {
                         throw new RuntimeException(
                             "Kota mall tidak ditemukan: {$item['name']}"
                         );
@@ -122,7 +124,7 @@ class ImportSumateraMallData extends Command
                 foreach ($data['stores'] as $item) {
                     $mall = $mallByUri[$item['mall_uri']] ?? null;
 
-                    if (!$mall) {
+                    if (! $mall) {
                         throw new RuntimeException(
                             "Mall toko tidak ditemukan: {$item['name']}"
                         );
@@ -167,7 +169,7 @@ class ImportSumateraMallData extends Command
                     $store = $storeByUri[$item['store_uri']] ?? null;
                     $category = $categoryByUri[$item['category_uri']] ?? null;
 
-                    if (!$store || !$category) {
+                    if (! $store || ! $category) {
                         throw new RuntimeException(
                             'Relasi toko-kategori tidak valid.'
                         );
@@ -195,13 +197,14 @@ class ImportSumateraMallData extends Command
             $this->info('Import data SumateraMall berhasil!');
 
             foreach ($counts as $name => $total) {
-                $this->line(ucwords(str_replace('_', ' ', $name)) . ": {$total}");
+                $this->line(ucwords(str_replace('_', ' ', $name)).": {$total}");
             }
 
             return self::SUCCESS;
 
         } catch (\Throwable $e) {
-            $this->error('Import gagal: ' . $e->getMessage());
+            $this->error('Import gagal: '.$e->getMessage());
+
             return self::FAILURE;
         }
     }

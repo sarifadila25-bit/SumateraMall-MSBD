@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Itinerary;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
-use App\Http\Controllers\ItineraryController;
 
 class ItineraryController extends Controller
 {

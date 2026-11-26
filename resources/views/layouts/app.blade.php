@@ -37,7 +37,7 @@
     <nav class="site-nav fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl"
          aria-label="Main navigation">
 
-        <div class="site-nav__inner glass-strong rounded-2xl px-5 py-3 shadow-2xl flex items-center gap-4">
+        <div class="site-nav__inner glass-strong rounded-2xl px-5 py-3 shadow-2xl flex items-center gap-3">
 
             {{-- MENU KIRI --}}
             <div class="flex items-center gap-3 shrink-0">
@@ -49,6 +49,12 @@
                         <a href="{{ route('admin.dashboard') }}"
                            class="site-nav__link">
                             Dashboard
+                        </a>
+
+                        <a href="{{ route('team') }}"
+                           data-i18n="nav_team"
+                           class="site-nav__link">
+                            Team
                         </a>
 
                         <a href="{{ route('admin.reservations.index') }}"
@@ -65,57 +71,56 @@
 
                         {{-- LOGO + HOME --}}
                         <a href="{{ route('home') }}"
-                        class="flex items-center gap-2 shrink-0"
-                        aria-label="SumateraMall Home">
+                           class="flex items-center gap-2 shrink-0"
+                           aria-label="SumateraMall Home">
+
                             <img src="{{ asset('images/sumateramall-logo.png') }}"
-                                alt="SumateraMall Logo"
-                                class="w-9 h-9 object-contain rounded-lg">
+                                 alt="SumateraMall Logo"
+                                 class="w-9 h-9 object-contain rounded-lg">
+
                             <span data-i18n="nav_home" class="site-nav__link">
                                 Home
                             </span>
                         </a>
 
-                        <a href="{{ route('planner.index') }}"
-                           class="site-nav__link">
-                            Route Planner
-                        </a>
-
+                        {{-- TEAM --}}
                         <a href="{{ route('team') }}"
                            data-i18n="nav_team"
                            class="site-nav__link">
                             Team
                         </a>
 
+                        {{-- VOUCHER --}}
                         <a href="{{ route('vouchers.index') }}"
                            class="site-nav__link">
                             Voucher
                         </a>
 
+                        {{-- RESERVASI --}}
                         <a href="{{ route('reservations.index') }}"
                            class="site-nav__link">
                             Reservasi
                         </a>
 
                     @endif
+
                 @else
 
                     {{-- LOGO + HOME --}}
                     <a href="{{ route('home') }}"
-                    class="flex items-center gap-2 shrink-0"
-                    aria-label="SumateraMall Home">
+                       class="flex items-center gap-2 shrink-0"
+                       aria-label="SumateraMall Home">
+
                         <img src="{{ asset('images/sumateramall-logo.png') }}"
-                            alt="SumateraMall Logo"
-                            class="w-9 h-9 object-contain rounded-lg">
+                             alt="SumateraMall Logo"
+                             class="w-9 h-9 object-contain rounded-lg">
+
                         <span data-i18n="nav_home" class="site-nav__link">
                             Home
                         </span>
                     </a>
 
-                    <a href="{{ route('planner.index') }}"
-                       class="site-nav__link">
-                        Route Planner
-                    </a>
-
+                    {{-- TEAM --}}
                     <a href="{{ route('team') }}"
                        data-i18n="nav_team"
                        class="site-nav__link">
@@ -171,8 +176,33 @@
 
             @endif
 
+            {{-- THEME DAN LANGUAGE SWITCH --}}
+            <div class="flex items-center gap-2 shrink-0 ml-auto">
+
+                {{-- DARK / LIGHT MODE --}}
+                <button
+                    type="button"
+                    data-theme-toggle
+                    aria-label="Toggle color theme"
+                    title="Toggle theme"
+                    class="glass w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/20 transition"
+                >
+                </button>
+
+                {{-- LANGUAGE SWITCH --}}
+                <button
+                    type="button"
+                    data-language-toggle
+                    aria-label="Switch language"
+                    class="glass px-3 py-2 rounded-full text-xs font-semibold whitespace-nowrap"
+                >
+                    ID / EN
+                </button>
+
+            </div>
+
             {{-- PROFILE KANAN --}}
-            <details class="site-nav__profile relative">
+            <details class="site-nav__profile relative shrink-0">
 
                 <summary class="list-none cursor-pointer flex items-center gap-2 rounded-xl px-3 py-2
                                 bg-white/10 hover:bg-white/20 transition text-white">
@@ -299,24 +329,6 @@
     <footer class="glass border-t border-white/10 py-8 mt-20">
 
         <div class="max-w-7xl mx-auto px-6 text-center">
-
-            <div class="site-preferences mb-5 flex justify-center gap-3">
-
-                <button type="button"
-                        data-theme-toggle
-                        aria-label="Toggle color theme"
-                        class="glass px-3 py-2 rounded-full text-xs font-semibold">
-                    Light mode
-                </button>
-
-                <button type="button"
-                        data-language-toggle
-                        aria-label="Switch language"
-                        class="glass px-3 py-2 rounded-full text-xs font-semibold">
-                    ID / EN
-                </button>
-
-            </div>
 
             <p data-i18n="footer_copyright"
                class="text-sm text-gray-400">

@@ -39,7 +39,7 @@ class Reservation extends Model
 
     public function statusLogs(): HasMany
     {
-    return $this->hasMany(ReservationStatusLog::class)
-        ->orderByDesc('created_at');
+        return $this->hasMany(ReservationStatusLog::class)
+            ->orderByDesc('created_at');
     }
 }

@@ -1,39 +1,132 @@
+
 @extends('layouts.app')
 
-@section('title', 'Team — SumateraMall')
+@section('title', 'Our Team - SumateraMall')
 
 @section('content')
-<div class="max-w-6xl mx-auto px-6">
-    <header class="mb-12">
-        <span class="bubble-filter bubble-filter--active" data-i18n="team_eyebrow">ABOUT THE PROJECT</span>
-        <h1 class="font-display text-5xl font-bold mt-5 mb-3 gradient-text" data-i18n="team_title">The team behind SumateraMall</h1>
-        <p class="max-w-2xl text-gray-400" data-i18n="team_description">
-            A multidisciplinary project bringing mall discovery, semantic data, and practical trip planning together.
-        </p>
-    </header>
+<section class="team-page">
+    <div class="team-container">
 
-    <div class="grid md:grid-cols-3 gap-6">
-        <article class="glass team-card rounded-3xl p-7">
-            <span class="team-card__icon" aria-hidden="true">01</span>
-            <h2 class="font-display text-xl font-bold mt-6 mb-3" data-i18n="team_semantic_title">Semantic data</h2>
-            <p class="text-sm text-gray-400" data-i18n="team_semantic_description">
-                Connecting mall, store, category, and location information in a browsable knowledge graph.
+        {{-- Team Header --}}
+        <header class="team-header">
+            <span class="team-eyebrow">MEET OUR TEAM</span>
+
+            <h1>
+                The People Behind
+                <span>SumateraMall</span>
+            </h1>
+
+            <p>
+                Get to know the minds shaping SumateraMall. Together, we’re building a smarter, more seamless way to explore your favorite malls.
             </p>
-        </article>
-        <article class="glass team-card rounded-3xl p-7">
-            <span class="team-card__icon" aria-hidden="true">02</span>
-            <h2 class="font-display text-xl font-bold mt-6 mb-3" data-i18n="team_discovery_title">Mall discovery</h2>
-            <p class="text-sm text-gray-400" data-i18n="team_discovery_description">
-                Building clear search, useful filters, and accessible ways to explore shopping destinations.
-            </p>
-        </article>
-        <article class="glass team-card rounded-3xl p-7">
-            <span class="team-card__icon" aria-hidden="true">03</span>
-            <h2 class="font-display text-xl font-bold mt-6 mb-3" data-i18n="team_integrations_title">Connected experiences</h2>
-            <p class="text-sm text-gray-400" data-i18n="team_integrations_description">
-                Bringing together maps, open data, and trip-planning tools while making data limits clear.
-            </p>
-        </article>
+        </header>
+
+        {{-- Team Members --}}
+        <div class="team-grid">
+
+            {{-- 01. Salwa --}}
+            <article class="team-member">
+                <div class="team-photo">
+                    <img
+                        src="{{ asset('images/team/salwa.jpeg') }}"
+                        alt="Salwa Salsabila Rizki"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+
+                <div class="team-info">
+                    <span class="team-number">01</span>
+                    <h2>Salwa Salsabila Rizki</h2>
+                    <p class="team-nim">251402123</p>
+                    <span class="team-role">Backend Developer</span>
+                </div>
+            </article>
+
+            {{-- 02. Syifa --}}
+            <article class="team-member">
+                <div class="team-photo">
+                    <img
+                        src="{{ asset('images/team/syifa.jpeg') }}"
+                        alt="Syifa Nazira"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+
+                <div class="team-info">
+                    <span class="team-number">02</span>
+                    <h2>Syifa Nazira</h2>
+                    <p class="team-nim">251402126</p>
+                    <span class="team-role">Backend Developer</span>
+                </div>
+            </article>
+
+            {{-- 03. Jelita --}}
+            <article class="team-member">
+                <div class="team-photo">
+                    <img
+                        src="{{ asset('images/team/jelita.jpeg') }}"
+                        alt="Jelita Hati Sinurat"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+
+                <div class="team-info">
+                    <span class="team-number">03</span>
+                    <h2>Jelita Hati Sinurat</h2>
+                    <p class="team-nim">251402141</p>
+                    <span class="team-role">Dokumentasi & Laporan</span>
+                </div>
+            </article>
+
+            {{-- 04. Jesqueen --}}
+            <article class="team-member">
+                <div class="team-photo">
+                    <img
+                        src="{{ asset('images/team/jesqueen.jpeg') }}"
+                        alt="Jesqueen Maria Purba"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+
+                <div class="team-info">
+                    <span class="team-number">04</span>
+                    <h2>Jesqueen Maria Purba</h2>
+                    <p class="team-nim">251402099</p>
+                    <span class="team-role">Frontend Developer</span>
+                </div>
+            </article>
+
+            {{-- 05. Fadila --}}
+            <article class="team-member">
+                <div class="team-photo">
+                    <img
+                        src="{{ asset('images/team/fadila.jpeg') }}"
+                        alt="Fadila Lisma Sari"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                </div>
+
+                <div class="team-info">
+                    <span class="team-number">05</span>
+                    <h2>Fadila Lisma Sari</h2>
+                    <p class="team-nim">251402117</p>
+                    <span class="team-role">Project Manager</span>
+                </div>
+            </article>
+
+        </div>
+
+        {{-- Footer --}}
+        <footer class="team-footer">
+            <span>SUMATERAMALL</span>
+            <p>Built together, made for everyone.</p>
+        </footer>
+
     </div>
-</div>
+</section>
 @endsection

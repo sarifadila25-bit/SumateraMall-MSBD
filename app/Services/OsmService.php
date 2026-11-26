@@ -11,6 +11,45 @@ use RuntimeException;
 class OsmService
 {
     /**
+     * @param  array<int, array<string, mixed>>  $stops
+     */
+    private function validateCoordinates(
+        array $stops,
+        ?float $startLat,
+        ?float $startLng
+    ): void {
+        foreach ($stops as $index => $stop) {
+            $lat = $stop['lat'] ?? null;
+            $lng = $stop['lng'] ?? null;
+
+            if (
+                ! is_numeric($lat) ||
+                ! is_numeric($lng) ||
+                (float) $lat < -90 ||
+                (float) $lat > 90 ||
+                (float) $lng < -180 ||
+                (float) $lng > 180
+            ) {
+                throw new RuntimeException(
+                    'Koordinat mall '.($stop['name'] ?? '#'.($index + 1)).' tidak tersedia atau tidak valid.'
+                );
+            }
+        }
+
+        if (($startLat === null) !== ($startLng === null)) {
+            throw new RuntimeException('Koordinat lokasi awal tidak lengkap.');
+        }
+
+        if (
+            $startLat !== null &&
+            ($startLat < -90 || $startLat > 90 ||
+             $startLng < -180 || $startLng > 180)
+        ) {
+            throw new RuntimeException('Koordinat lokasi awal tidak valid.');
+        }
+    }
+
+    /**
      * @param  array<int, array{id: string, name: string, city: string, lat: string|float, lng: string|float}>  $stops
      * @return array<string, mixed>
      */
@@ -19,6 +58,8 @@ class OsmService
         if (count($stops) < 2) {
             throw new RuntimeException('Choose at least two malls to plan a route.');
         }
+
+        $this->validateCoordinates($stops, $startLat, $startLng);
 
         $originIsFirstMall = $startLat === null || $startLng === null;
         $origin = $originIsFirstMall

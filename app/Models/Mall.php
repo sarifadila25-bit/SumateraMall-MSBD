@@ -36,6 +36,6 @@ class Mall extends Model
 
     public function vouchers(): HasMany
     {
-    return $this->hasMany(Voucher::class);
+        return $this->hasMany(Voucher::class);
     }
 }

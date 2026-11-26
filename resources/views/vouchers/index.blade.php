@@ -324,8 +324,13 @@
 
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
-            <h5 class="fw-bold mb-1" style="color:#fff7e5;">Promo Pilihan</h5>
-            <p class="mb-0 small" style="color:#a99d83;">Jangan sampai kehabisan promo favoritmu.</p>
+            <h5 class="fw-bold mb-1 promo-section-title">
+    Promo Pilihan
+</h5>
+
+<p class="mb-0 small promo-section-subtitle">
+    Jangan sampai kehabisan promo favoritmu.
+</p>
         </div>
         <span class="voucher-count">{{ $vouchers->total() }} Voucher</span>
     </div>
@@ -463,6 +468,28 @@
                 </div>
             @endforeach
         </div>
+
+        @push('styles')
+<style>
+    /* LIGHT MODE */
+    html[data-theme="light"] .promo-section-title {
+        color: #76501b !important;
+    }
+
+    html[data-theme="light"] .promo-section-subtitle {
+        color: #806b4b !important;
+    }
+
+    /* DARK MODE */
+    html[data-theme="dark"] .promo-section-title {
+        color: #fff7e5 !important;
+    }
+
+    html[data-theme="dark"] .promo-section-subtitle {
+        color: #a99d83 !important;
+    }
+</style>
+@endpush
 
         <div class="voucher-pagination">
             {{ $vouchers->links() }}

@@ -38,19 +38,19 @@ class Store extends Model
 
     public function categories(): BelongsToMany
     {
-    return $this->belongsToMany(
-        Category::class,
-        'store_categories'
-    )->using(StoreCategory::class);
+        return $this->belongsToMany(
+            Category::class,
+            'store_categories'
+        )->using(StoreCategory::class);
     }
 
     public function reservations(): HasMany
     {
-    return $this->hasMany(Reservation::class);
+        return $this->hasMany(Reservation::class);
     }
 
     public function vouchers(): HasMany
     {
-    return $this->hasMany(Voucher::class);
+        return $this->hasMany(Voucher::class);
     }
 }

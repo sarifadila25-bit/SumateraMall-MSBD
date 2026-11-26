@@ -1,6 +1,6 @@
 # SumateraMall Semantic Explorer
 
-SumateraMall is a bilingual Laravel application for discovering malls and stores in Sumatra's 10 provinces. The application queries an Apache Jena Fuseki RDF graph with SPARQL, uses Google Maps for maps and road routing, and can ground Gemini answers in bounded RDF results.
+SumateraMall is a bilingual Laravel application for discovering malls and stores in Sumatra's 10 provinces. The application queries an Apache Jena Fuseki RDF graph with SPARQL, uses Google Maps for maps and road routing, and answers supported chatbot questions deterministically from a JSON export of the TTL dataset.
 
 ## Stack and prerequisites
 
@@ -10,7 +10,6 @@ SumateraMall is a bilingual Laravel application for discovering malls and stores
 - Python 3 with pip for merging the supplied RDF data
 - Java to run the bundled Apache Jena Fuseki distribution
 - Google Cloud project with billing enabled for Google Maps APIs
-- Gemini API key (optional; rule-based search replies remain available without one)
 
 The project uses Laravel 13. Keep the framework versions in `composer.json` when installing dependencies.
 
@@ -44,18 +43,6 @@ GOOGLE_MAPS_ROUTES_URL=https://routes.googleapis.com/directions/v2:computeRoutes
 
 The browser key is used only to load maps and geocode a mall after the visitor requests it. Mall addresses are not bulk-geocoded on page load. The server key is used by Laravel for route planning and is never sent to the browser. The route planner accepts mall addresses, so RDF coordinates are not required. Check Google Cloud quota, billing, and API restrictions if a map or route cannot load.
 
-### Configure Gemini (optional)
-
-Create an API key in Google AI Studio and add it to `.env`:
-
-```dotenv
-GEMINI_API_KEY=your-server-side-gemini-key
-GEMINI_MODEL=gemini-2.5-flash
-GEMINI_API_ENDPOINT=https://generativelanguage.googleapis.com/v1beta/models
-```
-
-Keep the key server-side. When configured, Gemini receives at most 20 filtered RDF result rows and is instructed to answer only from those records. Without a key, the existing rule-based chatbot is used and the interface notes that AI is not configured. Requests are rate-limited.
-
 ## Merge and import the RDF dataset
 
 The source files are under `data-sumateramall\datamall`. The merger preserves source triples, normalizes mall/store resources into the application's vocabulary, and writes `storage\app\sumateramall-merged.ttl`. Repairs are performed in memory; source files are not changed.
@@ -63,7 +50,10 @@ The source files are under `data-sumateramall\datamall`. The merger preserves so
 ```powershell
 python -m pip install -r scraper\requirements.txt
 python scraper\merge_dataset.py
+python parse_rdf.py
 ```
+
+`parse_rdf.py` exports `data-sumateramall\datamall\sumateramall_complete.ttl` to `storage\app\rdf_import.json`. Generate this file before using the chatbot or importing the records into the database; it is generated locally and is not committed. The chatbot reads only this JSON file and never sends questions to an AI service or Fuseki. Mall/store proximity cannot be calculated from the current TTL export because it contains no coordinates.
 
 Start Fuseki in a separate terminal:
 
@@ -114,7 +104,7 @@ Open `http://127.0.0.1:8000`. The language and light/dark theme choices persist 
 
 - The shared navigation contains Home, Team, and a store search. Store search ranks typo-tolerant matches across store, category, mall, city, floor, and address fields; result sets can be refined with filter bubbles.
 - Mall, map, planner, budget, recommendation, and mall-detail views provide contextual province, city, category, rating, price, or operating-status filters where those values are available.
-- Search, semantic recommendations, mall comparisons, and the chatbot's grounded context use Fuseki/SPARQL.
+- Search, semantic recommendations, and mall comparisons use Fuseki/SPARQL. Supported chatbot questions read mall and store data from `storage\app\rdf_import.json`, including names, city/province, categories, tenant floor, mall opening hours, address, and other recorded details.
 - Google Maps displays mall locations, geocoding an address only after a visitor chooses a mall. It also displays a computed route; a Google Maps directions link remains available if the browser map key is not configured.
 - The route planner uses Google Routes API for optimized multi-stop driving routes, with a maximum of eight malls. Configure the server key to calculate routes.
 - Nearby mosques, ATMs, and restrooms are fetched from OpenStreetMap Overpass only when requested. Public Overpass endpoints can be rate-limited or unavailable; configure a suitable service and user agent for production.

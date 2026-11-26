@@ -1,4 +1,11 @@
-
+@php
+    $chatbotQuestionSuggestions = json_decode(
+        file_get_contents(resource_path('data/chatbot-questions.json')),
+        true,
+        512,
+        JSON_THROW_ON_ERROR
+    )['suggestions'];
+@endphp
 <div id="chatbot-container" class="fixed bottom-6 right-6 z-50">
     <button id="chatbot-toggle"
             onclick="toggleChatbot()"
@@ -12,7 +19,7 @@
         <div class="bg-gradient-to-r from-neon-cyan to-neon-purple p-4 flex justify-between items-center">
             <div>
                 <div data-i18n="chat_assistant" class="font-display font-bold text-black">SumateraMall Assistant</div>
-                <div data-i18n="chat_powered_by" class="text-xs text-black/70">Didukung SPARQL</div>
+                <div data-i18n="chat_powered_by" class="text-xs text-black/70">Jawaban dari data TTL</div>
             </div>
             <button onclick="toggleChatbot()" class="text-black hover:text-white transition-colors">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -25,11 +32,16 @@
             <div id="chatbot-greeting" class="flex gap-2">
                 <div class="glass p-3 rounded-2xl rounded-tl-none max-w-[80%] text-sm">
                     <span data-i18n="chat_greeting">Halo! Saya asisten virtual SumateraMall. Coba tanya:</span><br>
-                    <ul class="mt-2 space-y-1 text-xs text-gray-300">
-                        <li data-i18n="chat_example_cafe">- Cari cafe di Sun Plaza</li>
-                        <li data-i18n="chat_example_malls">- Mall di Medan</li>
-                        <li data-i18n="chat_example_open">- Toko yang masih buka</li>
-                        <li data-i18n="chat_example_top">- Toko dengan rating tertinggi</li>
+                    <ul class="mt-2 space-y-1 text-xs">
+                        @foreach ($chatbotQuestionSuggestions as $question)
+                            <li>
+                                <button type="button"
+                                        data-chat-question="{{ $question['id'] }}"
+                                        class="text-left text-neon-cyan hover:underline">
+                                    {{ $question['id_text'] }}
+                                </button>
+                            </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
@@ -41,7 +53,7 @@
                    placeholder="Ketik pertanyaan..."
                    class="flex-1 glass bg-transparent p-3 rounded-xl border border-white/10 focus:border-neon-cyan/50 focus:outline-none text-sm">
 
-            <button onclick="sendMessage()" class="bg-gradient-to-r from-neon-cyan to-neon-purple text-black px-4 rounded-xl hover:shadow-lg hover:shadow-neon-cyan/50 transition-all">
+            <button id="chatbot-send" onclick="sendMessage()" class="bg-gradient-to-r from-neon-cyan to-neon-purple text-black px-4 rounded-xl hover:shadow-lg hover:shadow-neon-cyan/50 transition-all">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
                 </svg>
@@ -54,9 +66,42 @@
 let sessionId = 'sess_' + Math.random().toString(36).substring(2, 15);
 
 const chatHistoryUrl = @json(auth()->check() ? route('chatbot.history') : null);
+const chatUrl = @json(route('chatbot.chat'));
+const chatCsrfToken = @json(csrf_token());
+const chatQuestionSuggestions = @json($chatbotQuestionSuggestions);
 
 let historyLoaded = false;
 let historyLoading = false;
+let chatSending = false;
+
+function updateChatQuestionLabels() {
+    const locale = document.documentElement.lang === 'en' ? 'en' : 'id';
+
+    document.querySelectorAll('[data-chat-question]').forEach(button => {
+        const question = chatQuestionSuggestions.find(item => item.id === button.dataset.chatQuestion);
+
+        if (question) {
+            button.textContent = locale === 'en' ? question.en_text : question.id_text;
+        }
+    });
+}
+
+updateChatQuestionLabels();
+new MutationObserver(updateChatQuestionLabels).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['lang']
+});
+
+document.querySelectorAll('[data-chat-question]').forEach(button => {
+    button.addEventListener('click', () => {
+        const question = chatQuestionSuggestions.find(item => item.id === button.dataset.chatQuestion);
+        const locale = document.documentElement.lang === 'en' ? 'en' : 'id';
+
+        if (question) {
+            sendMessage(locale === 'en' ? question.en_text : question.id_text);
+        }
+    });
+});
 
 function toggleChatbot() {
     const chatbotWindow = document.getElementById('chatbot-window');
@@ -129,11 +174,20 @@ async function loadChatHistory() {
     }
 }
 
-async function sendMessage() {
-    const input = document.getElementById('chatbot-input');
-    const message = input.value.trim();
+async function sendMessage(suggestedMessage = null) {
+    if (chatSending) {
+        return;
+    }
 
-    if (!message) return;
+    const input = document.getElementById('chatbot-input');
+    const message = (suggestedMessage ?? input.value).trim();
+
+    if (!message) {
+        return;
+    }
+
+    chatSending = true;
+    document.getElementById('chatbot-send').disabled = true;
 
     addMessage(message, true);
     input.value = '';
@@ -150,16 +204,18 @@ async function sendMessage() {
     document.getElementById('chatbot-messages').appendChild(loading);
 
     try {
-        const res = await fetch('{{ route("chatbot.chat") }}', {
+        const locale = document.documentElement.lang === 'en' ? 'en' : 'id';
+
+        const res = await fetch(chatUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                'X-CSRF-TOKEN': chatCsrfToken
             },
             body: JSON.stringify({
                 message,
                 session_id: sessionId,
-                locale: document.documentElement.lang
+                locale
             })
         });
 
@@ -170,16 +226,13 @@ async function sendMessage() {
         }
 
         document.getElementById('loading-indicator')?.remove();
-
         addMessage(data.reply);
-
-        if (data.notice) {
-            addMessage(data.notice);
-        }
-
-    } catch (e) {
+    } catch (error) {
         document.getElementById('loading-indicator')?.remove();
-        addMessage(e.message || 'Maaf, terjadi kesalahan koneksi.');
+        addMessage(error.message || 'Maaf, terjadi kesalahan koneksi.');
+    } finally {
+        chatSending = false;
+        document.getElementById('chatbot-send').disabled = false;
     }
 }
 </script>

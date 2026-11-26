@@ -25,31 +25,31 @@ class SparqlService
      *
      * @throws ConnectionException
      */
-   public function query(string $sparql, int $cacheMinutes = 5, int $timeoutSeconds = 30): array
-{
-    $fetch = function () use ($sparql, $timeoutSeconds): array {
-        $response = Http::timeout(max(1, $timeoutSeconds))
-            ->accept('application/sparql-results+json')
-            ->get($this->queryEndpoint, ['query' => $sparql])
-            ->throw();
+    public function query(string $sparql, int $cacheMinutes = 5, int $timeoutSeconds = 30): array
+    {
+        $fetch = function () use ($sparql, $timeoutSeconds): array {
+            $response = Http::timeout(max(1, $timeoutSeconds))
+                ->accept('application/sparql-results+json')
+                ->get($this->queryEndpoint, ['query' => $sparql])
+                ->throw();
 
-        $data = $response->json();
+            $data = $response->json();
 
-        if (! is_array($data) || ! isset($data['results']['bindings']) || ! is_array($data['results']['bindings'])) {
-            throw new RuntimeException('Fuseki returned an invalid SPARQL results document.');
+            if (! is_array($data) || ! isset($data['results']['bindings']) || ! is_array($data['results']['bindings'])) {
+                throw new RuntimeException('Fuseki returned an invalid SPARQL results document.');
+            }
+
+            return $this->formatResults($data);
+        };
+
+        if ($cacheMinutes <= 0) {
+            return $fetch();
         }
 
-        return $this->formatResults($data);
-    };
+        $cacheKey = 'sparql_'.md5($sparql);
 
-    if ($cacheMinutes <= 0) {
-        return $fetch();
+        return Cache::remember($cacheKey, $cacheMinutes * 60, $fetch);
     }
-
-    $cacheKey = 'sparql_'.md5($sparql);
-
-    return Cache::remember($cacheKey, $cacheMinutes * 60, $fetch);
-}
 
     /**
      * @throws ConnectionException

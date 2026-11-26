@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Mall;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 use Illuminate\View\View;
 
 class HomeController extends Controller
@@ -12,27 +14,27 @@ class HomeController extends Controller
     {
         $now = Carbon::now('Asia/Jakarta');
 
-        $imageFiles = collect(\Illuminate\Support\Facades\File::files(
-    public_path('images/malls')
-));
+        $imageFiles = collect(File::files(
+            public_path('images/malls')
+        ));
 
-$imageAliases = [
-    'Centre Point Medan' => 'centre-point',
-    'Internasional Plaza' => 'international-plaza',
-    'Mall Ciputra Seraya' => 'mall-ciputra-seraya-pekanbaru',
-    'Mal SKA' => 'mall-ska-pekanbaru',
-    'Mal Pekanbaru' => 'mal-pekanbaru',
-    'OPI Mall' => 'OPI-Mall-Palembang',
-    'The Plaza Millenium' => 'plaza-millenium-medan',
-    'Yuki Simpang Raya' => 'yuki-simpang-raya-medna',
-    'Mall Kapuk' => 'mall-kapuk-jambi',
-    'Plaza Citra Pekanbaru' => 'plaza-citra-pekanbari',
-    'Plaza Lotus' => 'plaza-lotus-lampung',
-    'Sidimpuan City Walk' => 'sidempuan-city-walks',
-    'The Central Plaza' => 'the-central-plaza-pekanbaru',
-    'Medan Focal Point Mall' => 'medan-focal-point',
-    'Lucky Plaza' => 'lucky-plaza-batam',
-];
+        $imageAliases = [
+            'Centre Point Medan' => 'centre-point',
+            'Internasional Plaza' => 'international-plaza',
+            'Mall Ciputra Seraya' => 'mall-ciputra-seraya-pekanbaru',
+            'Mal SKA' => 'mall-ska-pekanbaru',
+            'Mal Pekanbaru' => 'mal-pekanbaru',
+            'OPI Mall' => 'OPI-Mall-Palembang',
+            'The Plaza Millenium' => 'plaza-millenium-medan',
+            'Yuki Simpang Raya' => 'yuki-simpang-raya-medna',
+            'Mall Kapuk' => 'mall-kapuk-jambi',
+            'Plaza Citra Pekanbaru' => 'plaza-citra-pekanbari',
+            'Plaza Lotus' => 'plaza-lotus-lampung',
+            'Sidimpuan City Walk' => 'sidempuan-city-walks',
+            'The Central Plaza' => 'the-central-plaza-pekanbaru',
+            'Medan Focal Point Mall' => 'medan-focal-point',
+            'Lucky Plaza' => 'lucky-plaza-batam',
+        ];
 
         $malls = Mall::with(['city.province'])
             ->orderBy('name')
@@ -41,16 +43,16 @@ $imageAliases = [
                 $hours = $mall->opening_hours;
 
                 $imageName = $imageAliases[$mall->name]
-    ?? \Illuminate\Support\Str::slug($mall->name);
+    ?? Str::slug($mall->name);
 
-$imageFile = $imageFiles->first(function ($file) use ($imageName) {
-    return strtolower(pathinfo($file->getFilename(), PATHINFO_FILENAME))
-        === strtolower($imageName);
-});
+                $imageFile = $imageFiles->first(function ($file) use ($imageName) {
+                    return strtolower(pathinfo($file->getFilename(), PATHINFO_FILENAME))
+                        === strtolower($imageName);
+                });
 
-$mallImage = $imageFile
-    ? asset('images/malls/'.$imageFile->getFilename())
-    : null;
+                $mallImage = $imageFile
+                    ? asset('images/malls/'.$imageFile->getFilename())
+                    : null;
 
                 return [
                     'image' => $mallImage,
@@ -61,7 +63,7 @@ $mallImage = $imageFile
                     'province' => $mall->city?->province?->name ?? '-',
                     'address' => $mall->address,
                     'hours' => $hours,
-                    'is_open' => !empty($hours)
+                    'is_open' => ! empty($hours)
                         && $this->isOpenNow($hours, $now),
                 ];
             });

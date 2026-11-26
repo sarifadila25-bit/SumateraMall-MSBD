@@ -18,6 +18,15 @@
                     <span class="mall-landing__trust-dot"></span>
                     <span data-i18n="landing_coverage">10 provinsi di Sumatera</span>
                 </div>
+
+                        <a href="{{ route('malls.index') }}#compare-malls"
+                class="inline-flex items-center gap-2 mt-6 px-5 py-3 rounded-xl font-semibold
+                        bg-gradient-to-r from-neon-cyan to-neon-purple text-black
+                        hover:opacity-90 transition">
+                    <span>⚖</span>
+                    <span>Bandingkan Mall</span>
+                </a>
+
             </div>
 
             <form action="{{ route('search.filter') }}" method="GET" class="mall-landing__search">

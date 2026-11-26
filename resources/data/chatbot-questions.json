@@ -1,0 +1,139 @@
+{
+  "intents": {
+    "nearest_mall": [
+      "mall terdekat",
+      "mall paling dekat",
+      "mall yang paling dekat",
+      "mall terdekat dengan saya",
+      "closest mall",
+      "mall closest",
+      "mall near me",
+      "nearest mall"
+    ],
+    "nearest_store": [
+      "toko terdekat",
+      "cafe terdekat",
+      "kafe terdekat",
+      "restoran terdekat",
+      "nearest store",
+      "nearest cafe",
+      "nearby cafe"
+    ],
+    "open_now": [
+      "buka sekarang",
+      "masih buka",
+      "jam buka",
+      "open now",
+      "opening hours"
+    ],
+    "budget": [
+      "budget",
+      "biaya",
+      "estimasi harga",
+      "budget estimate"
+    ],
+    "top_rated": [
+      "rating tertinggi",
+      "paling populer",
+      "top rated",
+      "highest rated"
+    ],
+    "mall_info": [
+      "info tentang",
+      "info lengkap",
+      "full details",
+      "details about",
+      "about",
+      "profil mall",
+      "detail mall",
+      "mall information",
+      "mall details"
+    ],
+    "list_by_region": [
+      "daftar mall",
+      "mall di",
+      "mall yang ada",
+      "sebutkan mall",
+      "malls in",
+      "mall directory"
+    ],
+    "find_store": [
+      "cari",
+      "dimana",
+      "di mana",
+      "find",
+      "search",
+      "where",
+      "toko",
+      "store",
+      "rekomendasi",
+      "recommend"
+    ]
+  },
+  "categories": {
+    "F&B": [
+      "cafe",
+      "café",
+      "kafe",
+      "coffee",
+      "kopi",
+      "restoran",
+      "restaurant",
+      "makan",
+      "food",
+      "dining",
+      "food and beverage",
+      "food & beverage"
+    ],
+    "Fashion": [
+      "baju",
+      "fashion",
+      "sepatu",
+      "clothes",
+      "shoes"
+    ],
+    "Electronics": [
+      "elektronik",
+      "hp",
+      "electronics",
+      "phone"
+    ],
+    "Entertainment": [
+      "bioskop",
+      "nonton",
+      "cinema",
+      "movie"
+    ],
+    "Supermarket": [
+      "supermarket",
+      "groceries"
+    ]
+  },
+  "suggestions": [
+    {
+      "id": "cafe_sun_plaza",
+      "id_text": "Cafe atau restoran di sekitar Sun Plaza",
+      "en_text": "Cafes or restaurants around Sun Plaza"
+    },
+    {
+      "id": "nearest_mall",
+      "id_text": "Mall yang paling dekat dengan saya",
+      "en_text": "Which mall is closest to me?"
+    },
+    {
+      "id": "mall_directory_medan",
+      "id_text": "Daftar mall di Medan",
+      "en_text": "List malls in Medan"
+    },
+    {
+      "id": "mall_info_sun_plaza",
+      "id_text": "Info lengkap tentang Sun Plaza",
+      "en_text": "Full details about Sun Plaza"
+    },
+    {
+      "id": "fashion_sun_plaza",
+      "id_text": "Toko fashion di Sun Plaza",
+      "en_text": "Fashion stores in Sun Plaza"
+    }
+  ]
+}

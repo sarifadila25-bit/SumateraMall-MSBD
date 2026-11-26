@@ -205,14 +205,14 @@ const translations = {
         nearby_failed: 'Could not load nearby amenities.',
         not_available: 'Not available',
         chat_assistant: 'SumateraMall Assistant',
-        chat_powered_by: 'RDF-grounded chat',
+        chat_powered_by: 'Answers from TTL data',
         chat_greeting: 'Hello! I am the SumateraMall virtual assistant. Try asking:',
         chat_example_cafe: '- Find a cafe in Sun Plaza',
         chat_example_malls: '- Malls in Medan',
         chat_example_open: '- Stores that are open now',
         chat_example_top: '- Top-rated stores',
         chat_placeholder: 'Type your question…',
-        chat_thinking: 'Thinking…',
+        chat_thinking: 'Searching TTL data…',
         voice_unsupported: 'Voice search is not supported by this browser.',
         voice_listening: 'Listening…',
         voice_failed: 'Voice search failed. You can type your search instead.',
@@ -435,14 +435,14 @@ const translations = {
         nearby_failed: 'Gagal memuat fasilitas sekitar.',
         not_available: 'Belum tersedia',
         chat_assistant: 'Asisten SumateraMall',
-        chat_powered_by: 'Chat berbasis RDF',
+        chat_powered_by: 'Jawaban dari data TTL',
         chat_greeting: 'Halo! Saya asisten virtual SumateraMall. Coba tanyakan:',
         chat_example_cafe: '- Cari kafe di Sun Plaza',
         chat_example_malls: '- Mall di Medan',
         chat_example_open: '- Toko yang masih buka',
         chat_example_top: '- Toko dengan rating tertinggi',
         chat_placeholder: 'Ketik pertanyaan…',
-        chat_thinking: 'Sedang berpikir…',
+        chat_thinking: 'Mencari dalam data TTL…',
         voice_unsupported: 'Pencarian suara tidak didukung browser ini.',
         voice_listening: 'Mendengarkan…',
         voice_failed: 'Pencarian suara gagal. Anda dapat mengetik pencarian.',
@@ -491,25 +491,62 @@ window.loadGoogleMaps = () => {
     return window.sumateraGoogleMapsPromise;
 };
 
+
 const themeButton = document.querySelector('[data-theme-toggle]');
+
 const setTheme = theme => {
     const selectedTheme = theme === 'light' ? 'light' : 'dark';
+
     document.documentElement.dataset.theme = selectedTheme;
+
     try {
         localStorage.setItem('sumateramall-theme', selectedTheme);
     } catch (error) {
         console.warn('SumateraMall could not save the selected theme.', error);
     }
+
     if (themeButton) {
-        const language = document.documentElement.lang === 'en' ? 'en' : 'id';
-        themeButton.textContent = translations[language][selectedTheme === 'dark' ? 'theme_switch_light' : 'theme_switch_dark'];
+        const isDark = selectedTheme === 'dark';
+
+        themeButton.innerHTML = isDark
+            ? `<svg xmlns="http://www.w3.org/2000/svg"
+                    width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2"/>
+                    <path d="M12 20v2"/>
+                    <path d="m4.93 4.93 1.42 1.42"/>
+                    <path d="m17.65 17.65 1.42 1.42"/>
+                    <path d="M2 12h2"/>
+                    <path d="M20 12h2"/>
+                    <path d="m6.35 17.65-1.42 1.42"/>
+                    <path d="m19.07 4.93-1.42 1.42"/>
+                </svg>`
+            : `<svg xmlns="http://www.w3.org/2000/svg"
+                    width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6.9 6.9 0 0 0 8.268 8.268c.344-.215.825-.003.803.401"/>
+                </svg>`;
+
+        themeButton.setAttribute(
+            'aria-label',
+            isDark ? 'Switch to light mode' : 'Switch to dark mode'
+        );
+
+        themeButton.setAttribute('title', isDark ? 'Light mode' : 'Dark mode');
     }
 };
 
 setTheme(document.documentElement.dataset.theme);
+
 themeButton?.addEventListener('click', () => {
     setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
 });
+
 
 const languageButton = document.querySelector('[data-language-toggle]');
 if (languageButton) {

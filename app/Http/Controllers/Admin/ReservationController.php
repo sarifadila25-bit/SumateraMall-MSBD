@@ -23,32 +23,32 @@ class ReservationController extends Controller
     }
 
     public function update(Request $request, Reservation $reservation)
-{
-    $allowedTransitions = match ($reservation->status) {
-        'pending' => ['confirmed', 'rejected'],
-        'confirmed' => ['completed'],
-        default => [],
-    };
+    {
+        $allowedTransitions = match ($reservation->status) {
+            'pending' => ['confirmed', 'rejected'],
+            'confirmed' => ['completed'],
+            default => [],
+        };
 
-    if (empty($allowedTransitions)) {
-        return back()->with(
-            'error',
-            'Status reservasi ini sudah final dan tidak dapat diubah lagi.'
-        );
+        if (empty($allowedTransitions)) {
+            return back()->with(
+                'error',
+                'Status reservasi ini sudah final dan tidak dapat diubah lagi.'
+            );
+        }
+
+        $validated = $request->validate([
+            'status' => [
+                'required',
+                Rule::in($allowedTransitions),
+            ],
+            'admin_notes' => ['nullable', 'string', 'max:1000'],
+        ]);
+
+        $reservation->update($validated);
+
+        return redirect()
+            ->route('admin.reservations.index')
+            ->with('success', 'Status reservasi berhasil diperbarui.');
     }
-
-    $validated = $request->validate([
-        'status' => [
-            'required',
-            Rule::in($allowedTransitions),
-        ],
-        'admin_notes' => ['nullable', 'string', 'max:1000'],
-    ]);
-
-    $reservation->update($validated);
-
-    return redirect()
-        ->route('admin.reservations.index')
-        ->with('success', 'Status reservasi berhasil diperbarui.');
-}
 }

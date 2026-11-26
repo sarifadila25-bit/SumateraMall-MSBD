@@ -3,11 +3,13 @@
 namespace App\Console\Commands;
 
 use App\Models\Mall;
+use Illuminate\Console\Attributes\Description;
+use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
 
-#[\Illuminate\Console\Attributes\Signature('malls:geocode {--limit=1 : Maximum number of malls to process; 0 means all}') ]
-#[\Illuminate\Console\Attributes\Description('Find and save mall coordinates using OpenStreetMap Nominatim')]
+#[Signature('malls:geocode {--limit=1 : Maximum number of malls to process; 0 means all}') ]
+#[Description('Find and save mall coordinates using OpenStreetMap Nominatim')]
 class GeocodeMalls extends Command
 {
     public function handle(): int
@@ -25,6 +27,7 @@ class GeocodeMalls extends Command
 
         if ($malls->isEmpty()) {
             $this->info('All malls already have coordinates.');
+
             return self::SUCCESS;
         }
 
@@ -65,6 +68,7 @@ class GeocodeMalls extends Command
                     $this->warn("Request failed: HTTP {$response->status()}");
                     $failed++;
                     sleep(1);
+
                     continue;
                 }
 
@@ -79,6 +83,7 @@ class GeocodeMalls extends Command
                     $this->warn('No coordinates found.');
                     $failed++;
                     sleep(1);
+
                     continue;
                 }
 

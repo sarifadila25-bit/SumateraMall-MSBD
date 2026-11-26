@@ -6,7 +6,10 @@
 <div class="max-w-5xl mx-auto px-6">
     <div class="mb-8">
         <h1 data-i18n="route_result_title" class="font-display text-5xl font-bold mb-3">Rute Optimal Anda</h1>
-        <p class="text-gray-400"><span data-i18n="route_through">Sumber rute:</span> OpenStreetMap / OSRM.</p>
+        <p class="text-gray-400">
+            <span data-i18n="route_through">Sumber rute:</span>
+            {{ $source === 'google_maps' ? 'Google Maps Routes API' : 'OpenStreetMap / OSRM' }}.
+        </p>
     </div>
 
     @if($notice)

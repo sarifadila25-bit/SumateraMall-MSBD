@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use App\Models\Mall;
 use App\Models\Store;
+use App\Models\User;
 
 class AdminController extends Controller
 {

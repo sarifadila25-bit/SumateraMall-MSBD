@@ -12,11 +12,11 @@ class Category extends Model
         'resource_uri',
     ];
 
-   public function stores(): BelongsToMany
+    public function stores(): BelongsToMany
     {
-    return $this->belongsToMany(
-        Store::class,
-        'store_categories'
-    )->using(StoreCategory::class);
+        return $this->belongsToMany(
+            Store::class,
+            'store_categories'
+        )->using(StoreCategory::class);
     }
 }
