@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Mall;
+use App\Models\Store;
+use App\Models\User;
+
+class AdminController extends Controller
+{
+    public function index()
+    {
+        $stats = [
+            'users' => User::count(),
+            'malls' => Mall::count(),
+            'stores' => Store::count(),
+        ];
+
+        return view('admin.dashboard', compact('stats'));
+    }
+}
